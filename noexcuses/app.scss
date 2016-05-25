@@ -1,8 +1,12 @@
 
-.index.home {
-	display: none;
+#mainNavigation {
+	.index.home {
+		display: none;
+	}
 
-	&:first-of-type {
+	&:first-child {
 		display: inline-block;
 	}
+
+
 }

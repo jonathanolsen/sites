@@ -1,4 +1,4 @@
-.index.home {
+#mainNavigation .index.home {
   display: none; }
-  .index.home:first-of-type {
-    display: inline-block; }
+#mainNavigation:first-child {
+  display: inline-block; }
