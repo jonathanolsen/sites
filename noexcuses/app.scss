@@ -1,12 +1,10 @@
 
+#headerNav #mainNavWrapper #mainNavigation 	.index.home > div:first-of-type {
+	display: inline-block !important;
+}
+
 #mainNavigation {
 	.index.home {
 		display: none !important;
 	}
-
-	> div:first-of-type {
-		display: inline-block !important;
-	}
-
-
 }
