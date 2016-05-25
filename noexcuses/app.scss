@@ -1,4 +1,8 @@
 
-.hello {
-	
+.index.home {
+	display: none;
+
+	&:first-of-type {
+		display: inline-block;
+	}
 }
