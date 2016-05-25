@@ -1,3 +1,5 @@
+$blue:					#4D9EFF;
+$pink:					#F733AB;
 
 #headerNav #mainNavWrapper #mainNavigation 	.index.home:first-of-type {
 	display: inline-block !important;
@@ -7,4 +9,13 @@
 	.index.home {
 		display: none !important;
 	}
+}
+
+.cta-btn {
+	background: $blue;
+	color: #fff;
+	font-weight: bold;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+	font-family: 'Raleway';
 }
