@@ -1,4 +1,4 @@
 #mainNavigation .index.home {
-  display: none; }
+  display: none !important; }
 #mainNavigation > div:first-of-type {
-  display: inline-block; }
+  display: inline-block !important; }
