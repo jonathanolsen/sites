@@ -4,7 +4,7 @@
 		display: none;
 	}
 
-	&:first-child {
+	> div:first-of-type {
 		display: inline-block;
 	}
 
