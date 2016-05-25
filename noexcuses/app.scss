@@ -1,5 +1,6 @@
 $blue:					#4D9EFF;
 $pink:					#F733AB;
+$darkpink:				#4C3844;
 
 #headerNav #mainNavWrapper #mainNavigation 	.index.home:first-of-type {
 	display: inline-block !important;
@@ -22,4 +23,11 @@ $pink:					#F733AB;
 	border-radius: 2px;
 	font-size: 18px;
 	text-align: center;
+}
+
+#home-section {
+
+	.cta-btn {
+		background: $darkpink;
+	}
 }
