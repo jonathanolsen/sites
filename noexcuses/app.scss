@@ -28,6 +28,10 @@ $darkpink:				#4C3844;
 #home-section {
 
 	.cta-btn {
-		background: $darkpink;
+		background: $pink;
+
+		&:hover {
+			background: $darkpink;
+		}
 	}
 }

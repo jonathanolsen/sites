@@ -17,4 +17,6 @@
   text-align: center; }
 
 #home-section .cta-btn {
-  background: #4C3844; }
+  background: #F733AB; }
+  #home-section .cta-btn:hover {
+    background: #4C3844; }
