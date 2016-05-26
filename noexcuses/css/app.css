@@ -17,6 +17,12 @@
   text-align: center; }
 
 #home-section .cta-btn {
-  background: #F733AB; }
+  background: #EF4BAF; }
   #home-section .cta-btn:hover {
     background: #4C3844; }
+
+#preFooter {
+  display: none; }
+
+#footerBlocks a {
+  color: #EF4BAF; }
