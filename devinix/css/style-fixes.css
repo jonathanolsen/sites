@@ -8,6 +8,9 @@
   border: none !important;
   text-transform: uppercase; }
 
+.alternate-color .avia-button:hover {
+  background: #1bbced; }
+
 .home.page .entry-content-header .iconbox_icon.heading-color {
   display: block;
   width: 100%;

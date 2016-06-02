@@ -18,6 +18,10 @@
 	text-transform: uppercase;
 }
 
+.alternate-color .avia-button:hover {
+	background: lighten(#109BC5, 10%);
+}
+
 .home.page {
 
 .entry-content-header {
