@@ -1,2 +1,14 @@
 .menu.av-main-nav .avia-menu-text {
   font-size: 16px; }
+.menu.av-main-nav .avia-menu-fx {
+  height: 3px; }
+
+.entry-content-header .iconbox_icon.heading-color {
+  display: block;
+  width: 100%;
+  font-size: 40px;
+  margin-bottom: 20px; }
+.entry-content-header .iconbox_content_title {
+  font-size: 22px;
+  text-align: center;
+  line-height: 30px; }
