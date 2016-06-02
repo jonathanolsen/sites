@@ -3,6 +3,11 @@
 .menu.av-main-nav .avia-menu-fx {
   height: 3px; }
 
+.avia-button {
+  border-radius: 4px;
+  border: none;
+  text-transform: uppercase; }
+
 .home.page .entry-content-header .iconbox_icon.heading-color {
   display: block;
   width: 100%;
@@ -12,7 +17,7 @@
   font-size: 22px;
   text-align: center;
   line-height: 30px; }
-.home.page #after_layer_slider_1 .template-page content.av-content-full {
+.home.page #after_layer_slider_1 .template-page.content.av-content-full {
   padding: 100px 0; }
 .home.page #av_section_1 .avia-icon-list .iconlist_content {
   font-size: 14px; }
