@@ -8,8 +8,8 @@
   border: none !important;
   text-transform: uppercase; }
 
-.alternate-color .avia-button:hover {
-  background: #1bbced; }
+.alternate_color .avia-color-theme-color-subtle:hover {
+  background: #1bbced !important; }
 
 .home.page .entry-content-header .iconbox_icon.heading-color {
   display: block;
