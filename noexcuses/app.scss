@@ -2,6 +2,14 @@ $blue:					#4D9EFF;
 $pink:					#EF4BAF;
 $darkpink:				#4C3844;
 
+#headerNav {
+	margin: auto !important;
+
+	.collection {
+		margin: auto !important;
+	}
+}
+
 #headerNav #mainNavWrapper #mainNavigation 	.index.home:first-of-type {
 	display: inline-block !important;
 }

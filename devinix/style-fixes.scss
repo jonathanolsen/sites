@@ -19,7 +19,7 @@
 }
 
 .alternate_color .avia-color-theme-color-subtle:hover {
-	background: lighten(#109BC5, 10%) !important;
+	background: lighten(#109BC5, 3%) !important;
 }
 
 .home.page {
@@ -57,3 +57,7 @@
 
 }
 
+.avia-content-slider .slide-meta time {
+	font-size: 12px;
+	text-transform: uppercase;
+}

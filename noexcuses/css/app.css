@@ -1,3 +1,8 @@
+#headerNav {
+  margin: auto !important; }
+  #headerNav .collection {
+    margin: auto !important; }
+
 #headerNav #mainNavWrapper #mainNavigation .index.home:first-of-type {
   display: inline-block !important; }
 

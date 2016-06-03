@@ -9,7 +9,7 @@
   text-transform: uppercase; }
 
 .alternate_color .avia-color-theme-color-subtle:hover {
-  background: #1bbced !important; }
+  background: #11a6d3 !important; }
 
 .home.page .entry-content-header .iconbox_icon.heading-color {
   display: block;
@@ -24,3 +24,7 @@
   padding: 100px 0; }
 .home.page #av_section_1 .avia-icon-list .iconlist_content {
   font-size: 14px; }
+
+.avia-content-slider .slide-meta time {
+  font-size: 12px;
+  text-transform: uppercase; }
