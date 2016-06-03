@@ -12,10 +12,9 @@
 .cta-btn {
   background: #4D9EFF;
   color: #fff;
-  font-weight: bold;
+  font-weight: 300;
   text-transform: uppercase;
-  letter-spacing: 2px;
-  font-family: 'Raleway';
+  letter-spacing: 0.5px;
   padding: 16px 28px;
   border-radius: 2px;
   font-size: 18px;
