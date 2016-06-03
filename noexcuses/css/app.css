@@ -6,8 +6,10 @@
 #headerNav #mainNavWrapper #mainNavigation .index.home:first-of-type {
   display: inline-block !important; }
 
-#mainNavigation .index.home {
-  display: none !important; }
+#mainNavigation {
+  margin-top: 10px; }
+  #mainNavigation .index.home {
+    display: none !important; }
 
 .cta-btn {
   background: #4D9EFF;
