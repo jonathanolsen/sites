@@ -1,8 +1,22 @@
+/*
 #navbar-bg {
-  height: 86px; }
-  #navbar-bg .fourty #logo {
-    padding-top: 26px; }
-  #navbar-bg .fluid-menu {
-    margin-top: -14px; }
-  #navbar-bg.transparent {
-    height: 116px; }
+	height: 86px;
+
+	.fourty #logo {
+		padding-top: 26px;
+	}
+
+	.fluid-menu {
+		margin-top: -14px;
+	}
+
+	&.transparent {
+		height: 116px;
+	}
+}
+
+*/
+#navbar.transparent .twenty #logo {
+  padding-top: 40px; }
+#navbar.transparent .fluid-menu {
+  margin-top: 20px; }
