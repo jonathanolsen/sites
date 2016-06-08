@@ -1,3 +1,6 @@
-.home.page .cover-10 .cover-headline h1 {
-  font-family: 'Gotham';
-  font-weight: 900; }
+#navbar:not(.transparent) {
+  height: 86px; }
+  #navbar:not(.transparent) .fourty #logo {
+    padding-top: 26px; }
+  #navbar:not(.transparent) .fluid-menu {
+    margin-top: -14px; }
