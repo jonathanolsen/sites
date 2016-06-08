@@ -1,5 +1,5 @@
 
-#navbar-bg:not(.transparent) {
+#navbar-bg {
 	height: 86px;
 
 	.fourty #logo {
@@ -8,6 +8,10 @@
 
 	.fluid-menu {
 		margin-top: -14px;
+	}
+
+	&.transparent {
+		height: 116px;
 	}
 }
 

@@ -1,6 +1,8 @@
-#navbar-bg:not(.transparent) {
+#navbar-bg {
   height: 86px; }
-  #navbar-bg:not(.transparent) .fourty #logo {
+  #navbar-bg .fourty #logo {
     padding-top: 26px; }
-  #navbar-bg:not(.transparent) .fluid-menu {
+  #navbar-bg .fluid-menu {
     margin-top: -14px; }
+  #navbar-bg.transparent {
+    height: 116px; }
