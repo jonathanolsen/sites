@@ -16,7 +16,16 @@
 }
 
 */
-#navbar-bg.transparent .twenty #logo {
+#navbar-bg.transparent .fluid-logo.twenty #logo {
   padding-top: 40px; }
 #navbar-bg.transparent .fluid-menu {
   margin-top: 20px; }
+
+section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
+  font-size: 32px;
+  text-transform: uppercase;
+  font-weight: 800;
+  padding: 40px; }
+  section#thumbnails .thumb .thumb-inner .thumb-hover h3 span {
+    margin-top: 16px;
+    font-size: 15px; }

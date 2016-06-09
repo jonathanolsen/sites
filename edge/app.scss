@@ -20,7 +20,7 @@
 
 #navbar-bg.transparent {
 
-	.twenty #logo {
+	.fluid-logo.twenty #logo {
 		padding-top: 40px;
 	}
 
@@ -28,3 +28,16 @@
 		margin-top: 20px;
 	}
 }
+
+section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
+	font-size: 32px;
+	text-transform: uppercase;
+	font-weight: 800;
+	padding: 40px;
+
+	span {
+		margin-top: 16px;
+		font-size: 15px;
+	}
+}
+
