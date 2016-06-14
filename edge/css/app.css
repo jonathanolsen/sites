@@ -138,10 +138,6 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
   max-width: 1600px !important;
   background: none;
   margin: 0 auto; }
-@media (min-width: 1200px) {
-  .page-id-142 .services {
-    width: 1256px;
-    margin-left: -150px; } }
 .page-id-142 .services .row {
   display: flex; }
   .page-id-142 .services .row > div {
@@ -150,8 +146,6 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
     padding: 0;
     box-shadow: 0 0 1px #9c9ca2;
     transition: .2s ease-out; }
-    .page-id-142 .services .row > div:hover {
-      background: #e4edef; }
     .page-id-142 .services .row > div > ul {
       text-align: left;
       border-top: 1px solid #F0F8FA;
@@ -171,6 +165,8 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
           top: 9px;
           left: 0;
           content: ''; }
+  .page-id-142 .services .row .span-3 {
+    width: 25%; }
 .page-id-142 .approach .row {
   display: flex;
   transition: .1s all ease-out;

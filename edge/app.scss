@@ -295,11 +295,6 @@ $serif:                         'Droid serif', georgia, serif;
 
 	.services {
 
-		@include bp(lg) {
-			width: 1256px;
-			margin-left: -150px;
-		}
-
 		.row {
 			display: flex;
 
@@ -309,14 +304,6 @@ $serif:                         'Droid serif', georgia, serif;
 				padding: 0;
 				box-shadow: 0 0 1px darken($gray, 10%);
 				transition: .2s ease-out;
-
-				&:hover {
-					background: #e4edef;
-
-					ul li {
-
-					}
-				}
 
 				> ul {
 					text-align: left;
@@ -342,6 +329,10 @@ $serif:                         'Droid serif', georgia, serif;
 						}
 					}
 				}
+			}
+
+			.span-3 {
+				width: 25%;
 			}
 		}
 	}
