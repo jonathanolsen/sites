@@ -174,7 +174,9 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
       .page-id-142 .services .row > div .headline > i {
         font-size: 40px; }
       .page-id-142 .services .row > div .headline h2 {
-        margin-bottom: 0; }
+        margin-bottom: 0;
+        font-size: 26px;
+        margin-top: 10px; }
   .page-id-142 .services .row .span-3 {
     width: 25%; }
 .page-id-142 .approach .row {
