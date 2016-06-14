@@ -235,7 +235,8 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
     .page-id-142 .approach .row > div h3 {
       font-size: 22px;
       font-weight: bold;
-      text-transform: none; }
+      text-transform: none;
+      margin-bottom: 10px; }
     .page-id-142 .approach .row > div h4.appetite {
       font-size: 80px;
       line-height: 0;
@@ -247,3 +248,5 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
     max-width: 84%;
     padding: 50px;
     text-align: left; }
+    .page-id-142 .approach .row .content p {
+      margin-bottom: 0; }

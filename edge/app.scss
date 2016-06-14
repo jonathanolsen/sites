@@ -423,6 +423,7 @@ $serif:                         'Droid serif', georgia, serif;
 					font-size: 22px;
 					font-weight: bold;
 					text-transform: none;
+					margin-bottom: 10px;
 				}
 
 				h4.appetite {
@@ -441,6 +442,10 @@ $serif:                         'Droid serif', georgia, serif;
 				max-width: 84%;
 				padding: 50px;
 				text-align: left;
+
+				p {
+					margin-bottom: 0;
+				}
 			}
 		}
 	}
