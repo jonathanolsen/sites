@@ -1,7 +1,7 @@
 @font-face {
   font-family: 'brandberry-font';
-  src: url("/webfonts/edge-font.eot");
-  src: url("/webfonts/edge-font.eot?#iefix") format("embedded-opentype"), url("/webfonts/edge-font.woff") format("woff"), url("/webfonts/edge-font.svg") format("svg"), url("/webfonts/edge-font.ttf") format("truetype");
+  src: url("/webfonts/edgefont/edge-font.eot");
+  src: url("/webfonts/edgefont/edge-font.eot?#iefix") format("embedded-opentype"), url("/webfonts/edgefont/edge-font.woff") format("woff"), url("/webfonts/edgefont/edge-font.svg") format("svg"), url("/webfonts/edgefont/edge-font.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
 [class^="icon-"], [class*=" icon-"] {
