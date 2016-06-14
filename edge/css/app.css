@@ -32,3 +32,7 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 
 #content_kqqdd8ffo .live-image {
   max-width: 70px !important; }
+
+#page-id-142 .cover-image {
+  max-height: 600px;
+  background-position: center center !important; }
