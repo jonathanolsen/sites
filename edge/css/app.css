@@ -1,40 +1,73 @@
 /*
-#navbar-bg {
-	height: 86px;
+Error: Undefined variable: "$grid-width".
+        on line 259 of /Users/jonathanolsen/github-sites/edge/app.scss
 
-	.fourty #logo {
-		padding-top: 26px;
-	}
+254: 
+255: 
+256: 
+257:     .grid-container {
+258:         width: 100%;
+259:         max-width: $grid-width;
+260:         background: #fff;
+261:         margin: -60px auto 0;
+262:         position: relative;
+263:         color: #3e3947;
+264:     }
 
-	.fluid-menu {
-		margin-top: -14px;
-	}
-
-	&.transparent {
-		height: 116px;
-	}
-}
-
+Backtrace:
+/Users/jonathanolsen/github-sites/edge/app.scss:259
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/variable.rb:49:in `_perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/tree/node.rb:50:in `perform'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:395:in `visit_prop'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `block (2 levels) in visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:431:in `block in visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:429:in `visit_rule'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:423:in `run'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
 */
-#navbar-bg.transparent .fluid-logo.twenty #logo {
-  padding-top: 40px; }
-#navbar-bg.transparent .fluid-menu {
-  margin-top: 20px; }
-
-section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
-  font-size: 40px;
-  text-transform: uppercase;
-  font-weight: 800;
-  padding: 50px; }
-  section#thumbnails .thumb .thumb-inner .thumb-hover h3 span {
-    margin-top: 16px;
-    font-size: 15px; }
-
-#content_kqqdd8ffo .live-image {
-  max-width: 70px !important; }
-
-.page-id-142 .cover-image {
-  max-height: 700px;
-  background-position: center center !important; }
-.page-id-142 .fullscreen-cover {
-  max-height: 700px; }
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Undefined variable: \"$grid-width\".\A         on line 259 of /Users/jonathanolsen/github-sites/edge/app.scss\A \A 254: \A 255: \A 256: \A 257:     .grid-container {\A 258:         width: 100%;\A 259:         max-width: $grid-width;\A 260:         background: #fff;\A 261:         margin: -60px auto 0;\A 262:         position: relative;\A 263:         color: #3e3947;\A 264:     }"; }
