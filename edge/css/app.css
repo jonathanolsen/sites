@@ -218,6 +218,7 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 .page-id-142 .approach .row {
   display: flex;
   transition: .1s all ease-out;
+  margin: 0;
   /* &:hover {
   	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   	position: relative;
