@@ -150,7 +150,10 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
     .page-id-142 .services .row > div > ul {
       text-align: left;
       border-top: 1px solid #F0F8FA;
-      padding: 20px 30px; }
+      padding: 20px 30px;
+      list-style-type: none;
+      margin-left: 0;
+      margin-bottom: 0; }
       .page-id-142 .services .row > div > ul li {
         font-family: "Droid serif", georgia, serif;
         font-style: italic;
@@ -166,6 +169,12 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
           top: 9px;
           left: 0;
           content: ''; }
+    .page-id-142 .services .row > div .headline {
+      padding: 50px 0; }
+      .page-id-142 .services .row > div .headline > i {
+        font-size: 40px; }
+      .page-id-142 .services .row > div .headline h2 {
+        margin-bottom: 0; }
   .page-id-142 .services .row .span-3 {
     width: 25%; }
 .page-id-142 .approach .row {

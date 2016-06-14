@@ -310,6 +310,9 @@ $serif:                         'Droid serif', georgia, serif;
 					text-align: left;
 					border-top: 1px solid #F0F8FA;
 					padding: 20px 30px;
+					list-style-type: none;
+					margin-left: 0;
+					margin-bottom: 0;
 
 					li {
 						font-family: $serif;
@@ -328,6 +331,18 @@ $serif:                         'Droid serif', georgia, serif;
 							left: 0;
 							content: '';
 						}
+					}
+				}
+
+				.headline {
+					padding: 50px 0;
+
+					> i {
+						font-size: 40px;
+					}
+
+					h2 {
+						margin-bottom: 0;
 					}
 				}
 			}
