@@ -1,50 +1,50 @@
 @font-face {
-    font-family: 'brandberry-font';
-    src: url('https://jonathanolsen.github.io/brandberry/fonts/brandberry/brandberry-font.eot');
-    src: url('https://jonathanolsen.github.io/brandberry/fonts/brandberry/brandberry-font.eot?#iefix') format('embedded-opentype'),
-         url('https://jonathanolsen.github.io/brandberry/fonts/brandberry/brandberry-font.woff') format('woff'),
-         url('https://jonathanolsen.github.io/brandberry/fonts/brandberry/brandberry-font.svg') format('svg'),
-         url('https://jonathanolsen.github.io/brandberry/fonts/brandberry/brandberry-font.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'brandberry-font';
+	src: url('https://jonathanolsen.github.io/brandberry/fonts/brandberry/brandberry-font.eot');
+	src: url('https://jonathanolsen.github.io/brandberry/fonts/brandberry/brandberry-font.eot?#iefix') format('embedded-opentype'),
+		 url('https://jonathanolsen.github.io/brandberry/fonts/brandberry/brandberry-font.woff') format('woff'),
+		 url('https://jonathanolsen.github.io/brandberry/fonts/brandberry/brandberry-font.svg') format('svg'),
+		 url('https://jonathanolsen.github.io/brandberry/fonts/brandberry/brandberry-font.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 }
 
 [class^="icon-"], [class*=" icon-"] {
-    font-family: 'brandberry-font';
-    speak: none;
-    font-style: normal;
-    font-weight: normal;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
+	font-family: 'brandberry-font';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
 
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .icon-development:before {
-    content: "\ea3a";
+	content: "\ea3a";
 }
 .icon-strategy:before {
-    content: "\e9ea";
+	content: "\e9ea";
 }
 .icon-design:before {
-    content: "\e8f7";
+	content: "\e8f7";
 }
 .icon-optimization:before {
-    content: "\e83e";
+	content: "\e83e";
 }
 
 @font-face {
-    font-family: 'appetiteregular';
-    src: url('https://jonathanolsen.github.io/brandberry/fonts/appetite/appetite_contrast-webfont.eot');
-    src: url('https://jonathanolsen.github.io/brandberry/fonts/appetite/appetite_contrast-webfont.eot?#iefix') format('embedded-opentype'),
-         url('https://jonathanolsen.github.io/brandberry/fonts/appetite/appetite_contrast-webfont.woff2') format('woff2'),
-         url('https://jonathanolsen.github.io/brandberry/fonts/appetite/appetite_contrast-webfont.woff') format('woff'),
-         url('https://jonathanolsen.github.io/brandberry/fonts/appetite/appetite_contrast-webfont.svg') format('svg'),
-         url('https://jonathanolsen.github.io/brandberry/fonts/appetite/appetite_contrast-webfont.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
+	font-family: 'appetiteregular';
+	src: url('https://jonathanolsen.github.io/brandberry/fonts/appetite/appetite_contrast-webfont.eot');
+	src: url('https://jonathanolsen.github.io/brandberry/fonts/appetite/appetite_contrast-webfont.eot?#iefix') format('embedded-opentype'),
+		 url('https://jonathanolsen.github.io/brandberry/fonts/appetite/appetite_contrast-webfont.woff2') format('woff2'),
+		 url('https://jonathanolsen.github.io/brandberry/fonts/appetite/appetite_contrast-webfont.woff') format('woff'),
+		 url('https://jonathanolsen.github.io/brandberry/fonts/appetite/appetite_contrast-webfont.svg') format('svg'),
+		 url('https://jonathanolsen.github.io/brandberry/fonts/appetite/appetite_contrast-webfont.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
 
 }
 
@@ -52,28 +52,8 @@
 
 
 .appetite {
-    font-family: 'appetiteregular';
+	font-family: 'appetiteregular';
 }
-
-
-/*
-#navbar-bg {
-	height: 86px;
-
-	.fourty #logo {
-		padding-top: 26px;
-	}
-
-	.fluid-menu {
-		margin-top: -14px;
-	}
-
-	&.transparent {
-		height: 116px;
-	}
-}
-
-*/
 
 
 #navbar-bg.transparent {
@@ -150,334 +130,266 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 // Breakpoints
 
 @mixin bp($point) {
-    @if $point == xs {
-        @content;
-    }
-    @else if $point == xs-sm {
-        @media (max-width: 767px)  { @content ; }
-    }
-    @else if $point == xs-md {
-        @media (max-width: 991px)  { @content ; }
-    }
-    @else if $point == xs-lg {
-        @media (max-width: 1199px)  { @content ; }
-    }
-    @else if $point == sm {
-        @media (min-width: 768px) { @content ; }
-    }
-    @else if $point == sm-md {
-        @media (min-width: 768px) and (max-width: 991px)  { @content ; }
-    }
-    @else if $point == sm-lg {
-        @media (min-width: 768px) and (max-width: 1199px)  { @content ; }
-    }
-    @else if $point == md {
-        @media (min-width: 992px) { @content ; }
-    }
-    @else if $point == md-lg {
-        @media (min-width: 992px) and (max-width: 1199px)  { @content ; }
-    }
-    @else if $point == lg {
-        @media (min-width: 1200px) { @content ; }
-    }
-    @else if $point == xl {
-        @media (min-width: 1400px) { @content ; }
-    }
-    @else if $point == xxl {
-        @media (min-width: 1600px) { @content ; }
-    }
+	@if $point == xs {
+		@content;
+	}
+	@else if $point == xs-sm {
+		@media (max-width: 767px)  { @content ; }
+	}
+	@else if $point == xs-md {
+		@media (max-width: 991px)  { @content ; }
+	}
+	@else if $point == xs-lg {
+		@media (max-width: 1199px)  { @content ; }
+	}
+	@else if $point == sm {
+		@media (min-width: 768px) { @content ; }
+	}
+	@else if $point == sm-md {
+		@media (min-width: 768px) and (max-width: 991px)  { @content ; }
+	}
+	@else if $point == sm-lg {
+		@media (min-width: 768px) and (max-width: 1199px)  { @content ; }
+	}
+	@else if $point == md {
+		@media (min-width: 992px) { @content ; }
+	}
+	@else if $point == md-lg {
+		@media (min-width: 992px) and (max-width: 1199px)  { @content ; }
+	}
+	@else if $point == lg {
+		@media (min-width: 1200px) { @content ; }
+	}
+	@else if $point == xl {
+		@media (min-width: 1400px) { @content ; }
+	}
+	@else if $point == xxl {
+		@media (min-width: 1600px) { @content ; }
+	}
 }
 
 $textcolor:						#66666E;
 $darkgray:						#33333e;
-$corner-padding:                40px;
-$grid-width:                    1140px;
-
 $gray:                          #B6B6BB;
 
-
-
+$corner-padding:                40px;
+$grid-width:                    1140px;
 $serif:                         'Droid serif', georgia, serif;
 
 .page-id-142 {
 
-    .team-list {
-        display: flex;
-        flex-wrap: wrap;
-        
-        .team-member {
-            width: 30%;
-            float: left;
-            padding: 30px;
-            box-sizing: border-box;
-            background: #f6f7f8;
-            margin: 0 1.5% 30px;
-            transition: .2s all ease-out;
-            transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
-            border-radius: 3px;
-            text-align: center;
+	.team-list {
+		display: flex;
+		flex-wrap: wrap;
+		
+		.team-member {
+			width: 30%;
+			float: left;
+			padding: 30px;
+			box-sizing: border-box;
+			background: #f6f7f8;
+			margin: 0 1.5% 30px;
+			transition: .2s all ease-out;
+			transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+			border-radius: 3px;
+			text-align: center;
 
-            &:after {
-                content: '';
-                position: absolute;
-                width: 100%;
-                height: 100%;
-                opacity: 0;
-                border-radius: 3px;
-                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-                transition: opacity .2s ease-in-out;
-                top: 0;
-                left: 0;
-                z-index: -1;
-            }
+			&:after {
+				content: '';
+				position: absolute;
+				width: 100%;
+				height: 100%;
+				opacity: 0;
+				border-radius: 3px;
+				box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+				transition: opacity .2s ease-in-out;
+				top: 0;
+				left: 0;
+				z-index: -1;
+			}
 
-            &:hover {
-                background: #fff;
-                transform: scale(1.04);
-                box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
+			&:hover {
+				background: #fff;
+				transform: scale(1.04);
+				box-shadow: 0 4px 6px rgba(0, 0, 0, .1);
 
-                &:after {
-                    opacity: 1;
-                }
-            }
+				&:after {
+					opacity: 1;
+				}
+			}
 
-            h3, p {
-                text-align: center;
-            }
+			h3, p {
+				text-align: center;
+			}
 
-            h3 {
+			h3 {
 
-                span {
-                    display: block;
-                    font-size: 14px;
-                    text-transform: none;
-                    color: #999;
-                    font-weight: 300;
-                    margin-top: 6px;
-                    font-style: italic;
-                    letter-spacing: 1px;
-                }
-            }
+				span {
+					display: block;
+					font-size: 14px;
+					text-transform: none;
+					color: #999;
+					font-weight: 300;
+					margin-top: 6px;
+					font-style: italic;
+					letter-spacing: 1px;
+				}
+			}
 
-            p {
-                min-height: 100px;
-            }
+			p {
+				min-height: 100px;
+			}
 
-            ul {
-                margin: 15px 0 0;
-                padding: 0;
-                display: flex;
-                justify-content: center;
+			ul {
+				margin: 15px 0 0;
+				padding: 0;
+				display: flex;
+				justify-content: center;
 
-                li {
-                    list-style-type: none;
-                    float: left;
+				li {
+					list-style-type: none;
+					float: left;
 
-                    a {
-                        display: inline-block;
-                        width: 50px;
-                        height: 50px;
-                        line-height: 50px;
-                        text-align: center;
-                        font-size: 22px;
-                        border-radius: 4px;
-                        transition: all .1s ease-out;
+					a {
+						display: inline-block;
+						width: 50px;
+						height: 50px;
+						line-height: 50px;
+						text-align: center;
+						font-size: 22px;
+						border-radius: 4px;
+						transition: all .1s ease-out;
 
-                        &:hover {
-                            background: #219BCC;
-                            color: #fff;
-                        }
-                    }
-                }
-            }
+						&:hover {
+							background: #219BCC;
+							color: #fff;
+						}
+					}
+				}
+			}
 
-            .btn {
-                margin-top: 18px;
-                display: inline-block;
-            }
-        }
-    }
+			.btn {
+				margin-top: 18px;
+				display: inline-block;
+			}
+		}
+	}
 
+	.grid-container {
+		width: 100%;
+		max-width: $grid-width;
+		background: #fff;
+		margin: 0 auto;
+		position: relative;
+		color: #3e3947;
+	}
 
+	.page-services {
 
+		.grid-container {
+			max-width: 1600px !important;
+			background: none;
+			margin: 0 auto;
+		}
+	}
 
+	.services {
 
+		@include bp(lg) {
+			width: 1256px;
+			margin-left: -150px;
+		}
 
+		.row {
+			display: flex;
 
-    .grid-container {
-        width: 100%;
-        max-width: $grid-width;
-        background: #fff;
-        margin: -60px auto 0;
-        position: relative;
-        color: #3e3947;
-    }
+			> div {
+				background: #fff;
+				text-align: center;
+				padding: 0;
+				box-shadow: 0 0 1px darken($gray, 10%);
+				transition: .2s ease-out;
 
-    .headline {
-        background: #fff;
-        padding: 50px 0;
+				&:hover {
+					background: #e4edef;
 
-        .container {
-            width: 100%;
-            max-width: $grid-width;
-            margin: 0 auto;
-            text-align: center;
+					ul li {
 
-            > h1 {
-                font-size: 50px;
-                margin-bottom: 18px;
-                font-weight: 700;
-                line-height: 50px;
-                color: $darkgray;
-            }
+					}
+				}
 
-            > p {
-                font-family: $serif;
-                font-style: italic;
-                color: $textcolor;
-            }
-        }
-    }
+				> ul {
+					text-align: left;
+					border-top: 1px solid #F0F8FA;
+					padding: 20px 30px;
 
-    .page-services {
+					li {
+						font-family: $serif;
+						font-style: italic;
+						margin: 10px 0;
+						padding-left: 44px;
+						color: #737f82;
+						position: relative;
 
-        .grid-container {
-            max-width: 1600px !important;
-            background: none;
-            margin: 0 auto;
-        }
-    }
+						&:before {
+							background: #C1CCD1;
+							width: 22px;
+							height: 2px;
+							position: absolute;
+							top: 9px;
+							left: 0;
+							content: '';
+						}
+					}
+				}
+			}
+		}
+	}
 
-    .services {
+	.approach {
 
-        @include bp(lg) {
-            width: 1256px;
-            margin-left: -150px;
-        }
+		.row {
+			display: flex;
+			transition: .1s all ease-out;
 
-        & + headline {
-            margin-top: 40px;
-        }
+			/* &:hover {
+				box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+				position: relative;
+				transform: scale(1.04);
+			} */
 
-        .row {
-            display: flex;
+			> div {
+				background: #fff;
+				text-align: center;
+				padding: 0;
+				display: flex;
+				align-content: center;
+				box-shadow: 0 0 1px darken($gray, 10%);
+				transition: .2s ease-out;
 
-            > div {
-                background: #fff;
-                text-align: center;
-                padding: 0;
-                box-shadow: 0 0 1px darken($gray, 10%);
-                transition: .2s ease-out;
+				h3 {
+					font-size: 22px;
+					font-weight: bold;
+					text-transform: none;
+				}
 
-                &:hover {
-                    background: #e4edef;
+				h4.appetite {
+					font-size: 80px;
+					line-height: 0;
+					color: $darkgray;
+					align-self: center;
+				}
 
-                    ul li {
+				&:first-of-type {
+					justify-content: center;
+				}
+			}
 
-                    }
-
-                    .headline {
-                        background: #219BCC;
-                        
-                        i {
-                            color: #125671;
-                        }
-
-                        h2 {
-                            color: #fff;
-                        }
-                    }
-                }
-
-                .headline {
-                    transition: .2s ease-out;
-
-                    > i {
-                        font-size: 54px;
-                        margin: 20px 0;
-                        display: inline-block;
-                    }
-
-                    h2 {
-                        font-size: 24px;
-                        font-weight: bold;
-                        transition: .2s ease-out;
-                    }
-                }
-
-                > ul {
-                    text-align: left;
-                    border-top: 1px solid #F0F8FA;
-                    padding: 20px 30px;
-
-                    li {
-                        font-family: $serif;
-                        font-style: italic;
-                        margin: 10px 0;
-                        padding-left: 44px;
-                        color: #737f82;
-                        position: relative;
-
-                        &:before {
-                            background: #C1CCD1;
-                            width: 22px;
-                            height: 2px;
-                            position: absolute;
-                            top: 9px;
-                            left: 0;
-                            content: '';
-
-                        }
-                    }
-                }
-            }
-        }
-    }
-
-    .approach {
-
-        .row {
-            display: flex;
-            transition: .1s all ease-out;
-
-            /* &:hover {
-                box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-                position: relative;
-                transform: scale(1.04);
-            } */
-
-            > div {
-                background: #fff;
-                text-align: center;
-                padding: 0;
-                display: flex;
-                align-content: center;
-                box-shadow: 0 0 1px darken($gray, 10%);
-                transition: .2s ease-out;
-
-                h3 {
-                    font-size: 22px;
-                    font-weight: bold;
-                    text-transform: none;
-                }
-
-                h4.appetite {
-                    font-size: 80px;
-                    line-height: 0;
-                    color: $darkgray;
-                    align-self: center;
-                }
-
-                &:first-of-type {
-                    justify-content: center;
-                }
-            }
-
-            .content {
-                max-width: 84%;
-                padding: 50px;
-                text-align: left;
-            }
-        }
-    }
+			.content {
+				max-width: 84%;
+				padding: 50px;
+				text-align: left;
+			}
+		}
+	}
 }
