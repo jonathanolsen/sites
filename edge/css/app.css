@@ -241,7 +241,8 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
       font-size: 80px;
       line-height: 0;
       color: #33333e;
-      align-self: center; }
+      align-self: center;
+      margin: 0; }
     .page-id-142 .approach .row > div:first-of-type {
       justify-content: center; }
   .page-id-142 .approach .row .content {
