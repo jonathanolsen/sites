@@ -136,7 +136,8 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
     text-align: center;
     max-height: 620px; }
     .page-id-142 .team-list .team-member img {
-      width: 84%; }
+      width: 84%;
+      margin-bottom: 10px; }
     .page-id-142 .team-list .team-member:after {
       content: '';
       position: absolute;
@@ -160,7 +161,8 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
     .page-id-142 .team-list .team-member h3 {
       text-transform: uppercase;
       font-size: 18px;
-      line-height: 30px; }
+      line-height: 30px;
+      margin-bottom: 10px; }
       .page-id-142 .team-list .team-member h3 span {
         display: block;
         font-size: 14px;
@@ -170,7 +172,13 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
         font-style: italic;
         letter-spacing: 0; }
     .page-id-142 .team-list .team-member p {
-      min-height: 100px; }
+      min-height: 100px;
+      font-size: 16px;
+      line-height: 28px; }
+    .page-id-142 .team-list .team-member a {
+      color: #36B3A8; }
+      .page-id-142 .team-list .team-member a:hover {
+        background-color: #36B3A8; }
     .page-id-142 .team-list .team-member ul {
       margin: 15px 0 0;
       padding: 0;
