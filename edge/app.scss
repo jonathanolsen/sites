@@ -112,12 +112,15 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 
 	> div {
 
-		.masonry-span6:first-of-type {
-			left: 49.9729%;
-		}
+		> div {
 
-		.masonry-span6:last-of-type {
-			left: 0;
+			&:first-of-type {
+				left: 49.9729%;
+			}
+
+			&:last-of-type {
+				left: 0;
+			}
 		}
 	}
 }
