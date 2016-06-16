@@ -37,7 +37,7 @@
   font-family: 'appetiteregular'; }
 
 .open-nav .logo svg {
-  color: #fff !important; }
+  fill: #fff !important; }
 .open-nav #navbar .controls a .nav-icon {
   background: #fff !important; }
 
