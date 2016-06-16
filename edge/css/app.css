@@ -59,6 +59,20 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 .page-id-142 .fullscreen-cover {
   max-height: 700px; }
 
+.cta-btn {
+  font-size: 15px;
+  color: #fff;
+  letter-spacing: 1px;
+  background: #36b3a8;
+  padding: 15px 60px 15px 60px;
+  border-radius: 2px;
+  text-transform: uppercase; }
+
+.reverse-row-desktop > div .masonry-span6:first-of-type {
+  left: 49.9729%; }
+.reverse-row-desktop > div .masonry-span6:last-of-type {
+  left: 0; }
+
 .sqs-col-1 {
   width: 8.3333%; }
 
