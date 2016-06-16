@@ -201,7 +201,8 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
           text-align: center;
           font-size: 22px;
           border-radius: 4px;
-          transition: all .1s ease-out; }
+          transition: all .1s ease-out;
+          color: #777; }
           .page-id-142 .team-list .team-member ul li a:hover {
             background: #219BCC;
             color: #fff; }
