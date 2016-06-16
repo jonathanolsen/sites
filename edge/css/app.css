@@ -69,7 +69,7 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
   text-transform: uppercase; }
 
 .reverse-row-desktop > div .masonry-span6 {
-  left: 49.9729%; }
+  left: 49.9729% !important; }
   .reverse-row-desktop > div .masonry-span6:last-of-type {
     left: 0 !important; }
 
