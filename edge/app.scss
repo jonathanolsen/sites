@@ -284,6 +284,11 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 			transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
 			border-radius: 3px;
 			text-align: center;
+			max-height: 620px;
+
+			img {
+				width: 84%;
+			}
 
 			&:after {
 				content: '';
@@ -314,6 +319,9 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 			}
 
 			h3 {
+				text-transform: uppercase;
+				font-size: 18px;
+				line-height: 30px;
 
 				span {
 					display: block;
@@ -321,9 +329,8 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 					text-transform: none;
 					color: #999;
 					font-weight: 300;
-					margin-top: 6px;
 					font-style: italic;
-					letter-spacing: 1px;
+					letter-spacing: 0;
 				}
 			}
 

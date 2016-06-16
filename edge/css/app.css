@@ -130,7 +130,10 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
     transition: .2s all ease-out;
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     border-radius: 3px;
-    text-align: center; }
+    text-align: center;
+    max-height: 620px; }
+    .page-id-142 .team-list .team-member img {
+      width: 84%; }
     .page-id-142 .team-list .team-member:after {
       content: '';
       position: absolute;
@@ -151,15 +154,18 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
         opacity: 1; }
     .page-id-142 .team-list .team-member h3, .page-id-142 .team-list .team-member p {
       text-align: center; }
-    .page-id-142 .team-list .team-member h3 span {
-      display: block;
-      font-size: 14px;
-      text-transform: none;
-      color: #999;
-      font-weight: 300;
-      margin-top: 6px;
-      font-style: italic;
-      letter-spacing: 1px; }
+    .page-id-142 .team-list .team-member h3 {
+      text-transform: uppercase;
+      font-size: 18px;
+      line-height: 30px; }
+      .page-id-142 .team-list .team-member h3 span {
+        display: block;
+        font-size: 14px;
+        text-transform: none;
+        color: #999;
+        font-weight: 300;
+        font-style: italic;
+        letter-spacing: 0; }
     .page-id-142 .team-list .team-member p {
       min-height: 100px; }
     .page-id-142 .team-list .team-member ul {
