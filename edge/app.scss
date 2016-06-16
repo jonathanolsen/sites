@@ -1,3 +1,62 @@
+
+// Breakpoints
+
+@mixin bp($point) {
+	@if $point == xs {
+		@content;
+	}
+	@else if $point == xs-sm {
+		@media (max-width: 767px)  { @content ; }
+	}
+	@else if $point == xs-md {
+		@media (max-width: 991px)  { @content ; }
+	}
+	@else if $point == xs-lg {
+		@media (max-width: 1199px)  { @content ; }
+	}
+	@else if $point == sm {
+		@media (min-width: 768px) { @content ; }
+	}
+	@else if $point == sm-md {
+		@media (min-width: 768px) and (max-width: 991px)  { @content ; }
+	}
+	@else if $point == sm-lg {
+		@media (min-width: 768px) and (max-width: 1199px)  { @content ; }
+	}
+	@else if $point == md {
+		@media (min-width: 992px) { @content ; }
+	}
+	@else if $point == md-lg {
+		@media (min-width: 992px) and (max-width: 1199px)  { @content ; }
+	}
+	@else if $point == lg {
+		@media (min-width: 1200px) { @content ; }
+	}
+	@else if $point == xl {
+		@media (min-width: 1400px) { @content ; }
+	}
+	@else if $point == xxl {
+		@media (min-width: 1600px) { @content ; }
+	}
+}
+
+$textcolor:						#66666E;
+$darkgray:						#33333e;
+$gray:                          #B6B6BB;
+
+$corner-padding:                40px;
+$grid-width:                    1360px;
+$serif:                         'Droid serif', georgia, serif;
+
+
+
+
+
+
+
+
+
+
 @font-face {
 	font-family: 'brandberry-font';
 	src: url('https://jonathanolsen.github.io/brandberry/fonts/brandberry/brandberry-font.eot');
@@ -108,21 +167,22 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 	text-transform: uppercase;
 }
 
-.reverse-row-desktop {
+@include bp(sm) {
+	.reverse-row-desktop {
 
-	> div {
+		> div {
 
-		.masonry-span6 {
-			left: 49.9729% !important;
+			.masonry-span6 {
+				left: 49.9729% !important;
 
-			&:last-of-type {
-				left: 0 !important;
+				&:last-of-type {
+					left: 0 !important;
+				}
 			}
 		}
 	}
+
 }
-
-
 
 
 
@@ -191,54 +251,6 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 
 
 
-// Breakpoints
-
-@mixin bp($point) {
-	@if $point == xs {
-		@content;
-	}
-	@else if $point == xs-sm {
-		@media (max-width: 767px)  { @content ; }
-	}
-	@else if $point == xs-md {
-		@media (max-width: 991px)  { @content ; }
-	}
-	@else if $point == xs-lg {
-		@media (max-width: 1199px)  { @content ; }
-	}
-	@else if $point == sm {
-		@media (min-width: 768px) { @content ; }
-	}
-	@else if $point == sm-md {
-		@media (min-width: 768px) and (max-width: 991px)  { @content ; }
-	}
-	@else if $point == sm-lg {
-		@media (min-width: 768px) and (max-width: 1199px)  { @content ; }
-	}
-	@else if $point == md {
-		@media (min-width: 992px) { @content ; }
-	}
-	@else if $point == md-lg {
-		@media (min-width: 992px) and (max-width: 1199px)  { @content ; }
-	}
-	@else if $point == lg {
-		@media (min-width: 1200px) { @content ; }
-	}
-	@else if $point == xl {
-		@media (min-width: 1400px) { @content ; }
-	}
-	@else if $point == xxl {
-		@media (min-width: 1600px) { @content ; }
-	}
-}
-
-$textcolor:						#66666E;
-$darkgray:						#33333e;
-$gray:                          #B6B6BB;
-
-$corner-padding:                40px;
-$grid-width:                    1360px;
-$serif:                         'Droid serif', georgia, serif;
 
 .page-id-142 {
 

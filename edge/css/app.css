@@ -68,11 +68,11 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
   border-radius: 2px;
   text-transform: uppercase; }
 
-.reverse-row-desktop > div .masonry-span6 {
-  left: 49.9729% !important; }
-  .reverse-row-desktop > div .masonry-span6:last-of-type {
-    left: 0 !important; }
-
+@media (min-width: 768px) {
+  .reverse-row-desktop > div .masonry-span6 {
+    left: 49.9729% !important; }
+    .reverse-row-desktop > div .masonry-span6:last-of-type {
+      left: 0 !important; } }
 .sqs-col-1 {
   width: 8.3333%; }
 
