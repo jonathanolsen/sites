@@ -68,7 +68,7 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
   border-radius: 2px;
   text-transform: uppercase; }
 
-.reverse-row-desktop > div .masonry-span6:first-of-type {
+.reverse-row-desktop > div .masonry-span6:first-child {
   left: 49.9729%; }
 .reverse-row-desktop > div .masonry-span6:last-of-type {
   left: 0; }
