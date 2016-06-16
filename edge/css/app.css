@@ -36,6 +36,11 @@
 .appetite {
   font-family: 'appetiteregular'; }
 
+.open-nav .logo svg {
+  color: #fff !important; }
+.open-nav #navbar .controls a .nav-icon {
+  background: #fff !important; }
+
 #navbar-bg.transparent .fluid-logo.twenty #logo {
   padding-top: 40px; }
 #navbar-bg.transparent .fluid-menu {
