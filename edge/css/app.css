@@ -187,6 +187,12 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
       .page-id-142 .team-list .team-member ul li {
         list-style-type: none;
         float: left; }
+        .page-id-142 .team-list .team-member ul li.mail a:hover {
+          background: #99D46D; }
+        .page-id-142 .team-list .team-member ul li.linkedin a:hover {
+          background: #0077B5; }
+        .page-id-142 .team-list .team-member ul li.dribbble a:hover {
+          background: #EA4C89; }
         .page-id-142 .team-list .team-member ul li a {
           display: inline-block;
           width: 50px;

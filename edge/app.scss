@@ -363,6 +363,27 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 					list-style-type: none;
 					float: left;
 
+					&.mail {
+
+						a:hover {
+							background: #99D46D;
+						}
+					}
+
+					&.linkedin {
+
+						a:hover {
+							background: #0077B5;
+						}
+					}
+
+					&.dribbble {
+
+						a:hover {
+							background: #EA4C89;
+						}
+					}
+
 					a {
 						display: inline-block;
 						width: 50px;
