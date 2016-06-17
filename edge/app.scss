@@ -51,7 +51,53 @@ $serif:                         'Droid serif', georgia, serif;
 
 
 
+.sqs-col-1 {
+    width: 8.3333%;
+}
 
+.sqs-col-2 {
+    width: 16.6667%;
+}
+
+.sqs-col-3 {
+    width: 25%;
+}
+
+.sqs-col-4 {
+    width: 33.3333%;
+}
+
+.sqs-col-5 {
+    width: 41.6667%;
+}
+
+.sqs-col-6 {
+    width: 50%;
+}
+
+.sqs-col-7 {
+    width: 58.3333%;
+}
+
+.sqs-col-8 {
+    width: 66.6667%;
+}
+
+.sqs-col-9 {
+    width: 75%;
+}
+
+.sqs-col-10 {
+    width: 83.3333%;
+}
+
+.sqs-col-11 {
+    width: 91.6667%;
+}
+
+.sqs-col-12 {
+    width: 100%;
+}
 
 
 
@@ -198,7 +244,13 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 	border-top: 1px solid rgba(0, 0, 0, .1);
 }
 
+.project-info {
 
+	.live-image {
+		max-width: 100px;
+		margin-bottom: 10px;
+	}
+}
 
 
 .sqs-col-1 {
