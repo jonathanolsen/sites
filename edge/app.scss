@@ -278,12 +278,14 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 
 .client-logos {
 	img {
-		filter: grayscale(100%);
-		opacity: .35;
+		-webkit-filter: grayscale(100%);
+		-moz-filter: grayscale(100%);
+		opacity: .45;
 		transition: .1s ease-out;
 
 		&:hover {
-			filter: grayscale(0);
+			-webkit-filter: grayscale(0);
+			-moz-filter: grayscale(0);
 			opacity: 1;
 		}
 	}
