@@ -130,6 +130,14 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
   max-width: 120px !important;
   margin-bottom: 36px; }
 
+.client-logos img {
+  filter: grayscale(100%);
+  opacity: .35;
+  transition: .1s ease-out; }
+  .client-logos img:hover {
+    filter: grayscale(0);
+    opacity: 1; }
+
 .sqs-col-1 {
   width: 8.3333%; }
 

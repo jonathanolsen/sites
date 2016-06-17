@@ -276,6 +276,19 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 
 }
 
+.client-logos {
+	img {
+		filter: grayscale(100%);
+		opacity: .35;
+		transition: .1s ease-out;
+
+		&:hover {
+			filter: grayscale(0);
+			opacity: 1;
+		}
+	}
+}
+
 .sqs-col-1 {
     width: 8.3333%;
 }
