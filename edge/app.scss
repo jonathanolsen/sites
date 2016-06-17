@@ -243,16 +243,18 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 .border-top{ 
 	border-top: 1px solid rgba(0, 0, 0, .1);
 }
+#content {
 
 .project-info {
 
-	#content .mc-sub-content-container .column-image img.live-image {
+	.mc-sub-content-container .column-image img.live-image {
 		max-width: 100px !important;
 		margin-bottom: 30px;
 		margin-top: -30px;
 	}
 }
 
+}
 
 .sqs-col-1 {
     width: 8.3333%;
