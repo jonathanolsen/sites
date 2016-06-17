@@ -135,7 +135,8 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   opacity: .45;
-  transition: .3s ease-out; }
+  transition: .3s ease-out;
+  max-width: 120px !important; }
   .client-logos img:hover {
     -webkit-filter: grayscale(0);
     -moz-filter: grayscale(0);
