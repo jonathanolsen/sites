@@ -256,6 +256,13 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 	&.reve {
 		.mc-sub-content-container .column-image img.live-image {
 			max-width: 100px !important;
+			margin-bottom: 40px;
+		}
+	}
+
+	&.notis {
+		.mc-sub-content-container .column-image img.live-image {
+			margin-bottom: 37px !important;
 		}
 	}
 }

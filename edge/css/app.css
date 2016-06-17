@@ -122,7 +122,10 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
   margin-bottom: 30px;
   margin-top: -15px; }
 #content .project-info.reve .mc-sub-content-container .column-image img.live-image {
-  max-width: 100px !important; }
+  max-width: 100px !important;
+  margin-bottom: 40px; }
+#content .project-info.notis .mc-sub-content-container .column-image img.live-image {
+  margin-bottom: 37px !important; }
 
 .sqs-col-1 {
   width: 8.3333%; }
