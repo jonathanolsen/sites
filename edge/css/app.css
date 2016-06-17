@@ -114,7 +114,8 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
     left: 49.9729% !important; }
     .reverse-row-desktop > div .masonry-span6:last-of-type {
       left: 0 !important; } }
-.border-top {
+.border-top,
+#content_dmu3rz7e8 {
   border-top: 1px solid rgba(0, 0, 0, 0.1); }
 
 #content .project-info .mc-sub-content-container .column-image img.live-image {
