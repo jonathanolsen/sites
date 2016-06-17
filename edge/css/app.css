@@ -121,6 +121,8 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
   max-width: 150px !important;
   margin-bottom: 30px;
   margin-top: -15px; }
+#content .project-info.reve .mc-sub-content-container .column-image img.live-image {
+  max-width: 100px !important; }
 
 .sqs-col-1 {
   width: 8.3333%; }
