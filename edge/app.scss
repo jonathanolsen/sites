@@ -253,8 +253,7 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 		margin-top: -15px;
 	}
 
-	&.reve,
-	&.qred {
+	&.reve {
 		.mc-sub-content-container .column-image img.live-image {
 			max-width: 100px !important;
 			margin-bottom: 40px;
@@ -264,6 +263,13 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 	&.notis {
 		.mc-sub-content-container .column-image img.live-image {
 			margin-bottom: 37px !important;
+		}
+	}
+
+	&.qred {
+		.mc-sub-content-container .column-image img.live-image {
+			max-width: 120px !important;
+			margin-bottom: 36px;
 		}
 	}
 }
