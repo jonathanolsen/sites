@@ -131,6 +131,9 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
   max-width: 120px !important;
   margin-bottom: 36px; }
 
+#content .mc-content-container.client-logos > .container {
+  width: 100%;
+  max-width: 1400px; }
 #content .mc-content-container.client-logos img {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
