@@ -396,7 +396,7 @@ div {
 .page-id-10 {
 
 	.fullscreen-cover {
-		max-height: 480px;
+		@include bp(xs-sm) { max-height: 480px; }
 
 		.cover-headline {
 

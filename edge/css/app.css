@@ -194,11 +194,12 @@ div.sqs-col-1, div.sqs-col-2, div.sqs-col-3, div.sqs-col-4, div.sqs-col-5, div.s
 
   .page-id-160 #content .content-container .image img {
     width: auto !important; } }
-.page-id-10 .fullscreen-cover {
-  max-height: 480px; }
-  .page-id-10 .fullscreen-cover .cover-headline > h1 {
-    font-size: 40px !important;
-    line-height: 60px !important; }
+@media (max-width: 767px) {
+  .page-id-10 .fullscreen-cover {
+    max-height: 480px; } }
+.page-id-10 .fullscreen-cover .cover-headline > h1 {
+  font-size: 40px !important;
+  line-height: 60px !important; }
 @media (max-width: 767px) {
   .page-id-10 #content .content-container .image img {
     width: auto !important; } }
