@@ -397,7 +397,8 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 
 
 .page-id-10 {
-
+	max-height: 760px;
+	
 	@include bp(xs-sm) {
 		.fullscreen-cover {
 		 max-height: 480px;
