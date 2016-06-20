@@ -602,7 +602,7 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 	.services {
 
 		.row {
-			display: flex;
+			@include bp(sm) { display: flex; }
 			margin: 0;
 
 			> div {

@@ -337,8 +337,10 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
   background: none;
   margin: 0 auto; }
 .page-id-142 .services .row {
-  display: flex;
   margin: 0; }
+  @media (min-width: 768px) {
+    .page-id-142 .services .row {
+      display: flex; } }
   .page-id-142 .services .row > div {
     background: #fff;
     text-align: center;
