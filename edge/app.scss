@@ -368,7 +368,26 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 
 
 
+.page-id-10 {
 
+	.fullscreen-cover {
+		max-height: 480px;
+
+		.cover-headline {
+
+			> h1 {
+				font-size: 40px !important;
+				line-height: 60px !important;
+			}
+		}
+	}
+
+	@include bp(xs-sm) {
+		#content .content-container .image img {
+		    width: auto !important;
+		}
+	}
+}
 
 .page-id-142 {
 

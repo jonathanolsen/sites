@@ -184,6 +184,15 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 .sqs-col-12 {
   width: 100%; }
 
+.page-id-10 .fullscreen-cover {
+  max-height: 480px; }
+  .page-id-10 .fullscreen-cover .cover-headline > h1 {
+    font-size: 40px !important;
+    line-height: 60px !important; }
+@media (max-width: 767px) {
+  .page-id-10 #content .content-container .image img {
+    width: auto !important; } }
+
 .page-id-142 .team-list {
   width: 100%;
   max-width: 1100px;
