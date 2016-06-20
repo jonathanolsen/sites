@@ -396,19 +396,19 @@ div {
 
 .page-id-10 {
 
-	.fullscreen-cover {
-		@include bp(xs-sm) { max-height: 480px; }
+	@include bp(xs-sm) {
+		.fullscreen-cover {
+		 max-height: 480px;
 
-		.cover-headline {
+			.cover-headline {
 
-			> h1 {
-				font-size: 40px !important;
-				line-height: 60px !important;
+				> h1 {
+					font-size: 40px !important;
+					line-height: 60px !important;
+				}
 			}
 		}
-	}
 
-	@include bp(xs-sm) {
 		#content .content-container .image img {
 		    width: auto !important;
 		}
