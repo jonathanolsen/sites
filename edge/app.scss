@@ -672,7 +672,7 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 	.approach {
 
 		.row {
-			display: flex;
+			@include bp(sm) { display: flex; }
 			transition: .1s all ease-out;
 			margin: 0;
 

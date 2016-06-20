@@ -386,7 +386,6 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
       .page-id-142 .services .row .span-3 {
         width: 25%; } }
 .page-id-142 .approach .row {
-  display: flex;
   transition: .1s all ease-out;
   margin: 0;
   /* &:hover {
@@ -394,6 +393,9 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
   	position: relative;
   	transform: scale(1.04);
   } */ }
+  @media (min-width: 768px) {
+    .page-id-142 .approach .row {
+      display: flex; } }
   .page-id-142 .approach .row > div {
     background: #fff;
     text-align: center;
