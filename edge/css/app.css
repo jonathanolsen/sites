@@ -403,3 +403,13 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 .office-box .container {
   width: 1360px !important;
   border: 1px solid rgba(0, 0, 0, 0.05); }
+
+#typeform-full {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  top: 0;
+  border: 0;
+  display: none;
+  z-index: 999; }
