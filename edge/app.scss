@@ -444,7 +444,8 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 		flex-wrap: wrap;
 		
 		.team-member {
-			width: 30%;
+			width: 100%;
+			@include bp(sm) { width: 30%; }
 			float: left;
 			padding: 30px;
 			box-sizing: border-box;
