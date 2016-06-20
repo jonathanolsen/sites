@@ -721,6 +721,10 @@ div {
 				padding: 50px;
 				text-align: left;
 
+				@include bp(xs-sm) {
+					text-align: center;
+				}
+
 				p {
 					margin-bottom: 0;
 				}

@@ -417,6 +417,9 @@ div.sqs-col-1, div.sqs-col-2, div.sqs-col-3, div.sqs-col-4, div.sqs-col-5, div.s
     @media (min-width: 768px) {
       .page-id-142 .approach .row .content {
         max-width: 84%; } }
+    @media (max-width: 767px) {
+      .page-id-142 .approach .row .content {
+        text-align: center; } }
     .page-id-142 .approach .row .content p {
       margin-bottom: 0; }
 
