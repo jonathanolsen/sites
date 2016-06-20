@@ -145,9 +145,9 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
     -moz-filter: grayscale(0);
     opacity: 1; }
 
-div.sqs-col-1, div.sqs-col-2, div.sqs-col-3, div.sqs-col-4, div.sqs-col-5, div.sqs-col-6, div.sqs-col-7, div.sqs-col-8, div.sqs-col-9, div.sqs-col-10, div.sqs-col-11 {
-  width: 100%; }
-
+@media (max-width: 767px) {
+  div.sqs-col-1, div.sqs-col-2, div.sqs-col-3, div.sqs-col-4, div.sqs-col-5, div.sqs-col-6, div.sqs-col-7, div.sqs-col-8, div.sqs-col-9, div.sqs-col-10, div.sqs-col-11 {
+    width: 100%; } }
 .sqs-col-1 {
   width: 8.3333%; }
 

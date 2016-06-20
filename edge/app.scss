@@ -297,19 +297,21 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 	}
 }
 
-div {
-	&.sqs-col-1,
-	&.sqs-col-2,
-	&.sqs-col-3,
-	&.sqs-col-4,
-	&.sqs-col-5,
-	&.sqs-col-6,
-	&.sqs-col-7,
-	&.sqs-col-8,
-	&.sqs-col-9,
-	&.sqs-col-10,
-	&.sqs-col-11 {
-		width: 100%;
+@include bp(xs-sm) {
+	div {
+		&.sqs-col-1,
+		&.sqs-col-2,
+		&.sqs-col-3,
+		&.sqs-col-4,
+		&.sqs-col-5,
+		&.sqs-col-6,
+		&.sqs-col-7,
+		&.sqs-col-8,
+		&.sqs-col-9,
+		&.sqs-col-10,
+		&.sqs-col-11 {
+			width: 100%;
+		}
 	}
 }
 
