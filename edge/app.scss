@@ -663,7 +663,7 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 			@include bp(sm) {
 				padding: 0 170px;
 			}
-			
+
 			margin-top: -40px;
 
 			@include bp(xs-md) {
@@ -738,10 +738,11 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 .office-box {
 
 	.container {
-		width: 1360px !important;
+		@include bp(md) { width: 1360px !important; }
 		border: 1px solid rgba(0, 0, 0, 0.05);
 	}
 }
+
 
 #typeform-full {
 	position: fixed;

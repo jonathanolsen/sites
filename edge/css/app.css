@@ -423,8 +423,10 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
         color: #90b6f1; }
 
 .office-box .container {
-  width: 1360px !important;
   border: 1px solid rgba(0, 0, 0, 0.05); }
+  @media (min-width: 992px) {
+    .office-box .container {
+      width: 1360px !important; } }
 
 #typeform-full {
   position: fixed;
