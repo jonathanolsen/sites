@@ -663,28 +663,42 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 }
 
 .box-container {
-	display: flex;
+	margin-top: -120px;
 
 	.box {
 		width: 50%;
 		background: $edgeblue;
 		color: #fff;
 		padding: 50px;
+		float: left;
 
 		&.gray {
 			background: #3B3D3F;
 			margin-top: -30px;
+
+			a:hover {
+				color: #999;
+			}
 		}
 
 		h3 {
 			font-size: 18px;
 			font-weight: 600;
+			margin-bottom: 10px;
+			color: #fff;
+			text-transform: uppercase;
+			letter-spacing: 1px;
 		}
 
 		a {
 			font-size: 40px;
-			font-weight: 800;
+			font-weight: 600;
 			color: #fff;
+			font-family: gotham;
+
+			&:hover {
+				color: lighten($edgeblue, 30%);
+			}
 		}
 	}
 }
