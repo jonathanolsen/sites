@@ -732,7 +732,9 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 	left: 10px;
 	font-size: 13px;
 	font-weight: 600;
-	padding: 4px 10px;
+	padding: 4px 18px 2px;
+	z-index: 1000;
+	display: none;
 
 	&:hover {
 		background: #145DDC;
