@@ -721,3 +721,17 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 	display: none;
 	z-index: 999;
 }
+
+.close-typeform {
+	background: #1049AD;
+	color: #ABC7F7;
+	border: 1px solid #0D3A89;
+	border-radius: 2px;
+	position: fixed;
+	bottom: 10px;
+	left: 10px;
+
+	&:hover {
+		background: #145DDC;
+	}
+}
