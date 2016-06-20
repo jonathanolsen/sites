@@ -431,6 +431,11 @@ div {
 			font-size: 40px !important;
 		    line-height: 46px !important;
 		}
+
+		#content_rpb6pvf2z p span.custom_one {
+			font-size: 30px;
+		    margin-bottom: 12px;
+		}
 	}
 
 	@include bp(sm) {

@@ -211,7 +211,10 @@ div.sqs-col-1, div.sqs-col-2, div.sqs-col-3, div.sqs-col-4, div.sqs-col-5, div.s
 @media (max-width: 767px) {
   .page-id-142 .cover-headline h1 {
     font-size: 40px !important;
-    line-height: 46px !important; } }
+    line-height: 46px !important; }
+  .page-id-142 #content_rpb6pvf2z p span.custom_one {
+    font-size: 30px;
+    margin-bottom: 12px; } }
 @media (min-width: 768px) {
   .page-id-142 .fullscreen-cover {
     max-height: 700px; } }
