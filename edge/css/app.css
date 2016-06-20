@@ -421,6 +421,9 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
   border-radius: 2px;
   position: fixed;
   bottom: 10px;
-  left: 10px; }
+  left: 10px;
+  font-size: 13px;
+  font-weight: 600;
+  padding: 4px 10px; }
   .close-typeform:hover {
     background: #145DDC; }
