@@ -101,8 +101,11 @@ $serif:                         'Droid serif', georgia, serif;
 }
 
 
-
-
+@include bp(xs-sm) {
+	p {
+		line-height: 30px;
+	}
+}
 
 @font-face {
 	font-family: 'brandberry-font';
@@ -202,17 +205,7 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 	}
 }
 
-.page-id-142 {
 
-	.cover-image {
-		max-height: 700px;
-		background-position: center center !important;
-	}
-
-	.fullscreen-cover {
-		max-height: 700px;
-	}
-}
 
 .cta-btn {
 	font-size: 15px;
@@ -304,6 +297,20 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 	}
 }
 
+.sqs-col-1,
+.sqs-col-2,
+.sqs-col-3,
+.sqs-col-4,
+.sqs-col-5,
+.sqs-col-6,
+.sqs-col-7,
+.sqs-col-8,
+.sqs-col-9,
+.sqs-col-10,
+.sqs-col-11 {
+	width: 100%;
+}
+
 .sqs-col-1 {
     width: 8.3333%;
 }
@@ -375,6 +382,13 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 			margin-top: 10px;
 		}
 	}
+
+	.page-id-160 {
+
+		#content .content-container .image img {
+			width: auto !important;
+		}
+	}
 }
 
 .page-id-10 {
@@ -399,6 +413,28 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 }
 
 .page-id-142 {
+
+	.cover-image {
+		max-height: 700px;
+		background-position: center center !important;
+	}
+
+	.fullscreen-cover {
+		max-height: 480px;
+	}
+
+	@include bp(xs-sm) {
+		.cover-headline h1 {
+			font-size: 40px !important;
+		    line-height: 46px !important;
+		}
+	}
+
+	@include bp(sm) {
+		.fullscreen-cover {
+			max-height: 700px;
+		}
+	}
 
 	.team-list {
 		width: 100%;
@@ -617,7 +653,15 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 			}
 
 			.span-3 {
-				width: 25%;
+				width: 100%;
+
+				@include bp(sm) {
+					width: 50%;
+				}
+
+				@include bp(md) {
+					width: 25%;
+				}
 			}
 		}
 	}
