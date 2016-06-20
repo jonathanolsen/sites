@@ -109,6 +109,9 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
   border-radius: 2px;
   text-transform: uppercase; }
 
+.bolder {
+  font-weight: 800; }
+
 @media (min-width: 768px) {
   .reverse-row-desktop > div .masonry-span6 {
     left: 49.9729% !important; }

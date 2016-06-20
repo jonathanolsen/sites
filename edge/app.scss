@@ -223,6 +223,10 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 	text-transform: uppercase;
 }
 
+.bolder {
+	font-weight: 800;
+}
+
 @include bp(sm) {
 	.reverse-row-desktop {
 
