@@ -716,7 +716,8 @@ div {
 			}
 
 			.content {
-				max-width: 84%;
+				max-width: 100%;
+				@include bp(sm) { max-width: 84%; }
 				padding: 50px;
 				text-align: left;
 

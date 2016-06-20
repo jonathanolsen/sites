@@ -411,9 +411,12 @@ div.sqs-col-1, div.sqs-col-2, div.sqs-col-3, div.sqs-col-4, div.sqs-col-5, div.s
     .page-id-142 .approach .row > div:first-of-type {
       justify-content: center; }
   .page-id-142 .approach .row .content {
-    max-width: 84%;
+    max-width: 100%;
     padding: 50px;
     text-align: left; }
+    @media (min-width: 768px) {
+      .page-id-142 .approach .row .content {
+        max-width: 84%; } }
     .page-id-142 .approach .row .content p {
       margin-bottom: 0; }
 
