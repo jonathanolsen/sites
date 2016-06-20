@@ -184,6 +184,13 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 .sqs-col-12 {
   width: 100%; }
 
+@media (max-width: 767px) {
+  section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
+    line-height: 40px !important;
+    padding: 40px; }
+    section#thumbnails .thumb .thumb-inner .thumb-hover h3 span {
+      line-height: 25px;
+      margin-top: 10px; } }
 .page-id-10 .fullscreen-cover {
   max-height: 480px; }
   .page-id-10 .fullscreen-cover .cover-headline > h1 {
