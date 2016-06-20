@@ -399,3 +399,7 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
       font-family: gotham; }
       .box-container .box a:hover {
         color: #90b6f1; }
+
+.office-box .container {
+  width: 1360px !important;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1); }
