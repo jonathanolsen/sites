@@ -655,9 +655,23 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 	.fullscreen-cover {
 		max-height: 600px;
 
+		@include bp(xs-md) {
+			max-height: 480px;
+		}
+
 		.cover-headline {
 			padding: 0 170px;
 			margin-top: -40px;
+
+			@include bp(xs-md) {
+				margin-top: -184px;
+
+				h1 {
+					text-transform: none !important;
+					font-size: 24px !important;
+					line-height: 44px !important;
+				}
+			}
 		}
 	}
 }
@@ -666,15 +680,19 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 	margin-top: -120px;
 
 	.box {
-		width: 50%;
+		width: 100%;
 		background: $edgeblue;
 		color: #fff;
 		padding: 50px;
 		float: left;
 
+		@include bp(sm) {
+			width: 50%;
+		}
+
 		&.gray {
 			background: #3B3D3F;
-			margin-top: -30px;
+			@include bp(sm) { margin-top: -30px; }
 
 			a:hover {
 				color: #999;
@@ -691,10 +709,14 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 		}
 
 		a {
-			font-size: 40px;
+			font-size: 24px;
 			font-weight: 600;
 			color: #fff;
 			font-family: gotham;
+
+			@include bp(sm) {
+				font-size: 40px;
+			}
 
 			&:hover {
 				color: lighten($edgeblue, 30%);
@@ -702,6 +724,7 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 		}
 	}
 }
+
 
 .office-box {
 
