@@ -617,8 +617,11 @@ div {
 
 				> ul {
 					text-align: left;
-					border-top: 1px solid #F0F8FA;
-					padding: 20px 30px;
+					padding: 0px 30px 20px;
+					@include bp(sm) {
+						border-top: 1px solid #F0F8FA;
+						padding: 20px 30px;
+					}
 					list-style-type: none;
 					margin-left: 0;
 					margin-bottom: 0;
@@ -644,7 +647,10 @@ div {
 				}
 
 				.headline {
-					padding: 50px 0;
+					padding: 50px 0 20px;
+					@include bp(sm) {
+						padding-bottom: 50px;
+					}
 
 					> i {
 						font-size: 40px;
