@@ -419,9 +419,9 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
       color: #33333e;
       align-self: center;
       margin: 0; }
-      @media (max-width: 767px) {
+      @media (min-width: 768px) {
         .page-id-142 .approach .row > div h4.appetite {
-          font-size: 50px; } }
+          font-size: 80px; } }
     .page-id-142 .approach .row > div:first-of-type {
       justify-content: center; }
   .page-id-142 .approach .row .content {
