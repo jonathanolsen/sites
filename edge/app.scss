@@ -685,6 +685,10 @@ div {
 			transition: .1s all ease-out;
 			margin: 0;
 
+			@include bp(xs-sm) {
+				margin-bottom: 20px 0 0;
+			}
+
 			/* &:hover {
 				box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 				position: relative;
@@ -697,8 +701,11 @@ div {
 				padding: 0;
 				display: flex;
 				align-content: center;
-				box-shadow: 0 0 1px darken($gray, 10%);
 				transition: .2s ease-out;
+
+				@include bp(sm) {
+					box-shadow: 0 0 1px darken($gray, 10%);
+				}
 
 				h3 {
 					font-size: 22px;

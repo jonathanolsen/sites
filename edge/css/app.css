@@ -392,14 +392,19 @@ div.sqs-col-1, div.sqs-col-2, div.sqs-col-3, div.sqs-col-4, div.sqs-col-5, div.s
   @media (min-width: 768px) {
     .page-id-142 .approach .row {
       display: flex; } }
+  @media (max-width: 767px) {
+    .page-id-142 .approach .row {
+      margin-bottom: 20px 0 0; } }
   .page-id-142 .approach .row > div {
     background: #fff;
     text-align: center;
     padding: 0;
     display: flex;
     align-content: center;
-    box-shadow: 0 0 1px #9c9ca2;
     transition: .2s ease-out; }
+    @media (min-width: 768px) {
+      .page-id-142 .approach .row > div {
+        box-shadow: 0 0 1px #9c9ca2; } }
     .page-id-142 .approach .row > div h3 {
       font-size: 22px;
       font-weight: bold;
