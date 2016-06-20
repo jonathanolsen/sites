@@ -400,11 +400,14 @@ div.sqs-col-1, div.sqs-col-2, div.sqs-col-3, div.sqs-col-4, div.sqs-col-5, div.s
       text-transform: none;
       margin-bottom: 10px; }
     .page-id-142 .approach .row > div h4.appetite {
-      font-size: 80px;
+      font-size: 50px;
       line-height: 0;
       color: #33333e;
       align-self: center;
       margin: 0; }
+      @media (max-width: 767px) {
+        .page-id-142 .approach .row > div h4.appetite {
+          font-size: 50px; } }
     .page-id-142 .approach .row > div:first-of-type {
       justify-content: center; }
   .page-id-142 .approach .row .content {
