@@ -43,6 +43,7 @@
 $textcolor:						#66666E;
 $darkgray:						#33333e;
 $gray:                          #B6B6BB;
+$edgeblue:						#1A60CE;
 
 $corner-padding:                40px;
 $grid-width:                    1360px;
@@ -657,6 +658,33 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 		.cover-headline {
 			padding: 0 170px;
 			margin-top: -40px;
+		}
+	}
+}
+
+.box-container {
+	display: flex;
+
+	.box {
+		width: 50%;
+		background: $edgeblue;
+		color: #fff;
+		padding: 50px;
+
+		&.gray {
+			background: #3B3D3F;
+			margin-top: -30px;
+		}
+
+		h3 {
+			font-size: 18px;
+			font-weight: 600;
+		}
+
+		a {
+			font-size: 40px;
+			font-weight: 800;
+			color: #fff;
 		}
 	}
 }
