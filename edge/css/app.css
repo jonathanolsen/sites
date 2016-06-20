@@ -365,3 +365,9 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
     text-align: left; }
     .page-id-142 .approach .row .content p {
       margin-bottom: 0; }
+
+#page-id-217 .fullscreen-cover {
+  max-height: 600px; }
+  #page-id-217 .fullscreen-cover .cover-headline {
+    padding: 0 170px;
+    margin-top: -40px; }
