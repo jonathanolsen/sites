@@ -660,16 +660,25 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 		}
 
 		.cover-headline {
-			padding: 0 170px;
+			@include bp(sm) {
+				padding: 0 170px;
+			}
+			
 			margin-top: -40px;
 
 			@include bp(xs-md) {
-				margin-top: -184px;
 
 				h1 {
 					text-transform: none !important;
 					font-size: 24px !important;
 					line-height: 44px !important;
+
+					@include bp(xs-sm) {
+						span {
+							display: block;
+							font-size: 40px;
+						}
+					}
 				}
 			}
 		}
