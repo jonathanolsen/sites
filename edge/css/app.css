@@ -459,6 +459,11 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
       display: block;
       font-size: 40px; } }
 
+.page-id-239 .fullscreen-cover {
+  max-height: 600px; }
+  .page-id-239 .fullscreen-cover .cover-headline img {
+    margin-left: -100px; }
+
 .box-container {
   margin-top: -120px; }
   .box-container .box {
