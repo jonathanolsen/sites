@@ -194,16 +194,16 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 
   .page-id-160 #content .content-container .image img {
     width: auto !important; } }
-.page-id-10 {
+.page-id-10 .fullscreen-cover {
   max-height: 760px; }
-  @media (max-width: 767px) {
-    .page-id-10 .fullscreen-cover {
-      max-height: 480px; }
-      .page-id-10 .fullscreen-cover .cover-headline > h1 {
-        font-size: 40px !important;
-        line-height: 60px !important; }
-    .page-id-10 #content .content-container .image img {
-      width: auto !important; } }
+@media (max-width: 767px) {
+  .page-id-10 .fullscreen-cover {
+    max-height: 480px; }
+    .page-id-10 .fullscreen-cover .cover-headline > h1 {
+      font-size: 40px !important;
+      line-height: 60px !important; }
+  .page-id-10 #content .content-container .image img {
+    width: auto !important; } }
 
 .page-id-142 .cover-image {
   max-height: 700px;
