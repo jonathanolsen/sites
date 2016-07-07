@@ -38,6 +38,28 @@
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0
 		},
+	"\/img\/img-modified.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 224959,
+		"inputAbbreviatedPath": "\/img\/img-modified.jpg",
+		"outputAbbreviatedPath": "\/img\/img-modified.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/img\/img-original.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 174478,
+		"inputAbbreviatedPath": "\/img\/img-original.jpg",
+		"outputAbbreviatedPath": "\/img\/img-original.jpg",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
 	"\/min\/app-min.js": {
 		"fileType": 64,
 		"ignore": 1,
