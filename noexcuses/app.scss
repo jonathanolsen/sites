@@ -366,4 +366,19 @@ $bounce-in-duration: .7s;
 
 .markdown-block .sqs-block-content h2 {
 	cursor: pointer;
+	margin: 0;
+}
+
+.markdown-block p {
+	margin-left:1.5em;
+}
+
+.markdown-block .ui-closed:before {
+	font-family:monospace;
+	content:"+ ";
+}
+
+.markdown-block .ui-open:before {
+	font-family:monospace;
+	content:"- ";
 }
