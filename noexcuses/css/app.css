@@ -6,9 +6,11 @@
 #headerNav #mainNavWrapper #mainNavigation .index.home:first-of-type {
   display: inline-block !important; }
 
-#mainNavigation {
+#mainNavigation,
+#mobileNavigation {
   margin-top: 10px; }
-  #mainNavigation .index.home {
+  #mainNavigation .index.home,
+  #mobileNavigation .index.home {
     display: none !important; }
 
 .cta-btn {
