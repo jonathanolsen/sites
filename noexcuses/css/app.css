@@ -3,7 +3,8 @@
   #headerNav .collection {
     margin: auto !important; }
 
-#headerNav #mainNavWrapper #mainNavigation .index.home:first-of-type {
+#headerNav #mainNavWrapper #mainNavigation .index.home:first-of-type,
+#headerNav #mainNavWrapper #mobileNavigation .index.home:first-of-type {
   display: inline-block !important; }
 
 #mainNavigation,
