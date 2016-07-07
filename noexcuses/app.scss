@@ -135,7 +135,7 @@ $L:     1170px;
 
 // colors
 
-$color-1: #2c2d2f; // blue dark
+$color-1: #404244; // blue dark
 $color-2: #dc717d; // salmon
 $color-3: #ffffff; // white
 
@@ -245,7 +245,7 @@ $bounce-in-duration: .7s;
 	border-radius: 50%;
 	background: $color-2 url('../img/cd-arrows.svg') no-repeat center center;
 	cursor: move;
-	box-shadow: 0 0 0 6px rgba(#000, .2), 0 0 10px rgba(#000, .6), inset 0 1px 0 rgba(#fff, .3);
+	box-shadow: 0 0 0 6px rgba(#000, .2), 0 0 10px rgba(#000, .6);
 	opacity: 0;
 	@include transform(translate3d(0,0,0) scale(0));
 

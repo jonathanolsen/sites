@@ -131,7 +131,7 @@
   border-radius: 50%;
   background: #dc717d url("../img/cd-arrows.svg") no-repeat center center;
   cursor: move;
-  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.3);
+  box-shadow: 0 0 0 6px rgba(0, 0, 0, 0.2), 0 0 10px rgba(0, 0, 0, 0.6);
   opacity: 0;
   -webkit-transform: translate3d(0, 0, 0) scale(0);
   -moz-transform: translate3d(0, 0, 0) scale(0);
@@ -140,7 +140,7 @@
   transform: translate3d(0, 0, 0) scale(0); }
   .cd-handle.draggable {
     /* change background color when element is active */
-    background-color: #2c2d2f; }
+    background-color: #404244; }
   .is-visible .cd-handle {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0) scale(1);
