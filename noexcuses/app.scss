@@ -185,8 +185,8 @@ $bounce-in-duration: .7s;
 
 .cd-image-container {
 	position: relative;
-	width: 600px;
-	max-width: $M; // breakpoints inside partials > _layout.scss
+	width: 100%;
+	max-width: 600px;
 	margin: 0em auto;
 
 	img {
