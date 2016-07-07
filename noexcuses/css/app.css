@@ -201,3 +201,6 @@
   .rating .stars i {
     font-size: 26px;
     color: #FFC94D; }
+
+.markdown-block .sqs-block-content h2 {
+  cursor: pointer; }

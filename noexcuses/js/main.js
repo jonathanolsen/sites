@@ -114,4 +114,8 @@ jQuery(document).ready(function($){
             ( label.offset().left > resizeElement.offset().left + resizeElement.outerWidth() ) ? label.removeClass('is-hidden') : label.addClass('is-hidden') ;
         }
     }
+
+
+    $(".markdown-block .sqs-block-content h2").nextUntil("h2").slideToggle();
+    $(".markdown-block .sqs-block-content h2").click(function() {$(this).nextUntil("h2").slideToggle();});
 });
