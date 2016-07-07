@@ -155,15 +155,23 @@
     -moz-transition: -moz-transform 0.3s 0.7s, opacity 0s 0.7s;
     transition: transform 0.3s 0.7s, opacity 0s 0.7s; }
 
-.results .what {
-  width: 30%;
-  float: left; }
-.results .results {
-  width: 70%;
-  float: left; }
-.results h4 {
-  text-transform: uppercase;
-  color: #222; }
-.results h4, .results p {
-  height: 20px;
-  margin: 10px 0; }
+.results {
+  margin-top: -15px;
+  border-top: 1px solid #EAEAEC;
+  border-bottom: 1px solid #EAEAEC;
+  display: inline-block;
+  width: 100%;
+  margin-bottom: -20px;
+  padding: 20px 0; }
+  .results .what {
+    width: 30%;
+    float: left; }
+  .results .results {
+    width: 70%;
+    float: left; }
+  .results h4 {
+    text-transform: uppercase;
+    color: #222; }
+  .results h4, .results p {
+    height: 20px;
+    margin: 10px 0; }

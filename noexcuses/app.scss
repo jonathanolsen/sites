@@ -138,6 +138,7 @@ $L:     1170px;
 $color-1: #404244; // blue dark
 $color-2: #dc717d; // salmon
 $color-3: #ffffff; // white
+$color-4: #EAEAEC; // Borders and similar
 
 // fonts 
 
@@ -269,6 +270,13 @@ $bounce-in-duration: .7s;
 
 
 .results {
+	margin-top: -15px;
+	border-top: 1px solid $color-4;
+	border-bottom: 1px solid $color-4;
+	display: inline-block;
+	width: 100%;
+	margin-bottom: -20px;
+	padding: 20px 0;
 
 	.what {
 		width: 30%;
