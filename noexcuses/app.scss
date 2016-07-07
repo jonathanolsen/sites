@@ -1,3 +1,5 @@
+@import 'bourbon';
+
 $blue:					#4D9EFF;
 $pink:					#EF4BAF;
 $darkpink:				#4C3844;
@@ -64,30 +66,199 @@ $darkpink:				#4C3844;
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// breakpoints
+   
+$S:     320px;   
+$M:     768px;     
+$L:     1170px;     
+
+// media queries
+
+@mixin MQ($canvas) {
+  @if $canvas == S {
+   @media only screen and (min-width: $S) { @content; } 
+  }
+  @else if $canvas == M {
+   @media only screen and (min-width: $M) { @content; } 
+  }
+  @else if $canvas == L {
+   @media only screen and (min-width: $L) { @content; } 
+  }
+}
+
+// super light grid - it works with the .cd-container class inside style.scss
+
+@mixin column($percentage, $float-direction:left) {
+  width: 100% * $percentage;
+  float: $float-direction;
+}
+
+// rem fallback - credits: http://zerosixthree.se/
+
+@function calculateRem($size) {
+  $remSize: $size / 16px;
+  @return $remSize * 1rem;
+}
+
+@mixin font-size($size) {
+  font-size: $size;
+  font-size: calculateRem($size);
+}
+
+// antialiasing mode font rendering
+
+@mixin font-smoothing {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+// colors
+
+$color-1: #445b7c; // blue dark
+$color-2: #dc717d; // salmon
+$color-3: #ffffff; // white
+
+// fonts 
+
+$primary-font: 'Open Sans', sans-serif;
+
+// bounce-in duration
+
+$bounce-in-duration: .7s;
+
+
+
+
+
+.cd-image-container {
+	position: relative;
+	width: 90%;
+	max-width: $M; // breakpoints inside partials > _layout.scss
+	margin: 0em auto;
+
+	img {
+		display: block;
+	}
+}
+
+.cd-image-label {
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	color: $color-3;
+	padding: 1em;
+	@include font-smoothing;
+	opacity: 0;
+	@include transform(translateY(20px));
+	-webkit-transition: -webkit-transform .3s $bounce-in-duration, opacity .3s $bounce-in-duration;
+	-moz-transition: -moz-transform .3s $bounce-in-duration, opacity .3s $bounce-in-duration;
+	transition: transform .3s $bounce-in-duration, opacity .3s $bounce-in-duration;
+
+	&.is-hidden {
+		visibility: hidden;
+	}
+
+	.is-visible & {
+		opacity: 1;
+		@include transform(translateY(0));
+	}
+}
+
 .cd-resize-img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 0;
-  overflow: hidden;
-  /* Force Hardware Acceleration in WebKit */
-  transform: translateZ(0);
-  backface-visibility: hidden;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 0;
+	height: 100%;
+	overflow: hidden;
+	/* Force Hardware Acceleration in WebKit */
+	@include transform(translateZ(0));
+	-webkit-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	img {
+		position: absolute;
+		left: 0;
+		top: 0;
+		display: block;
+		height: 100%;
+		width: auto;
+		max-width: none;
+	}
+
+	.cd-image-label {
+		right: auto;
+		left: 0;
+	}
+
+	.is-visible & {
+		width: 50%;
+		/* bounce in animation of the modified image */
+		@include animation(cd-bounce-in $bounce-in-duration);
+	}
 }
-.is-visible .cd-resize-img {
-  width: 50%;
-  /* bounce in animation of the modified image */
-  animation: cd-bounce-in 0.7s;
+
+@include keyframes(cd-bounce-in) {
+	0% {
+		width: 0;
+	}
+
+	60% {
+		width: 55%;
+	}
+
+	100% {
+		width: 50%;
+	}
 }
-@keyframes cd-bounce-in {
-  0% {
-    width: 0;
-  }
-  60% {
-    width: 55%;
-  }
-  100% {
-    width: 50%;
-  }
+
+.cd-handle {
+	position: absolute;
+	height: 44px;
+	width: 44px;
+	/* center the element */
+	left: 50%;
+	top: 50%;
+	margin-left: -22px;
+	margin-top: -22px;
+	border-radius: 50%;
+	background: $color-2 url('../img/cd-arrows.svg') no-repeat center center;
+	cursor: move;
+	box-shadow: 0 0 0 6px rgba(#000, .2), 0 0 10px rgba(#000, .6), inset 0 1px 0 rgba(#fff, .3);
+	opacity: 0;
+	@include transform(translate3d(0,0,0) scale(0));
+
+	&.draggable {
+		/* change background color when element is active */
+		background-color: $color-1;
+	}
+
+	.is-visible & {
+		opacity: 1;
+		@include transform(translate3d(0,0,0) scale(1));
+		-webkit-transition: -webkit-transform .3s $bounce-in-duration, opacity 0s $bounce-in-duration;
+		-moz-transition: -moz-transform .3s $bounce-in-duration, opacity 0s $bounce-in-duration;
+		transition: transform .3s $bounce-in-duration, opacity 0s $bounce-in-duration;
+	}
 }
