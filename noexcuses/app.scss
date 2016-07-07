@@ -150,7 +150,7 @@ $bounce-in-duration: .7s;
 
 
 #collection-574573653c44d8a75d536600 #page {
-	max-width: 1280px;
+	max-width: 1320px;
 }
 
 .cd-image-container {
@@ -161,7 +161,7 @@ $bounce-in-duration: .7s;
 
 	img {
 		display: block;
-	}
+	}	
 }
 
 .cd-image-label {
@@ -263,4 +263,32 @@ $bounce-in-duration: .7s;
 		-moz-transition: -moz-transform .3s $bounce-in-duration, opacity 0s $bounce-in-duration;
 		transition: transform .3s $bounce-in-duration, opacity 0s $bounce-in-duration;
 	}
+}
+
+
+
+
+.results {
+
+	.what {
+		width: 30%;
+		float: left;
+	}
+
+	.results {
+		width: 70%;
+		float: left;
+	}
+
+	h4 {
+		text-transform: uppercase;
+		color: #222;
+	}
+
+	h4, p {
+		height: 20px;
+		margin: 10px 0;
+	}
+
+
 }
