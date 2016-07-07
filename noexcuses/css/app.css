@@ -176,7 +176,19 @@
     height: 20px;
     margin: 10px 0; }
 
-.rating h4 {
-  text-transform: uppercase;
-  margin-bottom: 5px;
-  margin-top: 0; }
+.rating {
+  margin-bottom: -20px;
+  background: #eee;
+  padding: 19px 30px; }
+  .rating h4 {
+    text-transform: uppercase;
+    margin-bottom: 5px;
+    margin-top: 0; }
+    .rating h4 span {
+      float: right;
+      font-weight: 300;
+      font-style: italic;
+      font-size: 13px; }
+  .rating .stars i {
+    font-size: 26px;
+    color: #FFC94D; }

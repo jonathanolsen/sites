@@ -300,10 +300,28 @@ $bounce-in-duration: .7s;
 }
 
 .rating {
+	margin-bottom: -20px;
+	background: #eee;
+	padding: 19px 30px;
 
 	h4 {
 		text-transform: uppercase;
 		margin-bottom: 5px;
 		margin-top: 0;
+
+		span {
+			float: right;
+			font-weight: 300;
+			font-style: italic;
+			font-size: 13px
+		}
+	}
+
+	.stars {
+
+		i {
+			font-size: 26px;
+			color: #FFC94D;
+		}
 	}
 }
