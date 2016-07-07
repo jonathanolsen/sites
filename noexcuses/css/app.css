@@ -140,7 +140,7 @@
   transform: translate3d(0, 0, 0) scale(0); }
   .cd-handle.draggable {
     /* change background color when element is active */
-    background-color: #445b7c; }
+    background-color: #2c2d2f; }
   .is-visible .cd-handle {
     opacity: 1;
     -webkit-transform: translate3d(0, 0, 0) scale(1);
