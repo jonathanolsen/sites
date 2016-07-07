@@ -166,15 +166,15 @@
   .results .what {
     width: 100%;
     float: left; }
-@inclue bp(sm) {
-  .results .what {
-    width: 30%; } }
+    @media (min-width: 768px) {
+      .results .what {
+        width: 30%; } }
   .results .result-info {
     width: 100%;
     float: left; }
-@inclue bp(sm) {
-  .results .result-info {
-    width: 70%; } }
+    @media (min-width: 768px) {
+      .results .result-info {
+        width: 70%; } }
   .results h4 {
     text-transform: uppercase;
     color: #222; }
