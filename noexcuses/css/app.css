@@ -36,7 +36,7 @@
 .cd-image-container {
   position: relative;
   width: 600px;
-  max-width: 768px;
+  max-width: 992px;
   margin: 0em auto; }
   .cd-image-container img {
     display: block; }
@@ -164,11 +164,17 @@
   margin-bottom: -20px;
   padding: 20px 0; }
   .results .what {
-    width: 30%;
+    width: 100%;
     float: left; }
+@inclue bp(sm) {
+  .results .what {
+    width: 30%; } }
   .results .result-info {
-    width: 70%;
+    width: 100%;
     float: left; }
+@inclue bp(sm) {
+  .results .result-info {
+    width: 70%; } }
   .results h4 {
     text-transform: uppercase;
     color: #222; }
