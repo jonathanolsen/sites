@@ -688,7 +688,8 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 	}
 
 	.approach {
-
+		max-width: 1060px;
+		margin: 0 auto;
 		.row {
 			@include bp(sm) { display: flex; }
 			transition: .1s all ease-out;
@@ -739,7 +740,6 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 
 			.content {
 				max-width: 100%;
-				@include bp(sm) { max-width: 84%; }
 				padding: 50px;
 				text-align: left;
 
@@ -882,10 +882,14 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 	border-radius: 2px;
 	position: fixed;
 	bottom: 10px;
-	left: 10px;
-	font-size: 13px;
+	right: 111px;
+	font-size: 14px;
 	font-weight: 600;
-	padding: 4px 18px 2px;
+	padding: 5px 18px 1px;
+	width: 160px;
+	height: 42px;
+	text-transform: uppercase;
+	text-align: center;
 	z-index: 1000;
 	display: none;
 
