@@ -3908,4 +3908,6 @@ section.full-bg {
     font-family: Montserrat;
     font-size: 18px; }
   .what-is-this .steps i {
-    font-size: 70px; }
+    font-size: 60px; }
+    .what-is-this .steps i.ion-map {
+      font-size: 70px; }

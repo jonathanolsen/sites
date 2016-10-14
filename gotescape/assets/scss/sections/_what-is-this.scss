@@ -15,7 +15,11 @@
 		}
 
 		i {
-			font-size: 70px;
+			font-size: 60px;
+
+			&.ion-map {
+				font-size: 70px;
+			}
 		}
 	}
 }
