@@ -1,0 +1,56 @@
+// Bootstrap overrides
+$grid-gutter-width:						30px;
+$container-large-desktop:				1250px + $grid-gutter-width;
+$grid-columns:                          12;
+$font-size-base:                        14px;
+$table-border-color:                    #dde0e4;
+$font-family-sans-serif:                "Open Sans", sans-serif !default;
+
+// Brand colors
+$brand-primary:                         #00A8C6;
+$brand-accent:                        	#E8BC1C;     // Green
+$brand-primary-lighter:					lighten($brand-primary, 10%);
+
+// Layout
+$grid-left:								180px;
+$grid-middle:							728px;
+$grid-right:							300px;
+$page-max-width:						550px;
+$container-max-width:					100%;
+$container-max-width-intro: 			100%;
+
+// Backgrounds
+$bg-color:								#363638;	// Body bg
+$sidebar-bg:							rgba(31, 32, 33, .95);
+$light-bgcolor:                         #f7f8f9;    // Alt bg color, light gray
+
+// Grayscale
+$white:                                 #ffffff;
+$black:                                 $bg-color;
+
+// Font colors
+$text-color:                            #232425;    // Paragraph text color
+$text-color-light:                      #a6acb3;    // Used for meta-data or inactive text elements mostly
+$headline-color:						#000;
+$headline-size:							16px;  
+
+// Basic elements
+$border-color:                          $table-border-color;
+$inactive-element:                      #E9E9E9;    // Used for inactive elements such as button, radios, slider dots/navs, etc
+
+// Buttons
+
+// Sizes
+$header-height:                         80px;
+$headerheight:							$header-height;
+$sidebar-width:							200px; //Sidebar/menu width 
+
+// Flickity
+$dot-dimension:                         12px;
+
+// Forms
+ 
+
+//Nav
+$nav-link-hover-bg: 					none;
+$logo-width: 							590px;

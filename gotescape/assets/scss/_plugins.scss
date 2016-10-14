@@ -1,0 +1,55 @@
+/***** MODAL PROPERTIES *****/
+ .modal-content {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background:transparent;
+    border:none;
+    outline:none;
+}
+.modal-content iframe {
+    border:none;
+    padding:0;
+    margin:0;
+}
+
+
+#videoModal {
+
+    .modal-dialog {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
+    .modal-content,
+    .modal-body {
+        height: 100%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .modal-body {
+
+        > div {
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            width: 100%;
+        }
+
+        .close {
+            position: absolute;
+            right: 0;
+            z-index: 999;
+            font-size: 40px;
+            color: #fff;
+            background: none;
+            border: none;
+            margin: 30px;
+        }
+    }
+}
