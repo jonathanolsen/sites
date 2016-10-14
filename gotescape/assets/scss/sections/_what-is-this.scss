@@ -1,7 +1,6 @@
 
 .what-is-this {
-	background-image: url('/wp-content/plugins/apuz-what-is-this/blueprint-bg.jpg');
-	background-position: bottom center;
+	background: url('/wp-content/plugins/apuz-what-is-this/blueprint-bg.jpg') bottom center no-repeat / cover;
 	color: #fff;
 
 	.content {

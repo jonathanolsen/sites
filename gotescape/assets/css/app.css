@@ -4460,11 +4460,6 @@ body {
   color: #232425;
   font-family: "Open Sans"; }
 
-section.full-bg {
-  background-color: #000;
-  background-size: cover;
-  background-repeat: no-repeat; }
-
 .challenge {
   color: #fff; }
 
@@ -4517,8 +4512,7 @@ section.full-bg {
   font-size: 46px; }
 
 .what-is-this {
-  background-image: url("/wp-content/plugins/apuz-what-is-this/blueprint-bg.jpg");
-  background-position: bottom center;
+  background: url("/wp-content/plugins/apuz-what-is-this/blueprint-bg.jpg") bottom center no-repeat/cover;
   color: #fff; }
   .what-is-this .content {
     padding: 100px 0; }
@@ -4556,43 +4550,41 @@ section.full-bg {
         bottom: -30px;
         content: ''; }
 
-.arena-image-left {
-  background-image: url("/wp-content/plugins/apuz-arena-image-left/bank-heist-bg.jpg");
-  background-position: top center;
-  background-size: contain;
+section.arena-image-left {
+  background: url("/wp-content/plugins/apuz-arena-image-left/bank-heist-bg.jpg") top center no-repeat/contain;
   padding: 200px 0; }
-  .arena-image-left .flex-align-center {
+  section.arena-image-left .flex-align-center {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center; }
-  .arena-image-left .headline {
+  section.arena-image-left .headline {
     margin-top: 50px; }
-    .arena-image-left .headline h1 {
+    section.arena-image-left .headline h1 {
       font-size: 46px;
       font-weight: bold;
       margin-bottom: 10px;
       margin-top: -5px; }
-  .arena-image-left .meta-info {
+  section.arena-image-left .meta-info {
     margin-bottom: 20px; }
-    .arena-image-left .meta-info span {
+    section.arena-image-left .meta-info span {
       margin-right: 20px; }
-      .arena-image-left .meta-info span > i {
+      section.arena-image-left .meta-info span > i {
         font-size: 20px;
         margin-right: 8px;
         display: inline-block; }
-  .arena-image-left p {
+  section.arena-image-left p {
     font-size: 15px; }
-  .arena-image-left .cta-area {
+  section.arena-image-left .cta-area {
     margin-top: 30px; }
-    .arena-image-left .cta-area a {
+    section.arena-image-left .cta-area a {
       margin-right: 20px; }
-  .arena-image-left .btn-primary {
+  section.arena-image-left .btn-primary {
     background: #75001A;
     border-color: #75001A;
     color: #fff; }
-    .arena-image-left .btn-primary:hover {
+    section.arena-image-left .btn-primary:hover {
       background: #8f0020;
       border-color: #8f0020; }
