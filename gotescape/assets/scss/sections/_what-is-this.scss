@@ -16,9 +16,23 @@
 
 		i {
 			font-size: 60px;
+			height: 70px;
+			display: inline-block;
+			position: relative;
 
 			&.ion-map {
 				font-size: 70px;
+			}
+
+			&:after {
+				width: 8px;
+				height: 8px;
+				background: #fff;
+				border-radius: 8px;
+				position: absolute;
+				left: calc(50% - 4px);
+				bottom: 0;
+				content: '';
 			}
 		}
 	}
