@@ -2,6 +2,7 @@
 .arena-image-left {
 	background-image: url('/wp-content/plugins/apuz-arena-image-left/bank-heist-bg.jpg');
 	background-position: top center;
+	background-size: contain;
 
 	.flex-align-center {
 		display: flex;
