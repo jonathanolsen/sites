@@ -1,3 +1,15 @@
 // Framework stuff
 @import 'bourbon';
+@import 'framework/variables.scss';
+@import 'framework/bootstrap-custom.scss';
+
+// Partials
+@import 'partials/layout.scss';
+@import 'partials/mixins.scss';
+@import 'partials/animations.scss';
+@import 'partials/helpers.scss';
+
+// Basics
+@import 'base.scss';
+
 
