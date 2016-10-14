@@ -4468,6 +4468,34 @@ section.full-bg {
 .challenge {
   color: #fff; }
 
+.btn {
+  display: inline-block;
+  padding: 12px 30px;
+  background: #00A8C6;
+  border: 2px solid #00A8C6;
+  border-radius: 0;
+  color: #ffffff;
+  cursor: pointer;
+  text-align: center;
+  outline: 0;
+  text-transform: uppercase;
+  -webkit-transition: .1s ease-out;
+  transition: .1s ease-out; }
+  .btn:hover {
+    background: #0092ad;
+    color: #ffffff; }
+  .btn:focus {
+    color: #555555;
+    box-shadow: none !important;
+    outline: none !important; }
+  .btn:active, .btn.active {
+    box-shadow: none; }
+  .btn.btn-hollow {
+    background: none;
+    border: 2px solid rgba(255, 255, 255, 0.2); }
+    .btn.btn-hollow:hover {
+      border-color: #ffffff; }
+
 .headline {
   font-family: Montserrat; }
   .headline h1 {
@@ -4524,10 +4552,20 @@ section.full-bg {
   background-position: top center; }
   .arena-image-left h1 {
     font-size: 46px;
-    font-weight: bold; }
-  .arena-image-left .meta-info span {
-    margin-right: 12px; }
-    .arena-image-left .meta-info span > i {
-      font-size: 20px;
-      margin-right: 8px;
-      display: inline-block; }
+    font-weight: bold;
+    margin-bottom: 10px; }
+  .arena-image-left .meta-info {
+    margin-bottom: 20px; }
+    .arena-image-left .meta-info span {
+      margin-right: 20px; }
+      .arena-image-left .meta-info span > i {
+        font-size: 20px;
+        margin-right: 8px;
+        display: inline-block; }
+  .arena-image-left p {
+    font-size: 15px; }
+  .arena-image-left .btn-primary {
+    background: #75001A;
+    color: #fff; }
+    .arena-image-left .btn-primary:hover {
+      background: #4c0011; }
