@@ -4525,7 +4525,9 @@ section.full-bg {
   .arena-image-left h1 {
     font-size: 46px;
     font-weight: bold; }
-  .arena-image-left .meta-info span > i {
-    font-size: 20px;
-    margin-right: 10px;
-    display: inline-block; }
+  .arena-image-left .meta-info span {
+    margin-right: 12px; }
+    .arena-image-left .meta-info span > i {
+      font-size: 20px;
+      margin-right: 8px;
+      display: inline-block; }
