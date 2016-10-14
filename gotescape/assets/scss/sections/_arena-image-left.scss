@@ -3,13 +3,19 @@
 	background-image: url('/wp-content/plugins/apuz-arena-image-left/bank-heist-bg.jpg');
 	background-position: top center;
 
+	.flex-align-center {
+		display: flex;
+		justify-content: center;
+	}
+
 	.headline {
 		margin-top: 50px;
-		
+
 		h1 {
 			font-size: 46px;
 			font-weight: bold;
 			margin-bottom: 10px;
+			margin-top: -5px;
 		}
 	}
 
@@ -32,6 +38,10 @@
 
 	.cta-area {
 		margin-top: 30px;
+
+		a {
+			margin-right: 20px;
+		}
 	}
 
 	.btn-primary {
