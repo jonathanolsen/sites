@@ -3907,7 +3907,8 @@ section.full-bg {
     padding: 100px 0; }
   .what-is-this .steps {
     position: relative;
-    margin-top: 60px; }
+    margin-top: 60px;
+    display: inline-block; }
     .what-is-this .steps:before {
       border-bottom: 2px dotted rgba(255, 255, 255, 0.2);
       width: 78%;
