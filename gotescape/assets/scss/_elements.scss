@@ -10,6 +10,7 @@
 	outline: 0;
 	text-transform: uppercase;
 	transition: .1s ease-out;
+	box-shadow: none;
 
 	&:hover {
 		background: darken($brand-primary, 5%);

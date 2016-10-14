@@ -4480,7 +4480,8 @@ section.full-bg {
   outline: 0;
   text-transform: uppercase;
   -webkit-transition: .1s ease-out;
-  transition: .1s ease-out; }
+  transition: .1s ease-out;
+  box-shadow: none; }
   .btn:hover {
     background: #0092ad;
     color: #ffffff; }
