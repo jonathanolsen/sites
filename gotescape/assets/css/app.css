@@ -3888,11 +3888,12 @@ section.full-bg {
   background-color: #000;
   background-size: cover; }
 
-.headline h1 {
-  font-family: Montserrat;
-  font-size: 36px; }
-.headline p {
-  font-size: 17px; }
+.headline {
+  font-family: Montserrat; }
+  .headline h1 {
+    font-size: 36px; }
+  .headline p {
+    font-size: 17px; }
 
 .challenge .headline h1,
 .jumbotron .headline h1 {
