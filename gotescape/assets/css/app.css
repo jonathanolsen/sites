@@ -3887,3 +3887,9 @@ body {
 section.full-bg {
   background-color: #000;
   background-size: cover; }
+
+.what-is-this {
+  background-image: url("/wp-content/plugins/apuz-what-is-this/blueprint-bg.jpg"); }
+  .what-is-this .steps h4 {
+    font-family: Montserrat;
+    font-size: 18px; }
