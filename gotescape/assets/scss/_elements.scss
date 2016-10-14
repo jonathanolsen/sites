@@ -1,6 +1,6 @@
 .btn {
 	display: inline-block;
-	padding: 12px 30px;
+	padding: 12px 20px;
 	background: $brand-primary;
 	border: 2px solid $brand-primary;
 	border-radius: 0;
@@ -10,7 +10,8 @@
 	outline: 0;
 	text-transform: uppercase;
 	transition: .1s ease-out;
-	box-shadow: none;
+	box-shadow: none !important;
+	border-radius: 2px;
 
 	&:hover {
 		background: darken($brand-primary, 5%);
@@ -35,6 +36,15 @@
 		&:hover {
 			border-color: $white;
 		}
+	}
+
+	.ion-ios-arrow-thin-light {
+		font-size: 30px;
+		float: right;
+		line-height: 0;
+		height: 21px;
+		margin-top: -4px;
+		margin-left: 18px;
 	}
 
 }

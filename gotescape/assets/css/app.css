@@ -4470,7 +4470,7 @@ section.full-bg {
 
 .btn {
   display: inline-block;
-  padding: 12px 30px;
+  padding: 12px 20px;
   background: #00A8C6;
   border: 2px solid #00A8C6;
   border-radius: 0;
@@ -4481,7 +4481,8 @@ section.full-bg {
   text-transform: uppercase;
   -webkit-transition: .1s ease-out;
   transition: .1s ease-out;
-  box-shadow: none; }
+  box-shadow: none !important;
+  border-radius: 2px; }
   .btn:hover {
     background: #0092ad;
     color: #ffffff; }
@@ -4496,6 +4497,13 @@ section.full-bg {
     border: 2px solid rgba(255, 255, 255, 0.2); }
     .btn.btn-hollow:hover {
       border-color: #ffffff; }
+  .btn .ion-ios-arrow-thin-light {
+    font-size: 30px;
+    float: right;
+    line-height: 0;
+    height: 21px;
+    margin-top: -4px;
+    margin-left: 18px; }
 
 .headline {
   font-family: Montserrat; }
