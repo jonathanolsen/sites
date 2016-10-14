@@ -4464,6 +4464,9 @@ section.full-bg {
   background-color: #000;
   background-size: cover; }
 
+.challenge {
+  color: #fff; }
+
 .headline {
   font-family: Montserrat; }
   .headline h1 {
@@ -4514,3 +4517,7 @@ section.full-bg {
         left: calc(50% - 4px);
         bottom: -30px;
         content: ''; }
+
+.arena-image-left {
+  background-image: url("/wp-content/plugins/apuz-arena-image-left/bank-heist-bg.jpg");
+  background-position: bottom center; }
