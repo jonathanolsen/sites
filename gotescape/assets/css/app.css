@@ -4484,7 +4484,7 @@ section.full-bg {
   box-shadow: none !important;
   border-radius: 2px; }
   .btn:hover {
-    background: #0092ad;
+    background: #00bee0;
     color: #ffffff; }
   .btn:focus {
     color: #555555;
@@ -4578,5 +4578,5 @@ section.full-bg {
     border-color: #75001A;
     color: #fff; }
     .arena-image-left .btn-primary:hover {
-      background: #4c0011;
-      border-color: #4c0011; }
+      background: #8f0020;
+      border-color: #8f0020; }
