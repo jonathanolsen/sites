@@ -3899,7 +3899,8 @@ section.full-bg {
   font-size: 46px; }
 
 .what-is-this {
-  background-image: url("/wp-content/plugins/apuz-what-is-this/blueprint-bg.jpg"); }
+  background-image: url("/wp-content/plugins/apuz-what-is-this/blueprint-bg.jpg");
+  color: #fff; }
   .what-is-this .content {
     padding: 100px 0; }
   .what-is-this .steps h4 {
