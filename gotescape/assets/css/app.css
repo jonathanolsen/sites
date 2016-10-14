@@ -3882,7 +3882,8 @@ html, body {
 
 body {
   color: #232425;
-  font-family: "Open Sans"; }
+  font-family: "Open Sans";
+  background: red !important; }
 
 section.full-bg {
   background-color: #000;
