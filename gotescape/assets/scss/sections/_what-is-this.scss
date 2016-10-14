@@ -8,19 +8,25 @@
 	}
 
 	.steps {
-		
+		position: relative;
+
 		&:before {
-			border: 2px dotted #fff;
-			width: 100%;
-			height: 2px;
+			border-bottom: 2px dotted rgba(255, 255, 255, .2);
+			width: 78%;
+			height: 0px;
 			position: absolute;
-			top: 0;
+			top: 184px;
 			content: '';
+			left: 11%;
 		}
 
 		h4 {
 			font-family: Montserrat;
 			font-size: 18px;
+		}
+
+		p {
+			opacity: .5;
 		}
 
 		i {
@@ -36,7 +42,7 @@
 			&:after {
 				width: 8px;
 				height: 8px;
-				background: #fff;
+				background: #787878;
 				border-radius: 8px;
 				position: absolute;
 				left: calc(50% - 4px);
