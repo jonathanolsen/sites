@@ -4566,6 +4566,8 @@ section.full-bg {
     font-size: 15px; }
   .arena-image-left .btn-primary {
     background: #75001A;
+    border-color: #75001A;
     color: #fff; }
     .arena-image-left .btn-primary:hover {
-      background: #4c0011; }
+      background: #4c0011;
+      border-color: #4c0011; }

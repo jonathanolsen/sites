@@ -28,10 +28,12 @@
 
 	.btn-primary {
 		background: $bank-heist-color;
+		border-color: $bank-heist-color;
 		color: #fff;
 
 		&:hover {
 			background: darken($bank-heist-color, 8%);
+			border-color: darken($bank-heist-color, 8%);
 		}
 	}
 }
