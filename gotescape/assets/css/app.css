@@ -4497,7 +4497,7 @@ section.full-bg {
     border: 2px solid rgba(255, 255, 255, 0.2); }
     .btn.btn-hollow:hover {
       border-color: #ffffff; }
-  .btn .ion-ios-arrow-thin-light {
+  .btn .ion-ios-arrow-thin-right {
     font-size: 30px;
     float: right;
     line-height: 0;
