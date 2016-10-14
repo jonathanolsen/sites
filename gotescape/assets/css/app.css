@@ -3904,6 +3904,13 @@ section.full-bg {
   color: #fff; }
   .what-is-this .content {
     padding: 100px 0; }
+  .what-is-this .steps:before {
+    border: 2px dotted #fff;
+    width: 100%;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    content: ''; }
   .what-is-this .steps h4 {
     font-family: Montserrat;
     font-size: 18px; }
@@ -3921,5 +3928,5 @@ section.full-bg {
       border-radius: 8px;
       position: absolute;
       left: calc(50% - 4px);
-      bottom: 0;
+      bottom: -30px;
       content: ''; }
