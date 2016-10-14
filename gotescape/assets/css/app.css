@@ -4559,7 +4559,8 @@ section.full-bg {
 .arena-image-left {
   background-image: url("/wp-content/plugins/apuz-arena-image-left/bank-heist-bg.jpg");
   background-position: top center;
-  background-size: contain; }
+  background-size: contain;
+  padding: 200px 0; }
   .arena-image-left .flex-align-center {
     display: -webkit-box;
     display: -ms-flexbox;
