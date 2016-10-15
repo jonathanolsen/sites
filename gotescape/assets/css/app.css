@@ -4593,7 +4593,8 @@ section.arena-image-left {
       border-color: #8f0020; }
 
 .photoslider {
-  background-size: cover; }
+  background-size: cover;
+  padding: 100px 0; }
   .photoslider .flickity-page-dots {
     margin-bottom: -60px; }
 
