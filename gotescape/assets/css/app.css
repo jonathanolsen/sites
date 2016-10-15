@@ -4463,6 +4463,9 @@ body {
 .challenge {
   color: #fff; }
 
+.container {
+  width: 100% !important; }
+
 .btn {
   display: inline-block;
   padding: 12px 20px;
@@ -4618,17 +4621,9 @@ section.arena-image-left {
 
 .carousel-cell {
   width: 66%;
-  height: 200px;
-  margin-right: 10px;
+  max-width: 1200px;
+  height: 500px;
+  margin-right: 50px;
   background: #8C8;
   border-radius: 5px;
   counter-increment: gallery-cell; }
-
-/* cell number */
-.carousel-cell:before {
-  display: block;
-  text-align: center;
-  content: counter(gallery-cell);
-  line-height: 200px;
-  font-size: 80px;
-  color: white; }
