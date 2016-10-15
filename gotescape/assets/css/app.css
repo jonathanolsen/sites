@@ -4601,6 +4601,8 @@ section.arena-image-left {
     font-size: 36px;
     font-weight: bold;
     text-transform: uppercase; }
+  .photoslider .carousel img {
+    height: 520px; }
 
 .flickity .flickity-prev-next-button,
 .carousel .flickity-prev-next-button {
@@ -4663,5 +4665,3 @@ section.arena-image-left {
   margin-right: 50px;
   counter-increment: gallery-cell;
   box-shadow: 1px 4px rgba(0, 0, 0, 0.7); }
-  .carousel-cell img {
-    height: 520px; }
