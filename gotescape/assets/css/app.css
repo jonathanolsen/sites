@@ -4609,10 +4609,22 @@ section.arena-image-left {
     border-width: 2px;
     border-color: #000; }
 .flickity .flickity-page-dots .dot {
-  border: 2px solid #333;
-  background: none; }
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  margin: 0px 7px 2px;
+  background: #fff;
+  border-radius: 50%;
+  opacity: 0.25;
+  cursor: pointer; }
   .flickity .flickity-page-dots .dot.is-selected {
-    background: #333; }
+    opacity: 1;
+    background: 0;
+    border: 2px solid blue;
+    width: 12px;
+    height: 12px;
+    margin-top: 0;
+    margin-bottom: 0; }
 .flickity.bottom-space .flickity-page-dots {
   bottom: -65px; }
 .flickity.bottom-space .flickity-prev-next-button {
