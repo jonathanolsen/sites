@@ -15,8 +15,16 @@
 
 	.carousel {
 		img {
-			height: 520px;
+			height: 200px;
 			margin-right: 50px;
+		
+			@include bp(sm) {
+				height: 400px;
+			}
+
+			@include bp(md) {
+				height: 520px;
+			}
 		}
 	}
 }

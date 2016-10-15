@@ -4602,8 +4602,14 @@ section.arena-image-left {
     font-weight: bold;
     text-transform: uppercase; }
   .photoslider .carousel img {
-    height: 520px;
+    height: 200px;
     margin-right: 50px; }
+    @media (min-width: 768px) {
+      .photoslider .carousel img {
+        height: 400px; } }
+    @media (min-width: 992px) {
+      .photoslider .carousel img {
+        height: 520px; } }
 
 .flickity .flickity-prev-next-button,
 .carousel .flickity-prev-next-button {
