@@ -4663,3 +4663,5 @@ section.arena-image-left {
   margin-right: 50px;
   counter-increment: gallery-cell;
   box-shadow: 1px 4px rgba(0, 0, 0, 0.7); }
+  .carousel-cell img {
+    height: 520px; }
