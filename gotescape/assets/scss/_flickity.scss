@@ -23,23 +23,23 @@
 	.flickity-page-dots {
 		.dot {
 			display: inline-block;
-			width: 8px;
-			height: 8px;
-			margin: 0px 7px 2px;
-			background: #fff;
+			width: 12px;
+			height: 12px;
+			margin: 0px 8px 2px;
+			background: #444;
 			border-radius: 50%;
-			opacity: 0.25;
 			cursor: pointer;
-			transition: .2s ease-out;
+			transition: all .2s ease-out;
+			transform: scale(.7);
+			opacity: 1;
+			border: 2px solid #444;
 
 			&.is-selected {
 				opacity: 1;
 				background: 0;
 				border: 2px solid #3C8DE0;
-				width: 12px;
-				height: 12px;
 				margin-top: 0;
-				margin-bottom: 0;
+				transform: scale(1);
 			}
 		}
 	}
