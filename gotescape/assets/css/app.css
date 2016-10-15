@@ -4616,7 +4616,9 @@ section.arena-image-left {
   background: #fff;
   border-radius: 50%;
   opacity: 0.25;
-  cursor: pointer; }
+  cursor: pointer;
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out; }
   .flickity .flickity-page-dots .dot.is-selected {
     opacity: 1;
     background: 0;
