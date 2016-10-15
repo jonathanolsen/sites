@@ -62,10 +62,8 @@
 .carousel-cell {
 	width: 66%;
 	max-width: 930px;
-	height: 500px;
 	margin-right: 50px;
-	background: #8C8;
-	border-radius: 5px;
 	counter-increment: gallery-cell;
+	box-shadow: 1px 4px rgba(0, 0, 0, 0.7);
 }
 
