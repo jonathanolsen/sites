@@ -4592,6 +4592,9 @@ section.arena-image-left {
       background: #8f0020;
       border-color: #8f0020; }
 
+.photoslider {
+  background-size: cover; }
+
 .flickity .flickity-prev-next-button {
   top: auto;
   bottom: -30px;
