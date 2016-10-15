@@ -4594,9 +4594,9 @@ section.arena-image-left {
 
 .photoslider {
   background-size: cover;
-  padding: 100px 0; }
+  padding: 100px 0 120px; }
   .photoslider .flickity-page-dots {
-    margin-bottom: -60px; }
+    margin-bottom: -50px; }
 
 .flickity .flickity-prev-next-button,
 .carousel .flickity-prev-next-button {
