@@ -4637,6 +4637,8 @@ section.arena-image-left {
 .flickity.nav-top .flickity-prev-next-button {
   bottom: auto;
   top: -60px; }
+.flickity.hide-dots .flickity-page-dots {
+  display: none !important; }
 
 .carousel-cell {
   width: 66%;

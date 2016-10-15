@@ -61,6 +61,12 @@
 			top: -60px;
 		}
 	}
+
+	&.hide-dots {
+		.flickity-page-dots {
+			display: none !important;
+		}
+	}
 }
 
 
