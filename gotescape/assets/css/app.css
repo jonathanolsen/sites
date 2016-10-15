@@ -4597,6 +4597,10 @@ section.arena-image-left {
   padding: 100px 0 120px; }
   .photoslider .flickity-page-dots {
     margin-bottom: -50px; }
+  .photoslider .headline h1 {
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase; }
 
 .flickity .flickity-prev-next-button,
 .carousel .flickity-prev-next-button {
