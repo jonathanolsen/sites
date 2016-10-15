@@ -1,4 +1,8 @@
 
 .photoslider {
 	background-size: cover;
+
+	.flickity-page-dots {
+		margin-bottom: -60px;
+	}
 }
