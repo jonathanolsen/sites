@@ -1,14 +1,19 @@
 
 
 
-.grid-item .part.content {
+.grid-item .part {
+	padding: 18px 25px;
 
-	li {
-		margin: 8px 0;
-		font-size: 15px;
+	&.content {
+		border-bottom: none;
+		
+		li {
+			margin: 8px 0;
+			font-size: 15px;
 
-		span {
-			font-weight: 600;
+			span {
+				font-weight: 600;
+			}
 		}
 	}
 }
