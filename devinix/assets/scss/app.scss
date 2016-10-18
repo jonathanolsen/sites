@@ -126,6 +126,10 @@ p, .p {
 	height: 40px;
 	border: 1px solid rgba(0, 0, 0, 0.1);
 
+	&.select2-container--open {
+		border: 1px solid rgba(0, 0, 0, 0.2);
+	}
+
 	.select2-selection__rendered {
 		line-height: 38px;
 		padding-left: 16px;
