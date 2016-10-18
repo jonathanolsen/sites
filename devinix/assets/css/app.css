@@ -15,3 +15,21 @@
     width: 9px;
     height: 9px;
     display: inline-block; }
+
+.tabs-nav li a i {
+  color: #2b9ce8;
+  margin-right: 8px;
+  font-style: normal;
+  font-weight: bold; }
+
+.modal .modal-dialog.large {
+  max-width: 1000px; }
+.modal .input-small-info {
+  right: 0;
+  top: 1px;
+  font-size: 11px; }
+.modal .tab-content .modal-body > .row {
+  margin-left: 0;
+  margin-right: 0; }
+.modal .tab-content .col {
+  padding: 25px 40px 40px 35px; }

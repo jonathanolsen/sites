@@ -35,3 +35,66 @@
 	}
 
 }
+
+.tabs-nav li {
+
+	a {
+
+		i {
+			color: #2b9ce8;
+			margin-right: 8px;
+			font-style: normal;
+			font-weight: bold;
+		}
+	}
+}
+
+
+
+.modal {
+
+	.modal-dialog.large {
+		max-width: 1000px;
+	}
+
+	.input-small-info {
+		right: 0;
+	    top: 1px;
+	    font-size: 11px;
+	}
+
+	.tab-content {
+
+		.modal-body {
+
+			> .row {
+				margin-left: 0;
+				margin-right: 0;
+			}
+		}
+
+		.col {
+			padding: 25px 40px 40px 35px;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
