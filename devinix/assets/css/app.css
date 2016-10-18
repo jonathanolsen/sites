@@ -1,3 +1,7 @@
+p, .p {
+  font-size: 14px;
+  line-height: 26px; }
+
 .grid-item.add-new > a {
   font-size: 15px;
   color: #808286; }
@@ -16,11 +20,13 @@
     height: 9px;
     display: inline-block; }
 
-.tabs-nav li a i {
-  color: #2b9ce8;
-  margin-right: 8px;
-  font-style: normal;
-  font-weight: bold; }
+.tabs-nav li a {
+  font-size: 16px; }
+  .tabs-nav li a i {
+    color: #2b9ce8;
+    margin-right: 8px;
+    font-style: normal;
+    font-weight: bold; }
 
 .modal .modal-dialog.large {
   max-width: 1000px; }

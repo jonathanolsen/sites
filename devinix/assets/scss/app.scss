@@ -1,5 +1,8 @@
 
-
+p, .p {
+	font-size: 14px;
+	line-height: 26px;
+}
 
 .grid-item {
 	&.add-new > a {
@@ -39,6 +42,7 @@
 .tabs-nav li {
 
 	a {
+		font-size: 16px;
 
 		i {
 			color: #2b9ce8;
