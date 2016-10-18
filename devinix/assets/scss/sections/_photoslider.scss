@@ -1,0 +1,30 @@
+
+.photoslider {
+	background-size: cover;
+	padding: 100px 0 120px;
+
+	.flickity-page-dots {
+		margin-bottom: -50px;
+	}
+
+	.headline h1 {
+		font-size: 36px;
+		font-weight: bold;
+		text-transform: uppercase;
+	}
+
+	.carousel {
+		img {
+			height: 200px;
+			margin-right: 50px;
+		
+			@include bp(sm) {
+				height: 400px;
+			}
+
+			@include bp(md) {
+				height: 520px;
+			}
+		}
+	}
+}

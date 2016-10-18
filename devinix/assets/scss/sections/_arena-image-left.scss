@@ -1,0 +1,57 @@
+
+section.arena-image-left {
+	background: url('/wp-content/plugins/apuz-arena-image-left/bank-heist-bg.jpg') #000 no-repeat top center / contain;
+	padding: 200px 0;
+
+	.flex-align-center {
+		display: flex;
+		justify-content: center;
+	}
+
+	.headline {
+		margin-top: 50px;
+
+		h1 {
+			font-size: 46px;
+			font-weight: bold;
+			margin-bottom: 10px;
+			margin-top: -5px;
+		}
+	}
+
+	.meta-info {
+		margin-bottom: 20px;
+
+		span {
+			margin-right: 20px;
+			> i {
+				font-size: 20px;
+				margin-right: 8px;
+				display: inline-block;
+			}
+		}
+	}
+
+	p {
+		font-size: 15px;
+	}
+
+	.cta-area {
+		margin-top: 30px;
+
+		a {
+			margin-right: 20px;
+		}
+	}
+
+	.btn-primary {
+		background: $bank-heist-color;
+		border-color: $bank-heist-color;
+		color: #fff;
+
+		&:hover {
+			background: lighten($bank-heist-color, 5%);
+			border-color: lighten($bank-heist-color, 5%);
+		}
+	}
+}
