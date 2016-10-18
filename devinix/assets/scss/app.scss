@@ -6,7 +6,7 @@
 
 	&.content {
 		border-bottom: none;
-		
+
 		li {
 			margin: 8px 0;
 			font-size: 15px;
@@ -16,4 +16,16 @@
 			}
 		}
 	}
+
+	&.headline {
+
+		.status {
+			margin:  0 0 6px 2px;
+			width: 9px;
+			height: 9px;
+			display: inline-block;
+		}
+	}
 }
+
+
