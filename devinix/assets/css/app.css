@@ -30,9 +30,11 @@ p, .p {
 
 .modal .modal-dialog.large {
   max-width: 1000px; }
+.modal input {
+  padding: 4px 0; }
 .modal .input-small-info {
   right: 0;
-  top: 1px;
+  top: 5px;
   font-size: 11px; }
 .modal .tab-content .modal-body > .row {
   margin-left: 0;
@@ -42,7 +44,6 @@ p, .p {
 .modal .modal-footer {
   padding: 20px 15px;
   height: 62px; }
-
 .modal .fxslider {
   margin-bottom: 20px; }
   .modal .fxslider .ui-slider .ui-slider-handle {
@@ -61,6 +62,9 @@ p, .p {
 .select2-dropdown {
   border: none;
   box-shadow: 0 2px 14px rgba(0, 0, 0, 0.1), 0 1px 1px rgba(0, 0, 0, 0.15), 0 3px 5px rgba(0, 0, 0, 0.1); }
+
+.select2-container {
+  width: 100%; }
 
 .select2-container--default.select2-container--open .select2-selection--single {
   border: none;

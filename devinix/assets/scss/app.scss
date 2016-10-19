@@ -61,9 +61,13 @@ p, .p {
 		max-width: 1000px;
 	}
 
+	input {
+		padding: 4px 0;
+	}
+
 	.input-small-info {
 		right: 0;
-	    top: 1px;
+	    top: 5px;
 	    font-size: 11px;
 	}
 
@@ -86,13 +90,8 @@ p, .p {
 		padding: 20px 15px;
 		height: 62px;
 	}
-}
 
 
-
-
-
-.modal {
 
 	.fxslider {
 		margin-bottom: 20px;
@@ -121,9 +120,15 @@ p, .p {
 
 
 
+
+
 .select2-dropdown {
 	border: none;
 	box-shadow: 0 2px 14px rgba(0, 0, 0, .1), 0 1px 1px rgba(0, 0, 0, 0.15), 0 3px 5px rgba(0, 0, 0, 0.1);
+}
+
+.select2-container {
+	width: 100%;
 }
 
 .select2-container--default {
@@ -143,7 +148,7 @@ p, .p {
 		box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
 		border-radius: 2px;
 		border: none;
-		
+
 		.select2-selection__rendered {
 			line-height: 38px;
 			padding-left: 16px;
