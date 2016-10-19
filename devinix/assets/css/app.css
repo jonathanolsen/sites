@@ -10,8 +10,8 @@
     font-weight: 600;
     margin: 0 15px;
     border-bottom: 3px solid #F0F2F3;
-    -webkit-transition: 0.2s cubic-bezier(0.22, 0.61, 0.36, 1);
-    transition: 0.2s cubic-bezier(0.22, 0.61, 0.36, 1); }
+    -webkit-transition: 0.3s cubic-bezier(0.22, 0.61, 0.36, 1);
+    transition: 0.3s cubic-bezier(0.22, 0.61, 0.36, 1); }
     .online .sub-menu li a.aktiv {
       border-bottom: 3px solid #6A9CEB; }
 
