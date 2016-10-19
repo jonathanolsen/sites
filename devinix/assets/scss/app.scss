@@ -1,4 +1,28 @@
 
+.head {
+	background: #fff;
+}
+
+.online .sub-menu {
+    border-top: 1px solid #EBEBEB;
+    border-bottom: 1px solid #fff;
+    padding: 0 15px;
+
+    li {
+
+    	a {
+    		padding: 18px 0px;
+			font-weight: 600;
+			margin: 0 15px;
+			transition: .1s ease-out;
+
+    		&.aktiv {
+    			border-bottom: 3px solid #6A9CEB;
+    		}
+    	}
+    }
+}
+
 p, .p {
 	font-size: 14px;
 	line-height: 26px;
@@ -33,6 +57,10 @@ p, .p {
 				width: 9px;
 				height: 9px;
 				display: inline-block;
+			
+				&.build {
+					background: #e8c534;
+				}
 			}
 		}
 	}

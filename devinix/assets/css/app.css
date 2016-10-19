@@ -1,3 +1,19 @@
+.head {
+  background: #fff; }
+
+.online .sub-menu {
+  border-top: 1px solid #EBEBEB;
+  border-bottom: 1px solid #fff;
+  padding: 0 15px; }
+  .online .sub-menu li a {
+    padding: 18px 0px;
+    font-weight: 600;
+    margin: 0 15px;
+    -webkit-transition: .1s ease-out;
+    transition: .1s ease-out; }
+    .online .sub-menu li a.aktiv {
+      border-bottom: 3px solid #6A9CEB; }
+
 p, .p {
   font-size: 14px;
   line-height: 26px; }
@@ -19,6 +35,8 @@ p, .p {
     width: 9px;
     height: 9px;
     display: inline-block; }
+    .grid-item .part.headline .status.build {
+      background: #e8c534; }
 
 .tabs-nav li a {
   font-size: 16px; }
