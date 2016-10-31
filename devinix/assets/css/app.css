@@ -52,7 +52,7 @@ p, .p {
   margin-top: 10px; }
   .dropdown-menu:before {
     content: '';
-    background: url("/site/_gui/images/drop-caret.png");
+    background: url("http://185.121.28.229/site/_gui/images/drop-caret.png");
     width: 19px;
     height: 17px;
     position: absolute;
