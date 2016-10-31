@@ -54,11 +54,12 @@ p, .p {
   .grid-item .part.addons .box {
     background: #289ACA;
     border-radius: 3px;
-    height: 50px;
-    line-height: 48px;
-    border: 2px solid rgba(0, 0, 0, 0.05);
+    border: 2px solid rgba(0, 0, 0, 0.03);
     color: #fff; }
-  .grid-item .part.addons.add-new > a {
+  .grid-item .part.addons .box, .grid-item .part.addons.add-new > a {
+    margin-right: 12px;
+    margin-bottom: 6px;
+    margin-top: 6px;
     height: 50px;
     line-height: 48px; }
 
