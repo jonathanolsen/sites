@@ -103,11 +103,16 @@ p, .p {
 
 			.box,
 			&.add-new > a {
-				margin-right: 12px;
-				margin-bottom: 6px;
-				margin-top: 6px;
+				margin: 0 6px;
 				height: 50px;
 				line-height: 48px;
+			}
+
+			&.add-new {
+
+				> a {
+					padding: 20px;
+				}
 			}
 		}
 	}

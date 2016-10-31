@@ -57,11 +57,11 @@ p, .p {
     border: 2px solid rgba(0, 0, 0, 0.03);
     color: #fff; }
   .grid-item .part.addons .box, .grid-item .part.addons.add-new > a {
-    margin-right: 12px;
-    margin-bottom: 6px;
-    margin-top: 6px;
+    margin: 0 6px;
     height: 50px;
     line-height: 48px; }
+  .grid-item .part.addons.add-new > a {
+    padding: 20px; }
 
 .dropdown-menu {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15), 0 2px 14px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
