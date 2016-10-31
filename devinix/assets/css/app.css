@@ -52,13 +52,15 @@ p, .p {
   margin-top: 10px; }
   .dropdown-menu:before {
     content: '';
-    background: url("http://185.121.28.229/site/_gui/images/drop-caret.png");
+    background: url("http://185.121.28.229/site/_gui/images/caret-top.png");
     width: 19px;
     height: 17px;
     position: absolute;
-    top: 0; }
+    top: -9px;
+    left: 18px; }
   .dropdown-menu .dropdown-header {
-    text-transform: uppercase; }
+    text-transform: uppercase;
+    letter-spacing: 0.4px; }
   .dropdown-menu > li > a {
     padding: 7px 20px; }
 
