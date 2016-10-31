@@ -99,11 +99,11 @@ p, .p {
 				border-radius: 3px;
 				border: 2px solid rgba(0, 0, 0, 0.03);
 				color: #fff;
+				margin: 5px 10px 5px 0;
 			}
 
 			.box,
 			&.add-new > a {
-				margin: 0 6px;
 				height: 50px;
 				line-height: 48px;
 			}
@@ -111,7 +111,8 @@ p, .p {
 			&.add-new {
 
 				> a {
-					padding: 20px;
+					margin-top: 5px;
+					margin-bottom: 5px;
 				}
 			}
 		}
