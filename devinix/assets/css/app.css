@@ -51,6 +51,16 @@ p, .p {
       font-weight: 300;
       margin-left: 10px;
       letter-spacing: 0.6px; }
+  .grid-item .part.addons .box {
+    background: #289ACA;
+    border-radius: 3px;
+    height: 50px;
+    line-height: 48px;
+    border: 2px solid rgba(0, 0, 0, 0.05);
+    color: #fff; }
+  .grid-item .part.addons.add-new > a {
+    height: 50px;
+    line-height: 48px; }
 
 .dropdown-menu {
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15), 0 2px 14px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);

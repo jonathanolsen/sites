@@ -91,6 +91,27 @@ p, .p {
 				}
 			}
 		}
+
+		&.addons {
+
+			.box {
+				background: #289ACA;
+				border-radius: 3px;
+				height: 50px;
+				line-height: 48px;
+				border: 2px solid rgba(0, 0, 0, 0.05);
+				color: #fff;
+
+			}
+
+			&.add-new {
+
+				> a {
+					height: 50px;
+					line-height: 48px;
+				}
+			}
+		}
 	}
 
 }
