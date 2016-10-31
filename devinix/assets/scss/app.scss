@@ -109,6 +109,22 @@ p, .p {
 		}
 	}
 
+	&.dropdown-bottom {
+		&:before {
+			display: none;
+		}
+
+		&:after {
+			content: '';
+			background: url('http://185.121.28.229/site/_gui/images/caret-bottom.png') top left no-repeat;
+			width: 30px;
+			height: 16px;
+			position: absolute;
+			bottom: -16px;
+			left: 18px;
+		}
+	}
+
 }
 
 .tabs-nav li {
