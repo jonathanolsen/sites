@@ -76,6 +76,21 @@ p, .p {
 				}
 			}
 		}
+
+		&.price {
+			border-radius: 0 0 4px 4px;
+			text-transform: uppercase;
+			font-weight: 600;
+
+			span {
+
+				span {
+					font-weight: 300;
+					margin-left: 10px;
+					letter-spacing: 0.6px;
+				}
+			}
+		}
 	}
 
 }
