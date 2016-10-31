@@ -63,16 +63,19 @@ p, .p {
     letter-spacing: 0.4px; }
   .dropdown-menu > li > a {
     padding: 7px 20px; }
-  .dropdown-menu.dropdown-bottom:before {
-    display: none; }
-  .dropdown-menu.dropdown-bottom:after {
-    content: '';
-    background: url("http://185.121.28.229/site/_gui/images/caret-bottom.png") top left no-repeat;
-    width: 30px;
-    height: 16px;
-    position: absolute;
-    bottom: -16px;
-    left: 18px; }
+  .dropdown-menu.dropdown-bottom {
+    margin-top: 0;
+    margin-bottom: 60px; }
+    .dropdown-menu.dropdown-bottom:before {
+      display: none; }
+    .dropdown-menu.dropdown-bottom:after {
+      content: '';
+      background: url("http://185.121.28.229/site/_gui/images/caret-bottom.png") top left no-repeat;
+      width: 30px;
+      height: 16px;
+      position: absolute;
+      bottom: -16px;
+      left: 35px; }
 
 .tabs-nav li a {
   font-size: 16px; }

@@ -110,6 +110,9 @@ p, .p {
 	}
 
 	&.dropdown-bottom {
+		margin-top: 0;
+		margin-bottom: 60px;
+
 		&:before {
 			display: none;
 		}
@@ -121,7 +124,7 @@ p, .p {
 			height: 16px;
 			position: absolute;
 			bottom: -16px;
-			left: 18px;
+			left: 35px;
 		}
 	}
 
