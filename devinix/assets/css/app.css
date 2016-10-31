@@ -38,6 +38,22 @@ p, .p {
     display: inline-block; }
     .grid-item .part.headline .status.build {
       background: #e8c534; }
+  .grid-item .part.headline .gear .ion-gear-a {
+    font-size: 22px;
+    margin-top: 2px; }
+  .grid-item .part.headline .gear .dropdown-toggle {
+    padding: 0 0 0 20px; }
+
+.dropdown-menu {
+  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.15), 0 2px 14px rgba(0, 0, 0, 0.1), 0 1px 2px rgba(0, 0, 0, 0.2);
+  border: none;
+  min-width: 280px;
+  padding: 15px 0;
+  margin-top: 10px; }
+  .dropdown-menu .dropdown-header {
+    text-transform: uppercase; }
+  .dropdown-menu > li > a {
+    padding: 7px 20px; }
 
 .tabs-nav li a {
   font-size: 16px; }
