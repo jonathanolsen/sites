@@ -54,7 +54,7 @@ p, .p {
     content: '';
     background: url("http://185.121.28.229/site/_gui/images/caret-top.png");
     width: 19px;
-    height: 17px;
+    height: 9px;
     position: absolute;
     top: -9px;
     left: 18px; }
