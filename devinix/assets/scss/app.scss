@@ -87,6 +87,15 @@ p, .p {
 	padding: 15px 0;
 	margin-top: 10px;
 
+	&:before {
+		content: '';
+		background: url('/site/_gui/images/drop-caret.png');
+		width: 19px;
+		height: 17px;
+		position: absolute;
+		top: 0;
+	}
+
 	.dropdown-header {
 		text-transform: uppercase;
 	}

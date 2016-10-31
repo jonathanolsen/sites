@@ -50,6 +50,13 @@ p, .p {
   min-width: 280px;
   padding: 15px 0;
   margin-top: 10px; }
+  .dropdown-menu:before {
+    content: '';
+    background: url("/site/_gui/images/drop-caret.png");
+    width: 19px;
+    height: 17px;
+    position: absolute;
+    top: 0; }
   .dropdown-menu .dropdown-header {
     text-transform: uppercase; }
   .dropdown-menu > li > a {
