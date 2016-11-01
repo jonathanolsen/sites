@@ -1,0 +1,33 @@
+body {
+  background: url('http://www.hennessy.com/us/site-static/images/bg-gradient_sm_2x.4255c3fcd7fc.jpg') top center repeat-y;
+  background-size: 100%;
+}
+
+.Index-page {
+  background: none;
+}
+
+.block-container {
+	width: 100%;
+	max-width: 1150px;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	position: relative;
+
+	.block-content {
+		width: 100%;
+
+		&.light {
+			background: #fff;
+			color: #242424;
+		}
+	}
+
+	&.collection {
+
+		.block-content {
+			max-width: 560px;
+		}
+	}
+}
