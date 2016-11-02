@@ -1,1 +1,1 @@
-$(document).ready(function(){$(window).scroll(function(){})});
+$(document).ready(function(){$(window).scroll(function(){});var e=new ScrollMagic.Controller({globalSceneOptions:{triggerHook:"onEnter",duration:"200%"}});new ScrollMagic.Scene({triggerElement:".Index-page-content"}).setTween(".Index-page-content",{y:"80%",ease:Linear.easeNone}).addIndicators().addTo(e)});
