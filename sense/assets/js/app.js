@@ -25,6 +25,6 @@ function parallax(){
     var plxBackgroundTopToWindowBottom = windowInnerHeight - plxBackgroundTopToWindowTop;
     var plxSpeed = 0.35;
 
-    plxBackground.css('top', - (plxWindowTopToWindowTop * plxSpeed) + 'px');
+    plxBackground.css("transform","translateY(" +  (plxWindowTopToWindowTop * plxSpeed) + 'px');
   }
 }
