@@ -1,1 +1,1 @@
-$(document).ready(function(){$(window).scroll(function(){})});
+function parallax(){if($(".block-container").length>0){var n=$(".block-content"),o=$(".block-container"),t=$(o).offset().top,l=$(window).scrollTop(),c=t-l,a=$(n).offset().top,e=window.innerHeight,i=a-l,r=e-i,f=.35;n.css("top",-(c*f)+"px")}}$(document).ready(function(){$(".block-container").length&&parallax()}),$(window).scroll(function(n){$(".block-container").length&&parallax()});
