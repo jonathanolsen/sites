@@ -1,1 +1,1 @@
-var controller=new ScrollMagic.Controller({globalSceneOptions:{triggerHook:"onEnter",duration:"200%"}});new ScrollMagic.Scene({triggerElement:".block-container.collection .block-content"}).setTween(".block-container.collection .block-content",{y:"80%"}).addIndicators().addTo(controller);
+$(document).ready(function(){$(window).scroll(function(){})});
