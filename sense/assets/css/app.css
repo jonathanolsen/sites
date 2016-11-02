@@ -46,7 +46,7 @@ body {
       font-family: proxima-nova;
       text-transform: uppercase;
       font-weight: 700;
-      color: #242424;
+      color: #777;
       transition: all .1s ease-out; }
       .block-container .block-content .cta-link i {
         font-size: 30px;
