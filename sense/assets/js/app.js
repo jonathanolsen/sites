@@ -1,5 +1,5 @@
-$(document).ready(function() {
-	function parallax(){
+
+	$.fn.parallax = function(){
 		return $(this).each(function(){
 			var plxBackground = $(this).children('.block-content');
 			var plxWindow = $(this);
@@ -23,9 +23,3 @@ $(document).ready(function() {
 	$(window).scroll(function(e) {
 		$(".block-container").parallax();
 	});
-});
-
-
-
-
-
