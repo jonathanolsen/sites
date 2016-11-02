@@ -71,3 +71,6 @@ body {
     margin: 0 -110px -200px 0; }
   .block-container.image-right {
     flex-direction: row-reverse; }
+
+#yui_3_17_2_4_1478111733535_14332 span {
+  line-height: 40px; }
