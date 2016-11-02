@@ -23,7 +23,7 @@ function parallax(){
     var windowInnerHeight = window.innerHeight;
     var plxBackgroundTopToWindowTop = plxBackgroundTopToPageTop - windowTopToPageTop;
     var plxBackgroundTopToWindowBottom = windowInnerHeight - plxBackgroundTopToWindowTop;
-    var plxSpeed = 0.35;
+    var plxSpeed = 0.15;
 
     plxBackground.css("transform","translateY(" +  (plxWindowTopToWindowTop * plxSpeed) + 'px');
   }

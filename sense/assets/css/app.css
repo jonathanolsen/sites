@@ -14,7 +14,8 @@ body {
   position: relative; }
   .block-container .block-content {
     width: 100%;
-    padding: 50px; }
+    padding: 50px;
+    transition: all .3s ease-out; }
     .block-container .block-content.light {
       background: #fff;
       color: #242424; }

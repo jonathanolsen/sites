@@ -18,6 +18,7 @@ body {
 	.block-content {
 		width: 100%;
 		padding: 50px;
+		transition: all .3s ease-out;
 
 		&.light {
 			background: #fff;
