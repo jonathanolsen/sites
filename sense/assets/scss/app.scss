@@ -1,10 +1,12 @@
 body {
-  background: url('http://www.hennessy.com/us/site-static/images/bg-gradient_sm_2x.4255c3fcd7fc.jpg') top center repeat-y;
-  background-size: 100%;
+	background: url('http://www.hennessy.com/us/site-static/images/bg-gradient_sm_2x.4255c3fcd7fc.jpg') top center repeat-y;
+	background-size: 100%;
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
 }
 
 .Index-page {
-  background: none;
+	background: none;
 }
 
 .block-container {
@@ -26,13 +28,52 @@ body {
 
 		p {
 			font-size: 18px;
-			font-weight: lighter !important;
+			font-weight: 400 !important;
 		}
 
 		h2 {
-			font-size: 26px;
+			font-size: 28px;
 			font-family: 'proxima-nova';
+			font-weight: 800;
+			text-transform: uppercase;
+			letter-spacing: 3px;
+			margin-top: 3px;
+			margin-bottom: 10px;
+		
+			& + span {
+				text-transform: uppercase;
+				color: #999;
+				font-size: 14px;
+			}
 		}
+
+		h4 {
+			text-transform: uppercase;
+			font-weight: 400;
+			letter-spacing: 2px;
+			margin-bottom: 0;
+		}
+
+		.cta-link {
+			font-family: proxima-nova;
+			text-transform: uppercase;
+			font-weight: 700;
+
+			i {
+				font-size: 30px;
+				margin: 0 0 -10px 16px;
+				display: table-caption;
+				transition: .1s ease-out;
+			}
+
+			&:hover {
+				i {
+					margin-left: 20px;
+				}
+			}
+		}
+
+
 
 		&.light {
 			background: #fff;
