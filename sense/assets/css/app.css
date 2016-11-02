@@ -16,7 +16,7 @@ body {
   position: relative; }
   .block-container .block-content {
     width: 100%;
-    padding: 50px;
+    padding: 40px 50px;
     transition: all .2s ease-out;
     box-sizing: border-box;
     box-shadow: 0 2px 14px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 30px rgba(0, 0, 0, 0.4), 0 3px 5px rgba(0, 0, 0, 0.3);
@@ -54,9 +54,10 @@ body {
         display: table-caption;
         transition: .1s ease-out; }
       .block-container .block-content .cta-link:hover {
-        color: #BB9D36; }
+        color: #e8af34; }
         .block-container .block-content .cta-link:hover i {
-          margin-left: 20px; }
+          margin-left: 20px;
+          color: #242424; }
     .block-container .block-content.light {
       background: #fff;
       color: #242424; }
