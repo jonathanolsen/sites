@@ -9,7 +9,7 @@ $(document).ready(function() {
 
 	// build scene and set duration to window height
 	new ScrollMagic.Scene({triggerElement: ".block-container.collection .block-content"})
-		.setTween(".block-container.collection .block-content", {y: "80%", ease: Linear.easeNone})
+		.setTween(".block-container.collection .block-content", {y: "80%"})
 		.addIndicators()
 		.addTo(controller);
 
