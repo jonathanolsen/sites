@@ -58,6 +58,8 @@ body {
 			font-family: proxima-nova;
 			text-transform: uppercase;
 			font-weight: 700;
+			color: #242424;
+			transition: all .1s ease-out;
 
 			i {
 				font-size: 30px;
@@ -67,6 +69,8 @@ body {
 			}
 
 			&:hover {
+				color: #BB9D36;
+
 				i {
 					margin-left: 20px;
 				}

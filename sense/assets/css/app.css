@@ -45,14 +45,18 @@ body {
     .block-container .block-content .cta-link {
       font-family: proxima-nova;
       text-transform: uppercase;
-      font-weight: 700; }
+      font-weight: 700;
+      color: #242424;
+      transition: all .1s ease-out; }
       .block-container .block-content .cta-link i {
         font-size: 30px;
         margin: 0 0 -10px 16px;
         display: table-caption;
         transition: .1s ease-out; }
-      .block-container .block-content .cta-link:hover i {
-        margin-left: 20px; }
+      .block-container .block-content .cta-link:hover {
+        color: #BB9D36; }
+        .block-container .block-content .cta-link:hover i {
+          margin-left: 20px; }
     .block-container .block-content.light {
       background: #fff;
       color: #242424; }
