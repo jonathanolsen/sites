@@ -14,7 +14,7 @@
 			var plxBackgroundTopToWindowBottom = windowInnerHeight - plxBackgroundTopToWindowTop;
 			var plxSpeed = 0.35;
 
-			plxBackground.css("transform","translateY(" +  (plxWindowTopToWindowTop * plxSpeed) + 'px');
+			plxBackground.css("transform","translateY(" +  (plxWindowTopToWindowTop * plxSpeed + 1) + 'px');
 		});
 	}
 
