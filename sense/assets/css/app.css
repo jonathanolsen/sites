@@ -15,13 +15,19 @@ body {
   .block-container .block-content {
     width: 100%;
     padding: 50px;
-    transition: all .3s ease-out; }
+    transition: all .3s ease-out;
+    box-sizing: border-box;
+    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 30px rgba(0, 0, 0, 0.4), 0 3px 5px rgba(0, 0, 0, 0.3);
+    background: #000000;
+    color: #fff; }
     .block-container .block-content.light {
       background: #fff;
       color: #242424; }
   .block-container.collection .block-content {
     max-width: 560px;
-    margin: 0 0 -150px -130px;
-    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 30px rgba(0, 0, 0, 0.4), 0 3px 5px rgba(0, 0, 0, 0.3); }
+    margin: 0 0 -150px -130px; }
+  .block-container.our-story .block-content {
+    max-width: 480px;
+    margin: 0 -110px -200px 0; }
   .block-container.image-right {
     flex-direction: row-reverse; }
