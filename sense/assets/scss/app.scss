@@ -52,6 +52,14 @@ body {
 			font-weight: 400;
 			letter-spacing: 2px;
 			margin-bottom: 0;
+
+			&.date {
+				opacity: .5;
+
+				&:after {
+					content: '';
+				}
+			}
 		}
 
 		.cta-link {
@@ -110,7 +118,7 @@ body {
 	&.our-story {
 
 		.block-content {
-			max-width: 480px;
+			max-width: 460px;
 			margin: 0 -110px -200px 0;
 		}
 	}
