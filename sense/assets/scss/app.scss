@@ -88,6 +88,15 @@ body {
 				color: #242424;
 			}
 		}
+
+		&.dark {
+			.cta-link {
+
+				&:hover {
+					color: #fff;
+				}
+			}
+		}
 	}
 
 	&.collection {
