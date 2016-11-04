@@ -17,6 +17,8 @@ body {
   display: flex;
   align-items: center;
   position: relative; }
+  .block-container .block-image img {
+    box-shadow: 14px 14px 30px 0 rgba(0, 0, 0, 0.3); }
   .block-container .block-content {
     width: 100%;
     padding: 40px 50px;
@@ -48,8 +50,6 @@ body {
         opacity: .5; }
         .block-container .block-content h4.date:after {
           content: ''; }
-    .block-container .block-content img {
-      box-shadow: 14px 14px 30px 0 rgba(0, 0, 0, 0.3); }
     .block-container .block-content .cta-link {
       font-family: proxima-nova;
       text-transform: uppercase;
