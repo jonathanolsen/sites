@@ -10,7 +10,7 @@ body {
 }
 
 #philosophy .Index-page-content {
-	padding-bottom: 30px;
+	padding: 120px 0 30px;
 }
 
 .block-container {
@@ -61,13 +61,21 @@ body {
 			text-transform: uppercase;
 			font-weight: 400;
 			letter-spacing: 2px;
-			margin-bottom: 0;
+			margin-bottom: 8px;
 
 			&.date {
-				opacity: .5;
+				font-size: 13px;
+				font-weight: bold;
+				opacity: .3;
 
 				&:after {
 					content: '';
+					height: 1px;
+					width: 24px;
+					background: #fff;
+					position: absolute;
+					top: calc(50% - 2px);
+					margin-left: 18px;
 				}
 			}
 		}
@@ -122,6 +130,10 @@ body {
 
 				&:hover {
 					color: #fff;
+
+					i {
+						color: #734A1E;
+					}
 				}
 			}
 		}
@@ -160,7 +172,7 @@ body {
 		box-shadow: 7px 14px 30px 0 rgba(0,0,0,.3);
 
 		.block-content {
-			margin-top: 50px;
+			margin-top: 100px;
 		}
 
 		h1 {
