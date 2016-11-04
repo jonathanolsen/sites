@@ -95,7 +95,7 @@ body {
 			}
 
 			&:hover {
-				color: #e8af34;
+				color: $brand-accent;
 
 				i {
 					margin-left: 20px;
@@ -154,7 +154,7 @@ body {
 					color: #fff;
 
 					i {
-						color: #734A1E;
+						color: $brand-accent;
 					}
 				}
 			}
