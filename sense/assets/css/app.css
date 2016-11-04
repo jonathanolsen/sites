@@ -61,6 +61,9 @@ body {
         .block-container .block-content .cta-link:hover i {
           margin-left: 20px;
           color: #242424; }
+      .block-container .block-content .cta-link.video {
+        font-size: 50px;
+        color: #fff; }
     .block-container .block-content.light {
       background: #fff;
       color: #242424; }
@@ -79,13 +82,21 @@ body {
     margin: 0 -110px -200px 0; }
   .block-container.image-right {
     flex-direction: row-reverse; }
-  .block-container.image-full {
+  .block-container.full-image {
     background-size: cover;
     width: 100%;
-    padding: 100px; }
-    .block-container.image-full h1 {
-      font-size: 60px;
-      font-weight: 800; }
+    padding: 100px 50px 50px; }
+    .block-container.full-image .block-content {
+      margin-top: 50px; }
+    .block-container.full-image h1 {
+      color: #fff;
+      font-family: proxima-nova;
+      font-weight: 800;
+      text-transform: uppercase;
+      width: 60%;
+      line-height: 100px;
+      letter-spacing: 5px;
+      text-shadow: 0 5px 30px rgba(0, 0, 0, 0.2); }
 
 #block-571410df51c7922646d3 em span {
   line-height: 40px; }

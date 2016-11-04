@@ -83,6 +83,11 @@ body {
 					color: #242424;
 				}
 			}
+
+			&.video {
+				font-size: 50px;
+				color: #fff;
+			}
 		}
 
 		&.light {
@@ -129,14 +134,24 @@ body {
 		flex-direction: row-reverse;
 	}
 
-	&.image-full {
+	&.full-image {
 		background-size: cover;
 		width: 100%;
-		padding: 100px;
+		padding: 100px 50px 50px;
+
+		.block-content {
+			margin-top: 50px;
+		}
 
 		h1 {
-			font-size: 60px;
+			color: #fff;
+			font-family: proxima-nova;
 			font-weight: 800;
+			text-transform: uppercase;
+			width: 60%;
+			line-height: 100px;
+			letter-spacing: 5px;
+			text-shadow: 0 5px 30px rgba(0, 0, 0, .2);
 		}
 	}
 }
