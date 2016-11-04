@@ -7,6 +7,12 @@ body {
 
 .Index-page {
 	background: none;
+
+	.Index-page-content {
+		h1 {
+			margin-bottom: 20px;
+		}
+	}
 }
 
 #philosophy .Index-page-content {
@@ -219,7 +225,7 @@ body {
 			max-width: 480px;
 
 			h4 {
-				
+
 				i {
 					font-size: 30px;
 					color: $brand-accent-dimmer;
