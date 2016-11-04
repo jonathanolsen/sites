@@ -114,6 +114,28 @@ body {
 
 				}
 			}
+
+			&.external {
+				font-weight: 600;
+				letter-spacing: 2px;
+				color: #fff;
+				font-size: 14px;
+
+				i {
+					transform: rotate(45deg);
+					font-size: 20px;
+					margin: 0 0 -3px 12px;
+				}
+
+				&:hover {
+					color: #999;
+					
+					i {
+						margin-left: 12px;
+						margin-top: -1px;
+					}
+				}
+			}
 		}
 
 		&.light {
@@ -172,7 +194,8 @@ body {
 		box-shadow: 7px 14px 30px 0 rgba(0,0,0,.3);
 
 		.block-content {
-			margin-top: 140px;
+			margin-top: 170px;
+			margin-bottom: 20px;
 		}
 
 		h1 {
