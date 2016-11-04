@@ -88,6 +88,7 @@ body {
   .block-container.image-right {
     flex-direction: row-reverse; }
   .block-container.full-image {
+    background-position: center center;
     background-size: cover;
     width: 100%;
     padding: 100px 50px 50px;
