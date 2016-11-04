@@ -23,8 +23,7 @@ body {
     background: #000000;
     color: #fff; }
     .block-container .block-content p {
-      font-size: 18px;
-      font-weight: 400 !important; }
+      font-size: 18px; }
     .block-container .block-content h2 {
       font-size: 28px;
       font-family: 'proxima-nova';
