@@ -61,7 +61,7 @@ body {
         .block-container .block-content .cta-link:hover i {
           margin-left: 20px;
           color: #242424; }
-      .block-container .block-content .cta-link.video {
+      .block-container .block-content .cta-link.video i {
         font-size: 50px;
         color: #fff; }
     .block-container .block-content.light {
@@ -85,7 +85,8 @@ body {
   .block-container.full-image {
     background-size: cover;
     width: 100%;
-    padding: 100px 50px 50px; }
+    padding: 100px 50px 50px;
+    box-shadow: 7px 14px 30px 0 rgba(0, 0, 0, 0.3); }
     .block-container.full-image .block-content {
       margin-top: 50px; }
     .block-container.full-image h1 {
