@@ -7,6 +7,9 @@ body {
 .Index-page {
   background: none; }
 
+#philosophy .Index-page-content {
+  padding-bottom: 30px; }
+
 .block-container {
   width: 100%;
   max-width: 1150px;
@@ -45,6 +48,8 @@ body {
         opacity: .5; }
         .block-container .block-content h4.date:after {
           content: ''; }
+    .block-container .block-content img {
+      box-shadow: 14px 14px 30px 0 rgba(0, 0, 0, 0.3); }
     .block-container .block-content .cta-link {
       font-family: proxima-nova;
       text-transform: uppercase;
