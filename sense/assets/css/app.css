@@ -68,7 +68,8 @@ body {
           color: #242424; }
       .block-container .block-content .cta-link.video i {
         font-size: 50px;
-        color: #fff; }
+        color: #fff;
+        text-shadow: 0 10px 40px rgba(0, 0, 0, 0.5); }
     .block-container .block-content.light {
       background: #fff;
       color: #242424; }
@@ -103,7 +104,7 @@ body {
       width: 60%;
       line-height: 100px;
       letter-spacing: 5px;
-      text-shadow: 0 5px 30px rgba(0, 0, 0, 0.2); }
+      text-shadow: 0 10px 40px rgba(0, 0, 0, 0.5); }
 
 #block-571410df51c7922646d3 em span {
   line-height: 40px; }

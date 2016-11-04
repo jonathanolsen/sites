@@ -99,6 +99,7 @@ body {
 				i {
 					font-size: 50px;
 					color: #fff;
+					text-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
 				}
 
 				&:hover {
@@ -170,7 +171,7 @@ body {
 			width: 60%;
 			line-height: 100px;
 			letter-spacing: 5px;
-			text-shadow: 0 5px 30px rgba(0, 0, 0, .2);
+			text-shadow: 0 10px 40px rgba(0, 0, 0, 0.5);
 		}
 	}
 }
