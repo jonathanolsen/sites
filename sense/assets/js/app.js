@@ -12,7 +12,7 @@
 			var windowInnerHeight = window.innerHeight;
 			var plxBackgroundTopToWindowTop = plxBackgroundTopToPageTop - windowTopToPageTop;
 			var plxBackgroundTopToWindowBottom = windowInnerHeight - plxBackgroundTopToWindowTop;
-			var plxSpeed = 0.15;
+			var plxSpeed = 0.1;
 
 			plxBackground.css("transform","translateY(" +  (plxWindowTopToWindowTop * plxSpeed - 120) + 'px');
 		});
