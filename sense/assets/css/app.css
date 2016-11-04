@@ -52,11 +52,11 @@ body {
       letter-spacing: 2px;
       margin-bottom: 8px;
       position: relative; }
-      .block-container .block-content h4.date {
+      .block-container .block-content h4.has-line {
         font-size: 13px;
         font-weight: bold;
         opacity: .3; }
-        .block-container .block-content h4.date:after {
+        .block-container .block-content h4.has-line:after {
           content: '';
           height: 1px;
           width: 24px;

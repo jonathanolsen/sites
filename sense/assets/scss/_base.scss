@@ -64,7 +64,7 @@ body {
 			margin-bottom: 8px;
 			position: relative;
 
-			&.date {
+			&.has-line {
 				font-size: 13px;
 				font-weight: bold;
 				opacity: .3;
@@ -219,6 +219,7 @@ body {
 			max-width: 480px;
 
 			h4 {
+				
 				i {
 					font-size: 30px;
 					color: $brand-accent-dimmer;
