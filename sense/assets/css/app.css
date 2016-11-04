@@ -146,11 +146,13 @@ body {
     max-width: 480px; }
     .block-container.instagram .block-content h4 i {
       font-size: 30px;
-      color: #e8af34; }
+      color: #c7a25a; }
     .block-container.instagram .block-content p {
       font-size: 24px;
       line-height: 38px;
       font-weight: 400; }
+      .block-container.instagram .block-content p a {
+        color: #c7a25a; }
 
 #block-571410df51c7922646d3 em span {
   line-height: 40px; }
