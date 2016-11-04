@@ -50,7 +50,8 @@ body {
       text-transform: uppercase;
       font-weight: 400;
       letter-spacing: 2px;
-      margin-bottom: 8px; }
+      margin-bottom: 8px;
+      position: relative; }
       .block-container .block-content h4.date {
         font-size: 13px;
         font-weight: bold;
@@ -141,6 +142,15 @@ body {
       line-height: 100px;
       letter-spacing: 5px;
       text-shadow: 0 10px 40px rgba(0, 0, 0, 0.5); }
+  .block-container.instagram .block-content {
+    max-width: 480px; }
+    .block-container.instagram .block-content h4 i {
+      font-size: 30px;
+      color: #e8af34; }
+    .block-container.instagram .block-content p {
+      font-size: 24px;
+      line-height: 38px;
+      font-weight: 400; }
 
 #block-571410df51c7922646d3 em span {
   line-height: 40px; }
