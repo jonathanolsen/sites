@@ -99,7 +99,7 @@ body {
           color: #999; }
           .block-container .block-content .cta-link.external:hover i {
             margin-left: 12px;
-            margin-top: -1px; }
+            color: #e8af34; }
     .block-container .block-content.light {
       background: #fff;
       color: #242424; }
