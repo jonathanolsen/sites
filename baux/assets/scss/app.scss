@@ -7,9 +7,12 @@
 }
 
 .product_cat,
-#baux_filter,
+#baux_filter {
+	border-top: 2px solid #F5F5F5;
+}
+
 .filter-container {
-	border-top: 2px solid #F5F5F5
+	border-bottom: 2px solid #F5F5F5;
 }
 
 .filter-list {
@@ -22,6 +25,10 @@
 		a {
 			margin: 0 0 8px;
 		}
+	}
+
+	&.sub-level {
+		padding: 0;
 	}
 }
 
@@ -37,6 +44,23 @@
 	}
 }
 
+.sub_cat {
+	margin-left: 0;
+
+	.sub-filter-toggle {
+		padding: 15px 20px;
+		text-transform: uppercase;
+		font-weight: 600;
+		font-size: 14px;
+		border-bottom: 2px solid #fff;
+		margin-bottom: -2px;
+		display: inline-block;
+
+		&.active {
+
+		}
+	}
+}
 
 
 
