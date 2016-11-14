@@ -30,9 +30,9 @@
     font-weight: 600; }
     .filter-col .filter-colors a .ticon {
       margin-right: 15px; }
-    .filter-col .filter-colors a.solid-color .ticon {
+    .filter-col .filter-colors a .ticon {
       padding: 8px 0 0;
-      margin-bottom: 0;
+      margin: -8px 15px 0 0;
       width: 42px;
       height: 42px;
       float: left;
@@ -56,4 +56,4 @@
   margin-left: 0;
   padding: 10px 0 0; }
   .colors-sub-items ul {
-    margin-left: 0; }
+    margin: 10px 0 0; }

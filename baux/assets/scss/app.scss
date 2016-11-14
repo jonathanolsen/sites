@@ -56,17 +56,17 @@
 				margin-right: 15px;
 			}
 
-			&.solid-color {
+
 
 				.ticon {
 					padding: 8px 0 0;
-					margin-bottom: 0;
+					margin: -8px 15px 0 0;
 					width: 42px;
 					height: 42px;
 					float: left;
 					border-radius: 2px;
 				}
-			}
+
 		}
 	}
 }
@@ -95,7 +95,7 @@
 	padding: 10px 0 0;
 
 	ul {
-		margin-left: 0;
+		margin: 10px 0 0;
 
 	}
 }
