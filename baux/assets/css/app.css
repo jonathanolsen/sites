@@ -35,7 +35,8 @@
       margin-bottom: 0;
       width: 42px;
       height: 42px;
-      float: left; }
+      float: left;
+      border-radius: 2px; }
 
 .sub-cat {
   margin-left: 0; }
