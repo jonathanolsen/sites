@@ -55,6 +55,17 @@
 			.ticon {
 				margin-right: 15px;
 			}
+
+			&.solid-color {
+
+				.ticon {
+					padding: 8px 0 0;
+					margin-bottom: 0;
+					width: 42px;
+					height: 42px;
+					float: left;
+				}
+			}
 		}
 	}
 }
@@ -80,11 +91,14 @@
 
 .colors-sub-items {
 	margin-left: 0;
+	padding: 10px 0 0;
 
 	ul {
 		margin-left: 0;
-		
+
 	}
 }
+
+
 
 
