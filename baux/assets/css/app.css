@@ -3,15 +3,15 @@
 
 .product_cat,
 #baux_filter {
-  border-top: 2px solid #f5f4f4; }
+  border-top: 1px solid #f5f4f4; }
 
 .filter-container {
-  border-bottom: 2px solid #f5f4f4; }
+  border-bottom: 1px solid #f5f4f4; }
 
 .filter-list {
   padding: 18px 0 2px;
-  border-top: 2px solid #f5f4f4;
-  border-bottom: 2px solid #f5f4f4; }
+  border-top: 1px solid #f5f4f4;
+  border-bottom: 1px solid #f5f4f4; }
   .filter-list .filter-item {
     width: 25%;
     margin: 10px 0; }
@@ -24,7 +24,7 @@
   background: #f5f4f4; }
 
 .filter-col {
-  border-right: 2px solid #f5f4f4; }
+  border-right: 1px solid #f5f4f4; }
   .filter-col:last-of-type {
     border-right: 0; }
   .filter-col .filter-toggle {
