@@ -33,3 +33,5 @@
     border-bottom: 2px solid #fff;
     margin-bottom: -2px;
     display: inline-block; }
+    .sub-cat .sub-filter-toggle.active {
+      border-bottom: 2px solid #32343B; }
