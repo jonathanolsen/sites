@@ -1,0 +1,20 @@
+.product_cat a {
+  padding: 13px 30px; }
+
+.product_cat,
+#baux_filter,
+.filter-container {
+  border-top: 2px solid #F5F5F5; }
+
+.filter-list {
+  padding: 18px 0 2px; }
+  .filter-list .filter-item {
+    width: 25%;
+    margin: 10px 0; }
+    .filter-list .filter-item a {
+      margin: 0 0 8px; }
+
+.filter-col .filter-toggle {
+  padding: 13px 0px; }
+  .filter-col .filter-toggle:hover {
+    background: #f5f5f5; }
