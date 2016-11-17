@@ -77,10 +77,35 @@
 
 .filter-col .filter-list.filter-list-colors li ul {
   margin: 0; }
-  .filter-col .filter-list.filter-list-colors li ul .filter-item > a .ticon > i {
-    color: #000;
-    opacity: 0;
-    -webkit-transition: .1s ease-out;
-    transition: .1s ease-out; }
+  .filter-col .filter-list.filter-list-colors li ul .filter-item > a .ticon {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center; }
+    .filter-col .filter-list.filter-list-colors li ul .filter-item > a .ticon > i {
+      color: #000;
+      opacity: 0;
+      -webkit-transition: .1s ease-out;
+      transition: .1s ease-out;
+      font-size: 14px; }
   .filter-col .filter-list.filter-list-colors li ul .filter-item > a.active .ticon > i {
     opacity: 0.4; }
+
+.filter-col .filter-list.filter-list-colors .collection {
+  display: inline-block; }
+  .filter-col .filter-list.filter-list-colors .collection .ticon {
+    border: 1px solid rgba(0, 0, 0, 0.3);
+    font-size: 14px;
+    width: 20px;
+    float: left;
+    height: 20px;
+    border-radius: 2px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
+    .filter-col .filter-list.filter-list-colors .collection .ticon > i {
+      position: absolute;
+      margin: 2px 3px; }
