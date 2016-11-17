@@ -63,20 +63,24 @@
   .colors-sub-items ul {
     margin: 10px 0 0; }
 
-.filter-list li span {
+.filter-col .filter-list li span {
   text-transform: uppercase; }
 
-.filter-list .filter-item {
+.filter-col .filter-list .filter-item {
   margin: 0; }
-  .filter-list .filter-item a {
-    margin: 0; }
+  .filter-col .filter-list .filter-item a {
+    margin: 0;
+    opacity: 1;
+    color: #7d797a; }
+    .filter-col .filter-list .filter-item a.active {
+      color: #333; }
 
-.filter-list.filter-list-colors li ul {
+.filter-col .filter-list.filter-list-colors li ul {
   margin: 0; }
-  .filter-list.filter-list-colors li ul .filter-item .filter-item-child .ticon > i {
+  .filter-col .filter-list.filter-list-colors li ul .filter-item > a .ticon > i {
     color: #000;
     opacity: 0;
     -webkit-transition: .1s ease-out;
     transition: .1s ease-out; }
-  .filter-list.filter-list-colors li ul .filter-item .filter-item-child.active .ticon > i {
-    opacity: 0.7; }
+  .filter-col .filter-list.filter-list-colors li ul .filter-item > a.active .ticon > i {
+    opacity: 0.4; }
