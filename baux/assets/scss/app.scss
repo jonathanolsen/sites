@@ -136,6 +136,34 @@ $border-variable:		1px solid #f5f4f4;
 			margin: 0;
 		}
 	}
+
+	&.filter-list-colors {
+
+		li ul {
+			margin: 0;
+
+			.filter-item {
+
+				.filter-item-child {
+
+					.ticon {
+
+						> i {
+							color: #000;
+							opacity: 0;
+							transition: .1s ease-out;
+						}
+					}
+
+					&.active {
+						.ticon > i {
+							opacity: 0.7;
+						}
+					}
+				}
+			}
+		}
+	}
 }
 
 
