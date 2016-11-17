@@ -68,11 +68,12 @@ $border-variable:		1px solid #f5f4f4;
 			}
 
 			.ticon {
-				margin: -8px 15px 0 0;
-				width: 42px;
-				height: 42px;
+				margin: 2px 15px 0 0;
+				width: 20px;
+				height: 20px;
 				float: left;
 				border-radius: 2px;
+				box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
 			}
 		}
 	}
@@ -106,6 +107,56 @@ $border-variable:		1px solid #f5f4f4;
 
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.filter-list {
+
+	li {
+
+		span {
+			text-transform: uppercase;
+		}
+	}
+
+	.filter-item {
+		margin: 0;
+
+		a {
+			margin: 0;
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
