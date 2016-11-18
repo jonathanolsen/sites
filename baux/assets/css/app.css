@@ -88,28 +88,30 @@
     .filter-col .filter-list .filter-item a.active {
       color: #525252; }
 
-.filter-col .filter-list .filter-list-colors li ul {
-  margin: 4px 0 10px;
-  width: 77%;
-  float: left; }
-  .filter-col .filter-list .filter-list-colors li ul .filter-item > a .ticon {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center; }
-    .filter-col .filter-list .filter-list-colors li ul .filter-item > a .ticon > i {
-      color: #000;
-      opacity: 0;
-      -webkit-transition: .1s ease-out;
-      transition: .1s ease-out;
-      font-size: 14px; }
-  .filter-col .filter-list .filter-list-colors li ul .filter-item > a.active .ticon > i {
-    opacity: 0.55; }
+.filter-col .filter-list .filter-list-colors li {
+  list-style-type: none; }
+  .filter-col .filter-list .filter-list-colors li ul {
+    margin: 4px 0 10px;
+    width: 77%;
+    float: left; }
+    .filter-col .filter-list .filter-list-colors li ul .filter-item > a .ticon {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center; }
+      .filter-col .filter-list .filter-list-colors li ul .filter-item > a .ticon > i {
+        color: #000;
+        opacity: 0;
+        -webkit-transition: .1s ease-out;
+        transition: .1s ease-out;
+        font-size: 14px; }
+    .filter-col .filter-list .filter-list-colors li ul .filter-item > a.active .ticon > i {
+      opacity: 0.55; }
 
 .filter-col .filter-list .filter-list-colors .collection {
   width: 23%;

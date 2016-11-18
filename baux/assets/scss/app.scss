@@ -159,31 +159,35 @@ $border-variable:		1px solid #f5f4f4;
 
 		.filter-list-colors {
 
-			li ul {
-				margin: 4px 0 10px;
-				width: 77%;
-				float: left;
+			li {
+				list-style-type: none;
 
-				.filter-item {
+				ul {
+					margin: 4px 0 10px;
+					width: 77%;
+					float: left;
 
-					> a {
+					.filter-item {
 
-						.ticon {
-							display: flex;
-							justify-content: center;
-							align-items: center;
+						> a {
 
-							> i {
-								color: #000;
-								opacity: 0;
-								transition: .1s ease-out;
-								font-size: 14px;
+							.ticon {
+								display: flex;
+								justify-content: center;
+								align-items: center;
+
+								> i {
+									color: #000;
+									opacity: 0;
+									transition: .1s ease-out;
+									font-size: 14px;
+								}
 							}
-						}
 
-						&.active {
-							.ticon > i {
-								opacity: 0.55;
+							&.active {
+								.ticon > i {
+									opacity: 0.55;
+								}
 							}
 						}
 					}
