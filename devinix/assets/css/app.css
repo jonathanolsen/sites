@@ -22,6 +22,7 @@ p, .p {
 .grid-item.add-new > a {
   font-size: 15px;
   color: #808286; }
+
 .grid-item .part {
   padding: 18px 25px; }
   .grid-item .part.content {
@@ -57,7 +58,8 @@ p, .p {
     border: 2px solid rgba(0, 0, 0, 0.03);
     color: #fff;
     margin: 5px 10px 5px 0; }
-  .grid-item .part.addons .box, .grid-item .part.addons.add-new > a {
+  .grid-item .part.addons .box,
+  .grid-item .part.addons.add-new > a {
     height: 50px;
     line-height: 48px; }
   .grid-item .part.addons.add-new > a {
@@ -77,6 +79,7 @@ p, .p {
 @media (min-width: 768px) {
   .modal-dialog {
     margin: 100px auto; } }
+
 #price_tag {
   text-transform: uppercase;
   font-weight: normal;
@@ -130,20 +133,26 @@ p, .p {
 
 .modal .modal-dialog.large {
   max-width: 1000px; }
+
 .modal input {
   padding: 4px 0; }
+
 .modal .input-small-info {
   right: 0;
   top: 5px;
   font-size: 11px; }
+
 .modal .tab-content .modal-body > .row {
   margin-left: 0;
   margin-right: 0; }
+
 .modal .tab-content .col {
   padding: 25px 40px 40px 35px; }
+
 .modal .modal-footer {
   padding: 20px 15px;
   height: 62px; }
+
 .modal .fxslider {
   margin-bottom: 20px; }
   .modal .fxslider .ui-slider .ui-slider-handle {
@@ -155,6 +164,7 @@ p, .p {
     border: none; }
   .modal .fxslider .ui-slider-range {
     background: #319BE5; }
+
 .modal .fxslider .ui-slider-horizontal {
   height: 4px;
   margin-top: 10px; }
@@ -170,6 +180,7 @@ p, .p {
   border: none;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2), 0 0 3px rgba(0, 0, 0, 0.1), 0 2px 14px rgba(0, 0, 0, 0.1);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05); }
+
 .select2-container--default .select2-selection--single {
   height: 40px;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0.3);
@@ -182,14 +193,34 @@ p, .p {
   .select2-container--default .select2-selection--single .select2-selection__arrow {
     height: 40px;
     right: 10px; }
+
 .select2-container--default .select2-results__option[aria-selected=true] {
   background: #f5f5f5; }
+
 .select2-container--default .select2-results__option--highlighted[aria-selected] {
   background-color: #319BE5; }
+
 .select2-container--default .select2-search--dropdown {
   border-bottom: 1px solid rgba(0, 0, 0, 0.1); }
   .select2-container--default .select2-search--dropdown .select2-search__field {
     border: none;
     padding: 10px; }
+
 .select2-container--default .select2-results__option {
   padding: 8px 15px; }
+
+.head h1 {
+  padding: 0px 30px;
+  line-height: 80px; }
+
+.navbar-top-links {
+  top: 20px;
+  right: 30px; }
+
+.masonry-wrapper {
+  padding: 30px; }
+
+#main-nav a i {
+  width: 10px !important;
+  display: inline-block;
+  text-align: center; }
