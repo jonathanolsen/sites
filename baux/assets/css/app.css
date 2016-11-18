@@ -42,7 +42,24 @@
     background: none; }
 
 .filter-col .filter-list > ul {
-  margin-bottom: 0; }
+  display: inline-block;
+  margin: 0;
+  width: 100%; }
+  .filter-col .filter-list > ul > li {
+    width: 100%; }
+    .filter-col .filter-list > ul > li .collection {
+      width: 23%;
+      float: left;
+      cursor: pointer; }
+  .filter-col .filter-list > ul.filter-list-colors li {
+    list-style-type: none;
+    margin: 0; }
+    .filter-col .filter-list > ul.filter-list-colors li ul {
+      margin: 0;
+      width: 77%;
+      float: left; }
+      .filter-col .filter-list > ul.filter-list-colors li ul .filter-item {
+        width: 25%; }
 
 .filter-col .filter-list li span {
   text-transform: uppercase; }
@@ -53,19 +70,6 @@
   color: #7d797a; }
   .filter-col .filter-list .filter-item a.active {
     color: #525252; }
-
-.filter-col .filter-list .filter-list-colors li {
-  list-style-type: none;
-  margin: 0; }
-  .filter-col .filter-list .filter-list-colors li ul {
-    margin: 4px 0 10px;
-    width: 77%;
-    float: left; }
-
-.filter-col .filter-list .filter-list-colors .collection {
-  width: 23%;
-  float: left;
-  cursor: pointer; }
 
 .filter-btn-container {
   display: inline-block;

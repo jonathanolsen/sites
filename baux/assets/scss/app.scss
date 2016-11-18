@@ -77,10 +77,41 @@ $border-variable:		1px solid #f5f4f4;
 
 
 .filter-col {
+
 	.filter-list {
 
 		> ul {
-			margin-bottom: 0;
+			display: inline-block;
+			margin: 0;
+			width: 100%;
+
+			> li {
+				width: 100%;
+
+				.collection {
+					width: 23%;
+					float: left;
+					cursor: pointer;
+				}
+			}
+
+			&.filter-list-colors {
+
+				li {
+					list-style-type: none;
+					margin: 0;
+
+					ul {
+						margin: 0;
+						width: 77%;
+						float: left;
+
+						.filter-item {
+							width: 25%;
+						}
+					}
+				}
+			}
 		}
 
 		li {
@@ -103,25 +134,7 @@ $border-variable:		1px solid #f5f4f4;
 			}
 		}
 
-		.filter-list-colors {
-
-			li {
-				list-style-type: none;
-				margin: 0;
-
-				ul {
-					margin: 4px 0 10px;
-					width: 77%;
-					float: left;
-				}
-			}
-
-			.collection {
-				width: 23%;
-				float: left;
-				cursor: pointer;
-			}
-		}
+		
 	}
 
 
