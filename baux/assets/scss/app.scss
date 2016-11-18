@@ -136,6 +136,10 @@ $border-variable:		1px solid #f5f4f4;
 .filter-col {
 	.filter-list {
 
+		> ul {
+			margin-bottom: 0;
+		}
+
 		li {
 
 			span {
@@ -144,7 +148,7 @@ $border-variable:		1px solid #f5f4f4;
 		}
 
 		.filter-item {
-			margin: 0;
+			margin: 10px 0;
 
 			a {
 				margin: 0;
@@ -161,6 +165,7 @@ $border-variable:		1px solid #f5f4f4;
 
 			li {
 				list-style-type: none;
+				margin: 0;
 
 				ul {
 					margin: 4px 0 10px;
@@ -236,7 +241,7 @@ $border-variable:		1px solid #f5f4f4;
 .filter-btn-container {
 	display: inline-block;
 	border-top: 1px solid #F5F4F4;
-	padding: 20px 30px 0;
+	padding: 20px 30px;
 	width: 100%;
 
 	.filter-col-btn {

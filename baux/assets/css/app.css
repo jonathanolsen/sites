@@ -76,11 +76,14 @@
   .colors-sub-items ul {
     margin: 10px 0 0; }
 
+.filter-col .filter-list > ul {
+  margin-bottom: 0; }
+
 .filter-col .filter-list li span {
   text-transform: uppercase; }
 
 .filter-col .filter-list .filter-item {
-  margin: 0; }
+  margin: 10px 0; }
   .filter-col .filter-list .filter-item a {
     margin: 0;
     opacity: 1;
@@ -89,7 +92,8 @@
       color: #525252; }
 
 .filter-col .filter-list .filter-list-colors li {
-  list-style-type: none; }
+  list-style-type: none;
+  margin: 0; }
   .filter-col .filter-list .filter-list-colors li ul {
     margin: 4px 0 10px;
     width: 77%;
@@ -138,7 +142,7 @@
 .filter-btn-container {
   display: inline-block;
   border-top: 1px solid #F5F4F4;
-  padding: 20px 30px 0;
+  padding: 20px 30px;
   width: 100%; }
   .filter-btn-container .filter-col-btn {
     display: inline-block; }
