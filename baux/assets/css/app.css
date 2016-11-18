@@ -5,6 +5,9 @@
 #baux_filter {
   border-top: 1px solid #f5f4f4; }
 
+.product_cat a.active, .product_cat a:hover {
+  background: none; }
+
 .filter-container {
   border-bottom: 1px solid #f5f4f4; }
 
@@ -28,9 +31,8 @@
   .filter-col:last-of-type {
     border-right: 0; }
   .filter-col .filter-toggle {
-    padding: 13px 0px; }
-    .filter-col .filter-toggle:hover {
-      background: #fff; }
+    padding: 13px 0px;
+    background: none; }
   .filter-col .filter-colors a {
     font-weight: 600; }
     .filter-col .filter-colors a .ticon {
@@ -94,7 +96,7 @@
       transition: .1s ease-out;
       font-size: 14px; }
   .filter-col .filter-list.filter-list-colors li ul .filter-item > a.active .ticon > i {
-    opacity: 0.4; }
+    opacity: 0.55; }
 
 .filter-col .filter-list.filter-list-colors .collection {
   display: inline-block; }

@@ -13,6 +13,10 @@ $border-variable:		1px solid #f5f4f4;
 	border-top: $border-variable;
 }
 
+.product_cat a.active, .product_cat a:hover {
+	background: none;
+}
+
 .filter-container {
 	border-bottom: $border-variable;
 }
@@ -52,10 +56,7 @@ $border-variable:		1px solid #f5f4f4;
 
 	.filter-toggle {
 		padding: 13px 0px;
-
-		&:hover {
-			background: #fff;
-		}
+		background: none;
 	}
 
 	.filter-colors {
@@ -167,7 +168,7 @@ $border-variable:		1px solid #f5f4f4;
 
 						&.active {
 							.ticon > i {
-								opacity: 0.4;
+								opacity: 0.55;
 							}
 						}
 					}
