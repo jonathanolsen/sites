@@ -46,6 +46,10 @@
         margin: 0; }
       .filter-col .filter-list > ul.filter-list-colors > li {
         width: 100%; }
+        .filter-col .filter-list > ul.filter-list-colors > li > ul {
+          margin: 0;
+          width: 77%;
+          float: left; }
       .filter-col .filter-list > ul.filter-list-colors .collection {
         width: 23%;
         float: left;

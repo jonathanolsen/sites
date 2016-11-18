@@ -81,6 +81,12 @@ $border-variable:		1px solid #f5f4f4;
 
 				> li {
 					width: 100%;
+
+					> ul {
+						margin: 0;
+						width: 77%;
+						float: left;
+					}
 				}
 
 				.collection {
@@ -118,7 +124,7 @@ $border-variable:		1px solid #f5f4f4;
 				}
 
 				.filter-colors {
-					
+
 					a {
 						font-weight: 600;
 
