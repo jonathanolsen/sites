@@ -14,7 +14,8 @@
   text-transform: uppercase;
   opacity: .6;
   -webkit-transition: .1s ease-out;
-  transition: .1s ease-out; }
+  transition: .1s ease-out;
+  cursor: pointer; }
   .product_cat .btn-custom:hover {
     opacity: 1; }
 
