@@ -73,16 +73,94 @@ $border-variable:		1px solid #f5f4f4;
 
 			&.filter-list-colors {
 
-				li {
-					width: 100%;
+				.filter-colors {
 
-					ul {
-						margin: 0;
-						width: 77%;
-						float: left;
+					a {
+						font-weight: 600;
 
-						.filter-item {
-							width: 25%;
+						.ticon {
+							margin: 2px 15px 0 0;
+							width: 20px;
+							height: 20px;
+							float: left;
+							border-radius: 2px;
+							box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+						}
+					}
+				}
+
+				.collection {
+
+					.ticon {
+						display: flex;
+						justify-content: center;
+						align-items: center;
+
+						> i {
+							opacity: 0;
+							transition: .2s ease-out;
+							transform: scale(0.2);
+						}
+					}
+
+					&.active {
+
+						.ticon {
+
+							svg {
+								opacity: 0;
+								transform: scale(0.2);
+							}
+
+							i {
+								opacity: 1;
+								transform: scale(1);
+							}
+						}
+					}
+				}
+			}
+
+			&.filter-list-patterns {
+				padding: 15px;
+
+				.filter-item {
+					margin: 15px 0 5px;
+
+					a {
+
+						.ticon {
+							background: #f5f4f4;
+							transition: .1s ease-out;
+
+							svg {
+								transition: .2s ease-out;
+								transform: scale(1);
+							}
+
+							i {
+								position: absolute;
+								opacity: 0;
+								transition: .2s ease-out;
+								transform: scale(0.2);
+							}
+						}
+
+						&.active {
+
+							.ticon {
+								background: #f5f4f4;
+
+								svg {
+									opacity: 0;
+									transform: scale(0.2);
+								}
+
+								i {
+									opacity: 1;
+									transform: scale(1);
+								}
+							}
 						}
 					}
 				}
@@ -155,98 +233,13 @@ $border-variable:		1px solid #f5f4f4;
 }
 
 
-.filter-list-patterns {
 
-	.filter-item {
-		margin: 10px 0;
-
-		a {
-
-			.ticon {
-				background: #f5f4f4;
-				transition: .1s ease-out;
-
-				svg {
-					transition: .2s ease-out;
-					transform: scale(1);
-				}
-
-				i {
-					position: absolute;
-					opacity: 0;
-					transition: .2s ease-out;
-					transform: scale(0.2);
-				}
-			}
-
-			&.active {
-
-				.ticon {
-					background: #f5f4f4;
-
-					svg {
-						opacity: 0;
-						transform: scale(0.2);
-					}
-
-					i {
-						opacity: 1;
-						transform: scale(1);
-					}
-				}
-			}
-		}
-	}
-}
 
 // Styles for checboxes for tags and colors
 
-.filter-list-colors .filter-colors {
 
-	a {
-		font-weight: 600;
 
-		.ticon {
-			margin: 2px 15px 0 0;
-			width: 20px;
-			height: 20px;
-			float: left;
-			border-radius: 2px;
-			box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
-		}
-	}
-}
 
-.filter-list-colors .collection {
-
-	.ticon {
-		display: flex;
-		justify-content: center;
-		align-items: center;
-
-		> i {
-			opacity: 0;
-			transition: .2s ease-out;
-			transform: scale(0.2);
-		}
-	}
-
-	&.active {
-
-		.ticon {
-
-			svg {
-				opacity: 0;
-				transform: scale(0.2);
-			}
-
-			i {
-				opacity: 1;
-				transform: scale(1);
-			}
-		}
-	}
-}
 
 .filter-list-colors .collection .ticon,
 .filter-list-ftag li a .ticon {
