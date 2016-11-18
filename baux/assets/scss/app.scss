@@ -171,31 +171,6 @@ $border-variable:		1px solid #f5f4f4;
 					margin: 4px 0 10px;
 					width: 77%;
 					float: left;
-
-					.filter-item {
-
-						> a {
-
-							.ticon {
-								display: flex;
-								justify-content: center;
-								align-items: center;
-
-								> i {
-									color: #000;
-									opacity: 0;
-									transition: .1s ease-out;
-									font-size: 14px;
-								}
-							}
-
-							&.active {
-								.ticon > i {
-									opacity: 0.55;
-								}
-							}
-						}
-					}
 				}
 			}
 
@@ -203,31 +178,6 @@ $border-variable:		1px solid #f5f4f4;
 				width: 23%;
 				float: left;
 				cursor: pointer;
-
-				&.active {
-
-					.ticon > i {
-						opacity: 0.7;
-					}
-				}
-
-				.ticon {
-					border: 1px solid rgba(0, 0, 0, 0.3);
-					font-size: 14px;
-					width: 20px;
-					float: left;
-					height: 20px;
-					border-radius: 2px;
-					box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-					margin: 3px 15px 0 0;
-
-					> i {
-						position: absolute;
-						margin: 2px 3px;
-						opacity: 0;
-						transition: .1s ease-out;
-					}
-				}
 			}
 		}
 	}
@@ -319,50 +269,64 @@ $border-variable:		1px solid #f5f4f4;
 	}
 }
 
-.filter-list-ftag {
+// Styles for checboxes for tags and colors
 
-	li a {
+.filter-list-colors .collection .ticon,
+.filter-list-ftag li a .ticon {
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	font-size: 14px;
+	width: 20px;
+	float: left;
+	height: 20px;
+	border-radius: 2px;
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+	margin: 3px 15px 0 0;
+}
 
-		.ticon {
-			border: 1px solid rgba(0, 0, 0, 0.3);
-			font-size: 14px;
-			width: 20px;
-			float: left;
-			height: 20px;
-			border-radius: 2px;
-			box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
-			margin: 3px 15px 0 0;
+.filter-list-ftag,
+.filter-list-colors {
 
-			svg {
-				transition: .2s ease-out;
-				transform: scale(1);
-			}
+	.filter-item {
 
-			i {
-				position: absolute;
-				opacity: 0;
-				transition: .2s ease-out;
-				transform: scale(0.2);
-			}
-		}
-
-		&.active {
+		> a {
 
 			.ticon {
+				display: flex;
+				justify-content: center;
+				align-items: center;
 
-				svg {
+				> i {
+					color: #000;
 					opacity: 0;
+					transition: .2s ease-out;
 					transform: scale(0.2);
+					font-size: 14px;
 				}
+			}
 
-				i {
-					opacity: 1;
-					transform: scale(1);
+			&.active {
+
+				.ticon {
+
+					svg {
+						opacity: 0;
+						transform: scale(0.2);
+					}
+
+					i {
+						opacity: 1;
+						transform: scale(1);
+					}
 				}
 			}
 		}
 	}
 }
+
+
+
+
+
 
 
 
