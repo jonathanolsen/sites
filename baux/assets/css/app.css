@@ -7,6 +7,17 @@
 .product_cat a {
   padding: 13px 30px; }
 
+.product_cat .btn-custom {
+  float: right;
+  padding: 14px 0 0;
+  font-size: 12px;
+  text-transform: uppercase;
+  opacity: .6;
+  -webkit-transition: .1s ease-out;
+  transition: .1s ease-out; }
+  .product_cat .btn-custom:hover {
+    opacity: 1; }
+
 .product_cat,
 #baux_filter {
   border-top: 1px solid #f5f4f4; }
