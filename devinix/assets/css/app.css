@@ -217,6 +217,9 @@ p, .p {
   top: 20px;
   right: 30px; }
 
+.masonry-wrapper-sortable {
+  padding: 20px; }
+
 .masonry-wrapper {
   padding: 30px; }
 
