@@ -29,6 +29,12 @@
     border-bottom: 1px solid #f5f4f4; }
     .filter-col .filter-list .filter-item {
       width: 25%; }
+      .filter-col .filter-list .filter-item a {
+        margin: 0;
+        opacity: 1;
+        color: #7d797a; }
+        .filter-col .filter-list .filter-item a.active {
+          color: #525252; }
     .filter-col .filter-list > ul {
       display: inline-block;
       margin: 0;
@@ -38,10 +44,8 @@
         display: inline-block;
         list-style-type: none;
         margin: 0; }
-        .filter-col .filter-list > ul > li .collection {
-          width: 23%;
-          float: left;
-          cursor: pointer; }
+      .filter-col .filter-list > ul.filter-list-colors > li {
+        width: 100%; }
       .filter-col .filter-list > ul.filter-list-colors .filter-colors a {
         font-weight: 600; }
         .filter-col .filter-list > ul.filter-list-colors .filter-colors a .ticon {
@@ -51,30 +55,34 @@
           float: left;
           border-radius: 2px;
           box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2); }
-      .filter-col .filter-list > ul.filter-list-colors .collection .ticon {
-        display: -webkit-box;
-        display: -ms-flexbox;
-        display: flex;
-        -webkit-box-pack: center;
-            -ms-flex-pack: center;
-                justify-content: center;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center; }
-        .filter-col .filter-list > ul.filter-list-colors .collection .ticon > i {
+      .filter-col .filter-list > ul.filter-list-colors .collection {
+        width: 23%;
+        float: left;
+        cursor: pointer; }
+        .filter-col .filter-list > ul.filter-list-colors .collection .ticon {
+          display: -webkit-box;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-box-pack: center;
+              -ms-flex-pack: center;
+                  justify-content: center;
+          -webkit-box-align: center;
+              -ms-flex-align: center;
+                  align-items: center; }
+          .filter-col .filter-list > ul.filter-list-colors .collection .ticon > i {
+            opacity: 0;
+            -webkit-transition: .2s ease-out;
+            transition: .2s ease-out;
+            -webkit-transform: scale(0.2);
+                    transform: scale(0.2); }
+        .filter-col .filter-list > ul.filter-list-colors .collection.active .ticon svg {
           opacity: 0;
-          -webkit-transition: .2s ease-out;
-          transition: .2s ease-out;
           -webkit-transform: scale(0.2);
                   transform: scale(0.2); }
-      .filter-col .filter-list > ul.filter-list-colors .collection.active .ticon svg {
-        opacity: 0;
-        -webkit-transform: scale(0.2);
-                transform: scale(0.2); }
-      .filter-col .filter-list > ul.filter-list-colors .collection.active .ticon i {
-        opacity: 1;
-        -webkit-transform: scale(1);
-                transform: scale(1); }
+        .filter-col .filter-list > ul.filter-list-colors .collection.active .ticon i {
+          opacity: 1;
+          -webkit-transform: scale(1);
+                  transform: scale(1); }
       .filter-col .filter-list > ul.filter-list-patterns {
         padding: 15px; }
         .filter-col .filter-list > ul.filter-list-patterns .filter-item {
@@ -105,14 +113,6 @@
               opacity: 1;
               -webkit-transform: scale(1);
                       transform: scale(1); }
-    .filter-col .filter-list li span {
-      text-transform: uppercase; }
-    .filter-col .filter-list .filter-item a {
-      margin: 0;
-      opacity: 1;
-      color: #7d797a; }
-      .filter-col .filter-list .filter-item a.active {
-        color: #525252; }
 
 .filter-btn-container {
   display: inline-block;
