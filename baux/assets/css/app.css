@@ -46,15 +46,6 @@
         margin: 0; }
       .filter-col .filter-list > ul.filter-list-colors > li {
         width: 100%; }
-      .filter-col .filter-list > ul.filter-list-colors .filter-colors a {
-        font-weight: 600; }
-        .filter-col .filter-list > ul.filter-list-colors .filter-colors a .ticon {
-          margin: 2px 15px 0 0;
-          width: 20px;
-          height: 20px;
-          float: left;
-          border-radius: 2px;
-          box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2); }
       .filter-col .filter-list > ul.filter-list-colors .collection {
         width: 23%;
         float: left;
@@ -83,6 +74,15 @@
           opacity: 1;
           -webkit-transform: scale(1);
                   transform: scale(1); }
+      .filter-col .filter-list > ul.filter-list-colors .filter-colors a {
+        font-weight: 600; }
+        .filter-col .filter-list > ul.filter-list-colors .filter-colors a .ticon {
+          margin: 2px 15px 0 0;
+          width: 20px;
+          height: 20px;
+          float: left;
+          border-radius: 2px;
+          box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2); }
       .filter-col .filter-list > ul.filter-list-patterns {
         padding: 15px; }
         .filter-col .filter-list > ul.filter-list-patterns .filter-item {

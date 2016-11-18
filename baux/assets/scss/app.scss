@@ -83,22 +83,6 @@ $border-variable:		1px solid #f5f4f4;
 					width: 100%;
 				}
 
-				.filter-colors {
-
-					a {
-						font-weight: 600;
-
-						.ticon {
-							margin: 2px 15px 0 0;
-							width: 20px;
-							height: 20px;
-							float: left;
-							border-radius: 2px;
-							box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
-						}
-					}
-				}
-
 				.collection {
 					width: 23%;
 					float: left;
@@ -132,6 +116,24 @@ $border-variable:		1px solid #f5f4f4;
 						}
 					}
 				}
+
+				.filter-colors {
+					
+					a {
+						font-weight: 600;
+
+						.ticon {
+							margin: 2px 15px 0 0;
+							width: 20px;
+							height: 20px;
+							float: left;
+							border-radius: 2px;
+							box-shadow: inset 0 0 1px rgba(0, 0, 0, 0.2);
+						}
+					}
+				}
+
+
 			}
 
 			// Only patterns
