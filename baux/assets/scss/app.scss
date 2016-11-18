@@ -36,7 +36,7 @@ $border-variable:		1px solid #f5f4f4;
 	}
 
 	&.sub-level {
-		padding: 0;
+		padding: 20px 15px;
 	}
 }
 
@@ -147,7 +147,9 @@ $border-variable:		1px solid #f5f4f4;
 		&.filter-list-colors {
 
 			li ul {
-				margin: 0;
+				margin: 4px 0 10px;
+				width: 77%;
+				float: left;
 
 				.filter-item {
 
@@ -176,12 +178,13 @@ $border-variable:		1px solid #f5f4f4;
 			}
 
 			.collection {
-				display: inline-block;
+				width: 23%;
+				float: left;
 
 				&.active {
 
 					.ticon > i {
-						opacity: 0.55;
+						opacity: 0.7;
 					}
 				}
 
@@ -193,6 +196,7 @@ $border-variable:		1px solid #f5f4f4;
 					height: 20px;
 					border-radius: 2px;
 					box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+					margin: 3px 15px 0 0;
 
 					> i {
 						position: absolute;
@@ -207,7 +211,17 @@ $border-variable:		1px solid #f5f4f4;
 
 
 
-
+	.btn-custom {
+		border: 1px solid silver;
+		display: inline-block;
+		padding: 5px 17px;
+		font-size: 13px;
+		text-transform: uppercase;
+		border-radius: 2px;
+		box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+		color: #777;
+		margin-right: 15px;
+	}
 
 
 
