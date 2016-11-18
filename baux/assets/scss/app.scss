@@ -290,10 +290,12 @@ $border-variable:		1px solid #f5f4f4;
 
 					svg {
 						opacity: 0;
+						transform: scale(0.2);
 					}
 
 					i {
 						opacity: 1;
+						transform: scale(1);
 					}
 				}
 			}
