@@ -152,3 +152,20 @@
   width: calc(100% + 43px); }
   .filter-btn-container .filter-col-btn {
     display: inline-block; }
+
+.filter-list-patterns li a .ticon svg {
+  -webkit-transition: .1s ease-out;
+  transition: .1s ease-out; }
+
+.filter-list-patterns li a .ticon i {
+  position: absolute;
+  font-size: 20px;
+  opacity: 0;
+  -webkit-transition: .1s ease-out;
+  transition: .1s ease-out; }
+
+.filter-list-patterns li a.active .ticon svg {
+  opacity: 0; }
+
+.filter-list-patterns li a.active .ticon i {
+  opacity: 1; }
