@@ -30,6 +30,11 @@
     padding: 20px 15px; }
 
 .filter-patterns .ticon {
+  background: #f5f4f4;
+  -webkit-transition: .1s ease-out;
+  transition: .1s ease-out; }
+
+.filter-patterns a.active .ticon {
   background: #f5f4f4; }
 
 .filter-col {
@@ -154,15 +159,18 @@
     display: inline-block; }
 
 .filter-list-patterns li a .ticon svg {
-  -webkit-transition: .1s ease-out;
-  transition: .1s ease-out; }
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  -webkit-transform: scale(1);
+          transform: scale(1); }
 
 .filter-list-patterns li a .ticon i {
   position: absolute;
-  font-size: 20px;
   opacity: 0;
-  -webkit-transition: .1s ease-out;
-  transition: .1s ease-out; }
+  -webkit-transition: .2s ease-out;
+  transition: .2s ease-out;
+  -webkit-transform: scale(0.2);
+          transform: scale(0.2); }
 
 .filter-list-patterns li a.active .ticon svg {
   opacity: 0; }

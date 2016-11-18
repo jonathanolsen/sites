@@ -52,6 +52,11 @@ $border-variable:		1px solid #f5f4f4;
 
 	.ticon {
 		background: #f5f4f4;
+		transition: .1s ease-out;
+	}
+
+	a.active .ticon {
+		background: #f5f4f4;
 	}
 }
 
@@ -267,14 +272,15 @@ $border-variable:		1px solid #f5f4f4;
 			.ticon {
 
 				svg {
-					transition: .1s ease-out;
+					transition: .2s ease-out;
+					transform: scale(1);
 				}
 
 				i {
 					position: absolute;
-					font-size: 20px;
 					opacity: 0;
-					transition: .1s ease-out;
+					transition: .2s ease-out;
+					transform: scale(0.2);
 				}
 			}
 
