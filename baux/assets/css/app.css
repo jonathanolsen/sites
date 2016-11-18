@@ -165,15 +165,13 @@
     .filter-btn-container .filter-col-btn.fr .btn-custom {
       margin-right: 0; }
 
-.filter-list-patterns li a .ticon svg,
-.filter-list-ftag li a .ticon svg {
+.filter-list-patterns li a .ticon svg {
   -webkit-transition: .2s ease-out;
   transition: .2s ease-out;
   -webkit-transform: scale(1);
           transform: scale(1); }
 
-.filter-list-patterns li a .ticon i,
-.filter-list-ftag li a .ticon i {
+.filter-list-patterns li a .ticon i {
   position: absolute;
   opacity: 0;
   -webkit-transition: .2s ease-out;
@@ -181,13 +179,43 @@
   -webkit-transform: scale(0.2);
           transform: scale(0.2); }
 
-.filter-list-patterns li a.active .ticon svg,
+.filter-list-patterns li a.active .ticon svg {
+  opacity: 0;
+  -webkit-transform: scale(0.2);
+          transform: scale(0.2); }
+
+.filter-list-patterns li a.active .ticon i {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1); }
+
+.filter-list-ftag li a .ticon {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  font-size: 14px;
+  width: 20px;
+  float: left;
+  height: 20px;
+  border-radius: 2px;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+  margin: 3px 15px 0 0; }
+  .filter-list-ftag li a .ticon svg {
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    -webkit-transform: scale(1);
+            transform: scale(1); }
+  .filter-list-ftag li a .ticon i {
+    position: absolute;
+    opacity: 0;
+    -webkit-transition: .2s ease-out;
+    transition: .2s ease-out;
+    -webkit-transform: scale(0.2);
+            transform: scale(0.2); }
+
 .filter-list-ftag li a.active .ticon svg {
   opacity: 0;
   -webkit-transform: scale(0.2);
           transform: scale(0.2); }
 
-.filter-list-patterns li a.active .ticon i,
 .filter-list-ftag li a.active .ticon i {
   opacity: 1;
   -webkit-transform: scale(1);
