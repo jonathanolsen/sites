@@ -29,12 +29,11 @@
     border-bottom: 1px solid #f5f4f4; }
     .filter-col .filter-list .filter-item {
       width: 25%; }
-    .filter-col .filter-list .sub-level {
-      padding: 20px 15px; }
     .filter-col .filter-list > ul {
       display: inline-block;
       margin: 0;
-      width: 100%; }
+      width: 100%;
+      padding: 20px 15px; }
       .filter-col .filter-list > ul > li {
         display: inline-block;
         list-style-type: none;
