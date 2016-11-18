@@ -94,7 +94,8 @@
           .filter-col .filter-list > ul.filter-list-patterns .filter-item a .ticon {
             background: #f5f4f4;
             -webkit-transition: .1s ease-out;
-            transition: .1s ease-out; }
+            transition: .1s ease-out;
+            position: relative; }
             .filter-col .filter-list > ul.filter-list-patterns .filter-item a .ticon svg {
               -webkit-transition: .2s ease-out;
               transition: .2s ease-out;

@@ -154,6 +154,7 @@ $border-variable:		1px solid #f5f4f4;
 						.ticon {
 							background: #f5f4f4;
 							transition: .1s ease-out;
+							position: relative;
 
 							svg {
 								transition: .2s ease-out;
