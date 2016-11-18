@@ -100,6 +100,8 @@
 
 .filter-col .filter-list.filter-list-colors .collection {
   display: inline-block; }
+  .filter-col .filter-list.filter-list-colors .collection.active .ticon > i {
+    opacity: 0.55; }
   .filter-col .filter-list.filter-list-colors .collection .ticon {
     border: 1px solid rgba(0, 0, 0, 0.3);
     font-size: 14px;
@@ -110,4 +112,7 @@
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1); }
     .filter-col .filter-list.filter-list-colors .collection .ticon > i {
       position: absolute;
-      margin: 2px 3px; }
+      margin: 2px 3px;
+      opacity: 0;
+      -webkit-transition: .1s ease-out;
+      transition: .1s ease-out; }

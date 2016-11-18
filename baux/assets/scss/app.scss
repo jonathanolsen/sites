@@ -178,6 +178,13 @@ $border-variable:		1px solid #f5f4f4;
 			.collection {
 				display: inline-block;
 
+				&.active {
+
+					.ticon > i {
+						opacity: 0.55;
+					}
+				}
+
 				.ticon {
 					border: 1px solid rgba(0, 0, 0, 0.3);
 					font-size: 14px;
@@ -190,6 +197,8 @@ $border-variable:		1px solid #f5f4f4;
 					> i {
 						position: absolute;
 						margin: 2px 3px;
+						opacity: 0;
+						transition: .1s ease-out;
 					}
 				}
 			}
