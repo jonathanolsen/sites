@@ -1,3 +1,9 @@
+.fl {
+  float: left; }
+
+.fr {
+  float: right; }
+
 .product_cat a {
   padding: 13px 30px; }
 
@@ -130,4 +136,19 @@
   border-radius: 2px;
   box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
   color: #777;
-  margin-right: 15px; }
+  margin-right: 15px;
+  cursor: pointer;
+  opacity: 0.6;
+  -webkit-transition: .1s ease-out;
+  transition: .1s ease-out; }
+  .filter-col .btn-custom:hover {
+    opacity: 1; }
+
+.filter-btn-container {
+  display: inline-block;
+  border-top: 1px solid #F5F4F4;
+  padding: 20px 30px 0;
+  margin: 10px -28px 0;
+  width: calc(100% + 43px); }
+  .filter-btn-container .filter-col-btn {
+    display: inline-block; }
