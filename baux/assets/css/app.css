@@ -143,14 +143,16 @@
     transition: .2s ease-out;
     -webkit-transform: scale(0.2);
             transform: scale(0.2); }
-  .filter-list-colors .collection .ticon.active .ticon svg {
-    opacity: 0;
-    -webkit-transform: scale(0.2);
-            transform: scale(0.2); }
-  .filter-list-colors .collection .ticon.active .ticon i {
-    opacity: 1;
-    -webkit-transform: scale(1);
-            transform: scale(1); }
+
+.filter-list-colors .collection.active .ticon svg {
+  opacity: 0;
+  -webkit-transform: scale(0.2);
+          transform: scale(0.2); }
+
+.filter-list-colors .collection.active .ticon i {
+  opacity: 1;
+  -webkit-transform: scale(1);
+          transform: scale(1); }
 
 .filter-list-colors .collection .ticon,
 .filter-list-ftag li a .ticon {

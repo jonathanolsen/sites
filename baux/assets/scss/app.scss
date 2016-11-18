@@ -226,15 +226,18 @@ $border-variable:		1px solid #f5f4f4;
 	}
 }
 
-.filter-list-colors .collection .ticon {
-	display: flex;
-	justify-content: center;
-	align-items: center;
+.filter-list-colors .collection {
 
-	> i {
-		opacity: 0;
-		transition: .2s ease-out;
-		transform: scale(0.2);
+	.ticon {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+
+		> i {
+			opacity: 0;
+			transition: .2s ease-out;
+			transform: scale(0.2);
+		}
 	}
 
 	&.active {
