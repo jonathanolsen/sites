@@ -169,7 +169,8 @@ $border-variable:		1px solid #f5f4f4;
 
 .filter-list-patterns {
 
-	li {
+	.filter-item {
+		margin: 10px 0;
 
 		a {
 
@@ -229,6 +230,28 @@ $border-variable:		1px solid #f5f4f4;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+
+	> i {
+		opacity: 0;
+		transition: .2s ease-out;
+		transform: scale(0.2);
+	}
+
+	&.active {
+
+		.ticon {
+
+			svg {
+				opacity: 0;
+				transform: scale(0.2);
+			}
+
+			i {
+				opacity: 1;
+				transform: scale(1);
+			}
+		}
+	}
 }
 
 .filter-list-colors .collection .ticon,
