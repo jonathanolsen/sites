@@ -25,33 +25,12 @@ $border-variable:		1px solid #f5f4f4;
 	background: none;
 }
 
+
+
+
+
 .filter-container {
 	border-bottom: $border-variable;
-}
-
-.filter-list {
-	border-top: $border-variable;
-	border-bottom: $border-variable;
-
-	.filter-item {
-		width: 25%;
-	}
-
-	&.sub-level {
-		padding: 20px 15px;
-	}
-}
-
-.filter-patterns {
-
-	.ticon {
-		background: #f5f4f4;
-		transition: .1s ease-out;
-	}
-
-	a.active .ticon {
-		background: #f5f4f4;
-	}
 }
 
 .filter-col {
@@ -66,19 +45,17 @@ $border-variable:		1px solid #f5f4f4;
 		background: none;
 	}
 
-
-}
-
-
-
-
-
-
-
-
-.filter-col {
-
 	.filter-list {
+		border-top: $border-variable;
+		border-bottom: $border-variable;
+
+		.filter-item {
+			width: 25%;
+		}
+
+		.sub-level {
+			padding: 20px 15px;
+		}
 
 		> ul {
 			display: inline-block;
@@ -86,7 +63,9 @@ $border-variable:		1px solid #f5f4f4;
 			width: 100%;
 
 			> li {
-				width: 100%;
+				display: inline-block;
+				list-style-type: none;
+				margin: 0;
 
 				.collection {
 					width: 23%;
@@ -98,8 +77,7 @@ $border-variable:		1px solid #f5f4f4;
 			&.filter-list-colors {
 
 				li {
-					list-style-type: none;
-					margin: 0;
+					width: 100%;
 
 					ul {
 						margin: 0;
@@ -179,6 +157,7 @@ $border-variable:		1px solid #f5f4f4;
 	}
 }
 
+
 .filter-list-patterns {
 
 	.filter-item {
@@ -187,6 +166,8 @@ $border-variable:		1px solid #f5f4f4;
 		a {
 
 			.ticon {
+				background: #f5f4f4;
+				transition: .1s ease-out;
 
 				svg {
 					transition: .2s ease-out;
@@ -204,6 +185,7 @@ $border-variable:		1px solid #f5f4f4;
 			&.active {
 
 				.ticon {
+					background: #f5f4f4;
 
 					svg {
 						opacity: 0;

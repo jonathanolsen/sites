@@ -17,22 +17,6 @@
 .filter-container {
   border-bottom: 1px solid #f5f4f4; }
 
-.filter-list {
-  border-top: 1px solid #f5f4f4;
-  border-bottom: 1px solid #f5f4f4; }
-  .filter-list .filter-item {
-    width: 25%; }
-  .filter-list.sub-level {
-    padding: 20px 15px; }
-
-.filter-patterns .ticon {
-  background: #f5f4f4;
-  -webkit-transition: .1s ease-out;
-  transition: .1s ease-out; }
-
-.filter-patterns a.active .ticon {
-  background: #f5f4f4; }
-
 .filter-col {
   border-right: 1px solid #f5f4f4; }
   .filter-col:last-of-type {
@@ -40,36 +24,41 @@
   .filter-col .filter-toggle {
     padding: 13px 0px;
     background: none; }
-
-.filter-col .filter-list > ul {
-  display: inline-block;
-  margin: 0;
-  width: 100%; }
-  .filter-col .filter-list > ul > li {
-    width: 100%; }
-    .filter-col .filter-list > ul > li .collection {
-      width: 23%;
-      float: left;
-      cursor: pointer; }
-  .filter-col .filter-list > ul.filter-list-colors li {
-    list-style-type: none;
-    margin: 0; }
-    .filter-col .filter-list > ul.filter-list-colors li ul {
+  .filter-col .filter-list {
+    border-top: 1px solid #f5f4f4;
+    border-bottom: 1px solid #f5f4f4; }
+    .filter-col .filter-list .filter-item {
+      width: 25%; }
+    .filter-col .filter-list .sub-level {
+      padding: 20px 15px; }
+    .filter-col .filter-list > ul {
+      display: inline-block;
       margin: 0;
-      width: 77%;
-      float: left; }
-      .filter-col .filter-list > ul.filter-list-colors li ul .filter-item {
-        width: 25%; }
-
-.filter-col .filter-list li span {
-  text-transform: uppercase; }
-
-.filter-col .filter-list .filter-item a {
-  margin: 0;
-  opacity: 1;
-  color: #7d797a; }
-  .filter-col .filter-list .filter-item a.active {
-    color: #525252; }
+      width: 100%; }
+      .filter-col .filter-list > ul > li {
+        display: inline-block;
+        list-style-type: none;
+        margin: 0; }
+        .filter-col .filter-list > ul > li .collection {
+          width: 23%;
+          float: left;
+          cursor: pointer; }
+      .filter-col .filter-list > ul.filter-list-colors li {
+        width: 100%; }
+        .filter-col .filter-list > ul.filter-list-colors li ul {
+          margin: 0;
+          width: 77%;
+          float: left; }
+          .filter-col .filter-list > ul.filter-list-colors li ul .filter-item {
+            width: 25%; }
+    .filter-col .filter-list li span {
+      text-transform: uppercase; }
+    .filter-col .filter-list .filter-item a {
+      margin: 0;
+      opacity: 1;
+      color: #7d797a; }
+      .filter-col .filter-list .filter-item a.active {
+        color: #525252; }
 
 .filter-btn-container {
   display: inline-block;
@@ -99,26 +88,32 @@
 
 .filter-list-patterns .filter-item {
   margin: 10px 0; }
-  .filter-list-patterns .filter-item a .ticon svg {
-    -webkit-transition: .2s ease-out;
-    transition: .2s ease-out;
-    -webkit-transform: scale(1);
-            transform: scale(1); }
-  .filter-list-patterns .filter-item a .ticon i {
-    position: absolute;
-    opacity: 0;
-    -webkit-transition: .2s ease-out;
-    transition: .2s ease-out;
-    -webkit-transform: scale(0.2);
-            transform: scale(0.2); }
-  .filter-list-patterns .filter-item a.active .ticon svg {
-    opacity: 0;
-    -webkit-transform: scale(0.2);
-            transform: scale(0.2); }
-  .filter-list-patterns .filter-item a.active .ticon i {
-    opacity: 1;
-    -webkit-transform: scale(1);
-            transform: scale(1); }
+  .filter-list-patterns .filter-item a .ticon {
+    background: #f5f4f4;
+    -webkit-transition: .1s ease-out;
+    transition: .1s ease-out; }
+    .filter-list-patterns .filter-item a .ticon svg {
+      -webkit-transition: .2s ease-out;
+      transition: .2s ease-out;
+      -webkit-transform: scale(1);
+              transform: scale(1); }
+    .filter-list-patterns .filter-item a .ticon i {
+      position: absolute;
+      opacity: 0;
+      -webkit-transition: .2s ease-out;
+      transition: .2s ease-out;
+      -webkit-transform: scale(0.2);
+              transform: scale(0.2); }
+  .filter-list-patterns .filter-item a.active .ticon {
+    background: #f5f4f4; }
+    .filter-list-patterns .filter-item a.active .ticon svg {
+      opacity: 0;
+      -webkit-transform: scale(0.2);
+              transform: scale(0.2); }
+    .filter-list-patterns .filter-item a.active .ticon i {
+      opacity: 1;
+      -webkit-transform: scale(1);
+              transform: scale(1); }
 
 .filter-list-colors .filter-colors a {
   font-weight: 600; }
