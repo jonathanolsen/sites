@@ -44,6 +44,13 @@ p, .p {
     margin-top: 2px; }
   .grid-item .part.headline .gear .dropdown-toggle {
     padding: 0 0 0 20px; }
+  .grid-item .part.headline small {
+    font-size: 10px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #777;
+    display: block;
+    margin-top: 4px; }
   .grid-item .part.price {
     border-radius: 0 0 4px 4px;
     text-transform: uppercase;
@@ -227,3 +234,32 @@ p, .p {
   width: 10px !important;
   display: inline-block;
   text-align: center; }
+
+.dropdown-menu li a .fa-fw {
+  margin-right: 6px;
+  font-size: 16px; }
+
+#formdata {
+  font-weight: bold;
+  font-size: 18px;
+  margin-top: 20px; }
+  #formdata .title {
+    text-transform: none;
+    font-size: 27px; }
+  #formdata .flex {
+    margin: 10px auto 40px; }
+    #formdata .flex.smallinfo .flex-col {
+      margin: 0 10px; }
+  #formdata .part.columns .small-title {
+    font-weight: 400;
+    font-size: 20px; }
+  #formdata .part.columns .flavor li {
+    text-transform: uppercase;
+    font-weight: 300; }
+    #formdata .part.columns .flavor li span {
+      font-weight: 600; }
+  #formdata .part.columns .price_tag ._inner {
+    text-transform: uppercase; }
+    #formdata .part.columns .price_tag ._inner span {
+      font-weight: 800;
+      margin-top: 2px; }

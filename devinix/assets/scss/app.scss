@@ -75,6 +75,15 @@ p, .p {
 					padding: 0 0 0 20px;
 				}
 			}
+
+			small {
+				font-size: 10px;
+				text-transform: uppercase;
+				font-weight: 400;
+				color: #777;
+				display: block;
+				margin-top: 4px;
+			}
 		}
 
 		&.price {
@@ -377,6 +386,106 @@ p, .p {
 		}
 	}
 }
+
+
+
+
+
+.dropdown-menu li a .fa-fw {
+	margin-right: 6px;
+	font-size: 16px;
+}
+
+
+#dashBoard {
+
+	.grid-item {
+
+		.headline {
+
+			> i {
+
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+#formdata {
+	font-weight: bold;
+	font-size: 18px;
+	margin-top: 20px;
+
+	.title {
+		text-transform: none;
+		font-size: 27px;
+	}
+
+	.flex {
+		margin: 10px auto 40px;
+
+		&.smallinfo {
+
+			.flex-col {
+				margin: 0 10px;
+			}
+		}
+	}
+
+	.part {
+
+		&.columns {
+
+			.small-title {
+				font-weight: 400;
+				font-size: 20px;
+			}
+
+			.flavor {
+
+				li {
+					text-transform: uppercase;
+					font-weight: 300;
+
+					span {
+						font-weight: 600;
+					}
+				}
+			}
+
+			.price_tag {
+
+				._inner {
+					text-transform: uppercase;
+
+					span {
+						font-weight: 800;
+						    margin-top: 2px;
+					}
+				}
+			}
+		}
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
