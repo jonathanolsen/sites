@@ -502,8 +502,35 @@ p, .p {
 			color: #fff;
 		}
 	}
+
+	.modal-content {
+
+		.price_tag {
+
+			._inner {
+				text-transform: uppercase;
+
+				span {
+					font-weight: 800;
+					margin-left: 10px;
+					font-size: 16px;
+				}
+			}
+		}
+
+		.price_tag_bottom {
+			left: 30px;
+			padding: 20px 25px;
+			border-radius: 3px;
+		}
+	}
 }
 
+
+.select2-results {
+	border-radius: 0 0 3px 3px;
+	overflow: hidden;
+}
 
 
 
