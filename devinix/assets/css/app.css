@@ -290,14 +290,14 @@ p, .p {
 .modal .select-boxes input[type="radio"]:checked + label p {
   color: #fff; }
 
-.modal .select-boxes .modal-content .price_tag ._inner {
+.modal-content .price_tag ._inner {
   text-transform: uppercase; }
-  .modal .select-boxes .modal-content .price_tag ._inner span {
+  .modal-content .price_tag ._inner span {
     font-weight: 800;
     margin-left: 10px;
     font-size: 16px; }
 
-.modal .select-boxes .modal-content .price_tag_bottom {
+.modal-content .price_tag_bottom {
   left: 30px;
   padding: 20px 25px;
   border-radius: 3px; }

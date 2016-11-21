@@ -502,27 +502,27 @@ p, .p {
 			color: #fff;
 		}
 	}
+}
 
-	.modal-content {
+.modal-content {
 
-		.price_tag {
+	.price_tag {
 
-			._inner {
-				text-transform: uppercase;
+		._inner {
+			text-transform: uppercase;
 
-				span {
-					font-weight: 800;
-					margin-left: 10px;
-					font-size: 16px;
-				}
+			span {
+				font-weight: 800;
+				margin-left: 10px;
+				font-size: 16px;
 			}
 		}
+	}
 
-		.price_tag_bottom {
-			left: 30px;
-			padding: 20px 25px;
-			border-radius: 3px;
-		}
+	.price_tag_bottom {
+		left: 30px;
+		padding: 20px 25px;
+		border-radius: 3px;
 	}
 }
 
