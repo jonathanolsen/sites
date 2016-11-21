@@ -418,27 +418,30 @@ p, .p {
 
 
 #formdata {
-	font-weight: bold;
-	font-size: 18px;
-	margin-top: 20px;
+	
+
+	.server_function_desc {
+		font-weight: bold;
+		font-size: 18px;
+		margin-top: 20px;
+	}
 
 	.title {
 		text-transform: none;
 		font-size: 27px;
 	}
 
-	.flex {
-		margin: 10px auto 40px;
+	.part {
 
 		&.smallinfo {
+			margin: 10px auto 40px;
+			justify-content: center;
+			align-items: center;
 
 			.flex-col {
 				margin: 0 10px;
 			}
 		}
-	}
-
-	.part {
 
 		&.columns {
 

@@ -239,27 +239,38 @@ p, .p {
   margin-right: 6px;
   font-size: 16px; }
 
-#formdata {
+#formdata .server_function_desc {
   font-weight: bold;
   font-size: 18px;
   margin-top: 20px; }
-  #formdata .title {
-    text-transform: none;
-    font-size: 27px; }
-  #formdata .flex {
-    margin: 10px auto 40px; }
-    #formdata .flex.smallinfo .flex-col {
-      margin: 0 10px; }
-  #formdata .part.columns .small-title {
-    font-weight: 400;
-    font-size: 20px; }
-  #formdata .part.columns .flavor li {
-    text-transform: uppercase;
-    font-weight: 300; }
-    #formdata .part.columns .flavor li span {
-      font-weight: 600; }
-  #formdata .part.columns .price_tag ._inner {
-    text-transform: uppercase; }
-    #formdata .part.columns .price_tag ._inner span {
-      font-weight: 800;
-      margin-top: 2px; }
+
+#formdata .title {
+  text-transform: none;
+  font-size: 27px; }
+
+#formdata .part.smallinfo {
+  margin: 10px auto 40px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center; }
+  #formdata .part.smallinfo .flex-col {
+    margin: 0 10px; }
+
+#formdata .part.columns .small-title {
+  font-weight: 400;
+  font-size: 20px; }
+
+#formdata .part.columns .flavor li {
+  text-transform: uppercase;
+  font-weight: 300; }
+  #formdata .part.columns .flavor li span {
+    font-weight: 600; }
+
+#formdata .part.columns .price_tag ._inner {
+  text-transform: uppercase; }
+  #formdata .part.columns .price_tag ._inner span {
+    font-weight: 800;
+    margin-top: 2px; }
