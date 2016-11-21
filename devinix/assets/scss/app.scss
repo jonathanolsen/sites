@@ -485,8 +485,25 @@ p, .p {
 
 
 
+.modal .select-boxes {
 
+	label {
+		border-radius: 3px;
+		font-weight: 600;
 
+		p {
+			padding: 10px 0;
+			line-height: 22px;
+		}
+	}
+
+	input[type="radio"]:checked + label {
+
+		p {
+			color: #fff;
+		}
+	}
+}
 
 
 
