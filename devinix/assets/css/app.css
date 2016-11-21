@@ -269,6 +269,9 @@ p, .p {
   #formdata .part.columns .flavor li span {
     font-weight: 600; }
 
+#formdata .part.columns .price_tag .inner {
+  border-radius: 3px; }
+
 #formdata .part.columns .price_tag ._inner {
   margin: 15px 0 0;
   padding: 20px 0;
