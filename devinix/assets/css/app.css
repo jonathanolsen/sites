@@ -285,7 +285,8 @@ p, .p {
   font-weight: 600; }
   .modal .select-boxes label p {
     padding: 10px 0;
-    line-height: 22px; }
+    line-height: 22px;
+    text-transform: uppercase; }
 
 .modal .select-boxes input[type="radio"]:checked + label p {
   color: #fff; }
