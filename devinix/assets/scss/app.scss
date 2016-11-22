@@ -640,6 +640,11 @@ p, .p {
 	.price-box {
 		width: 80%;
 		height: 75px;
+		justify-content: flex-end;
+
+		p {
+			font-size: 10px;
+		}
 
 		.total-resources {
 			display: none;

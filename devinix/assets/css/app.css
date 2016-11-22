@@ -347,6 +347,11 @@ p, .p {
         left: 10px; }
   .price-box {
     width: 80%;
-    height: 75px; }
+    height: 75px;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end; }
+    .price-box p {
+      font-size: 10px; }
     .price-box .total-resources {
       display: none; } }
