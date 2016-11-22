@@ -659,6 +659,20 @@ p, .p {
 		display: none;
 	}
 
+	.head {
+
+		h1 {
+			line-height: 40px;
+			font-size: 17px;
+			text-align: center;
+			padding: 10px 20px 5px;
+
+			> i {
+				display: block;
+			}
+		}
+	}
+
 	#bottom-info-box {
 		width: 20%;
     	height: 75px;

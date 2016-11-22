@@ -350,6 +350,13 @@ p, .p {
 @media (max-width: 767px) {
   pre {
     display: none; }
+  .head h1 {
+    line-height: 40px;
+    font-size: 17px;
+    text-align: center;
+    padding: 10px 20px 5px; }
+    .head h1 > i {
+      display: block; }
   #bottom-info-box {
     width: 20%;
     height: 75px; }
