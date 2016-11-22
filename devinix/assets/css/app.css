@@ -357,12 +357,14 @@ p, .p {
     .price-box .part {
       padding: 10px 20px; }
     .price-box .total-resources {
-      display: none; } }
+      display: none; }
+  .navbar-top-links.navbar-right {
+    display: none; } }
 
-.navbar-top-links.navbar-right {
-  display: none; }
+#header .logo {
+  top: 2px; }
 
-.navbar-toggle {
+#header .navbar-toggle {
   background: rgba(255, 255, 255, 0.08); }
-  .navbar-toggle .icon-bar {
+  #header .navbar-toggle .icon-bar {
     background: none; }

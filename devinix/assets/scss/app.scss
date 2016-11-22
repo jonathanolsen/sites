@@ -657,21 +657,27 @@ p, .p {
 			display: none;
 		}
 	}
-}
 
-
-.navbar-top-links.navbar-right {
-	display: none;
-}
-
-.navbar-toggle {
-	background: rgba(255, 255, 255, 0.08);
-
-	.icon-bar {
-		background: none;
+	.navbar-top-links.navbar-right {
+		display: none;
 	}
 }
 
+
+#header {
+
+	.logo {
+		top: 2px;
+	}
+
+	.navbar-toggle {
+		background: rgba(255, 255, 255, 0.08);
+
+		.icon-bar {
+			background: none;
+		}
+	}
+}
 
 
 
