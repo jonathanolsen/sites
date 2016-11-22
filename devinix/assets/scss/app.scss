@@ -670,10 +670,12 @@ p, .p {
 
 	.logo {
 		top: 2px;
+		margin: 15px 10px;
+		max-width: 100px;
 	}
 
 	.navbar-toggle {
-		background: rgba(255, 255, 255, 0.08);
+		margin-right: 10px;
 
 		.icon-bar {
 			background: #fff;
@@ -686,9 +688,18 @@ p, .p {
 		background: rgb(61, 61, 64);
 		width: 100%;
 		z-index: 1;
+		box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
 
 		#vdc-info {
 			padding: 12px 20px;
+
+			p {
+				margin-bottom: 0;
+			}
+
+			i {
+				margin-right: 7px;
+			}
 		}
 
 		#navbar-meny {
