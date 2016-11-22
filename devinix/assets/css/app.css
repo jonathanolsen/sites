@@ -32,6 +32,8 @@ p, .p {
       font-size: 15px; }
       .grid-item .part.content li span {
         font-weight: 600; }
+  .grid-item .part.headline > i {
+    margin-right: 10px; }
   .grid-item .part.headline .status {
     margin: 0 0 6px 2px;
     width: 9px;
@@ -325,3 +327,25 @@ p, .p {
         font-size: 20px; }
     .price-box .part.small-border-left:before {
       margin: 0px 20px 0 0; }
+
+@media (max-width: 767px) {
+  #bottom-info-box {
+    width: 20%;
+    height: 75px; }
+    #bottom-info-box .oval {
+      border: none;
+      margin: 0;
+      max-width: 100%; }
+    #bottom-info-box .fr-vdc_name {
+      display: none; }
+    #bottom-info-box .dropdown-menu {
+      top: auto;
+      bottom: 32px;
+      left: 15px; }
+      #bottom-info-box .dropdown-menu.dropdown-bottom:after {
+        left: 10px; }
+  .price-box {
+    width: 80%;
+    height: 75px; }
+    .price-box .total-resources {
+      display: none; } }
