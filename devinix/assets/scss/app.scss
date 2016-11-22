@@ -47,10 +47,10 @@ $L:        1200px;
 
 .head {
 	background: #fff;
+	border-bottom: 1px solid #EBEBEB;
 }
 
 .online .sub-menu {
-    border-top: 1px solid #EBEBEB;
     border-bottom: 1px solid #fff;
     padding: 0 15px;
 
@@ -615,7 +615,7 @@ p, .p {
 
 	.logo-container {
 		text-align: center;
-		margin: 29px 0 30px;
+		margin: 29px 0;
 
 		.logo {
 			width: 140px;
