@@ -358,3 +358,6 @@ p, .p {
       padding: 10px 20px; }
     .price-box .total-resources {
       display: none; } }
+
+.navbar-top-links.navbar-right {
+  display: none; }
