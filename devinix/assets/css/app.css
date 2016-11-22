@@ -361,3 +361,8 @@ p, .p {
 
 .navbar-top-links.navbar-right {
   display: none; }
+
+.navbar-toggle {
+  background: rgba(255, 255, 255, 0.08); }
+  .navbar-toggle .icon-bar {
+    background: none; }
