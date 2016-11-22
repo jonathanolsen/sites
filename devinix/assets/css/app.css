@@ -335,7 +335,8 @@ p, .p {
     #bottom-info-box .oval {
       border: none;
       margin: 0;
-      max-width: 100%; }
+      max-width: 100%;
+      border-radius: 0; }
     #bottom-info-box .fr-vdc_name {
       display: none; }
     #bottom-info-box .dropdown-menu {
