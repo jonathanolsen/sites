@@ -330,6 +330,8 @@ p, .p {
       margin: 0px 20px 0 0; }
 
 @media (max-width: 767px) {
+  pre {
+    display: none; }
   #bottom-info-box {
     width: 20%;
     height: 75px; }

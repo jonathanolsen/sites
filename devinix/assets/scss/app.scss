@@ -614,6 +614,10 @@ p, .p {
 
 @include bp(xs-sm) {
 
+	pre {
+		display: none;
+	}
+
 	#bottom-info-box {
 		width: 20%;
     	height: 75px;
