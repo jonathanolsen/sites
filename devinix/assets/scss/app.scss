@@ -583,7 +583,7 @@ p, .p {
 }
 
 .price-box {
-	display: flex;
+	padding: 0 80px 0 0;
 
 	p {
 		font-size: 12px;
@@ -593,9 +593,12 @@ p, .p {
 		padding: 12px 30px;
 
 		&.more-info {
+			position: absolute;
+			right: 0;
+			height: 100%;
+			padding: 0 30px;
 			display: flex;
 			align-items: center;
-			padding: 0 30px;
 
 			i {
 				font-size: 20px;

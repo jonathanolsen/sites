@@ -308,21 +308,22 @@ p, .p {
   overflow: hidden; }
 
 .price-box {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex; }
+  padding: 0 80px 0 0; }
   .price-box p {
     font-size: 12px; }
   .price-box .part {
     padding: 12px 30px; }
     .price-box .part.more-info {
+      position: absolute;
+      right: 0;
+      height: 100%;
+      padding: 0 30px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
       -webkit-box-align: center;
           -ms-flex-align: center;
-              align-items: center;
-      padding: 0 30px; }
+              align-items: center; }
       .price-box .part.more-info i {
         font-size: 20px; }
     .price-box .part.small-border-left:before {
