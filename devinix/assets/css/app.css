@@ -367,7 +367,7 @@ p, .p {
 #header .navbar-toggle {
   background: rgba(255, 255, 255, 0.08); }
   #header .navbar-toggle .icon-bar {
-    background: none; }
+    background: #fff; }
 
 #header #main-nav {
   position: absolute;
