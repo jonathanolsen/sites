@@ -665,17 +665,8 @@ p, .p {
 	.navbar-top-links.navbar-right {
 		display: none;
 	}
-}
 
-@include bp(md) {
-
-	.collapse {
-		display: block;
-	}
-}
-
-
-#header {
+	#header {
 
 	.logo {
 		top: 2px;
@@ -721,6 +712,18 @@ p, .p {
 		}
 	}
 }
+}
+
+@include bp(md) {
+
+	.collapse {
+		display: block;
+		visibility: visible;
+	}
+}
+
+
+
 
 
 
