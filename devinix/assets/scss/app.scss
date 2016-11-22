@@ -615,12 +615,16 @@ p, .p {
 
 	.logo-container {
 		text-align: center;
+		margin: 30px 0;
 
 		.logo {
 			width: 140px;
-			margin: 30px 0 0;
 		}
 	}
+}
+
+#main-nav {
+	border-top: 1px solid rgba(150, 150, 150, 0.2);
 }
 
 #vdc-info {
