@@ -338,6 +338,9 @@ p, .p {
 
 #main-nav {
   border-top: 1px solid rgba(150, 150, 150, 0.2); }
+  @media (min-width: 768px) {
+    #main-nav .navbar-menu li a {
+      padding: 12px 20px 14px; } }
 
 #vdc-info {
   padding: 10px 20px; }

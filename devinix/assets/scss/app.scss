@@ -625,6 +625,17 @@ p, .p {
 
 #main-nav {
 	border-top: 1px solid rgba(150, 150, 150, 0.2);
+
+	.navbar-menu {
+
+		li {
+			@include bp(sm) {
+				a {
+					padding: 12px 20px 14px;
+				}
+			}
+		}
+	}
 }
 
 #vdc-info {
