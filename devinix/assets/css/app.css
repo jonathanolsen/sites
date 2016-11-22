@@ -354,5 +354,7 @@ p, .p {
             justify-content: flex-end; }
     .price-box p {
       font-size: 10px; }
+    .price-box .part {
+      padding: 10px 20px; }
     .price-box .total-resources {
       display: none; } }
