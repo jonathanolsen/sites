@@ -677,6 +677,38 @@ p, .p {
 			background: none;
 		}
 	}
+
+	#main-nav {
+		position: absolute;
+		top: 50px;
+		background: rgb(61, 61, 64);
+		width: 100%;
+		z-index: 1;
+
+		#vdc-info {
+			padding: 12px 20px;
+		}
+
+		#navbar-meny {
+			padding: 15px 0;
+
+			li {
+
+				a {
+					padding: 8px 20px;
+					display: inline-block;
+					width: 100%;
+					text-transform: uppercase;
+					font-weight: 600;
+
+					i {
+						margin-right: 15px;
+						font-size: 17px;
+					}
+				}
+			}
+		}
+	}
 }
 
 
