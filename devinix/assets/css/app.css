@@ -363,6 +363,10 @@ p, .p {
   .navbar-top-links.navbar-right {
     display: none; } }
 
+@media (min-width: 992px) {
+  .collapse {
+    display: block; } }
+
 #header .logo {
   top: 2px; }
 

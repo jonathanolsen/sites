@@ -667,6 +667,13 @@ p, .p {
 	}
 }
 
+@include bp(md) {
+
+	.collapse {
+		display: block;
+	}
+}
+
 
 #header {
 
