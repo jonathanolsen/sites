@@ -39,7 +39,7 @@ p, .p {
 		padding: 18px 25px;
 
 		&.content {
-			border-bottom: none;
+			border-bottom: none !important;
 
 			li {
 				margin: 8px 0;
@@ -532,8 +532,31 @@ p, .p {
 	overflow: hidden;
 }
 
+.price-box {
+	display: flex;
 
+	p {
+		font-size: 12px;
+	}
 
+	.part {
+		padding: 12px 30px;
+
+		&.more-info {
+			display: flex;
+			align-items: center;
+			padding: 0 30px;
+
+			i {
+				font-size: 20px;
+			}
+		}
+
+		&.small-border-left:before {
+			margin: 0px 20px 0 0;
+		}
+	}
+}
 
 
 

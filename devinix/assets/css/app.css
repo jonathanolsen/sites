@@ -26,7 +26,7 @@ p, .p {
 .grid-item .part {
   padding: 18px 25px; }
   .grid-item .part.content {
-    border-bottom: none; }
+    border-bottom: none !important; }
     .grid-item .part.content li {
       margin: 8px 0;
       font-size: 15px; }
@@ -304,3 +304,24 @@ p, .p {
 .select2-results {
   border-radius: 0 0 3px 3px;
   overflow: hidden; }
+
+.price-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+  .price-box p {
+    font-size: 12px; }
+  .price-box .part {
+    padding: 12px 30px; }
+    .price-box .part.more-info {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-align: center;
+          -ms-flex-align: center;
+              align-items: center;
+      padding: 0 30px; }
+      .price-box .part.more-info i {
+        font-size: 20px; }
+    .price-box .part.small-border-left:before {
+      margin: 0px 20px 0 0; }
