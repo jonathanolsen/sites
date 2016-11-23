@@ -1,6 +1,10 @@
 .head {
   background: #fff;
   border-bottom: 1px solid #EBEBEB; }
+  .head h1 {
+    padding: 19px 30px; }
+    .head h1 i {
+      margin-right: 15px; }
 
 .online .sub-menu {
   border-bottom: 1px solid #fff;
@@ -215,10 +219,6 @@ p, .p {
 
 .select2-container--default .select2-results__option {
   padding: 8px 15px; }
-
-.head h1 {
-  padding: 0px 30px;
-  line-height: 80px; }
 
 .navbar-top-links {
   top: 20px;

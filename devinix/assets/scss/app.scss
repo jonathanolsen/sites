@@ -48,6 +48,14 @@ $L:        1200px;
 .head {
 	background: #fff;
 	border-bottom: 1px solid #EBEBEB;
+
+	h1 {
+		padding: 19px 30px;
+
+		i {
+			margin-right: 15px;
+		}
+	}
 }
 
 .online .sub-menu {
@@ -405,10 +413,7 @@ p, .p {
 }
 
 
-.head h1 {
-	padding: 0px 30px;
-	line-height: 80px;
-}
+
 
 .navbar-top-links {
 	top: 20px;
