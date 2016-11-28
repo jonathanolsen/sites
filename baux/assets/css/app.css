@@ -277,7 +277,7 @@
   -webkit-transform: scale(1);
           transform: scale(1); }
 
-.product-boxed.part.info {
+.product-boxed .part.info {
   margin: 20px 0 0;
   padding: 25px 30px;
   background: #F6F7F8;
