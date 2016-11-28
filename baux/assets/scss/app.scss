@@ -475,17 +475,17 @@ $border-variable:		1px solid #f5f4f4;
 
 		&.info {
 			margin: 0;
-			padding: 20px 30px;
+			padding: 25px 30px;
 			background: #F6F7F8;
 			border-radius: 3px;
 			display: inline-block;
 			width: 100%;
 			box-sizing: border-box;
-
-			.dl {
-				font-weight: 600;
-			}
 		}
+	}
+
+	.dl {
+		font-weight: 600;
 	}
 
 	.price {
@@ -520,6 +520,14 @@ $border-variable:		1px solid #f5f4f4;
 	margin-top: 25px;
 	padding-top: 30px;
 
+	.flex-col-4 .inner {
+		margin: 0 30px;
+	}
+
+	.bx-single-sku {
+		margin-bottom: 10px;
+	}
+
 	.mk-product-loop.compact-layout .products .item {
 		padding: 0 18px 26px;
 		border-radius: 3px;
@@ -527,7 +535,14 @@ $border-variable:		1px solid #f5f4f4;
 	}
 }
 
+.gallery-thumbs {
+	margin: 0;
+	padding: 0;
 
+	img {
+		margin: 0;
+	}
+}
 
 
 
