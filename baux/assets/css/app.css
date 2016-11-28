@@ -7,6 +7,10 @@
 .fr {
   float: right; }
 
+@media (max-width: 767px) {
+  .product_cat .btn-clear-filter {
+    display: none; } }
+
 .product_cat a {
   padding: 13px 30px; }
 

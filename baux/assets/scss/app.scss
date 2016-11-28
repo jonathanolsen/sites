@@ -55,6 +55,12 @@ $border-variable:		1px solid #f5f4f4;
 
 .product_cat {
 
+	@include bp(xs-sm) {
+		.btn-clear-filter {
+			display: none;
+		}
+	}
+
 	a {
 		padding: 13px 30px;
 	}
