@@ -283,10 +283,7 @@ $border-variable:		1px solid #f5f4f4;
 							position: relative;
 							width: 30px;
 							height: 30px;
-
-							@include bp(xs-sm) {
-								margin: -3px 10px 0 0;
-							}
+							margin: -3px 10px 0 0;
 
 							svg {
 								transition: .2s ease-out;
@@ -353,15 +350,17 @@ $border-variable:		1px solid #f5f4f4;
 			float: left;
 		}
 
-		&.fr {
-			width: 100%;
+		@include bp(xs-sm) {
+			&.fr {
+				width: 100%;
 
-			.btn-next-filter {
-				margin: 15px 2.5% 0;
-				width: 95%;
+				.btn-next-filter {
+					margin: 15px 2.5% 0;
+					width: 95%;
+				}
 			}
 		}
-
+		
 		.btn-custom {
 			border: 1px solid silver;
 			display: inline-block;

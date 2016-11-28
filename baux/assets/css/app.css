@@ -161,10 +161,8 @@
             transition: .1s ease-out;
             position: relative;
             width: 30px;
-            height: 30px; }
-            @media (max-width: 767px) {
-              .filter-col .filter-list > ul.filter-list-patterns .filter-item a .ticon {
-                margin: -3px 10px 0 0; } }
+            height: 30px;
+            margin: -3px 10px 0 0; }
             .filter-col .filter-list > ul.filter-list-patterns .filter-item a .ticon svg {
               -webkit-transition: .2s ease-out;
               transition: .2s ease-out;
@@ -205,11 +203,12 @@
       .filter-btn-container .filter-col-btn {
         width: 50%;
         float: left; } }
-    .filter-btn-container .filter-col-btn.fr {
-      width: 100%; }
-      .filter-btn-container .filter-col-btn.fr .btn-next-filter {
-        margin: 15px 2.5% 0;
-        width: 95%; }
+    @media (max-width: 767px) {
+      .filter-btn-container .filter-col-btn.fr {
+        width: 100%; }
+        .filter-btn-container .filter-col-btn.fr .btn-next-filter {
+          margin: 15px 2.5% 0;
+          width: 95%; } }
     .filter-btn-container .filter-col-btn .btn-custom {
       border: 1px solid silver;
       display: inline-block;
