@@ -532,7 +532,19 @@ $border-variable:		1px solid #f5f4f4;
 	}
 }
 
+.page-control {
+	border-bottom: 1px solid #eee;
+	margin-bottom: 20px;
+	padding: 10px 0 10px;
+	border-top: 1px solid #eee;
 
+	> a {
+		text-transform: uppercase;
+		display: inline-block;
+		color: #555;
+		font-size: 14px;
+	}
+}
 
 
 
