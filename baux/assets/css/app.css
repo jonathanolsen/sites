@@ -327,5 +327,5 @@
 .gallery-thumbs {
   margin: 0;
   padding: 0; }
-  .gallery-thumbs img {
+  .gallery-thumbs .gallery-thumb {
     margin: 0; }
