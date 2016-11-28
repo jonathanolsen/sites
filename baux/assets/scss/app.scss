@@ -1,3 +1,47 @@
+// Breakpoints
+
+$S:        768px;
+$M:        992px;   
+$L:        1200px; 
+
+@mixin bp($point) {
+    @if $point == xs {
+        @content;
+    }
+    @else if $point == xs-sm {
+        @media (max-width: 767px)  { @content ; }
+    }
+    @else if $point == xs-md {
+        @media (max-width: 991px)  { @content ; }
+    }
+    @else if $point == xs-lg {
+        @media (max-width: 1199px)  { @content ; }
+    }
+    @else if $point == sm {
+        @media (min-width: 768px) { @content ; }
+    }
+    @else if $point == sm-md {
+        @media (min-width: 768px) and (max-width: 991px)  { @content ; }
+    }
+    @else if $point == sm-lg {
+        @media (min-width: 768px) and (max-width: 1199px)  { @content ; }
+    }
+    @else if $point == md {
+        @media (min-width: 992px) { @content ; }
+    }
+    @else if $point == md-lg {
+        @media (min-width: 992px) and (max-width: 1199px)  { @content ; }
+    }
+    @else if $point == lg {
+        @media (min-width: 1200px) { @content ; }
+    }
+}
+
+.col-md-offset-half-col {
+    margin-left: 2.1%;
+}
+
+
 $border-variable:		1px solid #f5f4f4;
 
 .fl {
@@ -57,6 +101,12 @@ $border-variable:		1px solid #f5f4f4;
 	.filter-toggle {
 		padding: 13px 0px;
 		background: none;
+
+		span {
+			@include bp(xs-sm) {
+				display: none;
+			}
+		}
 	}
 
 	.filter-list {
@@ -64,7 +114,15 @@ $border-variable:		1px solid #f5f4f4;
 		border-bottom: $border-variable;
 
 		.filter-item {
-			width: 25%;
+			width: 100%;
+
+			@include bp(xs-sm) {
+				margin-top: 3px;
+			}
+
+			@include bp(sm) {
+				width: 25%;
+			}
 
 			a {
 				margin: 0;
@@ -96,17 +154,35 @@ $border-variable:		1px solid #f5f4f4;
 				> li {
 					width: 100%;
 
+					@include bp(xs-sm) {
+						border-bottom: 1px solid #ddd;
+						padding-bottom: 20px;
+						margin-bottom: 20px;
+					}
+
 					> ul {
 						margin: 0;
-						width: 77%;
+						width: 100%;
 						float: left;
+
+						@include bp(sm) {
+							width: 77%;
+						}
 					}
 				}
 
 				.collection {
-					width: 23%;
+					width: 100%;
 					float: left;
 					cursor: pointer;
+
+					@include bp(xs-sm) {
+						margin-bottom: 10px;
+					}
+
+					@include bp(sm) {
+						width: 23%;
+					}
 
 					.ticon {
 						display: flex;
@@ -162,6 +238,15 @@ $border-variable:		1px solid #f5f4f4;
 
 				.filter-item {
 					margin: 15px 0 5px;
+					width: 100%;
+
+					@include bp(sm) {
+						width: 25%;
+					}
+
+					@include bp(md) {
+						width: 20%;
+					}
 
 					a {
 
@@ -170,6 +255,7 @@ $border-variable:		1px solid #f5f4f4;
 							transition: .1s ease-out;
 							position: relative;
 							width: 30px;
+							height: 30px;
 
 							svg {
 								transition: .2s ease-out;

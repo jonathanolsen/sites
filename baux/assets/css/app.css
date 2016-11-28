@@ -1,3 +1,6 @@
+.col-md-offset-half-col {
+  margin-left: 2.1%; }
+
 .fl {
   float: left; }
 
@@ -36,11 +39,20 @@
   .filter-col .filter-toggle {
     padding: 13px 0px;
     background: none; }
+    @media (max-width: 767px) {
+      .filter-col .filter-toggle span {
+        display: none; } }
   .filter-col .filter-list {
     border-top: 1px solid #f5f4f4;
     border-bottom: 1px solid #f5f4f4; }
     .filter-col .filter-list .filter-item {
-      width: 25%; }
+      width: 100%; }
+      @media (max-width: 767px) {
+        .filter-col .filter-list .filter-item {
+          margin-top: 3px; } }
+      @media (min-width: 768px) {
+        .filter-col .filter-list .filter-item {
+          width: 25%; } }
       .filter-col .filter-list .filter-item a {
         margin: 0;
         opacity: 1;
@@ -58,14 +70,28 @@
         margin: 0; }
       .filter-col .filter-list > ul.filter-list-colors > li {
         width: 100%; }
+        @media (max-width: 767px) {
+          .filter-col .filter-list > ul.filter-list-colors > li {
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 20px;
+            margin-bottom: 20px; } }
         .filter-col .filter-list > ul.filter-list-colors > li > ul {
           margin: 0;
-          width: 77%;
+          width: 100%;
           float: left; }
+          @media (min-width: 768px) {
+            .filter-col .filter-list > ul.filter-list-colors > li > ul {
+              width: 77%; } }
       .filter-col .filter-list > ul.filter-list-colors .collection {
-        width: 23%;
+        width: 100%;
         float: left;
         cursor: pointer; }
+        @media (max-width: 767px) {
+          .filter-col .filter-list > ul.filter-list-colors .collection {
+            margin-bottom: 10px; } }
+        @media (min-width: 768px) {
+          .filter-col .filter-list > ul.filter-list-colors .collection {
+            width: 23%; } }
         .filter-col .filter-list > ul.filter-list-colors .collection .ticon {
           display: -webkit-box;
           display: -ms-flexbox;
@@ -102,13 +128,21 @@
       .filter-col .filter-list > ul.filter-list-patterns {
         padding: 15px; }
         .filter-col .filter-list > ul.filter-list-patterns .filter-item {
-          margin: 15px 0 5px; }
+          margin: 15px 0 5px;
+          width: 100%; }
+          @media (min-width: 768px) {
+            .filter-col .filter-list > ul.filter-list-patterns .filter-item {
+              width: 25%; } }
+          @media (min-width: 992px) {
+            .filter-col .filter-list > ul.filter-list-patterns .filter-item {
+              width: 20%; } }
           .filter-col .filter-list > ul.filter-list-patterns .filter-item a .ticon {
             background: #f5f4f4;
             -webkit-transition: .1s ease-out;
             transition: .1s ease-out;
             position: relative;
-            width: 30px; }
+            width: 30px;
+            height: 30px; }
             .filter-col .filter-list > ul.filter-list-patterns .filter-item a .ticon svg {
               -webkit-transition: .2s ease-out;
               transition: .2s ease-out;
