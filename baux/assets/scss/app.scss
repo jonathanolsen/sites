@@ -513,6 +513,10 @@ $border-variable:		1px solid #f5f4f4;
 			margin: 20px 0 0;
 		}
 	}
+
+	.bx-single-sku {
+		margin-bottom: 10px;
+	}
 }
 
 
@@ -523,10 +527,6 @@ $border-variable:		1px solid #f5f4f4;
 
 	.flex-col-4 .inner {
 		margin: 0 30px;
-	}
-
-	.bx-single-sku {
-		margin-bottom: 10px;
 	}
 
 	.mk-product-loop.compact-layout .products .item {

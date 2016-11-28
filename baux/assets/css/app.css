@@ -310,14 +310,15 @@
     font-weight: 600;
     margin: 20px 0 0; }
 
+.product-boxed .bx-single-sku {
+  margin-bottom: 10px; }
+
 .related-products {
   border-top: 1px solid #f4f5f6;
   margin-top: 25px;
   padding-top: 30px; }
   .related-products .flex-col-4 .inner {
     margin: 0 30px; }
-  .related-products .bx-single-sku {
-    margin-bottom: 10px; }
   .related-products .mk-product-loop.compact-layout .products .item {
     padding: 0 18px 26px;
     border-radius: 3px;
