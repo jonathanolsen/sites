@@ -140,7 +140,11 @@ $border-variable:		1px solid #f5f4f4;
 			display: inline-block;
 			margin: 0;
 			width: 100%;
-			padding: 20px 15px;
+			padding: 20px 10px;
+
+			@include bp(sm) {
+				padding: 20px 15px;
+			}
 
 			> li {
 				display: inline-block;
@@ -158,6 +162,12 @@ $border-variable:		1px solid #f5f4f4;
 						border-bottom: 1px solid #ddd;
 						padding-bottom: 20px;
 						margin-bottom: 20px;
+
+						&:last-of-type {
+							margin-bottom: 0;
+							padding-bottom: 0;
+							border: none;
+						}
 					}
 
 					> ul {
