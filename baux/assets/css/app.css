@@ -334,3 +334,8 @@
     display: inline-block;
     color: #555;
     font-size: 14px; }
+
+.gallery-box {
+  height: 580px;
+  overflow: hidden;
+  width: 100%; }
