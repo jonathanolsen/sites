@@ -337,5 +337,6 @@
 
 .gallery-box {
   height: 580px;
+  max-height: 580px;
   overflow: hidden;
   width: 100%; }
