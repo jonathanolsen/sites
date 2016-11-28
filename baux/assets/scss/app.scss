@@ -62,10 +62,14 @@ $border-variable:		1px solid #f5f4f4;
 	}
 
 	a {
-		padding: 13px 0px;
-		width: 25%;
-		text-align: center;
-		box-sizing: border-box;
+		padding: 13px 30px;
+
+		@include bp(xs-sm) {
+			padding: 13px 0px;
+			width: 25%;
+			text-align: center;
+			box-sizing: border-box;
+		}
 	}
 
 	.btn-custom {

@@ -12,10 +12,13 @@
     display: none; } }
 
 .product_cat a {
-  padding: 13px 0px;
-  width: 25%;
-  text-align: center;
-  box-sizing: border-box; }
+  padding: 13px 30px; }
+  @media (max-width: 767px) {
+    .product_cat a {
+      padding: 13px 0px;
+      width: 25%;
+      text-align: center;
+      box-sizing: border-box; } }
 
 .product_cat .btn-custom {
   float: right;
