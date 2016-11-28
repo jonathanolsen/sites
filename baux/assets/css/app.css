@@ -107,12 +107,13 @@
             background: #f5f4f4;
             -webkit-transition: .1s ease-out;
             transition: .1s ease-out;
-            position: relative; }
+            position: relative;
+            width: 30px; }
             .filter-col .filter-list > ul.filter-list-patterns .filter-item a .ticon svg {
               -webkit-transition: .2s ease-out;
               transition: .2s ease-out;
-              -webkit-transform: scale(1);
-                      transform: scale(1); }
+              -webkit-transform: scale(0.7);
+                      transform: scale(0.7); }
             .filter-col .filter-list > ul.filter-list-patterns .filter-item a .ticon i {
               position: absolute;
               opacity: 0;
