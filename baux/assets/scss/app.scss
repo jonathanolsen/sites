@@ -360,7 +360,7 @@ $border-variable:		1px solid #f5f4f4;
 				}
 			}
 		}
-		
+
 		.btn-custom {
 			border: 1px solid silver;
 			display: inline-block;
@@ -454,6 +454,80 @@ $border-variable:		1px solid #f5f4f4;
 		}
 	}
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.product-boxed {
+
+	&.part {
+
+		&.info {
+			margin: 0;
+			padding: 20px 30px;
+			background: #F6F7F8;
+			border-radius: 3px;
+			display: inline-block;
+			width: 100%;
+			box-sizing: border-box;
+
+			.dl {
+				font-weight: 600;
+			}
+		}
+	}
+
+	.price {
+		margin-bottom: 10px;
+	}
+
+	.inner {
+		.title {
+			margin-bottom: 10px;
+		}
+
+		> a {
+			border: 1px solid #ddd;
+			padding: 10px 20px;
+			border-radius: 3px;
+			text-transform: uppercase;
+			font-size: 15px;
+			width: 100%;
+			float: left;
+			box-sizing: border-box;
+			text-align: center;
+			color: #333;
+			font-weight: 600;
+			margin: 20px 0 0;
+		}
+	}
+}
+
+
+.related-products {
+	border-top: 1px solid #f4f5f6;
+	margin-top: 25px;
+	padding-top: 30px;
+
+	.mk-product-loop.compact-layout .products .item {
+		padding: 0 18px 26px;
+		border-radius: 3px;
+		overflow: hidden;
+	}
+}
+
+
 
 
 
