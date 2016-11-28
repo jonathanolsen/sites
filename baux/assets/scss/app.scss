@@ -474,7 +474,7 @@ $border-variable:		1px solid #f5f4f4;
 	&.part {
 
 		&.info {
-			margin: 0;
+			margin: 20px 0 0;
 			padding: 25px 30px;
 			background: #F6F7F8;
 			border-radius: 3px;
@@ -493,6 +493,7 @@ $border-variable:		1px solid #f5f4f4;
 	}
 
 	.inner {
+		margin: 0 30px;
 		.title {
 			margin-bottom: 10px;
 		}
