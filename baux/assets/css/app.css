@@ -143,6 +143,9 @@
             position: relative;
             width: 30px;
             height: 30px; }
+            @media (max-width: 767px) {
+              .filter-col .filter-list > ul.filter-list-patterns .filter-item a .ticon {
+                margin: -3px 10px 0 0; } }
             .filter-col .filter-list > ul.filter-list-patterns .filter-item a .ticon svg {
               -webkit-transition: .2s ease-out;
               transition: .2s ease-out;
@@ -172,10 +175,22 @@
 .filter-btn-container {
   display: inline-block;
   border-top: 1px solid #F5F4F4;
-  padding: 20px 30px;
+  padding: 20px 0;
   width: 100%; }
+  @media (min-width: 768px) {
+    .filter-btn-container {
+      padding: 20px 30px; } }
   .filter-btn-container .filter-col-btn {
     display: inline-block; }
+    @media (max-width: 767px) {
+      .filter-btn-container .filter-col-btn {
+        width: 50%;
+        float: left; } }
+    .filter-btn-container .filter-col-btn.fr {
+      width: 100%; }
+      .filter-btn-container .filter-col-btn.fr .btn-next-filter {
+        margin: 15px 2.5% 0;
+        width: 95%; }
     .filter-btn-container .filter-col-btn .btn-custom {
       border: 1px solid silver;
       display: inline-block;
@@ -190,6 +205,11 @@
       opacity: 0.6;
       -webkit-transition: .1s ease-out;
       transition: .1s ease-out; }
+      @media (max-width: 767px) {
+        .filter-btn-container .filter-col-btn .btn-custom {
+          width: 90%;
+          text-align: center;
+          margin: 0 5%; } }
       .filter-btn-container .filter-col-btn .btn-custom:hover {
         opacity: 1; }
     .filter-btn-container .filter-col-btn.fr .btn-custom {
