@@ -478,6 +478,8 @@ $border-variable:		1px solid #f5f4f4;
 	box-sizing: border-box;
 }
 
+
+
 .product-boxed {
 
 	.dl {
@@ -571,6 +573,7 @@ $border-variable:		1px solid #f5f4f4;
 }
 
 @include bp(xs-sm) {
+	
 	.gallery-box {
 		height: 230px;
 	}
@@ -583,7 +586,12 @@ $border-variable:		1px solid #f5f4f4;
 		}
 	}
 
-
+	.flex-row {
+		.flex-col-4,
+		.flex-col-8 {
+			width: 100%;
+		}
+	}
 
 
 
