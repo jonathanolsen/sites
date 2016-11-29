@@ -294,6 +294,9 @@
 
 .product-boxed .inner {
   margin: 0 30px; }
+  @media (max-width: 767px) {
+    .product-boxed .inner {
+      margin: 0; } }
   .product-boxed .inner .title {
     margin-bottom: 10px; }
   .product-boxed .inner > a {
@@ -340,3 +343,18 @@
   max-height: 580px;
   overflow: hidden;
   width: 100%; }
+
+.sticky-style-fixed.active {
+  position: fixed;
+  top: 58px;
+  z-index: 1;
+  background: #fff;
+  width: 100%;
+  max-width: 1310px; }
+
+@media (max-width: 767px) {
+  .gallery-box {
+    height: 230px; }
+  .gallery-thumbs .gallery-thumb {
+    max-width: 100px;
+    max-height: 50px; } }

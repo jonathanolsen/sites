@@ -490,6 +490,11 @@ $border-variable:		1px solid #f5f4f4;
 
 	.inner {
 		margin: 0 30px;
+		
+		@include bp(xs-sm) {
+			margin: 0;
+		}
+
 		.title {
 			margin-bottom: 10px;
 		}
@@ -552,6 +557,39 @@ $border-variable:		1px solid #f5f4f4;
 	overflow: hidden;
 	width: 100%;
 }
+
+.sticky-style-fixed {
+
+	&.active {
+		position: fixed;
+		top: 58px;
+		z-index: 1;
+		background: #fff;
+		width: 100%;
+		max-width: 1310px;
+	}
+}
+
+@include bp(xs-sm) {
+	.gallery-box {
+		height: 230px;
+	}
+
+	.gallery-thumbs {
+
+		.gallery-thumb {
+			max-width: 100px;
+			max-height: 50px;
+		}
+	}
+
+
+
+
+
+}
+
+
 
 
 
