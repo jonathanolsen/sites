@@ -482,6 +482,10 @@ $border-variable:		1px solid #f5f4f4;
 
 .product-boxed {
 
+	@include bp(xs-sm) {
+		flex-direction: column;
+	}
+
 	.dl {
 		font-weight: 600;
 	}
@@ -494,7 +498,7 @@ $border-variable:		1px solid #f5f4f4;
 		margin: 0 30px;
 		
 		@include bp(xs-sm) {
-			margin: 0;
+			margin: 10px 0 0;
 		}
 
 		.title {
@@ -514,6 +518,11 @@ $border-variable:		1px solid #f5f4f4;
 			color: #333;
 			font-weight: 600;
 			margin: 20px 0 0;
+
+			@include bp(xs-sm) {
+				font-size: 14px;
+				padding: 10px;
+			}
 		}
 	}
 
@@ -573,7 +582,7 @@ $border-variable:		1px solid #f5f4f4;
 }
 
 @include bp(xs-sm) {
-	
+
 	.gallery-box {
 		height: 230px;
 	}
@@ -587,6 +596,7 @@ $border-variable:		1px solid #f5f4f4;
 	}
 
 	.flex-row {
+
 		.flex-col-4,
 		.flex-col-8 {
 			width: 100%;
