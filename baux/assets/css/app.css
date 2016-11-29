@@ -196,7 +196,7 @@
   width: 100%; }
   @media (min-width: 768px) {
     .filter-btn-container {
-      padding: 20px 30px; } }
+      padding: 20px 15px; } }
   .filter-btn-container .filter-col-btn {
     display: inline-block; }
     @media (max-width: 767px) {
