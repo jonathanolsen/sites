@@ -332,7 +332,8 @@
     .product-boxed .inner {
       margin: 10px 0 0; } }
   .product-boxed .inner .title {
-    margin-bottom: 10px; }
+    margin-bottom: 10px;
+    margin-top: 10px !important; }
   .product-boxed .inner > a {
     width: 100%;
     text-align: center; }
@@ -385,7 +386,8 @@
     height: 230px; }
   .gallery-thumbs .gallery-thumb {
     max-width: 100px;
-    max-height: 50px; }
+    max-height: 50px;
+    margin: 15px 15px 0 0px; }
   .flex-row .flex-col-4,
   .flex-row .flex-col-8 {
     width: 100%; } }
