@@ -67,7 +67,8 @@
         display: none; } }
   .filter-col .filter-list {
     border-top: 1px solid #f5f4f4;
-    border-bottom: 1px solid #f5f4f4; }
+    border-bottom: 1px solid #f5f4f4;
+    border-radius: 0 0 2px 2px; }
     .filter-col .filter-list .filter-item {
       width: 100%; }
       @media (max-width: 767px) {
@@ -209,7 +210,7 @@
   width: 100%; }
   @media (min-width: 768px) {
     .filter-btn-container {
-      padding: 20px 15px; } }
+      padding: 15px; } }
   .filter-btn-container .filter-col-btn {
     display: inline-block; }
     @media (max-width: 767px) {
@@ -225,7 +226,7 @@
     .filter-btn-container .filter-col-btn .btn-custom {
       border: 1px solid #252525;
       display: inline-block;
-      padding: 13px 35px;
+      padding: 8px 30px 7px;
       letter-spacing: 1px;
       font-size: 13px;
       text-transform: uppercase;

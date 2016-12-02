@@ -142,6 +142,7 @@ $border-variable:		1px solid #f5f4f4;
 	.filter-list {
 		border-top: $border-variable;
 		border-bottom: $border-variable;
+		border-radius: 0 0 2px 2px;
 
 		.filter-item {
 			width: 100%;
@@ -356,7 +357,7 @@ $border-variable:		1px solid #f5f4f4;
 	width: 100%;
 
 	@include bp(sm) {
-		padding: 20px 15px;
+		padding: 15px;
 	}
 
 	.filter-col-btn {
@@ -381,7 +382,7 @@ $border-variable:		1px solid #f5f4f4;
 		.btn-custom {
 			border: 1px solid #252525;
 			display: inline-block;
-			padding: 13px 35px;
+			padding: 8px 30px 7px;
 			letter-spacing: 1px;
 			font-size: 13px;
 			text-transform: uppercase;
