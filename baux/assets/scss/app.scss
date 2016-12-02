@@ -91,12 +91,8 @@ $border-variable:		1px solid #f5f4f4;
 
 	.btn-custom {
 		float: right;
-		padding: 14px 0 0;
-		font-size: 12px;
-		text-transform: uppercase;
-		opacity: .6;
-		transition: .1s ease-out;
-		cursor: pointer;
+		padding: 8px 17px 7px;
+		margin: 4px 0 0;
 
 		&:hover {
 			opacity: 1;
@@ -359,7 +355,7 @@ $border-variable:		1px solid #f5f4f4;
 	color: #252525;
 	margin-right: 15px;
 	cursor: pointer;
-	transition: color .2s ease-in-out,background .2s ease-in-out,border .2s ease-in-out;
+	transition: all .2s ease-in-out;
 	font-weight: 700;
 	font-size: 12px;
 

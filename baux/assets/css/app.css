@@ -35,13 +35,8 @@
 
 .product_cat .btn-custom {
   float: right;
-  padding: 14px 0 0;
-  font-size: 12px;
-  text-transform: uppercase;
-  opacity: .6;
-  -webkit-transition: .1s ease-out;
-  transition: .1s ease-out;
-  cursor: pointer; }
+  padding: 8px 17px 7px;
+  margin: 4px 0 0; }
   .product_cat .btn-custom:hover {
     opacity: 1; }
 
@@ -215,8 +210,8 @@
   color: #252525;
   margin-right: 15px;
   cursor: pointer;
-  -webkit-transition: color .2s ease-in-out,background .2s ease-in-out,border .2s ease-in-out;
-  transition: color .2s ease-in-out,background .2s ease-in-out,border .2s ease-in-out;
+  -webkit-transition: all .2s ease-in-out;
+  transition: all .2s ease-in-out;
   font-weight: 700;
   font-size: 12px;
   /* @include bp(xs-sm) {
