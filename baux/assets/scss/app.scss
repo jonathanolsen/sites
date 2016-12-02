@@ -358,6 +358,7 @@ $border-variable:		1px solid #f5f4f4;
 	transition: all .2s ease-in-out;
 	font-weight: 700;
 	font-size: 12px;
+	box-sizing: border-box;
 
 	/* @include bp(xs-sm) {
 		width: 90%;
@@ -537,18 +538,8 @@ $border-variable:		1px solid #f5f4f4;
 		}
 
 		> a {
-			border: 1px solid #ddd;
-			padding: 10px 20px;
-			border-radius: 3px;
-			text-transform: uppercase;
-			font-size: 15px;
 			width: 100%;
-			float: left;
-			box-sizing: border-box;
 			text-align: center;
-			color: #333;
-			font-weight: 600;
-			margin: 20px 0 0;
 
 			@include bp(xs-sm) {
 				font-size: 14px;
