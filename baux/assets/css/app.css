@@ -389,15 +389,16 @@
 .related-products .mk-product-loop.compact-layout .products .item {
   padding: 0 9px 18px; }
 
-.product-loop-thumb .product-item-box {
+.product-loop-thumb .product-item-box .image {
   -webkit-transition: .1s ease-out;
   transition: .1s ease-out; }
-  .product-loop-thumb .product-item-box .title {
-    width: 260px;
-    text-align: center; }
-    .product-loop-thumb .product-item-box .title span {
-      margin-top: 5px;
-      display: inline-block;
-      font-size: 13px;
-      width: 100%;
-      opacity: .85; }
+
+.product-loop-thumb .product-item-box .title {
+  width: 260px;
+  text-align: center; }
+  .product-loop-thumb .product-item-box .title span {
+    margin-top: 5px;
+    display: inline-block;
+    font-size: 13px;
+    width: 100%;
+    opacity: .85; }

@@ -631,8 +631,10 @@ $border-variable:		1px solid #f5f4f4;
 .product-loop-thumb {
 
 	.product-item-box {
-		transition: .1s ease-out;
-		
+		.image {
+			transition: .1s ease-out;
+		}
+
 		.title {
 			width: 260px;
 			text-align: center;
