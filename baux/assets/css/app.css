@@ -391,7 +391,11 @@
 
 .product-loop-thumb .product-item-box .image {
   -webkit-transition: .1s ease-out;
-  transition: .1s ease-out; }
+  transition: .1s ease-out;
+  background: transparent; }
+
+.product-loop-thumb .product-item-box:hover .image {
+  background: #000; }
 
 .product-loop-thumb .product-item-box .title {
   width: 260px;
