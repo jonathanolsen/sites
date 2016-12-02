@@ -631,16 +631,6 @@ $border-variable:		1px solid #f5f4f4;
 .product-loop-thumb {
 
 	.product-item-box {
-		.image {
-			transition: .1s ease-out;
-			background: transparent;
-		}
-
-		&:hover {
-			.image {
-				background: #000;
-			}
-		}
 
 		.title {
 			width: 260px;

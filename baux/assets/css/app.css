@@ -389,14 +389,6 @@
 .related-products .mk-product-loop.compact-layout .products .item {
   padding: 0 9px 18px; }
 
-.product-loop-thumb .product-item-box .image {
-  -webkit-transition: .1s ease-out;
-  transition: .1s ease-out;
-  background: transparent; }
-
-.product-loop-thumb .product-item-box:hover .image {
-  background: #000; }
-
 .product-loop-thumb .product-item-box .title {
   width: 260px;
   text-align: center; }
