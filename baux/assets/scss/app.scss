@@ -628,7 +628,26 @@ $border-variable:		1px solid #f5f4f4;
 
 
 
+.product-loop-thumb {
 
+	.product-item-box {
+		width: 260px;
+		text-align: center;
+
+		.title {
+
+			span {
+				margin-top: 5px;
+				display: inline-block;
+				font-size: 13px;
+				width: 100%;
+				opacity: .85;
+			}
+		}
+	}
+
+
+}
 
 
 
