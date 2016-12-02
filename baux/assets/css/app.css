@@ -389,7 +389,7 @@
 .related-products .mk-product-loop.compact-layout .products .item {
   padding: 0 9px 18px; }
 
-.product-loop-thumb .product-item-box {
+.product-loop-thumb .product-item-box .title {
   width: 260px;
   text-align: center; }
   .product-loop-thumb .product-item-box .title span {
