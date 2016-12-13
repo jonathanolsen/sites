@@ -315,8 +315,8 @@ $border-variable:		1px solid #f5f4f4;
 						&.active {
 
 							.ticon {
-								background: #f5f4f4;
-
+								border-color: #363636;
+								
 								svg {
 									opacity: 0;
 									transform: scale(0.2);

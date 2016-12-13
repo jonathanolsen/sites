@@ -179,7 +179,7 @@
             top: 50%;
             margin: -7px 0 0 -6px; }
         .filter-col .filter-list > ul.filter-list-patterns .filter-item a.active .ticon {
-          background: #f5f4f4; }
+          border-color: #363636; }
           .filter-col .filter-list > ul.filter-list-patterns .filter-item a.active .ticon svg {
             opacity: 0;
             -webkit-transform: scale(0.2);
