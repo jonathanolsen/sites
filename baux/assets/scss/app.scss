@@ -124,6 +124,13 @@ $border-variable:		1px solid #f5f4f4;
 		border-right: 0;
 	}
 
+	&.open {
+
+		.filter-list {
+			border: 1px solid #eee;
+		}
+	}
+
 	.filter-toggle {
 		padding: 13px 0px;
 		background: none;
@@ -209,7 +216,6 @@ $border-variable:		1px solid #f5f4f4;
 
 	.filter-list {
 		margin-top: 2px;
-		border: 1px solid #eee;
 
 		.filter-item {
 

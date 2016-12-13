@@ -54,6 +54,8 @@
   border-right: 1px solid #f5f4f4; }
   .filter-col:last-of-type {
     border-right: 0; }
+  .filter-col.open .filter-list {
+    border: 1px solid #eee; }
   .filter-col .filter-toggle {
     padding: 13px 0px;
     background: none;
@@ -102,8 +104,7 @@
       .filter-col .filter-toggle span {
         display: none; } }
   .filter-col .filter-list {
-    margin-top: 2px;
-    border: 1px solid #eee; }
+    margin-top: 2px; }
     @media (max-width: 767px) {
       .filter-col .filter-list .filter-item {
         margin-top: 3px; } }
