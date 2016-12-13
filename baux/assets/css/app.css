@@ -22,7 +22,7 @@
 
 .product_cat a {
   padding: 13px 30px;
-  font-size: 15px;
+  font-size: 14px;
   font-weight: 600; }
   @media (max-width: 767px) {
     .product_cat a {
@@ -38,9 +38,11 @@
   padding: 6px 15px;
   margin: 6px 0 0;
   border-color: #ddd;
-  font-weight: 600; }
+  font-weight: 600;
+  box-shadow: none; }
   .product_cat .btn-custom:hover {
-    opacity: 1; }
+    opacity: 1;
+    border-color: #252525; }
 
 .product_cat,
 #baux_filter {

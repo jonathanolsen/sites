@@ -74,7 +74,7 @@ $border-variable:		1px solid #f5f4f4;
 
 	a {
 		padding: 13px 30px;
-		font-size: 15px;
+		font-size: 14px;
 		font-weight: 600;
 
 		@include bp(xs-sm) {
@@ -95,9 +95,11 @@ $border-variable:		1px solid #f5f4f4;
 		margin: 6px 0 0;
 		border-color: #ddd;
 		font-weight: 600;
+		box-shadow: none;
 
 		&:hover {
 			opacity: 1;
+			border-color: #252525;
 		}
 	}
 }
