@@ -3873,7 +3873,8 @@
 	"creationDate": 500808512,
 	"displayValue": "Sms",
 	"displayValueWasSetByUser": 1,
-	"iconImageName": "meme-ive"
+	"iconImageName": "meme-ive",
+	"lastBuiltDate": 502930410
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,

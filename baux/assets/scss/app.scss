@@ -141,14 +141,9 @@ $border-variable:		1px solid #f5f4f4;
 		border-radius: 0 0 2px 2px;
 
 		.filter-item {
-			width: 100%;
 
 			@include bp(xs-sm) {
 				margin-top: 3px;
-			}
-
-			@include bp(sm) {
-				width: 25%;
 			}
 
 			a {
@@ -204,6 +199,14 @@ $border-variable:		1px solid #f5f4f4;
 
 						@include bp(sm) {
 							width: 77%;
+						}
+					}
+
+					.filter-item {
+						width: 100%;
+
+						@include bp(sm) {
+							width: 25%;
 						}
 					}
 				}
@@ -274,20 +277,13 @@ $border-variable:		1px solid #f5f4f4;
 			}
 
 			// Only patterns
+
+
 			&.filter-list-patterns {
 				padding: 15px;
 
 				.filter-item {
 					margin: 15px 0 5px;
-					width: 100%;
-
-					@include bp(sm) {
-						width: 25%;
-					}
-
-					@include bp(md) {
-						width: 20%;
-					}
 
 					a {
 
@@ -652,9 +648,42 @@ $border-variable:		1px solid #f5f4f4;
 			}
 		}
 	}
-
-
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
