@@ -438,12 +438,14 @@
 .related-products .mk-product-loop.compact-layout .products .item {
   padding: 0 9px 18px; }
 
-.product-loop-thumb .product-item-box .title {
-  width: 260px;
-  text-align: center; }
-  .product-loop-thumb .product-item-box .title span {
-    margin-top: 5px;
-    display: inline-block;
-    font-size: 13px;
-    width: 100%;
-    opacity: .85; }
+.product-loop-thumb .product-item-box {
+  border: 3px solid #EBEBEB; }
+  .product-loop-thumb .product-item-box .title {
+    width: 260px;
+    text-align: center; }
+    .product-loop-thumb .product-item-box .title span {
+      margin-top: 5px;
+      display: inline-block;
+      font-size: 13px;
+      width: 100%;
+      opacity: .85; }
