@@ -137,9 +137,26 @@ $border-variable:		1px solid #f5f4f4;
 			span {
 				width: 11px;
 				height: 11px;
+				float: left;
+				position: relative;
+
+				&:before,
+				&:after {
+					width: 11px;
+					height: 11px;
+					float: left;
+				}
 
 				&:nth-child(1) {
 					background: #000;
+
+					&:before {
+						background: #4C74A1;
+					}
+
+					&:after {
+						background: #9D515C;
+					}
 				}
 
 				&:nth-child(2) {

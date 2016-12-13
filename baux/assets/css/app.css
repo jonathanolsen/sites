@@ -64,9 +64,19 @@
       float: left; }
       .filter-col .filter-toggle .color-icon span {
         width: 11px;
-        height: 11px; }
+        height: 11px;
+        float: left;
+        position: relative; }
+        .filter-col .filter-toggle .color-icon span:before, .filter-col .filter-toggle .color-icon span:after {
+          width: 11px;
+          height: 11px;
+          float: left; }
         .filter-col .filter-toggle .color-icon span:nth-child(1) {
           background: #000; }
+          .filter-col .filter-toggle .color-icon span:nth-child(1):before {
+            background: #4C74A1; }
+          .filter-col .filter-toggle .color-icon span:nth-child(1):after {
+            background: #9D515C; }
         .filter-col .filter-toggle .color-icon span:nth-child(2) {
           background: #CC7D85; }
         .filter-col .filter-toggle .color-icon span:nth-child(3) {
