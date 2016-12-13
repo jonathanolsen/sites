@@ -170,10 +170,26 @@ $border-variable:		1px solid #f5f4f4;
 
 				&:nth-child(2) {
 					background: #CC7D85;
+
+					&:before {
+						background: #B9DBC8;
+					}
+
+					&:after {
+						background: #FDC5AD;
+					}
 				}
 
 				&:nth-child(3) {
 					background: #C7C8CA;
+
+					&:before {
+						background: #C8E2EA;
+					}
+
+					&:after {
+						background: #E6EADC;
+					}
 				}
 
 				&:nth-child(-n+2) {

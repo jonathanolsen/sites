@@ -84,8 +84,16 @@
             background: #9D515C; }
         .filter-col .filter-toggle .color-icon span:nth-child(2) {
           background: #CC7D85; }
+          .filter-col .filter-toggle .color-icon span:nth-child(2):before {
+            background: #B9DBC8; }
+          .filter-col .filter-toggle .color-icon span:nth-child(2):after {
+            background: #FDC5AD; }
         .filter-col .filter-toggle .color-icon span:nth-child(3) {
           background: #C7C8CA; }
+          .filter-col .filter-toggle .color-icon span:nth-child(3):before {
+            background: #C8E2EA; }
+          .filter-col .filter-toggle .color-icon span:nth-child(3):after {
+            background: #E6EADC; }
         .filter-col .filter-toggle .color-icon span:nth-child(-n+2) {
           margin-right: 2px; }
     @media (max-width: 767px) {
