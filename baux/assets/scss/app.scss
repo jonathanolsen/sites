@@ -259,6 +259,7 @@ $border-variable:		1px solid #f5f4f4;
 
 				> li {
 					width: 100%;
+					font-size: 14px;
 
 					@include bp(xs-sm) {
 						border-bottom: 1px solid #F5F4F4;

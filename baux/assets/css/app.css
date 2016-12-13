@@ -130,7 +130,8 @@
         list-style-type: none;
         margin: -4px 0 0; }
       .filter-col .filter-list > ul.filter-list-colors > li {
-        width: 100%; }
+        width: 100%;
+        font-size: 14px; }
         @media (max-width: 767px) {
           .filter-col .filter-list > ul.filter-list-colors > li {
             border-bottom: 1px solid #F5F4F4;
