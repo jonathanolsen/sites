@@ -56,12 +56,14 @@
     border-right: 0; }
   .filter-col .filter-toggle {
     padding: 13px 0px;
-    background: none; }
+    background: none;
+    color: #363636; }
     .filter-col .filter-toggle .color-icon {
       position: relative;
       width: 37px;
       height: 37px;
-      float: left; }
+      float: left;
+      margin: -6px 10px 0 21px; }
       .filter-col .filter-toggle .color-icon span {
         width: 11px;
         height: 11px;
@@ -105,7 +107,8 @@
   .filter-col .filter-list .filter-item a {
     margin: 0;
     opacity: 1;
-    color: #7d797a; }
+    color: #7d797a;
+    font-size: 14px; }
     .filter-col .filter-list .filter-item a.active {
       color: #525252; }
   .filter-col .filter-list > ul {
