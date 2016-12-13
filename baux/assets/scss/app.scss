@@ -91,8 +91,10 @@ $border-variable:		1px solid #f5f4f4;
 
 	.btn-custom {
 		float: right;
-		padding: 6px 15px 5px;
+		padding: 6px 15px;
 		margin: 6px 0 0;
+		border-color: #ddd;
+		font-weight: 600;
 
 		&:hover {
 			opacity: 1;

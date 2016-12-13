@@ -35,8 +35,10 @@
 
 .product_cat .btn-custom {
   float: right;
-  padding: 6px 15px 5px;
-  margin: 6px 0 0; }
+  padding: 6px 15px;
+  margin: 6px 0 0;
+  border-color: #ddd;
+  font-weight: 600; }
   .product_cat .btn-custom:hover {
     opacity: 1; }
 
