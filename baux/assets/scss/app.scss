@@ -234,7 +234,7 @@ $border-variable:		1px solid #f5f4f4;
 			display: inline-block;
 			margin: 0;
 			width: 100%;
-			padding: 20px 10px;
+			padding: 20px 24px 12px;
 
 			@include bp(sm) {
 				padding: 20px 15px;
@@ -243,7 +243,7 @@ $border-variable:		1px solid #f5f4f4;
 			> li {
 				display: inline-block;
 				list-style-type: none;
-				margin: 0;
+				margin: -4px 0 0;
 			}
 
 			// only colors
@@ -447,16 +447,17 @@ $border-variable:		1px solid #f5f4f4;
 
 .filter-btn-container {
 	display: inline-block;
-	border-top: 1px solid #F5F4F4;
 	padding: 20px 0;
 	width: 100%;
-
-	@include bp(sm) {
-		padding: 15px;
-	}
+	padding: 0 20px 20px;
+	text-align: center;
 
 	.filter-col-btn {
 		display: inline-block;
+
+		.btn-custom {
+			padding: 8px 60px 7px;
+		}
 
 		@include bp(xs-sm) {
 			width: 50%;
@@ -507,6 +508,10 @@ $border-variable:		1px solid #f5f4f4;
 
 .filter-list-ftag,
 .filter-list-colors {
+
+	> li {
+		margin: -4px 0 0;
+	}
 
 	.filter-item {
 

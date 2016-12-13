@@ -118,14 +118,14 @@
       display: inline-block;
       margin: 0;
       width: 100%;
-      padding: 20px 10px; }
+      padding: 20px 24px 12px; }
       @media (min-width: 768px) {
         .filter-col .filter-list > ul {
           padding: 20px 15px; } }
       .filter-col .filter-list > ul > li {
         display: inline-block;
         list-style-type: none;
-        margin: 0; }
+        margin: -4px 0 0; }
       .filter-col .filter-list > ul.filter-list-colors > li {
         width: 100%; }
         @media (max-width: 767px) {
@@ -262,14 +262,14 @@
 
 .filter-btn-container {
   display: inline-block;
-  border-top: 1px solid #F5F4F4;
   padding: 20px 0;
-  width: 100%; }
-  @media (min-width: 768px) {
-    .filter-btn-container {
-      padding: 15px; } }
+  width: 100%;
+  padding: 0 20px 20px;
+  text-align: center; }
   .filter-btn-container .filter-col-btn {
     display: inline-block; }
+    .filter-btn-container .filter-col-btn .btn-custom {
+      padding: 8px 60px 7px; }
     @media (max-width: 767px) {
       .filter-btn-container .filter-col-btn {
         width: 50%;
@@ -293,6 +293,10 @@
   margin: 3px 10px 0 0;
   position: relative;
   background: #fff; }
+
+.filter-list-ftag > li,
+.filter-list-colors > li {
+  margin: -4px 0 0; }
 
 .filter-list-ftag .filter-item > a .ticon,
 .filter-list-colors .filter-item > a .ticon {
