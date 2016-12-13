@@ -51,6 +51,9 @@
 .product_cat a.active, .product_cat a:hover {
   background: none; }
 
+.mk-post-nav {
+  display: none; }
+
 .filter-container {
   border-bottom: 1px solid #f5f4f4; }
 
