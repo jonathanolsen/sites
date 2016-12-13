@@ -142,6 +142,7 @@ $border-variable:		1px solid #f5f4f4;
 
 				&:before,
 				&:after {
+					content: '';
 					width: 11px;
 					height: 11px;
 					float: left;
@@ -164,7 +165,7 @@ $border-variable:		1px solid #f5f4f4;
 				}
 
 				&:nth-child(3) {
-					background: yellow;
+					background: #C7C8CA;
 				}
 			}
 		}
