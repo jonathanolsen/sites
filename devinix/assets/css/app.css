@@ -32,7 +32,7 @@
         -ms-user-select: none;
         user-select: none;
         border-radius: 3px; }
-    .control.checkbox input:checked:before {
+    .control.checkbox input:checked + span:before {
       background-image: url("data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiP…43bDAuNy0wLjdsMy41LTMuNWwwLjctMC43TDYuNCwxTDYuNCwxeiINCgkvPg0KPC9zdmc+DQo=");
       color: #fff;
       background-color: #0074d9; }
