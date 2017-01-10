@@ -7,7 +7,7 @@
 		"uuidString": "9C3B940C-7569-4159-BDD5-31F5768011DB"
 		}
 	],
-"creatorBuild": "25444",
+"creatorBuild": "25479",
 "files": {
 	"\/assets\/css\/app.css": {
 		"aP": 0,
@@ -3845,6 +3845,19 @@
 		"oAP": "\/assets\/scss\/.sass-cache\/fe7fb04842cccfcde8fedee9e06d45cbe80aba15\/_vendor-prefixes.scssc",
 		"oF": 0
 		},
+	"\/assets\/scss\/app-old.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/app-old.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
 	"\/assets\/scss\/app.scss": {
 		"aP": 1,
 		"bl": 1,
@@ -3865,7 +3878,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 501173626,
-	"displayValue": "Devinix",
+	"displayValue": "Devinix app",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "brackets_green"
 	},
@@ -4311,6 +4324,10 @@
 			"active": 0,
 			"optionString": "{'properties': 'always'}"
 			},
+		"capitalized-comments": {
+			"active": 0,
+			"optionString": "'always', {'ignoreInlineComments': false, 'ignoreConsecutiveComments': false}"
+			},
 		"class-methods-use-this": {
 			"active": 0,
 			"optionString": "{'exceptMethods': []}"
@@ -4474,6 +4491,10 @@
 		"max-statements": {
 			"active": 0,
 			"optionString": "{'max': 10}, {'ignoreTopLevelFunctions': true}"
+			},
+		"max-statements-per-line": {
+			"active": 0,
+			"optionString": "{'max': 1}"
 			},
 		"multiline-ternary": {
 			"active": 0,
@@ -4839,6 +4860,10 @@
 			"active": 0,
 			"optionString": "'except-parens'"
 			},
+		"no-return-await": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-script-url": {
 			"active": 0,
 			"optionString": ""
@@ -5070,6 +5095,10 @@
 		"radix": {
 			"active": 0,
 			"optionString": "'always'"
+			},
+		"require-await": {
+			"active": 0,
+			"optionString": ""
 			},
 		"require-jsdoc": {
 			"active": 0,
@@ -5903,6 +5932,10 @@
 			},
 		"space-colon": {
 			"active": 1,
+			"flagValue": -1
+			},
+		"support-ie8": {
+			"active": 0,
 			"flagValue": -1
 			},
 		"toplevel": {
