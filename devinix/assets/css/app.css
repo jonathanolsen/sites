@@ -12,7 +12,7 @@
       .control.checkbox input + span:before {
         content: '';
         position: absolute;
-        top: .05rem;
+        top: -.05rem;
         left: 0;
         display: block;
         width: 2rem;
