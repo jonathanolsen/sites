@@ -47,6 +47,10 @@
 			color: #fff;
 			background-color: #0074d9;
 		}
+
+		&:disabled + span {
+		    opacity: .5;
+		}
 	}
 }
 
