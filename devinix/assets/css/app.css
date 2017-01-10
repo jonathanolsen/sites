@@ -2,9 +2,9 @@
   position: absolute;
   opacity: 0;
   z-index: -1; }
-  .control.checkbox input span {
+  .control.checkbox input + span {
     display: block; }
-    .control.checkbox input span:before {
+    .control.checkbox input + span:before {
       content: '';
       position: absolute;
       top: .25rem;
