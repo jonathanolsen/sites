@@ -1,2 +1,37 @@
 
 
+.control.checkbox {
+
+	input {
+		position: absolute;
+		opacity: 0;
+		z-index: -1;
+
+		span {
+
+			&:before {
+				content: '';
+				position: absolute;
+				top: .25rem;
+				left: 0;
+				display: block;
+				width: 1rem;
+				height: 1rem;
+				line-height: 1rem;
+				font-size: 65%;
+				color: #eee;
+				text-align: center;
+				background-color: #eee;
+				background-size: 50% 50%;
+				background-position: center center;
+				background-repeat: no-repeat;
+				pointer-events: none;
+				-webkit-user-select: none;
+				-moz-user-select: none;
+				-ms-user-select: none;
+				user-select: none;
+			}
+		}
+	}
+}
+
