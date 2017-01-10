@@ -1,6 +1,11 @@
 
 
 .control.checkbox {
+	cursor: pointer;
+	position: relative;
+	display: inline-block;
+
+
 
 	input {
 		position: absolute;
@@ -9,6 +14,7 @@
 
 		+ span {
 			display: block;
+			padding: 0 0 0 30px;
 
 			&:before {
 				content: '';
@@ -33,6 +39,12 @@
 				user-select: none;
 				border-radius: 3px;
 			}
+		}
+
+		&:checked:before {
+		    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiP…43bDAuNy0wLjdsMy41LTMuNWwwLjctMC43TDYuNCwxTDYuNCwxeiINCgkvPg0KPC9zdmc+DQo=');
+			color: #fff;
+			background-color: #0074d9;
 		}
 	}
 }
