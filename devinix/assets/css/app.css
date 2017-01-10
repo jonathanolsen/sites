@@ -21,7 +21,7 @@
         font-size: 65%;
         color: #eee;
         text-align: center;
-        background-color: #eee;
+        background-color: #f6f7f8;
         background-size: 50% 50%;
         background-position: center center;
         background-repeat: no-repeat;
@@ -38,4 +38,4 @@
       color: #fff;
       background-color: #0074d9; }
     .control.checkbox input:disabled + span {
-      opacity: .5; }
+      opacity: .4; }
