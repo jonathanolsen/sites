@@ -756,6 +756,7 @@ $border-variable:		1px solid #f5f4f4;
 		flex-flow: row wrap;
 		align-items: center;
 
+
 	}
 
 	.patterns-top-menu {
@@ -766,11 +767,18 @@ $border-variable:		1px solid #f5f4f4;
 
 		.trending_nav {
 			width: auto !important;
+			padding: 13px 20px;
+			margin-right: 10px;
 		}
 	}
 
 	.patterns-menu {
+		flex: 1;
 
+		> a {
+			width: auto !important;
+			padding: 13px 15px;
+		}
 	}
 
 

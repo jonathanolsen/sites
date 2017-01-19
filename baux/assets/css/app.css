@@ -474,4 +474,13 @@
   .patterns-top-menu span {
     display: none; }
   .patterns-top-menu .trending_nav {
-    width: auto !important; } }
+    width: auto !important;
+    padding: 13px 20px;
+    margin-right: 10px; }
+  .patterns-menu {
+    -webkit-box-flex: 1;
+        -ms-flex: 1;
+            flex: 1; }
+    .patterns-menu > a {
+      width: auto !important;
+      padding: 13px 15px; } }
