@@ -781,6 +781,34 @@ $border-variable:		1px solid #f5f4f4;
 		}
 	}
 
+	.filter-container {
+
+		li.filter-col {
+
+			.filter-toggle {
+				text-transform: capitalize;
+			
+				.color-icon,
+				.color-icon span {
+					display: inline-block;
+				}
+
+				.color-icon {
+
+					span {
+						width: 7px;
+						height: 7px;
+
+						&:before,
+						&:after {
+							width: 7px;
+							height: 7px;
+						}
+					}
+				}
+			}
+		}
+	}
 
 
 
