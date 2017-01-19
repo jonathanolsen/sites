@@ -748,13 +748,35 @@ $border-variable:		1px solid #f5f4f4;
 
 
 
+@include bp(xs-sm) {
+	.product_cat {
+		display: flex;
+		width: 100%;
+		flex-direction: row;
+		flex-flow: row wrap;
+		align-items: center;
+
+	}
+
+	.patterns-top-menu {
+
+		span {
+			display: none;
+		}
+
+		.trending_nav {
+			width: auto !important;
+		}
+	}
+
+	.patterns-menu {
+
+	}
 
 
 
 
-
-
-
+}
 
 
 
