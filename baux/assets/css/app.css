@@ -522,7 +522,13 @@
     .filter-col .filter-list > ul.filter-list-patterns .filter-item {
       margin: 5px 10% 5px 0;
       -ms-flex-preferred-size: 40%;
-          flex-basis: 40%; } }
+          flex-basis: 40%; }
+  .page-control .btn-custom {
+    width: 100%;
+    text-align: center;
+    border: none;
+    background: #f6f7f8;
+    border-radius: 3px; } }
 
 #baux_trending h3 {
   font-size: 17px;
