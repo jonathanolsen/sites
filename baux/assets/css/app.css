@@ -484,17 +484,31 @@
     .patterns-menu > a {
       width: auto !important;
       padding: 13px 15px; }
-  .filter-container li.filter-col .filter-toggle {
-    text-transform: capitalize; }
-    .filter-container li.filter-col .filter-toggle .color-icon,
-    .filter-container li.filter-col .filter-toggle .color-icon span {
-      display: inline-block; }
-    .filter-container li.filter-col .filter-toggle .color-icon span {
-      width: 7px;
-      height: 7px; }
-      .filter-container li.filter-col .filter-toggle .color-icon span:before, .filter-container li.filter-col .filter-toggle .color-icon span:after {
-        width: 7px;
-        height: 7px; } }
+  .filter-container li.filter-col {
+    border-right: 0; }
+    .filter-container li.filter-col .filter-toggle {
+      text-transform: capitalize;
+      padding: 10px 0px 8px;
+      background: #fafbfb;
+      margin: 8px 0 0;
+      border-radius: 3px; }
+      .filter-container li.filter-col .filter-toggle .color-icon,
+      .filter-container li.filter-col .filter-toggle .color-icon span {
+        display: inline-block; }
+      .filter-container li.filter-col .filter-toggle .color-icon {
+        width: 27px;
+        height: 27px;
+        margin-top: 1px;
+        float: none;
+        margin: -9px 10px -9px 0px; }
+        .filter-container li.filter-col .filter-toggle .color-icon span {
+          width: 7px;
+          height: 7px; }
+          .filter-container li.filter-col .filter-toggle .color-icon span:before, .filter-container li.filter-col .filter-toggle .color-icon span:after {
+            width: 7px;
+            height: 7px; }
+          .filter-container li.filter-col .filter-toggle .color-icon span:before {
+            margin-top: 9px; } }
 
 #baux_trending h3 {
   font-size: 17px;

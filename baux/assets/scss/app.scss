@@ -784,9 +784,14 @@ $border-variable:		1px solid #f5f4f4;
 	.filter-container {
 
 		li.filter-col {
+			border-right: 0;
 
 			.filter-toggle {
 				text-transform: capitalize;
+				padding: 10px 0px 8px;
+				background: #fafbfb;
+				margin: 8px 0 0;
+				border-radius: 3px;
 			
 				.color-icon,
 				.color-icon span {
@@ -794,7 +799,11 @@ $border-variable:		1px solid #f5f4f4;
 				}
 
 				.color-icon {
-
+					width: 27px;
+					height: 27px;
+					margin-top: 1px;
+					float: none;
+					margin: -9px 10px -9px 0px;
 					span {
 						width: 7px;
 						height: 7px;
@@ -803,6 +812,10 @@ $border-variable:		1px solid #f5f4f4;
 						&:after {
 							width: 7px;
 							height: 7px;
+						}
+
+						&:before {
+							margin-top: 9px;
 						}
 					}
 				}
