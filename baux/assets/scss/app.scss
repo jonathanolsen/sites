@@ -823,6 +823,16 @@ $border-variable:		1px solid #f5f4f4;
 		}
 	}
 
+	.filter-col .filter-list > ul.filter-list-patterns {
+		display: flex;
+		flex-direction: row;
+		flex-flow: row wrap;
+
+		.filter-item {
+			margin: 5px 10% 5px 0;
+			flex-basis: 40%;
+		}
+	}
 
 
 }

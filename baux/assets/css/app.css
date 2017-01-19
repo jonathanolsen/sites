@@ -508,7 +508,21 @@
             width: 7px;
             height: 7px; }
           .filter-container li.filter-col .filter-toggle .color-icon span:before {
-            margin-top: 9px; } }
+            margin-top: 9px; }
+  .filter-col .filter-list > ul.filter-list-patterns {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-flow: row wrap;
+        flex-flow: row wrap; }
+    .filter-col .filter-list > ul.filter-list-patterns .filter-item {
+      margin: 5px 10% 5px 0;
+      -ms-flex-preferred-size: 40%;
+          flex-basis: 40%; } }
 
 #baux_trending h3 {
   font-size: 17px;
