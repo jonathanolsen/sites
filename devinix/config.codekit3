@@ -7,7 +7,7 @@
 		"uuidString": "9C3B940C-7569-4159-BDD5-31F5768011DB"
 		}
 	],
-"creatorBuild": "25479",
+"creatorBuild": "25504",
 "files": {
 	"\/assets\/css\/app.css": {
 		"aP": 0,
@@ -4528,6 +4528,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-await-in-loop": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-bitwise": {
 			"active": 0,
 			"optionString": "{'allow': ['~'], 'int32Hint': true}"
@@ -5067,6 +5071,10 @@
 		"prefer-const": {
 			"active": 0,
 			"optionString": "{'destructuring': 'any', 'ignoreReadBeforeAssign': false}"
+			},
+		"prefer-destructuring": {
+			"active": 0,
+			"optionString": "{'array': true, 'object': true}, {'enforceForRenamedProperties': false}"
 			},
 		"prefer-numeric-literals": {
 			"active": 0,
