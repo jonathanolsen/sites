@@ -37,12 +37,14 @@
 @media (max-width: 767px) {
   p {
     line-height: 30px; } }
+
 @font-face {
   font-family: 'brandberry-font';
   src: url("https://jonathanolsen.github.io/brandberry/fonts/brandberry/brandberry-font.eot");
   src: url("https://jonathanolsen.github.io/brandberry/fonts/brandberry/brandberry-font.eot?#iefix") format("embedded-opentype"), url("https://jonathanolsen.github.io/brandberry/fonts/brandberry/brandberry-font.woff") format("woff"), url("https://jonathanolsen.github.io/brandberry/fonts/brandberry/brandberry-font.svg") format("svg"), url("https://jonathanolsen.github.io/brandberry/fonts/brandberry/brandberry-font.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+
 [class^="icon-"], [class*=" icon-"] {
   font-family: 'brandberry-font';
   speak: none;
@@ -72,16 +74,19 @@
   src: url("https://jonathanolsen.github.io/brandberry/fonts/appetite/appetite_contrast-webfont.eot?#iefix") format("embedded-opentype"), url("https://jonathanolsen.github.io/brandberry/fonts/appetite/appetite_contrast-webfont.woff2") format("woff2"), url("https://jonathanolsen.github.io/brandberry/fonts/appetite/appetite_contrast-webfont.woff") format("woff"), url("https://jonathanolsen.github.io/brandberry/fonts/appetite/appetite_contrast-webfont.svg") format("svg"), url("https://jonathanolsen.github.io/brandberry/fonts/appetite/appetite_contrast-webfont.ttf") format("truetype");
   font-weight: normal;
   font-style: normal; }
+
 .appetite {
   font-family: 'appetiteregular'; }
 
 .open-nav .logo svg {
   fill: #fff !important; }
+
 .open-nav #navbar .controls a .nav-icon {
   background: #fff !important; }
 
 #navbar-bg.transparent .fluid-logo.twenty #logo {
   padding-top: 40px; }
+
 #navbar-bg.transparent .fluid-menu {
   margin-top: 20px; }
 
@@ -114,6 +119,7 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
     left: 49.9729% !important; }
     .reverse-row-desktop > div .masonry-span6:last-of-type {
       left: 0 !important; } }
+
 .border-top,
 #content_dmu3rz7e8 {
   border-top: 1px solid rgba(0, 0, 0, 0.1); }
@@ -122,11 +128,14 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
   max-width: 150px !important;
   margin-bottom: 30px;
   margin-top: -15px; }
+
 #content .project-info.reve .mc-sub-content-container .column-image img.live-image {
   max-width: 100px !important;
   margin-bottom: 40px; }
+
 #content .project-info.notis .mc-sub-content-container .column-image img.live-image {
   margin-bottom: 37px !important; }
+
 #content .project-info.qred .mc-sub-content-container .column-image img.live-image {
   max-width: 120px !important;
   margin-bottom: 36px; }
@@ -134,10 +143,12 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 #content .mc-content-container.client-logos > .container {
   width: 100%;
   max-width: 1400px; }
+
 #content .mc-content-container.client-logos img {
   -webkit-filter: grayscale(100%);
   -moz-filter: grayscale(100%);
   opacity: .45;
+  -webkit-transition: .3s ease-out;
   transition: .3s ease-out;
   max-width: 200px !important; }
   #content .mc-content-container.client-logos img:hover {
@@ -148,6 +159,7 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 @media (max-width: 767px) {
   div.sqs-col-1, div.sqs-col-2, div.sqs-col-3, div.sqs-col-4, div.sqs-col-5, div.sqs-col-6, div.sqs-col-7, div.sqs-col-8, div.sqs-col-9, div.sqs-col-10, div.sqs-col-11 {
     width: 100%; } }
+
 .sqs-col-1 {
   width: 8.3333%; }
 
@@ -191,11 +203,12 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
     section#thumbnails .thumb .thumb-inner .thumb-hover h3 span {
       line-height: 25px;
       margin-top: 10px; }
-
   .page-id-160 #content .content-container .image img {
     width: auto !important; } }
+
 .page-id-10 .fullscreen-cover {
   max-height: 850px; }
+
 @media (max-width: 767px) {
   .page-id-10 .fullscreen-cover {
     max-height: 480px; }
@@ -208,8 +221,10 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
 .page-id-142 .cover-image {
   max-height: 700px;
   background-position: center center !important; }
+
 .page-id-142 .fullscreen-cover {
   max-height: 480px; }
+
 @media (max-width: 767px) {
   .page-id-142 .cover-headline h1 {
     font-size: 40px !important;
@@ -217,17 +232,22 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
   .page-id-142 [data-content-id='content_rpb6pvf2z'] p span.custom_one {
     font-size: 30px;
     margin-bottom: 12px; } }
+
 @media (min-width: 768px) {
   .page-id-142 .fullscreen-cover {
     max-height: 700px; } }
+
 .page-id-142 .team-list {
   width: 100%;
   max-width: 1100px;
   margin: 0 auto; }
   @media (min-width: 768px) {
     .page-id-142 .team-list {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      flex-wrap: wrap; } }
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap; } }
   .page-id-142 .team-list .team-member {
     width: 100%;
     float: left;
@@ -235,7 +255,9 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
     box-sizing: border-box;
     background: #f6f7f8;
     margin: 0 1.5% 30px;
+    -webkit-transition: .2s all ease-out;
     transition: .2s all ease-out;
+    -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
     border-radius: 3px;
     text-align: center; }
@@ -256,13 +278,15 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
       opacity: 0;
       border-radius: 3px;
       box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+      -webkit-transition: opacity .2s ease-in-out;
       transition: opacity .2s ease-in-out;
       top: 0;
       left: 0;
       z-index: -1; }
     .page-id-142 .team-list .team-member:hover {
       background: #fff;
-      transform: scale(1.04);
+      -webkit-transform: scale(1.04);
+              transform: scale(1.04);
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); }
       .page-id-142 .team-list .team-member:hover:after {
         opacity: 1; }
@@ -293,8 +317,12 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
     .page-id-142 .team-list .team-member ul {
       margin: 15px 0 0;
       padding: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      justify-content: center; }
+      -webkit-box-pack: center;
+          -ms-flex-pack: center;
+              justify-content: center; }
       .page-id-142 .team-list .team-member ul li {
         list-style-type: none;
         float: left; }
@@ -312,6 +340,7 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
           text-align: center;
           font-size: 22px;
           border-radius: 4px;
+          -webkit-transition: all .1s ease-out;
           transition: all .1s ease-out;
           color: #777; }
           .page-id-142 .team-list .team-member ul li a:hover {
@@ -320,6 +349,7 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
     .page-id-142 .team-list .team-member .btn {
       margin-top: 18px;
       display: inline-block; }
+
 .page-id-142 .grid-container {
   width: 100%;
   max-width: 1360px;
@@ -327,20 +357,25 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
   margin: 0 auto;
   position: relative;
   color: #3e3947; }
+
 .page-id-142 .page-services .grid-container {
   max-width: 1600px !important;
   background: none;
   margin: 0 auto; }
+
 .page-id-142 .services .row {
   margin: 0; }
   @media (min-width: 768px) {
     .page-id-142 .services .row {
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex; } }
   .page-id-142 .services .row > div {
     background: #fff;
     text-align: center;
     padding: 0;
     box-shadow: 0 0 1px #9c9ca2;
+    -webkit-transition: .2s ease-out;
     transition: .2s ease-out; }
     .page-id-142 .services .row > div > ul {
       text-align: left;
@@ -386,19 +421,23 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
     @media (min-width: 992px) {
       .page-id-142 .services .row .span-3 {
         width: 25%; } }
+
 .page-id-142 .approach {
   max-width: 1060px;
   margin: 0 auto; }
   .page-id-142 .approach .row {
+    -webkit-transition: .1s all ease-out;
     transition: .1s all ease-out;
     margin: 0;
     /* &:hover {
-    	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-    	position: relative;
-    	transform: scale(1.04);
-    } */ }
+				box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+				position: relative;
+				transform: scale(1.04);
+			} */ }
     @media (min-width: 768px) {
       .page-id-142 .approach .row {
+        display: -webkit-box;
+        display: -ms-flexbox;
         display: flex; } }
     @media (max-width: 767px) {
       .page-id-142 .approach .row {
@@ -407,8 +446,12 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
       background: #fff;
       text-align: center;
       padding: 0;
+      display: -webkit-box;
+      display: -ms-flexbox;
       display: flex;
-      align-content: center;
+      -ms-flex-line-pack: center;
+          align-content: center;
+      -webkit-transition: .2s ease-out;
       transition: .2s ease-out; }
       @media (min-width: 768px) {
         .page-id-142 .approach .row > div {
@@ -422,13 +465,17 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
         font-size: 50px;
         line-height: 0;
         color: #33333e;
-        align-self: center;
+        -ms-flex-item-align: center;
+            -ms-grid-row-align: center;
+            align-self: center;
         margin: 0; }
         @media (min-width: 768px) {
           .page-id-142 .approach .row > div h4.appetite {
             font-size: 80px; } }
       .page-id-142 .approach .row > div:first-of-type {
-        justify-content: center; }
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center; }
     .page-id-142 .approach .row .content {
       max-width: 100%;
       padding: 50px;
@@ -523,7 +570,7 @@ section#thumbnails .thumb .thumb-inner .thumb-hover h3 {
   border-radius: 2px;
   position: fixed;
   bottom: 10px;
-  right: 111px;
+  right: 130px;
   font-size: 14px;
   font-weight: 600;
   padding: 5px 18px 1px;
