@@ -5,7 +5,7 @@ $(document).ready(function() {
 
 	setTimeout(function() {
 		$('.sqs-slide').addClass('sqs-slide-animate');
-	}, 10);
+	}, 900);
 
 	setTimeout(function() {
 		$('.sqs-slide').addClass('animate');
@@ -30,6 +30,8 @@ $(document).ready(function() {
 	}, 6000);
 
 });
+
+
 
 
 
