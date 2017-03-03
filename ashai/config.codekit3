@@ -31,19 +31,10 @@
 		},
 	"\/assets\/js\/main.js": {
 		"ft": 64,
-		"mi": 1,
+		"mi": 0,
 		"oA": 0,
-		"oAP": "\/assets\/js\/min\/main-min.js",
-		"oF": 0,
-		"sC": 1,
-		"tS": 0
-		},
-	"\/assets\/js\/min\/main-min.js": {
-		"ft": 64,
-		"mi": 1,
-		"oA": 0,
-		"oAP": "\/assets\/js\/min\/min\/main-min-min.js",
-		"oF": 0,
+		"oAP": "\/assets\/js\/main.js",
+		"oF": 2,
 		"sC": 1,
 		"tS": 0
 		},

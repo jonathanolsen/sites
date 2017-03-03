@@ -11,10 +11,17 @@ $(document).ready(function() {
 
 	setTimeout(function() {
 		$('.sqs-slide .sqs-slide-layer-content').addClass('animate');
-	}, 1400);
+	}, 2000);
 
 	setTimeout(function() {
 		$('.sqs-slide').removeClass('sqs-slide-animate');
-	}, 2000);
+	}, 4000);
 
 });
+
+
+
+
+
+
+
