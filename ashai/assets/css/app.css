@@ -1,28 +1,31 @@
-.fl {
-  float: left; }
-
-.fr {
-  float: right; }
-
 .sqs-slide-animate {
-  background: #000;
+  background: #000 !important;
   width: 0;
   -webkit-transition: all .5s ease-in-out;
   transition: all .5s ease-in-out;
   left: auto;
   right: 0; }
+  .sqs-slide-animate.animate {
+    width: 100%; }
   .sqs-slide-animate .sqs-slide-layer.full-width-height {
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     opacity: 0; }
     .sqs-slide-animate .sqs-slide-layer.full-width-height.animate {
       opacity: 1; }
-  .sqs-slide-animate .sqs-slide-layer-content {
+  .sqs-slide-animate .sqs-slide-layer-content.content-copy {
+    position: absolute;
+    left: 0;
+    opacity: 0; }
+    .sqs-slide-animate .sqs-slide-layer-content.content-copy.animate {
+      opacity: 1; }
+  .sqs-slide-animate .sqs-slide-layer-content.content-gallery {
     width: 100%;
     position: absolute;
     z-index: 2;
     right: 0;
     -webkit-transition: all .5s ease-in-out;
-    transition: all .5s ease-in-out; }
-    .sqs-slide-animate .sqs-slide-layer-content.animate {
+    transition: all .5s ease-in-out;
+    z-index: 3; }
+    .sqs-slide-animate .sqs-slide-layer-content.content-gallery.animate {
       width: 50%; }
