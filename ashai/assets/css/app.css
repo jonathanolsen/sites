@@ -31,4 +31,4 @@
       transition: all .85s ease-in-out;
       margin-left: -50%; }
       .sqs-slide-animate .sqs-slide-layer-content.content-copy.animate {
-        margin-left: auto; } }
+        margin-left: 0; } }
