@@ -23,9 +23,14 @@ $(document).ready(function() {
 
 	setTimeout(function() {
 		$('.sqs-slide').removeClass('sqs-slide-animate');
+		$('.sqs-slide .sqs-slide-layer.full-width-height').removeClass('animate');
+		$('.sqs-slide .sqs-slide-layer-content.content-gallery').removeClass('animate');
+		$('.sqs-slide .sqs-slide-layer-content.content-copy').removeClass('animate');
 	}, 6000);
 
 });
+
+
 
 
 
