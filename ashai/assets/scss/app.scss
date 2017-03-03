@@ -42,7 +42,7 @@ $L:        1200px;
 .sqs-slide-animate {
 	background: #000 !important;
 	width: 0;
-	transition: all .5s ease-in-out;
+	transition: all .85s ease-in-out;
 	left: auto;
 	right: 0;
 
@@ -51,7 +51,7 @@ $L:        1200px;
 	}
 
 	.sqs-slide-layer.full-width-height {
-		transition: all .5s ease-in-out;
+		transition: all .85s ease-in-out;
 		opacity: 0;
 
 		&.animate {
@@ -63,6 +63,7 @@ $L:        1200px;
 		position: absolute;
 		left: 0;
 		opacity: 0;
+		transition: all .85s ease-in-out;
 
 		&.animate {
 			opacity: 1;
@@ -74,7 +75,7 @@ $L:        1200px;
 	    position: absolute;
 	    z-index: 2 !important;
 	    right: 0;
-	    transition: all .5s ease-in-out;
+	    transition: all .85s ease-in-out;
 	    z-index: 3;
 
 	    &.animate {
