@@ -3,7 +3,9 @@
 
 $(document).ready(function() {
 
-	$('.sqs-slide').addClass('sqs-slide-animate');
+	setTimeout(function() {
+		$('.sqs-slide').addClass('sqs-slide-animate');
+	}, 10);
 
 	setTimeout(function() {
 		$('.sqs-slide').addClass('animate');
@@ -28,6 +30,8 @@ $(document).ready(function() {
 	}, 6000);
 
 });
+
+
 
 
 
