@@ -15,11 +15,10 @@ $(document).ready(function() {
 
 	setTimeout(function() {
 		$('.sqs-slide .sqs-slide-layer-content.content-gallery').addClass('animate');
+		$('.sqs-slide .sqs-slide-layer-content.content-copy').addClass('animate');
 	}, 4200);
 
-	setTimeout(function() {
-		$('.sqs-slide .sqs-slide-layer-content.content-copy').addClass('animate');
-	}, 5800);
+	
 
 	setTimeout(function() {
 		$('.sqs-slide').removeClass('sqs-slide-animate');
@@ -29,6 +28,8 @@ $(document).ready(function() {
 	}, 6000);
 
 });
+
+
 
 
 

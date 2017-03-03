@@ -59,17 +59,6 @@ $L:        1200px;
 		}
 	}
 
-	.sqs-slide-layer-content.content-copy {
-		position: absolute;
-		left: 0;
-		opacity: 0;
-		transition: all .85s ease-in-out;
-
-		&.animate {
-			opacity: 1;
-		}
-	}
-
 	.sqs-slide-layer-content.content-gallery {
 		width: 100% !important;
 	    position: absolute;
@@ -81,6 +70,17 @@ $L:        1200px;
 	    &.animate {
 	    	width: 50% !important;
 	    }
+	}
+
+	.sqs-slide-layer-content.content-copy {
+		position: absolute;
+		left: 0;
+		transition: all .85s ease-in-out;
+		margin-left: -50%;
+
+		&.animate {
+			margin-left: auto;
+		}
 	}
 }
 
