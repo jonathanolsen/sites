@@ -32,15 +32,15 @@
 	}
 
 	.sqs-slide-layer-content.content-gallery {
-		width: 100%;
+		width: 100% !important;
 	    position: absolute;
-	    z-index: 2;
+	    z-index: 2 !important;
 	    right: 0;
 	    transition: all .5s ease-in-out;
 	    z-index: 3;
 
 	    &.animate {
-	    	width: 50%;
+	    	width: 50% !important;
 	    }
 	}
 }

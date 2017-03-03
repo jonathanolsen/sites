@@ -20,12 +20,12 @@
     .sqs-slide-animate .sqs-slide-layer-content.content-copy.animate {
       opacity: 1; }
   .sqs-slide-animate .sqs-slide-layer-content.content-gallery {
-    width: 100%;
+    width: 100% !important;
     position: absolute;
-    z-index: 2;
+    z-index: 2 !important;
     right: 0;
     -webkit-transition: all .5s ease-in-out;
     transition: all .5s ease-in-out;
     z-index: 3; }
     .sqs-slide-animate .sqs-slide-layer-content.content-gallery.animate {
-      width: 50%; }
+      width: 50% !important; }
