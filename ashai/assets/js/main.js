@@ -3,13 +3,18 @@
 
 $(document).ready(function() {
 
+	$('.sqs-slide').addClass('.sqs-slide-animate');
 
+	setTimeout(function() {
+		$('.sqs-slide > .sqs-slide-layer.full-width-height').addClass('.animate');
+	}, 1000);
 
-	$('.grid').masonry({
-		// options
-		itemSelector: '.grid-item',
-		columnWidth: 300,
-		gutter: 30
-	});
+	setTimeout(function() {
+		$('.sqs-slide .sqs-slide-layer-content').addClass('.animate');
+	}, 1400);
+
+	setTimeout(function() {
+		$('.sqs-slide').removeClass('.sqs-slide-animate');
+	}, 2000);
 
 });

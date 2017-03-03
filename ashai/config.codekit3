@@ -38,6 +38,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/min\/main-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/min\/main-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/scss\/.sass-cache\/00d9619bc06ec2d07b4abc175dd2e694c7b2607c\/_animations.scssc": {
 		"ft": 8192,
 		"oA": 1,
