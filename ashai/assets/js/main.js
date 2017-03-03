@@ -21,11 +21,13 @@ $(document).ready(function() {
 		$('.sqs-slide .sqs-slide-layer-content.content-copy').addClass('animate');
 	}, 5000);
 
-	/* setTimeout(function() {
+	setTimeout(function() {
 		$('.sqs-slide').removeClass('sqs-slide-animate');
-	}, 4000); */
+	}, 6000);
 
 });
+
+
 
 
 
