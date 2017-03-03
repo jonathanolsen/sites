@@ -7,7 +7,7 @@
 		"uuidString": "12FF80AA-94E1-43A5-9942-CC5BC9748A45"
 		}
 	],
-"creatorBuild": "25504",
+"creatorBuild": "25568",
 "files": {
 	"\/assets\/css\/app.css": {
 		"aP": 0,
@@ -28,6 +28,15 @@
 		"oAP": "\/assets\/css\/reset-min.css",
 		"oF": 0,
 		"oS": 0
+		},
+	"\/assets\/js\/main.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/main-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
 		},
 	"\/assets\/scss\/.sass-cache\/00d9619bc06ec2d07b4abc175dd2e694c7b2607c\/_animations.scssc": {
 		"ft": 8192,
@@ -3871,7 +3880,7 @@
 	},
 "projectAttributes": {
 	"creationDate": 500808512,
-	"displayValue": "Devinix",
+	"displayValue": "Ashai",
 	"displayValueWasSetByUser": 1,
 	"iconImageName": "meme-ive"
 	},
@@ -4745,6 +4754,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"no-multi-assign": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-multi-spaces": {
 			"active": 0,
 			"optionString": "{'exceptions': {'Property': true, 'BinaryExpression': false, 'VariableDeclarator': false, 'ImportDeclaration': false}}"
@@ -5073,6 +5086,10 @@
 			"active": 0,
 			"optionString": ""
 			},
+		"prefer-promise-reject-errors": {
+			"active": 0,
+			"optionString": "{'allowEmptyReject': false}"
+			},
 		"prefer-rest-params": {
 			"active": 0,
 			"optionString": ""
@@ -5166,6 +5183,10 @@
 			"optionString": ""
 			},
 		"template-curly-spacing": {
+			"active": 0,
+			"optionString": "'never'"
+			},
+		"template-tag-spacing": {
 			"active": 0,
 			"optionString": "'never'"
 			},
