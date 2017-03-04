@@ -93,10 +93,19 @@ $L:        1200px;
 
 .full-screen-gallery {
 	width: 100% !important;
+	height: 100%;
 	position: absolute;
 	z-index: 2 !important;
 	right: 0;
 	z-index: 3;
+}
+
+.full-toggle {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 20px;
+	color: #fff;
 }
 
 

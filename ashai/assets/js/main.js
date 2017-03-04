@@ -28,7 +28,7 @@ $(document).ready(function() {
 		$('.sqs-slide .sqs-slide-layer-content.content-gallery').removeClass('animate');
 		$('.sqs-slide .sqs-slide-layer-content.content-copy').removeClass('animate');
 
-		$('.sqs-slide .sqs-slide-layer-content.content-gallery').append('<a href="#" class="full-toggle"></a>');
+		$('.sqs-slide .sqs-slide-layer-content.content-gallery').append('<a href="#" class="full-toggle"><i class="ion ion-arrow-resize"></i></a>');
 	}, 5000);
 
 	$('.full-toggle').on('click', function() {
@@ -36,6 +36,8 @@ $(document).ready(function() {
 	});
 
 });
+
+
 
 
 
