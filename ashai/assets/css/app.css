@@ -23,7 +23,9 @@
 
 .bracelets {
   width: 100%;
-  text-align: center; }
+  text-align: center;
+  margin-top: 40px;
+  display: inline-block; }
   .bracelets img {
     width: 70%; }
 
