@@ -39,6 +39,10 @@ $L:        1200px;
 
 @include bp(sm) {
 
+.sqs-slide.sqs-slide-ready {
+	opacity: 0;
+}
+
 .sqs-slide-animate {
 	background: #000 !important;
 	width: 0;
