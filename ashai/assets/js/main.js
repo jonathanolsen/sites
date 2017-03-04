@@ -10,10 +10,12 @@ $(document).ready(function() {
 	intervalTimer = setInterval(function(){
 		if( $('.sqs-slide').hasClass('sqs-slide-ready') ) {
 			$('.sqs-slide.sqs-slide-ready').addClass('done');
-			$('.sqs-slide.sqs-slide-ready').addClass('sqs-slide-animate');
+			setTimeout(function() {
+				$('.sqs-slide.sqs-slide-ready').addClass('sqs-slide-animate');
+			},500);
 			clearInterval(intervalTimer);
 		}
-	},1000);
+	},500);
 
 	setTimeout(function() {
 		$('.sqs-slide').addClass('animate');
@@ -47,6 +49,8 @@ $(document).ready(function() {
 	
 
 });
+
+
 
 
 
