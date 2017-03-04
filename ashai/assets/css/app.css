@@ -37,6 +37,4 @@
   position: absolute;
   z-index: 2 !important;
   right: 0;
-  -webkit-transition: all .85s ease-in-out;
-  transition: all .85s ease-in-out;
   z-index: 3; }
