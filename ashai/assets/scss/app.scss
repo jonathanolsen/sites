@@ -170,12 +170,12 @@ $L:        1200px;
 .sqs-slide-animate {
 	background: #000 !important;
 	width: 0;
-	transition: all 1s ease-in-out;
 	left: 0;
 
 
 	&.animate {
 		width: 100%;
+		transition: all 1s ease-in-out;
 
 		.sqs-slide-layer-content.content-gallery {
 			opacity: 1;

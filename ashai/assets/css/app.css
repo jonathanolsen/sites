@@ -98,11 +98,11 @@
   .sqs-slide-animate {
     background: #000 !important;
     width: 0;
-    -webkit-transition: all 1s ease-in-out;
-    transition: all 1s ease-in-out;
     left: 0; }
     .sqs-slide-animate.animate {
-      width: 100%; }
+      width: 100%;
+      -webkit-transition: all 1s ease-in-out;
+      transition: all 1s ease-in-out; }
       .sqs-slide-animate.animate .sqs-slide-layer-content.content-gallery {
         opacity: 1; }
     .sqs-slide-animate .sqs-slide-layer.full-width-height {
