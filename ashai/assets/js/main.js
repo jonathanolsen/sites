@@ -53,11 +53,13 @@ $(document).ready(function() {
 			$(this).parent().toggleClass('full-screen-gallery');
 		});
 		
-	}, 6500);
+	}, 4800);
 
 	
 
 });
+
+
 
 
 
