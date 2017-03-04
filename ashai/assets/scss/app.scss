@@ -40,9 +40,11 @@ $L:        1200px;
 .price-container {
 	width: 100%;
 	max-width: 400px;
-	margin: 80px auto 0;
+	margin: 50px auto 0;
 	border-top: 1px solid #f0f0f0;
-	padding: 60px 0 0;
+	padding: 40px 0;
+	display: inline-block;
+	border-bottom: 1px solid #f0f0f0;
 }
 
 .price {
@@ -76,6 +78,8 @@ $L:        1200px;
 }
 
 .flickity.gallery {
+	width: calc(100% + 120px);
+	margin: 0 -60px;
 
 	.gallery-item {
 		width: 70%;
