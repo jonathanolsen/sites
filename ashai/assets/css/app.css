@@ -1,7 +1,7 @@
 .price-container {
   width: 100%;
   max-width: 400px;
-  margin: 0 auto; }
+  margin: 80px auto 0; }
 
 .price {
   text-align: center;
@@ -14,7 +14,7 @@
     font-size: 16px;
     margin-bottom: 15px;
     font-weight: 300; }
-  .price:first-of-type span {
+  .price:first-of-type {
     font-weight: 300; }
   @media (min-width: 768px) {
     .price {
