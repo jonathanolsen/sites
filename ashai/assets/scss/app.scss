@@ -47,6 +47,27 @@ $L:        1200px;
 	}
 }
 
+.our-story {
+	position: absolute;
+	width: 100%;
+	background: #18191a;
+	padding: 40px;
+	border-radius: 3px;
+	opacity: 0;
+	transition: all .3s ease-in-out;
+
+	.close-box {
+		top: 30px;
+		right: 30px;
+		color: #fff;
+		font-size: 20px;
+		position: absolute;
+	}
+
+	&.active {
+		opacity: 1;
+	}
+}
 
 .sqs-slide-animate {
 	background: #000 !important;

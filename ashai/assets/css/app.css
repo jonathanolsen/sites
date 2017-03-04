@@ -3,6 +3,23 @@
     opacity: 0; }
     .sqs-slide.sqs-slide-ready.done {
       opacity: 1; }
+  .our-story {
+    position: absolute;
+    width: 100%;
+    background: #18191a;
+    padding: 40px;
+    border-radius: 3px;
+    opacity: 0;
+    -webkit-transition: all .3s ease-in-out;
+    transition: all .3s ease-in-out; }
+    .our-story .close-box {
+      top: 30px;
+      right: 30px;
+      color: #fff;
+      font-size: 20px;
+      position: absolute; }
+    .our-story.active {
+      opacity: 1; }
   .sqs-slide-animate {
     background: #000 !important;
     width: 0;
