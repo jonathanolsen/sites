@@ -53,6 +53,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/img\/kibun.jpg": {
+		"ft": 16384,
+		"iS": 89047,
+		"oA": 0,
+		"oAP": "\/assets\/img\/kibun.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/nakama-gold.jpg": {
 		"ft": 16384,
 		"iS": 206163,
@@ -77,6 +85,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"\/assets\/img\/nakama.jpg": {
+		"ft": 16384,
+		"iS": 115875,
+		"oA": 0,
+		"oAP": "\/assets\/img\/nakama.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/story-bg.jpg": {
 		"ft": 16384,
 		"iS": 401488,
@@ -90,6 +106,14 @@
 		"iS": 188655,
 		"oA": 0,
 		"oAP": "\/assets\/img\/twelve-one.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/twelve.jpg": {
+		"ft": 16384,
+		"iS": 55656,
+		"oA": 0,
+		"oAP": "\/assets\/img\/twelve.jpg",
 		"oF": 0,
 		"opt": 0
 		},
