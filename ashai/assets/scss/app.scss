@@ -78,18 +78,6 @@ $L:        1200px;
 	}
 }
 
-@include bp(sm) {
-
-
-
-.sqs-slide.sqs-slide-ready {
-	opacity: 0;
-
-	&.done {
-		opacity: 1;
-	}
-}
-
 .our-story {
 	background: url('https://jonathanolsen.github.io/sites/ashai/assets/img/story-bg.jpg') center center no-repeat;
 	background-size: cover;
@@ -113,16 +101,37 @@ $L:        1200px;
 		padding: 40px;
 		font-family: 'montserrat';
 		font-weight: 300;
+		color: #825e86;
+	}
+
+	h2 {
+		color: #47434a;
+		font-size: 36px;
 	}
 
 	.close-box {
+		color: #524f54;
 		text-transform: uppercase;
+		text-decoration: none;
 		font-size: 15px;
+		font-weight: bold;
 	}
 
 	&.active {
 		opacity: 1;
 		z-index: 999;
+	}
+}
+
+@include bp(sm) {
+
+
+
+.sqs-slide.sqs-slide-ready {
+	opacity: 0;
+
+	&.done {
+		opacity: 1;
 	}
 }
 

@@ -29,40 +29,48 @@
   .bracelets img {
     width: 70%; }
 
+.our-story {
+  background: url("https://jonathanolsen.github.io/sites/ashai/assets/img/story-bg.jpg") center center no-repeat;
+  background-size: cover;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 40px;
+  border-radius: 3px;
+  opacity: 0;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  box-sizing: border-box; }
+  .our-story .container {
+    width: 100%;
+    max-width: 660px;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 40px;
+    font-family: 'montserrat';
+    font-weight: 300;
+    color: #825e86; }
+  .our-story h2 {
+    color: #47434a;
+    font-size: 36px; }
+  .our-story .close-box {
+    color: #524f54;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold; }
+  .our-story.active {
+    opacity: 1;
+    z-index: 999; }
+
 @media (min-width: 768px) {
   .sqs-slide.sqs-slide-ready {
     opacity: 0; }
     .sqs-slide.sqs-slide-ready.done {
       opacity: 1; }
-  .our-story {
-    background: url("https://jonathanolsen.github.io/sites/ashai/assets/img/story-bg.jpg") center center no-repeat;
-    background-size: cover;
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    padding: 40px;
-    border-radius: 3px;
-    opacity: 0;
-    -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out;
-    top: 0;
-    left: 0;
-    z-index: -1;
-    box-sizing: border-box; }
-    .our-story .container {
-      width: 100%;
-      max-width: 660px;
-      font-size: 18px;
-      line-height: 30px;
-      padding: 40px;
-      font-family: 'montserrat';
-      font-weight: 300; }
-    .our-story .close-box {
-      text-transform: uppercase;
-      font-size: 15px; }
-    .our-story.active {
-      opacity: 1;
-      z-index: 999; }
   .sqs-slide-animate {
     background: #000 !important;
     width: 0;
