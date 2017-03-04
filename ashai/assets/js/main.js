@@ -32,12 +32,12 @@ $(document).ready(function() {
 
 	setTimeout(function() {
 		$('.sqs-slide .sqs-slide-layer.full-width-height').addClass('animate');
-	}, 4000);
+	}, 3200);
 
 	setTimeout(function() {
 		$('.sqs-slide .sqs-slide-layer-content.content-gallery').addClass('animate');
 		$('.sqs-slide .sqs-slide-layer-content.content-copy').addClass('animate');
-	}, 6000);
+	}, 5200);
 
 	
 
@@ -53,11 +53,13 @@ $(document).ready(function() {
 			$(this).parent().toggleClass('full-screen-gallery');
 		});
 		
-	}, 8000);
+	}, 6500);
 
 	
 
 });
+
+
 
 
 
