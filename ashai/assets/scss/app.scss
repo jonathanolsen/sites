@@ -56,6 +56,10 @@ $L:        1200px;
 
 	&.animate {
 		width: 100%;
+
+		.sqs-slide-layer-content.content-gallery {
+			opacity: 1;
+		}
 	}
 
 	.sqs-slide-layer.full-width-height {
@@ -74,6 +78,7 @@ $L:        1200px;
 		right: 0;
 		transition: all .85s ease-in-out;
 		z-index: 3;
+		opacity: 0;
 
 		&.animate {
 			width: 50% !important;
