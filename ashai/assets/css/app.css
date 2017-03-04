@@ -6,8 +6,8 @@
   .sqs-slide-animate {
     background: #000 !important;
     width: 0;
-    -webkit-transition: all 1.7s cubic-bezier(0.3, 0.33, 0.9, 0.43);
-    transition: all 1.7s cubic-bezier(0.3, 0.33, 0.9, 0.43);
+    -webkit-transition: all 2s ease-in-out;
+    transition: all 2s ease-in-out;
     left: 0; }
     .sqs-slide-animate.animate {
       width: 100%; }
