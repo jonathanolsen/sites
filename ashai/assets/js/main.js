@@ -13,7 +13,7 @@ $(document).ready(function() {
 			$('.sqs-slide.sqs-slide-ready').addClass('sqs-slide-animate');
 			clearInterval(intervalTimer);
 		}
-	},500);
+	},1000);
 
 	setTimeout(function() {
 		$('.sqs-slide').addClass('animate');
@@ -47,6 +47,8 @@ $(document).ready(function() {
 	
 
 });
+
+
 
 
 
