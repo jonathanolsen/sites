@@ -110,7 +110,7 @@
 .sqs-slice-body-content p {
   width: 100%;
   max-width: 480px;
-  margin: 0 auto; }
+  margin: 0 auto !important; }
 
 @media (min-width: 768px) {
   .sqs-slide.sqs-slide-ready {
