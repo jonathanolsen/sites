@@ -1,6 +1,7 @@
 
 
 
+
 $(document).ready(function() {
 
 
@@ -23,12 +24,12 @@ $(document).ready(function() {
 
 	setTimeout(function() {
 		$('.sqs-slide .sqs-slide-layer.full-width-height').addClass('animate');
-	}, 6000);
+	}, 5000);
 
 	setTimeout(function() {
 		$('.sqs-slide .sqs-slide-layer-content.content-gallery').addClass('animate');
 		$('.sqs-slide .sqs-slide-layer-content.content-copy').addClass('animate');
-	}, 10000);
+	}, 7000);
 
 	
 
@@ -49,6 +50,10 @@ $(document).ready(function() {
 	
 
 });
+
+
+
+
 
 
 
