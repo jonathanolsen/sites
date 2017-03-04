@@ -41,6 +41,10 @@ $L:        1200px;
 
 .sqs-slide.sqs-slide-ready {
 	opacity: 0;
+
+	&.done {
+		opacity: 1;
+	}
 }
 
 .sqs-slide-animate {

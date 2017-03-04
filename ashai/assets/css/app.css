@@ -1,6 +1,8 @@
 @media (min-width: 768px) {
   .sqs-slide.sqs-slide-ready {
     opacity: 0; }
+    .sqs-slide.sqs-slide-ready.done {
+      opacity: 1; }
   .sqs-slide-animate {
     background: #000 !important;
     width: 0;
