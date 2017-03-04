@@ -47,7 +47,7 @@
       display: inline-block; }
 
 .our-story {
-  background: url("https://jonathanolsen.github.io/sites/ashai/assets/img/story-bg.jpg") #FAF2EF center bottom no-repeat;
+  background: url("https://jonathanolsen.github.io/sites/ashai/assets/img/story-bg-2.jpg") #FAF2EF center bottom no-repeat;
   background-size: contain;
   position: fixed;
   width: 100%;
@@ -65,7 +65,8 @@
   @media (min-width: 768px) {
     .our-story {
       background-size: cover;
-      position: absolute; } }
+      position: absolute;
+      background-position: center; } }
   .our-story .container {
     width: 100%;
     max-width: 660px;
@@ -98,7 +99,7 @@
         font-size: 18px;
         line-height: 30px; } }
   .our-story .close-box {
-    color: #8a7f9e;
+    color: #423e48;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 15px;
