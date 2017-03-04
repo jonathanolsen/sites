@@ -32,12 +32,12 @@ $(document).ready(function() {
 
 	setTimeout(function() {
 		$('.sqs-slide .sqs-slide-layer.full-width-height').addClass('animate');
-	}, 2800);
+	}, 2500);
 
 	setTimeout(function() {
 		$('.sqs-slide .sqs-slide-layer-content.content-gallery').addClass('animate');
 		$('.sqs-slide .sqs-slide-layer-content.content-copy').addClass('animate');
-	}, 4600);
+	}, 4300);
 
 	
 
@@ -58,6 +58,8 @@ $(document).ready(function() {
 	
 
 });
+
+
 
 
 
