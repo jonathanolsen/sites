@@ -59,7 +59,7 @@ $(document).ready(function() {
 		$('.our-story').removeClass('active');
 	});
 
-	if($(window).width() >= 768){
+	if($(window).width() >= 900){
 		animation();
 	} else {
 		
@@ -69,6 +69,8 @@ $(document).ready(function() {
 	
 
 });
+
+
 
 
 
