@@ -10,7 +10,8 @@
   width: 50%;
   float: left;
   font-size: 36px;
-  color: #101010; }
+  color: #101010;
+  font-family: montserrat; }
   .price span {
     text-transform: uppercase;
     display: block;
@@ -18,8 +19,6 @@
     margin-bottom: 15px;
     font-weight: 300;
     color: #777; }
-  .price:first-of-type {
-    font-weight: 300; }
 
 .bracelets {
   width: 100%;
@@ -27,7 +26,7 @@
   margin-top: 40px;
   display: inline-block; }
   .bracelets img {
-    width: 70%; }
+    width: 80%; }
 
 .our-story {
   background: url("https://jonathanolsen.github.io/sites/ashai/assets/img/story-bg.jpg") #FAF2EF center bottom no-repeat;

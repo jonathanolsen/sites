@@ -51,6 +51,7 @@ $L:        1200px;
 	float: left;
 	font-size: 36px;
 	color: #101010;
+	font-family: montserrat;
 
 	span {
 		text-transform: uppercase;
@@ -59,10 +60,6 @@ $L:        1200px;
 		margin-bottom: 15px;
 		font-weight: 300;
 		color: #777;
-	}
-
-	&:first-of-type {
-		font-weight: 300;
 	}
 }
 
@@ -74,7 +71,7 @@ $L:        1200px;
 	display: inline-block;
 
 	img {
-		width: 70%;
+		width: 80%;
 	}
 }
 
