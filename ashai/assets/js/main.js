@@ -28,7 +28,7 @@ $(document).ready(function() {
 
 	setTimeout(function() {
 		$('.sqs-slide').addClass('animate');
-	}, 1500);
+	}, 1200);
 
 	setTimeout(function() {
 		$('.sqs-slide .sqs-slide-layer.full-width-height').addClass('animate');
@@ -37,7 +37,7 @@ $(document).ready(function() {
 	setTimeout(function() {
 		$('.sqs-slide .sqs-slide-layer-content.content-gallery').addClass('animate');
 		$('.sqs-slide .sqs-slide-layer-content.content-copy').addClass('animate');
-	}, 4300);
+	}, 3800);
 
 	
 
@@ -58,6 +58,8 @@ $(document).ready(function() {
 	
 
 });
+
+
 
 
 
