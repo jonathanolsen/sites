@@ -19,16 +19,16 @@ $(document).ready(function() {
 
 	setTimeout(function() {
 		$('.sqs-slide').addClass('animate');
-	}, 1000);
+	}, 1500);
 
 	setTimeout(function() {
 		$('.sqs-slide .sqs-slide-layer.full-width-height').addClass('animate');
-	}, 2600);
+	}, 3100);
 
 	setTimeout(function() {
 		$('.sqs-slide .sqs-slide-layer-content.content-gallery').addClass('animate');
 		$('.sqs-slide .sqs-slide-layer-content.content-copy').addClass('animate');
-	}, 4200);
+	}, 4700);
 
 	
 
@@ -44,11 +44,15 @@ $(document).ready(function() {
 			$(this).parent().toggleClass('full-screen-gallery');
 		});
 		
-	}, 5000);
+	}, 5500);
 
 	
 
 });
+
+
+
+
 
 
 
