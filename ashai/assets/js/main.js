@@ -32,10 +32,12 @@ $(document).ready(function() {
 	}, 5000);
 
 	$('.full-toggle').on('click', function() {
-		$('this').parent().toggleClass('full-screen-gallery');
+		$(this).parent().toggleClass('full-screen-gallery');
 	});
 
 });
+
+
 
 
 
