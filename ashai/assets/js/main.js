@@ -59,16 +59,11 @@ $(document).ready(function() {
 		$('.our-story').removeClass('active');
 	});
 
-	if($(window).width() >= 900){
-		animation();
-	} else {
-		
-	}
-	
-
-	
+	animation();
 
 });
+
+
 
 
 
