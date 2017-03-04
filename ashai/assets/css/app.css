@@ -41,7 +41,6 @@
   width: 100%; }
   .flickity.gallery .image img {
     width: 100%;
-    max-width: 300px;
     display: inline-block; }
 
 .our-story {
