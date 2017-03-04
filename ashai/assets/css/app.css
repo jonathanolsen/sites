@@ -43,7 +43,8 @@
   top: 0;
   left: 0;
   z-index: -1;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  overflow-x: auto; }
   @media (min-width: 768px) {
     .our-story {
       background-size: cover;
@@ -53,14 +54,14 @@
     max-width: 660px;
     font-family: 'montserrat';
     font-weight: 300;
-    color: #825e86; }
+    color: #89718c; }
     @media (min-width: 768px) {
       .our-story .container {
         padding: 40px;
         font-size: 18px;
         line-height: 30px; } }
   .our-story h2 {
-    color: #47434a; }
+    color: #D27991; }
     @media (min-width: 768px) {
       .our-story h2 {
         font-size: 36px; } }
@@ -80,7 +81,7 @@
         font-size: 18px;
         line-height: 30px; } }
   .our-story .close-box {
-    color: #524f54;
+    color: #8a7f9e;
     text-transform: uppercase;
     text-decoration: none;
     font-size: 15px;
