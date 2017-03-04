@@ -3,10 +3,11 @@
 
 $(document).ready(function() {
 
-	setTimeout(function() {
-		$('.sqs-slide.sqs-slide-ready').addClass('done');
-		$('.sqs-slide').addClass('sqs-slide-animate');
-	}, 600);
+	if ( $('.sqs-slide').hasClass('sqs-slide-ready') ) {
+		setTimeout(function() {
+			$('.sqs-slide').addClass('sqs-slide-animate');
+		}, 600);
+	}
 
 	setTimeout(function() {
 		$('.sqs-slide').addClass('animate');
@@ -40,6 +41,10 @@ $(document).ready(function() {
 	
 
 });
+
+
+
+
 
 
 
