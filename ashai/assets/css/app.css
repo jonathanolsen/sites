@@ -89,6 +89,11 @@
     opacity: 1;
     z-index: 999; }
 
+.sqs-slice-body-content p {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto; }
+
 @media (min-width: 768px) {
   .sqs-slide.sqs-slide-ready {
     opacity: 0; }

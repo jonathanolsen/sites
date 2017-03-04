@@ -152,6 +152,15 @@ $L:        1200px;
 	}
 }
 
+.sqs-slice-body-content {
+
+	p {
+		width: 100%;
+	    max-width: 480px;
+	    margin: 0 auto;
+	}
+}
+
 @include bp(sm) {
 
 
