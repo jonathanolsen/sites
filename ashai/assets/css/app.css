@@ -6,12 +6,15 @@
   .our-story {
     position: absolute;
     width: 100%;
+    height: 100%;
     background: #18191a;
     padding: 40px;
     border-radius: 3px;
     opacity: 0;
     -webkit-transition: all .3s ease-in-out;
-    transition: all .3s ease-in-out; }
+    transition: all .3s ease-in-out;
+    top: 0;
+    left: 0; }
     .our-story .close-box {
       top: 30px;
       right: 30px;
