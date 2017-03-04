@@ -79,8 +79,8 @@ $L:        1200px;
 }
 
 .our-story {
-	background: url('https://jonathanolsen.github.io/sites/ashai/assets/img/story-bg.jpg') center center no-repeat;
-	background-size: cover;
+	background: url('https://jonathanolsen.github.io/sites/ashai/assets/img/story-bg.jpg') #FAF2EF center bottom no-repeat;
+	background-size: contain;
 	position: absolute;
 	width: 100%;
 	height: 100%;
@@ -93,20 +93,30 @@ $L:        1200px;
 	z-index: -1;
 	box-sizing: border-box;
 
+	@include bp(sm) {
+		background-size: cover;
+	}
+
 	.container {
 		width: 100%;
 		max-width: 660px;
-		font-size: 18px;
-		line-height: 30px;
-		padding: 40px;
 		font-family: 'montserrat';
 		font-weight: 300;
 		color: #825e86;
+
+		@include bp(sm) {
+			padding: 40px;
+			font-size: 18px;
+			line-height: 30px;
+		}
 	}
 
 	h2 {
 		color: #47434a;
-		font-size: 36px;
+
+		@include bp(sm) {
+			font-size: 36px;
+		}
 	}
 
 	.close-box {
