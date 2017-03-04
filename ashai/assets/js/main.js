@@ -3,11 +3,15 @@
 
 $(document).ready(function() {
 
-	if ( $('.sqs-slide').hasClass('sqs-slide-ready') ) {
-		setTimeout(function() {
-			$('.sqs-slide').addClass('sqs-slide-animate');
-		}, 600);
-	}
+	setTimeout(function() {
+
+		if ( $('.sqs-slide').hasClass('sqs-slide-ready') ) {
+			setTimeout(function() {
+				$('.sqs-slide').addClass('sqs-slide-animate');
+			}, 500);
+		}
+
+	}, 200);
 
 	setTimeout(function() {
 		$('.sqs-slide').addClass('animate');
@@ -41,6 +45,8 @@ $(document).ready(function() {
 	
 
 });
+
+
 
 
 
