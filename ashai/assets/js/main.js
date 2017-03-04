@@ -31,7 +31,13 @@ $(document).ready(function() {
 		$('.sqs-slide .sqs-slide-layer-content.content-gallery').append('<a href="#" class="full-toggle"></a>');
 	}, 5000);
 
+	$('.full-toggle').on('click', function() {
+		$('this').parent().toggleClass('full-screen-gallery');
+	});
+
 });
+
+
 
 
 
