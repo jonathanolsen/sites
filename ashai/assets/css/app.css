@@ -28,6 +28,15 @@
   .bracelets img {
     width: 80%; }
 
+.flickity.gallery .gallery-item {
+  width: 70%; }
+
+.flickity.gallery h4 {
+  text-transform: uppercase;
+  font-weight: 300; }
+  .flickity.gallery h4 span {
+    font-weight: 600; }
+
 .flickity.gallery .image {
   width: 100%; }
   .flickity.gallery .image img {
