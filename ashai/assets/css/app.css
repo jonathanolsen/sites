@@ -32,7 +32,7 @@
 
 .flickity.gallery {
   width: calc(100% + 120px);
-  margin: 0 -60px; }
+  margin: 40px -60px 0; }
   .flickity.gallery .gallery-item {
     width: 70%; }
   .flickity.gallery h4 {
