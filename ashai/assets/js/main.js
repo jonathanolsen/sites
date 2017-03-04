@@ -4,7 +4,7 @@
 $(document).ready(function() {
 
 	setTimeout(function() {
-		$('.sqs-slide.sqs-slide-ready').fadeIn(400);
+		$('.sqs-slide.sqs-slide-ready').css('opacity', '1');
 		$('.sqs-slide').addClass('sqs-slide-animate');
 	}, 600);
 
@@ -40,6 +40,8 @@ $(document).ready(function() {
 	
 
 });
+
+
 
 
 
