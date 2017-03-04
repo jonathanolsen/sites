@@ -175,7 +175,7 @@ $L:        1200px;
 
 	&.animate {
 		width: 100%;
-		transition: all 1s ease-in-out;
+		transition: all .7s cubic-bezier(.82,.01,.49,1);
 
 		.sqs-slide-layer-content.content-gallery {
 			opacity: 1;
