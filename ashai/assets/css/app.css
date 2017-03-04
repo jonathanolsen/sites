@@ -28,6 +28,13 @@
   .bracelets img {
     width: 80%; }
 
+.flickity.gallery .image {
+  width: 100%; }
+  .flickity.gallery .image img {
+    width: 100%;
+    max-width: 300px;
+    display: inline-block; }
+
 .our-story {
   background: url("https://jonathanolsen.github.io/sites/ashai/assets/img/story-bg.jpg") #FAF2EF center bottom no-repeat;
   background-size: contain;
