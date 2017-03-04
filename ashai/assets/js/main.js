@@ -27,7 +27,7 @@ $(document).ready(function() {
 
 	setTimeout(function() {
 		$('.sqs-slide').addClass('animate');
-	}, 2400);
+	}, 1800);
 
 	setTimeout(function() {
 		$('.sqs-slide .sqs-slide-layer.full-width-height').addClass('animate');
@@ -57,6 +57,8 @@ $(document).ready(function() {
 	
 
 });
+
+
 
 
 
