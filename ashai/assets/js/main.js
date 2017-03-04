@@ -5,11 +5,14 @@ $(document).ready(function() {
 
 
 
-	 $(".sqs-slide").bind('cssClassChanged', function(){     
-	    if( $('.sqs-slide').hasClass('sqs-slide-ready') && !$('.sqs-slide.sqs-slide-ready').hasClass('sqs-slide-animate')) {
-	 		$('.sqs-slide.sqs-slide-ready').addClass('sqs-slide-animate');
-		}
-	});
+	var intervalTimer = null;
+	
+	intervalTimer = setInterval(function(){
+	  if( $('.sqs-slide').hasClass('sqs-slide-ready') ) {
+	  	$('.sqs-slide.sqs-slide-ready').addClass('sqs-slide-animate');
+	    clearInterval(intervalTimer);
+	  }
+	 },200);
 
 	setTimeout(function() {
 		$('.sqs-slide').addClass('animate');
@@ -40,10 +43,6 @@ $(document).ready(function() {
 		
 	}, 5000);
 
-
-
-
-
 	
 
 });
@@ -51,14 +50,7 @@ $(document).ready(function() {
 
 
 
-(function(){
-    var originalAddClassMethod = jQuery.fn.addClass;
-    jQuery.fn.addClass = function(){
-        var result = originalAddClassMethod.apply( this, arguments );
-        jQuery(this).trigger('cssClassChanged');
-        return result;
-    };
-})();
+
 
 
 
