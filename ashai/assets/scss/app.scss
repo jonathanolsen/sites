@@ -41,11 +41,13 @@ $L:        1200px;
 	width: 100%;
 	max-width: 400px;
 	margin: 80px auto 0;
+	border-top: 1px solid #f0f0f0;
+	padding: 60px 0 0;
 }
 
 .price {
 	text-align: center;
-	width: 100%;
+	width: 50%;
 	float: left;
 	font-size: 36px;
 
@@ -60,9 +62,14 @@ $L:        1200px;
 	&:first-of-type {
 		font-weight: 300;
 	}
+}
 
-	@include bp(sm) {
-		width: 50%;
+.bracelets {
+	width: 100%;
+	text-align: center;
+	
+	img {
+		width: 100%;
 	}
 }
 
@@ -79,7 +86,7 @@ $L:        1200px;
 }
 
 .our-story {
-	background:  url('https://jonathanolsen.github.io/sites/ashai/assets/img/story-bg.jpg') center center no-repeat;
+	background: url('https://jonathanolsen.github.io/sites/ashai/assets/img/story-bg.jpg') center center no-repeat;
 	background-size: cover;
 	position: absolute;
 	width: 100%;

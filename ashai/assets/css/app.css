@@ -1,11 +1,13 @@
 .price-container {
   width: 100%;
   max-width: 400px;
-  margin: 80px auto 0; }
+  margin: 80px auto 0;
+  border-top: 1px solid #f0f0f0;
+  padding: 60px 0 0; }
 
 .price {
   text-align: center;
-  width: 100%;
+  width: 50%;
   float: left;
   font-size: 36px; }
   .price span {
@@ -16,9 +18,12 @@
     font-weight: 300; }
   .price:first-of-type {
     font-weight: 300; }
-  @media (min-width: 768px) {
-    .price {
-      width: 50%; } }
+
+.bracelets {
+  width: 100%;
+  text-align: center; }
+  .bracelets img {
+    width: 100%; }
 
 @media (min-width: 768px) {
   .sqs-slide.sqs-slide-ready {
