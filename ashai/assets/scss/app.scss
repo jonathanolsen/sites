@@ -37,7 +37,24 @@ $L:        1200px;
 	}
 }
 
+.price-container {
+	width: 100%;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.price {
+	text-align: center;
+	width: 100%;
+
+	@include bp(sm) {
+		width: 50%;
+	}
+}
+
 @include bp(sm) {
+
+
 
 .sqs-slide.sqs-slide-ready {
 	opacity: 0;

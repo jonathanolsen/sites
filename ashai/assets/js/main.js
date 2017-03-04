@@ -4,7 +4,7 @@
 $(document).ready(function() {
 
 	$('body').prepend('<div class="our-story" id="our-story"><div class="container"><h2>The story about Ashai</h2><p>Upon a visit to Kyoto in Japan, our founder met an old monk in an ancient temple. Nearly obsessed of his bead pouch filled with stones, we felt inspired to hear his story. The old man told us that his greatest wish was to find the twelve mythical volcanoes of Japan. In his search to find them, he collected lava stones from each and every volcano that crossed his path.</p><p>Back from his trip, our founders felt passionate about helping this old man fulfill his dream. The story about Ashai is to complete his lifelong journey, by releasing one collection dedicated to each mythical volcano, every year for the coming eight years.</p><a href="#" class="close-box">Close window</a></div></div>');
-	$('.sqs-slice-group.group-copy').append('<div class="price"><span>Official price</span>$79-99</div><div class="price"><span>Your discount</span>20%</div>');
+	$('.sqs-slice-group.group-copy').append('<div class="price-container"><div class="price"><span>Official price</span>$79-99</div><div class="price"><span>Your discount</span>20%</div></div>');
 
 	$('[href="#our-story"]').on('click', function() {
 		$('.our-story').addClass('active');
@@ -58,6 +58,8 @@ $(document).ready(function() {
 	
 
 });
+
+
 
 
 
