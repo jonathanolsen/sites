@@ -28,7 +28,7 @@ $(document).ready(function() {
 
 	setTimeout(function() {
 		$('.sqs-slide').addClass('animate');
-	}, 1800);
+	}, 1500);
 
 	setTimeout(function() {
 		$('.sqs-slide .sqs-slide-layer.full-width-height').addClass('animate');
@@ -58,6 +58,8 @@ $(document).ready(function() {
 	
 
 });
+
+
 
 
 
