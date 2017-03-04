@@ -27,9 +27,13 @@ $(document).ready(function() {
 		$('.sqs-slide .sqs-slide-layer.full-width-height').removeClass('animate');
 		$('.sqs-slide .sqs-slide-layer-content.content-gallery').removeClass('animate');
 		$('.sqs-slide .sqs-slide-layer-content.content-copy').removeClass('animate');
+
+		$('.sqs-slide .sqs-slide-layer-content.content-gallery').append('<a href="#" class="full-toggle"></a>');
 	}, 5000);
 
 });
+
+
 
 
 
