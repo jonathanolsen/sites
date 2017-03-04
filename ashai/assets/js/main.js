@@ -5,9 +5,7 @@ $(document).ready(function() {
 
 	setTimeout(function() {
 
-		if ( $('.sqs-slide').hasClass('sqs-slide-ready') ) {
-			$('.sqs-slide').addClass('sqs-slide-animate');
-		}
+		$('.sqs-slide').hasClass('sqs-slide-ready').addClass('sqs-slide-animate');
 
 	}, 200);
 
@@ -43,6 +41,8 @@ $(document).ready(function() {
 	
 
 });
+
+
 
 
 
