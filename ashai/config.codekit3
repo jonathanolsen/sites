@@ -37,6 +37,46 @@
 		"oF": 0,
 		"opt": 1
 		},
+	"\/assets\/img\/kibun-black.jpg": {
+		"ft": 16384,
+		"iS": 217653,
+		"oA": 0,
+		"oAP": "\/assets\/img\/kibun-black.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/kibun-gold.jpg": {
+		"ft": 16384,
+		"iS": 232150,
+		"oA": 0,
+		"oAP": "\/assets\/img\/kibun-gold.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/nakama-gold.jpg": {
+		"ft": 16384,
+		"iS": 206163,
+		"oA": 0,
+		"oAP": "\/assets\/img\/nakama-gold.jpg",
+		"oF": 0,
+		"opt": 1
+		},
+	"\/assets\/img\/nakama-rose.jpg": {
+		"ft": 16384,
+		"iS": 209406,
+		"oA": 0,
+		"oAP": "\/assets\/img\/nakama-rose.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/nakama-silver.jpg": {
+		"ft": 16384,
+		"iS": 192276,
+		"oA": 0,
+		"oAP": "\/assets\/img\/nakama-silver.jpg",
+		"oF": 0,
+		"opt": 0
+		},
 	"\/assets\/img\/story-bg.jpg": {
 		"ft": 16384,
 		"iS": 401488,
@@ -44,6 +84,14 @@
 		"oAP": "\/assets\/img\/story-bg.jpg",
 		"oF": 0,
 		"opt": 1
+		},
+	"\/assets\/img\/twelve-one.jpg": {
+		"ft": 16384,
+		"iS": 188655,
+		"oA": 0,
+		"oAP": "\/assets\/img\/twelve-one.jpg",
+		"oF": 0,
+		"opt": 0
 		},
 	"\/assets\/js\/main.js": {
 		"ft": 64,
