@@ -79,7 +79,8 @@
         font-size: 18px;
         line-height: 30px; } }
   .our-story h2 {
-    color: #D27991; }
+    color: #D27991;
+    font-weight: 500; }
     @media (min-width: 768px) {
       .our-story h2 {
         font-size: 36px; } }

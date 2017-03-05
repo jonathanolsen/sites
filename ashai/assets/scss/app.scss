@@ -142,6 +142,7 @@ $L:        1200px;
 
 	h2 {
 		color: #D27991;
+		font-weight: 500;
 
 		@include bp(sm) {
 			font-size: 36px;
