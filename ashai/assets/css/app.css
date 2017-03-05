@@ -70,7 +70,7 @@
   .our-story .container {
     width: 100%;
     max-width: 660px;
-    font-family: 'montserrat';
+    font-family: 'montserrat', 'Helvetica Neue', Arial;
     font-weight: 300;
     color: #89718c; }
     @media (min-width: 768px) {
@@ -168,3 +168,10 @@
   right: 20px;
   font-size: 20px;
   color: #fff; }
+
+@media (max-width: 767px) {
+  .sqs-slice-buttons-content a,
+  .open-form-button {
+    font-size: 14px; }
+  [data-slice-type="heading"]:not([data-compound-type]) h1 {
+    font-size: 40px; } }

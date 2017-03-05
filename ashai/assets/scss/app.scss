@@ -129,7 +129,7 @@ $L:        1200px;
 	.container {
 		width: 100%;
 		max-width: 660px;
-		font-family: 'montserrat';
+		font-family: 'montserrat', 'Helvetica Neue', Arial;
 		font-weight: 300;
 		color: #89718c;
 
@@ -277,7 +277,17 @@ $L:        1200px;
 	color: #fff;
 }
 
+@include bp(xs-sm) {
 
+	.sqs-slice-buttons-content a,
+	.open-form-button {
+		font-size: 14px;
+	}
+
+	[data-slice-type="heading"]:not([data-compound-type]) h1 {
+		font-size: 40px;
+	}
+}
 
 
 
