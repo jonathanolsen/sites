@@ -13,7 +13,7 @@
   float: left;
   font-size: 36px;
   color: #101010;
-  font-family: 'futura-pt'; }
+  font-family: 'futura-pt', 'montserrat', 'Helvetica Neue', arial; }
   .price span {
     text-transform: uppercase;
     display: block;
