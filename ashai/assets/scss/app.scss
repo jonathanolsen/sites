@@ -282,6 +282,8 @@ $L:        1200px;
 	.sqs-slice-buttons-content a,
 	.open-form-button {
 		font-size: 14px;
+		height: 44px;
+		box-sizing: border-box;
 	}
 
 	[data-slice-type="heading"]:not([data-compound-type]) h1 {
