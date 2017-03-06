@@ -1,0 +1,263 @@
+// Breakpoints
+
+$S:        768px;
+$M:        992px;   
+$L:        1200px; 
+
+@mixin bp($point) {
+	@if $point == xs {
+		@content;
+	}
+	@else if $point == xs-sm {
+		@media (max-width: 767px)  { @content ; }
+	}
+	@else if $point == xs-md {
+		@media (max-width: 991px)  { @content ; }
+	}
+	@else if $point == xs-lg {
+		@media (max-width: 1199px)  { @content ; }
+	}
+	@else if $point == sm {
+		@media (min-width: 768px) { @content ; }
+	}
+	@else if $point == sm-md {
+		@media (min-width: 768px) and (max-width: 991px)  { @content ; }
+	}
+	@else if $point == sm-lg {
+		@media (min-width: 768px) and (max-width: 1199px)  { @content ; }
+	}
+	@else if $point == md {
+		@media (min-width: 992px) { @content ; }
+	}
+	@else if $point == md-lg {
+		@media (min-width: 992px) and (max-width: 1199px)  { @content ; }
+	}
+	@else if $point == lg {
+		@media (min-width: 1200px) { @content ; }
+	}
+}
+
+.price-container {
+	width: 100%;
+	max-width: 400px;
+	margin: 50px auto 0;
+	border-top: 1px solid #f0f0f0;
+	padding: 40px 0;
+	display: inline-block;
+	border-bottom: 1px solid #f0f0f0;
+}
+
+.price {
+	text-align: center;
+	width: 50%;
+	float: left;
+	font-size: 36px;
+	color: #101010;
+	font-family: 'futura-pt', 'montserrat', 'Helvetica Neue', arial;
+
+	span {
+		text-transform: uppercase;
+		display: block;
+		font-size: 16px;
+		margin-bottom: 15px;
+		font-weight: 300;
+		color: #777;
+	}
+}
+
+
+.bracelets {
+	width: 100%;
+	text-align: center;
+	margin-top: 40px;
+	display: inline-block;
+
+	img {
+		width: 80%;
+	}
+}
+
+.flickity.gallery {
+	width: calc(100% + 120px);
+	margin: 40px -60px 0;
+
+	.gallery-item {
+		width: 70%;
+	}
+
+	h4 {
+		text-transform: uppercase;
+		font-weight: 300;
+		font-family: 'montserrat', 'helvetica neue', arial;
+
+		span {
+			font-weight: 600;
+		}
+	}
+
+	.image {
+		width: 100%;
+
+		img {
+			width: 100%;
+			display: inline-block;
+		}
+	}
+}
+
+.our-story {
+	background: url('https://jonathanolsen.github.io/sites/ashai/assets/img/story-bg-2.jpg') #FAF2EF center bottom no-repeat;
+	background-size: contain;
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	padding: 40px;
+	border-radius: 3px;
+	opacity: 0;
+	transition: all .3s ease-in-out;
+	top: 0;
+	left: 0;
+	z-index: -1;
+	box-sizing: border-box;
+	overflow-x: auto;
+
+	@include bp(sm) {
+		background-size: cover;
+		position: absolute;
+		background-position: center;
+	}
+
+	.container {
+		width: 100%;
+		max-width: 660px;
+		font-family: 'montserrat', 'Helvetica Neue', Arial;
+		font-weight: 300;
+		color: #89718c;
+
+		@include bp(sm) {
+			padding: 40px;
+			font-size: 18px;
+			line-height: 30px;
+		}
+	}
+
+	h2 {
+		color: #D27991;
+		font-weight: 500;
+
+		@include bp(sm) {
+			font-size: 36px;
+		}
+	}
+
+	p {
+		font-size: 14px;
+		line-height: 24px;
+
+		@include bp(sm) {
+			font-size: 15px;
+			line-height: 26px;
+		}
+
+		@include bp(md) {
+			font-size: 16px;
+			line-height: 26px;
+		}
+
+		@include bp(lg) {
+			font-size: 18px;
+			line-height: 30px;
+		}
+	}
+
+	.close-box {
+		color: #423e48;
+		text-transform: uppercase;
+		text-decoration: none;
+		font-size: 15px;
+		font-weight: bold;
+	}
+
+	&.active {
+		opacity: 1;
+		z-index: 999;
+	}
+}
+
+.sqs-slice-body-content {
+
+	p {
+		width: 100%;
+	    max-width: 480px;
+	    margin: 0 auto !important;
+	}
+}
+
+
+.full-screen-gallery {
+	width: 100% !important;
+	height: 100%;
+	position: absolute;
+	z-index: 2 !important;
+	right: 0;
+	z-index: 3;
+}
+
+.full-toggle {
+	position: absolute;
+	top: 20px;
+	right: 20px;
+	font-size: 20px;
+	color: #fff;
+}
+
+@include bp(xs-sm) {
+
+	.sqs-slice-buttons-content a,
+	.open-form-button {
+		font-size: 14px;
+		height: 44px;
+		box-sizing: border-box;
+	}
+
+	[data-slice-type="heading"]:not([data-compound-type]) h1 {
+		font-size: 40px;
+	}
+}
+
+.button-style-outline [data-slice-type="buttons"] a {
+	color: rgba(22, 23, 24, 0.75) !important;
+	border: 2px solid rgba(22, 23, 24, 0.11) !important;
+}
+
+.open-form-button {
+	background: #ec5466 !important;
+	border-color: #ec5466 !important;
+	color: #fff !important;
+
+	&:hover {
+		background: #ec6f7d !important;
+		border-color: #ec6f7d !important;
+	}
+}
+
+
+.story-btn {
+	color: rgba(22, 23, 24, 0.75) !important;
+	border: 2px solid rgba(22, 23, 24, 0.07) !important;
+	font-size: 14px;
+	padding: 18px 20px;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	margin-top: 100px;
+	display: inline-block;
+	font-weight: 600;
+	font-family: 'montserrat', 'Helvetica Neue', Arial;
+}
+
+
+
+
+
+

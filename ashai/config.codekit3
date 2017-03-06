@@ -143,6 +143,15 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/assets\/js\/min\/main2-min.js": {
+		"ft": 64,
+		"mi": 1,
+		"oA": 0,
+		"oAP": "\/assets\/js\/min\/min\/main2-min-min.js",
+		"oF": 0,
+		"sC": 1,
+		"tS": 0
+		},
 	"\/assets\/scss\/.sass-cache\/00d9619bc06ec2d07b4abc175dd2e694c7b2607c\/_animations.scssc": {
 		"ft": 8192,
 		"oA": 1,
@@ -3968,6 +3977,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/assets\/css\/app.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/app2.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/app2.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
