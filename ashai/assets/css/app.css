@@ -180,14 +180,14 @@
   [data-slice-type="heading"]:not([data-compound-type]) h1 {
     font-size: 40px; } }
 
-.open-form-button {
-  background: #ec5466;
-  border-color: #ec5466;
-  color: #fff; }
-  .open-form-button:hover {
-    background: #ec6f7d;
-    border-color: #ec6f7d; }
-
 .button-style-outline [data-slice-type="buttons"] a {
-  color: rgba(22, 23, 24, 0.75);
-  border: 2px solid rgba(22, 23, 24, 0.11); }
+  color: rgba(22, 23, 24, 0.75) !important;
+  border: 2px solid rgba(22, 23, 24, 0.11) !important; }
+
+.open-form-button {
+  background: #ec5466 !important;
+  border-color: #ec5466 !important;
+  color: #fff !important; }
+  .open-form-button:hover {
+    background: #ec6f7d !important;
+    border-color: #ec6f7d !important; }
