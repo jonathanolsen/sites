@@ -19,6 +19,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/assets\/css\/app2.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/css\/app2-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/assets\/css\/reset.css": {
 		"aP": 0,
 		"bl": 0,
@@ -3990,6 +4000,19 @@
 		"ma": 0,
 		"oA": 0,
 		"oAP": "\/assets\/css\/app2.css",
+		"oF": 0,
+		"oS": 0,
+		"uL": 1
+		},
+	"\/assets\/scss\/reset.scss": {
+		"aP": 1,
+		"bl": 1,
+		"dP": 10,
+		"dS": 0,
+		"ft": 4,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/assets\/css\/reset.css",
 		"oF": 0,
 		"oS": 0,
 		"uL": 1
