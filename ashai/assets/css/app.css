@@ -37,7 +37,8 @@
     width: 70%; }
   .flickity.gallery h4 {
     text-transform: uppercase;
-    font-weight: 300; }
+    font-weight: 300;
+    font-family: 'montserrat', 'helvetica neue', arial; }
     .flickity.gallery h4 span {
       font-weight: 600; }
   .flickity.gallery .image {
