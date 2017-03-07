@@ -37,7 +37,7 @@
     display: inline-block; }
 
 @media (max-width: 767px) {
-  sqs-slice.sqs-slice-image.sqs-slice-image-content {
+  .sqs-slice.sqs-slice-image.sqs-slice-image-content {
     text-align: center;
     margin-top: 20px; }
   .sqs-slide-container:not(.auto-image-background-color) div:not(.sqs-gallery-circle) > [data-slice-type="gallery"]:not([data-content-empty="true"]) .sqs-slice-gallery-item {
