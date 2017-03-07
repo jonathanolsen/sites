@@ -1,5 +1,14 @@
+@media (max-width: 767px) {
+  .sqs-slice-group.group-copy {
+    text-align: center; }
+    .sqs-slice-group.group-copy h1 {
+      font-size: 38px; } }
+
 .sqs-slice-group.group-copy .sqs-slice-body-content p {
   max-width: 600px; }
+
+.sqs-slice-group.group-copy h1 {
+  font-size: 38px; }
 
 .limited-count {
   display: inline-block;
@@ -13,9 +22,12 @@
     font-family: montserrat, 'helvetica neue', sans-serif, arial;
     font-weight: 300;
     color: #fff;
-    letter-spacing: 8px;
+    letter-spacing: 1px;
     margin-bottom: 12px;
     display: block; }
+    @media (min-width: 768px) {
+      .limited-count span {
+        letter-spacing: 8px; } }
   .limited-count .count {
     font-size: 50px;
     font-family: montserrat, 'helvetica neue', sans-serif, arial;
@@ -23,3 +35,11 @@
     color: #fff;
     letter-spacing: 1px;
     display: inline-block; }
+
+@media (max-width: 767px) {
+  sqs-slice.sqs-slice-image.sqs-slice-image-content {
+    text-align: center;
+    margin-top: 20px; }
+  .sqs-slide-container:not(.auto-image-background-color) div:not(.sqs-gallery-circle) > [data-slice-type="gallery"]:not([data-content-empty="true"]) .sqs-slice-gallery-item {
+    background-position: 95% 40% !important;
+    background-repeat: no-repeat; } }

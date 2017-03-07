@@ -1,7 +1,60 @@
-.sqs-slice-group.group-copy .sqs-slice-body-content {
+// Breakpoints
 
-	p {
-		max-width: 600px;
+$S:        768px;
+$M:        992px;   
+$L:        1200px; 
+
+@mixin bp($point) {
+	@if $point == xs {
+		@content;
+	}
+	@else if $point == xs-sm {
+		@media (max-width: 767px)  { @content ; }
+	}
+	@else if $point == xs-md {
+		@media (max-width: 991px)  { @content ; }
+	}
+	@else if $point == xs-lg {
+		@media (max-width: 1199px)  { @content ; }
+	}
+	@else if $point == sm {
+		@media (min-width: 768px) { @content ; }
+	}
+	@else if $point == sm-md {
+		@media (min-width: 768px) and (max-width: 991px)  { @content ; }
+	}
+	@else if $point == sm-lg {
+		@media (min-width: 768px) and (max-width: 1199px)  { @content ; }
+	}
+	@else if $point == md {
+		@media (min-width: 992px) { @content ; }
+	}
+	@else if $point == md-lg {
+		@media (min-width: 992px) and (max-width: 1199px)  { @content ; }
+	}
+	@else if $point == lg {
+		@media (min-width: 1200px) { @content ; }
+	}
+}
+
+.sqs-slice-group.group-copy {
+	@include bp(xs-sm) {
+		text-align: center;
+
+		h1 {
+			font-size: 38px;
+		}
+	}
+
+	.sqs-slice-body-content {
+
+		p {
+			max-width: 600px;
+		}
+	}
+
+	h1 {
+		font-size: 38px;
 	}
 }
 
@@ -18,7 +71,10 @@
 		font-family: montserrat, 'helvetica neue', sans-serif, arial;
 		font-weight: 300;
 		color: #fff;
-		letter-spacing: 8px;
+		letter-spacing: 1px;
+		@include bp(sm) {
+			letter-spacing: 8px;
+		}
 		margin-bottom: 12px;
 		display: block;
 	}
@@ -31,4 +87,19 @@
 		letter-spacing: 1px;
 		display: inline-block;
 	}
+}
+
+
+@include bp(xs-sm) {
+
+	sqs-slice.sqs-slice-image.sqs-slice-image-content {
+	    text-align: center;
+	    margin-top: 20px;
+	}
+	
+.sqs-slide-container:not(.auto-image-background-color) div:not(.sqs-gallery-circle)>[data-slice-type="gallery"]:not([data-content-empty="true"]) .sqs-slice-gallery-item {
+	background-position: 95% 40% !important;
+	background-repeat: no-repeat;
+}
+
 }
