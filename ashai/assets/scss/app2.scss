@@ -72,9 +72,6 @@ $L:        1200px;
 		font-weight: 300;
 		color: #fff;
 		letter-spacing: 1px;
-		@include bp(sm) {
-			letter-spacing: 8px;
-		}
 		margin-bottom: 12px;
 		display: block;
 	}
