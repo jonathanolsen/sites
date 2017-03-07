@@ -22,7 +22,7 @@
     font-family: montserrat, 'helvetica neue', sans-serif, arial;
     font-weight: 300;
     color: #fff;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
     margin-bottom: 12px;
     display: block; }
   .limited-count .count {
@@ -30,7 +30,7 @@
     font-family: montserrat, 'helvetica neue', sans-serif, arial;
     font-weight: normal;
     color: #fff;
-    letter-spacing: 1px;
+    letter-spacing: 5px;
     display: inline-block; }
 
 @media (min-width: 768px) {
