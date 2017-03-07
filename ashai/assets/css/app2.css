@@ -1,2 +1,22 @@
 .sqs-slice-group.group-copy .sqs-slice-body-content p {
   max-width: 600px; }
+
+.limited-count {
+  width: 244px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  padding: 30px 0; }
+  .limited-count span {
+    text-transform: uppercase;
+    font-size: 14px;
+    font-family: montserrat, 'helvetica neue', sans-serif, arial;
+    font-weight: 300;
+    color: #fff;
+    letter-spacing: 3px;
+    margin-bottom: 18px; }
+  .limited-count .count {
+    font-size: 50px;
+    font-family: montserrat, 'helvetica neue', sans-serif, arial;
+    font-weight: normal;
+    color: #fff;
+    letter-spacing: 1px; }
