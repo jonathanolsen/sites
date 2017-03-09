@@ -2,10 +2,20 @@
   .sqs-slice-group.group-copy {
     text-align: center; }
     .sqs-slice-group.group-copy h1 {
-      font-size: 38px; } }
+      font-size: 24px;
+      text-transform: uppercase;
+      font-weight: 600;
+      line-height: 30px;
+      margin-top: -10px; } }
 
-.sqs-slice-group.group-copy .sqs-slice-body-content p {
-  max-width: 600px; }
+.sqs-slice-group.group-copy .sqs-slice-heading-content,
+.sqs-slice-group.group-copy .sqs-slice-body-content {
+  max-width: 640px; }
+
+@media (max-width: 767px) {
+  .sqs-slice-group.group-copy .sqs-slice-body-content {
+    font-size: 15px;
+    line-height: 26px; } }
 
 .sqs-slice-group.group-copy h1 {
   font-size: 38px; }
@@ -13,25 +23,36 @@
 .limited-count {
   display: inline-block;
   border-top: 1px solid rgba(255, 255, 255, 0.1);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 15px 0;
-  margin: 15px 0; }
+  padding: 15px 0 0;
+  margin: 15px 0 0; }
+  @media (min-width: 768px) {
+    .limited-count {
+      padding: 15px 0;
+      margin: 15px 0;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.1); } }
   .limited-count span {
     text-transform: uppercase;
-    font-size: 14px;
+    font-size: 13px;
     font-family: montserrat, 'helvetica neue', sans-serif, arial;
     font-weight: 300;
     color: #fff;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     margin-bottom: 12px;
     display: block; }
+    @media (min-width: 768px) {
+      .limited-count span {
+        letter-spacing: 2px;
+        font-size: 14px; } }
   .limited-count .count {
-    font-size: 50px;
+    font-size: 40px;
     font-family: montserrat, 'helvetica neue', sans-serif, arial;
     font-weight: normal;
     color: #fff;
     letter-spacing: 5px;
     display: inline-block; }
+    @media (min-width: 768px) {
+      .limited-count .count {
+        font-size: 50px; } }
 
 @media (min-width: 768px) {
   .sqs-slide-container:not(.auto-image-background-color) div:not(.sqs-gallery-circle) > [data-slice-type="gallery"]:not([data-content-empty="true"]) .sqs-slice-gallery-item {
