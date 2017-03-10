@@ -82,7 +82,6 @@ $L:        1200px;
 }
 
 .our-story {
-	padding: 40px;
 
 	.container {
 		width: 100%;
@@ -90,12 +89,6 @@ $L:        1200px;
 		font-family: 'montserrat', 'Helvetica Neue', Arial;
 		font-weight: 300;
 		color: #89718c;
-
-		@include bp(sm) {
-			padding: 40px;
-			font-size: 18px;
-			line-height: 30px;
-		}
 	}
 
 	h2 {
@@ -133,11 +126,6 @@ $L:        1200px;
 		text-decoration: none;
 		font-size: 15px;
 		font-weight: bold;
-	}
-
-	&.active {
-		opacity: 1;
-		z-index: 999;
 	}
 }
 
