@@ -19,7 +19,7 @@
   display: inline-block;
   border-radius: 3px; }
 
-#story-page {
+#story-section {
   max-width: 100% !important;
   background: url("https://jonathanolsen.github.io/sites/ashai/assets/img/story-bg-2.jpg") #FAF2EF center bottom no-repeat;
   background-size: cover; }
