@@ -79,6 +79,43 @@ $L:        1200px;
 #story-section {
 	background: url('https://jonathanolsen.github.io/sites/ashai/assets/img/story-bg-2.jpg') #FAF2EF center left no-repeat;
 	background-size: cover;
+
+	label.title {
+		display: none;
+	}
+
+	input.field-element {
+		margin: 0;
+		height: 54px;
+		font-size: 16px;
+		padding: 8px 20px;
+		border: none;
+		box-sizing: border-box;
+	}
+
+	.form-button-wrapper .button {
+		padding: 20px 30px;
+		border-radius: 0 3px 3px 0;
+		display: block;
+		margin-left: 0px;
+		text-transform: uppercase;
+		font-size: 16px;
+		height: 54px;
+		box-sizing: border-box;
+	}
+
+	.form-wrapper {
+
+		.field-list {
+			width: 60%;
+			float: left;
+		}
+
+		.form-button-wrapper {
+			float: right;
+			width: 40%;
+		}
+	}
 }
 
 .our-story {
