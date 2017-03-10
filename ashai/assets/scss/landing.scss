@@ -55,7 +55,7 @@ $L:        1200px;
 
 
 .locked {
-	padding: 13px 26px;
+	padding: 8px 24px;
     font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -67,8 +67,10 @@ $L:        1200px;
     font-style: normal;
     font-size: 14px;
     color: #fff;
-    background-color: rgba(28,30,33,.86);
+    background-color: rgba(28,30,33,.2);
     border-color: rgba(28,30,33,.86);
+    display: inline-block;
+    border-radius: 3px;
 }
 
 
