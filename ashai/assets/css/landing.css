@@ -18,3 +18,51 @@
   border-color: rgba(28, 30, 33, 0.86);
   display: inline-block;
   border-radius: 3px; }
+
+#story-page {
+  background: url("https://jonathanolsen.github.io/sites/ashai/assets/img/story-bg-2.jpg") #FAF2EF center bottom no-repeat;
+  background-size: cover; }
+
+.our-story {
+  padding: 40px; }
+  .our-story .container {
+    width: 100%;
+    max-width: 660px;
+    font-family: 'montserrat', 'Helvetica Neue', Arial;
+    font-weight: 300;
+    color: #89718c; }
+    @media (min-width: 768px) {
+      .our-story .container {
+        padding: 40px;
+        font-size: 18px;
+        line-height: 30px; } }
+  .our-story h2 {
+    color: #D27991;
+    font-weight: 500; }
+    @media (min-width: 768px) {
+      .our-story h2 {
+        font-size: 36px; } }
+  .our-story p {
+    font-size: 14px;
+    line-height: 24px; }
+    @media (min-width: 768px) {
+      .our-story p {
+        font-size: 15px;
+        line-height: 26px; } }
+    @media (min-width: 992px) {
+      .our-story p {
+        font-size: 16px;
+        line-height: 26px; } }
+    @media (min-width: 1200px) {
+      .our-story p {
+        font-size: 18px;
+        line-height: 30px; } }
+  .our-story .close-box {
+    color: #423e48;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: bold; }
+  .our-story.active {
+    opacity: 1;
+    z-index: 999; }
