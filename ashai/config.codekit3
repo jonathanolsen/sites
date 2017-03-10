@@ -29,6 +29,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/assets\/css\/landing.css": {
+		"aP": 0,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 2,
+		"oAP": "\/assets\/css\/landing-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/assets\/css\/reset.css": {
 		"aP": 0,
 		"bl": 0,
@@ -132,6 +142,14 @@
 		"iS": 55656,
 		"oA": 0,
 		"oAP": "\/assets\/img\/twelve.jpg",
+		"oF": 0,
+		"opt": 0
+		},
+	"\/assets\/img\/volcano-final.jpg": {
+		"ft": 16384,
+		"iS": 203735,
+		"oA": 0,
+		"oAP": "\/assets\/img\/volcano-final.jpg",
 		"oF": 0,
 		"opt": 0
 		},
