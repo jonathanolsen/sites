@@ -80,6 +80,10 @@ $L:        1200px;
 	background: url('https://jonathanolsen.github.io/sites/ashai/assets/img/story-bg-2.jpg') #FAF2EF center left no-repeat;
 	background-size: cover;
 
+	@include bp(sm) {
+		padding: 40px 0 80px;
+	}
+
 	label.title {
 		display: none;
 	}
@@ -91,6 +95,7 @@ $L:        1200px;
 		padding: 8px 20px;
 		border: none;
 		box-sizing: border-box;
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 	}
 
 	.form-button-wrapper .button {
@@ -102,9 +107,11 @@ $L:        1200px;
 		font-size: 16px;
 		height: 54px;
 		box-sizing: border-box;
+		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
 	}
 
 	.form-wrapper {
+		max-width: 600px;
 
 		.field-list {
 			width: 60%;
