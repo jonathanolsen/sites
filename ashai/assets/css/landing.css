@@ -34,7 +34,8 @@
   box-sizing: border-box;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
   background: #CF0232;
-  font-family: montserrat, 'proxima nova', helvetica, arial; }
+  font-family: montserrat, 'proxima nova', helvetica, arial;
+  color: #fff; }
 
 .index-section.page .content .form-wrapper {
   max-width: 600px; }
@@ -44,6 +45,16 @@
   .index-section.page .content .form-wrapper .form-button-wrapper {
     float: right;
     width: 40%; }
+  .index-section.page .content .form-wrapper label.title {
+    display: none; }
+  .index-section.page .content .form-wrapper input.field-element {
+    margin: 0;
+    height: 54px;
+    font-size: 16px;
+    padding: 8px 20px;
+    border: none;
+    box-sizing: border-box;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
 
 #story-section {
   background: url("https://jonathanolsen.github.io/sites/ashai/assets/img/volcano-final.jpg") #FAF2EF center left no-repeat;
