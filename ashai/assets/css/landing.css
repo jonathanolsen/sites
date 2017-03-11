@@ -23,6 +23,19 @@
   padding-top: 0;
   max-width: 750px; }
 
+.index-section.page .content .form-button-wrapper .button {
+  padding: 20px 30px;
+  border-radius: 0 3px 3px 0;
+  display: block;
+  margin-left: 0px;
+  text-transform: uppercase;
+  font-size: 16px;
+  height: 54px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background: #CF0232;
+  font-family: montserrat, 'proxima nova', helvetica, arial; }
+
 .index-section.page .content .form-wrapper {
   max-width: 600px; }
   .index-section.page .content .form-wrapper .field-list {
@@ -58,7 +71,8 @@
     height: 54px;
     box-sizing: border-box;
     box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    background: #CF0232; }
+    background: #CF0232;
+    font-family: montserrat, 'proxima nova', helvetica, arial; }
   #story-section .form-wrapper {
     max-width: 600px; }
     #story-section .form-wrapper .field-list {
