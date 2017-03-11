@@ -79,7 +79,8 @@
   font-weight: 500; }
   @media (min-width: 768px) {
     .our-story h2 {
-      font-size: 36px; } }
+      font-size: 36px;
+      font-family: montserrat; } }
 
 .our-story p {
   font-size: 14px;
