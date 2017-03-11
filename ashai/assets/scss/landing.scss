@@ -415,7 +415,7 @@ $form-height:   64px;
 	}
 }
 
-.hasFlex .gridJustify.centerColumns {
+.gridJustify.centerColumns {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -423,7 +423,7 @@ $form-height:   64px;
     justify-content: center;
 }
 
-.hasFlex .gridJustify {
+.gridJustify {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-flex;
@@ -459,7 +459,7 @@ $form-height:   64px;
     padding-right: 0;
 }
 
-.hasFlex .gridJustify.centerColumns {
+.gridJustify.centerColumns {
     -webkit-box-pack: center;
     -ms-flex-pack: center;
     -webkit-justify-content: center;
@@ -467,7 +467,7 @@ $form-height:   64px;
     justify-content: center;
 }
 
-.hasFlex .gridJustify {
+.gridJustify {
     display: -webkit-box;
     display: -webkit-flex;
     display: -moz-flex;

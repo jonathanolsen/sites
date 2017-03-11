@@ -262,13 +262,13 @@
   .oneThird {
     width: 33.33%; } }
 
-.hasFlex .gridJustify.centerColumns {
+.gridJustify.centerColumns {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   -moz-justify-content: center;
   justify-content: center; }
 
-.hasFlex .gridJustify {
+.gridJustify {
   display: -webkit-box;
   display: -moz-flex;
   display: -ms-flexbox;
@@ -297,13 +297,13 @@
   padding-left: 0;
   padding-right: 0; }
 
-.hasFlex .gridJustify.centerColumns {
+.gridJustify.centerColumns {
   -webkit-box-pack: center;
   -ms-flex-pack: center;
   -moz-justify-content: center;
   justify-content: center; }
 
-.hasFlex .gridJustify {
+.gridJustify {
   display: -webkit-box;
   display: -moz-flex;
   display: -ms-flexbox;
