@@ -73,9 +73,9 @@ $form-height:   64px;
 	border-radius: 3px;
 }
 
-#home-1-section {
+#join-section {
 
-.index-section.page {
+&.index-section.page {
 
 	.content {
 
@@ -130,6 +130,7 @@ $form-height:   64px;
 }
 
 }
+
 
 
 
@@ -386,7 +387,8 @@ $form-height:   64px;
 
 #ashai-twelve-page {
 	background: url('../img/twelve-bg_mini.jpg') top center no-repeat;
-	background-size:cover;
+	background-size: cover;
+	max-width: 1600px !important;
 	  
 	&:after {
 		content: '';

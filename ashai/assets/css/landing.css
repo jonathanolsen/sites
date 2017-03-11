@@ -19,11 +19,11 @@
   display: inline-block;
   border-radius: 3px; }
 
-#home-1-section .index-section.page .content .sqs-block.code-block {
+#join-section.index-section.page .content .sqs-block.code-block {
   padding-top: 0;
   max-width: 750px; }
 
-#home-1-section .index-section.page .content .form-button-wrapper .button {
+#join-section.index-section.page .content .form-button-wrapper .button {
   padding: 20px 30px;
   border-radius: 0 3px 3px 0;
   display: block;
@@ -37,17 +37,17 @@
   font-family: montserrat, 'proxima nova', helvetica, arial;
   color: #fff; }
 
-#home-1-section .index-section.page .content .form-wrapper {
+#join-section.index-section.page .content .form-wrapper {
   max-width: 600px; }
-  #home-1-section .index-section.page .content .form-wrapper .field-list {
+  #join-section.index-section.page .content .form-wrapper .field-list {
     width: 60%;
     float: left; }
-  #home-1-section .index-section.page .content .form-wrapper .form-button-wrapper {
+  #join-section.index-section.page .content .form-wrapper .form-button-wrapper {
     float: right;
     width: 40%; }
-  #home-1-section .index-section.page .content .form-wrapper label.title {
+  #join-section.index-section.page .content .form-wrapper label.title {
     display: none; }
-  #home-1-section .index-section.page .content .form-wrapper input.field-element {
+  #join-section.index-section.page .content .form-wrapper input.field-element {
     margin: 0;
     height: 64px;
     font-size: 16px;
@@ -244,7 +244,8 @@
 
 #ashai-twelve-page {
   background: url("../img/twelve-bg_mini.jpg") top center no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  max-width: 1600px !important; }
   #ashai-twelve-page:after {
     content: '';
     width: 100%;
