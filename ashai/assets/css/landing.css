@@ -19,11 +19,11 @@
   display: inline-block;
   border-radius: 3px; }
 
-.index-section.page .content .sqs-block.code-block {
+#home-1-section .index-section.page .content .sqs-block.code-block {
   padding-top: 0;
   max-width: 750px; }
 
-.index-section.page .content .form-button-wrapper .button {
+#home-1-section .index-section.page .content .form-button-wrapper .button {
   padding: 20px 30px;
   border-radius: 0 3px 3px 0;
   display: block;
@@ -37,17 +37,17 @@
   font-family: montserrat, 'proxima nova', helvetica, arial;
   color: #fff; }
 
-.index-section.page .content .form-wrapper {
+#home-1-section .index-section.page .content .form-wrapper {
   max-width: 600px; }
-  .index-section.page .content .form-wrapper .field-list {
+  #home-1-section .index-section.page .content .form-wrapper .field-list {
     width: 60%;
     float: left; }
-  .index-section.page .content .form-wrapper .form-button-wrapper {
+  #home-1-section .index-section.page .content .form-wrapper .form-button-wrapper {
     float: right;
     width: 40%; }
-  .index-section.page .content .form-wrapper label.title {
+  #home-1-section .index-section.page .content .form-wrapper label.title {
     display: none; }
-  .index-section.page .content .form-wrapper input.field-element {
+  #home-1-section .index-section.page .content .form-wrapper input.field-element {
     margin: 0;
     height: 64px;
     font-size: 16px;
