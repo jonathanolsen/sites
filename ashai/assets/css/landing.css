@@ -132,3 +132,110 @@
 
 #instagram-section .index-section-wrapper {
   background: #010101; }
+
+#ashai-twelve .grid {
+  max-width: 1400px; }
+
+#ashai-twelve .productListing {
+  padding: 40px 0; }
+
+#ashai-twelve .prodThumb {
+  overflow: auto !important;
+  padding: 20px; }
+  #ashai-twelve .prodThumb:nth-child(1) {
+    -webkit-animation-delay: .4s;
+            animation-delay: .4s; }
+  #ashai-twelve .prodThumb:nth-child(2) {
+    -webkit-animation-delay: .6s;
+            animation-delay: .6s; }
+  #ashai-twelve .prodThumb:nth-child(3) {
+    -webkit-animation-delay: .8s;
+            animation-delay: .8s; }
+  #ashai-twelve .prodThumb:nth-child(4) {
+    -webkit-animation-delay: 1s;
+            animation-delay: 1s; }
+  #ashai-twelve .prodThumb:nth-child(5) {
+    -webkit-animation-delay: 1.2s;
+            animation-delay: 1.2s; }
+  #ashai-twelve .prodThumb:nth-child(6) {
+    -webkit-animation-delay: 1.4s;
+            animation-delay: 1.4s; }
+  #ashai-twelve .prodThumb:nth-child(7) {
+    -webkit-animation-delay: 1.5s;
+            animation-delay: 1.5s; }
+  #ashai-twelve .prodThumb:nth-child(8) {
+    -webkit-animation-delay: 1.7s;
+            animation-delay: 1.7s; }
+  #ashai-twelve .prodThumb:nth-child(9) {
+    -webkit-animation-delay: 1.9s;
+            animation-delay: 1.9s; }
+  #ashai-twelve .prodThumb:nth-child(10) {
+    -webkit-animation-delay: 2.1s;
+            animation-delay: 2.1s; }
+  #ashai-twelve .prodThumb:nth-child(11) {
+    -webkit-animation-delay: 2.3s;
+            animation-delay: 2.3s; }
+  #ashai-twelve .prodThumb:nth-child(12) {
+    -webkit-animation-delay: 2.5s;
+            animation-delay: 2.5s; }
+  #ashai-twelve .prodThumb.released:hover a {
+    -webkit-transform: translateY(-10px);
+            transform: translateY(-10px); }
+    #ashai-twelve .prodThumb.released:hover a:after {
+      opacity: .7; }
+  #ashai-twelve .prodThumb.released a {
+    cursor: pointer !important;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out; }
+    #ashai-twelve .prodThumb.released a:after {
+      content: '';
+      width: 100%;
+      height: 100%;
+      background: rgba(14, 14, 14, 0);
+      background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(14, 14, 14, 0)), color-stop(1%, rgba(14, 14, 14, 0.01)), color-stop(100%, black));
+      background: -webkit-linear-gradient(top, rgba(14, 14, 14, 0) 0%, rgba(14, 14, 14, 0.01) 1%, black 100%);
+      background: linear-gradient(to bottom, rgba(14, 14, 14, 0) 0%, rgba(14, 14, 14, 0.01) 1%, black 100%);
+      filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#000000', GradientType=0 );
+      position: absolute;
+      top: 0;
+      left: 0;
+      z-index: -1;
+      opacity: 0;
+      -webkit-transition: .2s ease-out;
+      transition: .2s ease-out; }
+  #ashai-twelve .prodThumb a {
+    background: #000;
+    box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1), 0 15px 37px rgba(0, 0, 0, 0.04), 0 5px 16px rgba(0, 0, 0, 0.9);
+    width: 100%;
+    height: 400px;
+    -webkit-transition: all .2s ease-out;
+    transition: all .2s ease-out;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    font-size: 16px;
+    text-transform: uppercase;
+    color: #a5a5a5;
+    padding: 35px;
+    cursor: default;
+    border-radius: 4px; }
+    #ashai-twelve .prodThumb a .kanji {
+      font-size: 100px;
+      color: #fff; }
+    #ashai-twelve .prodThumb a .name span {
+      text-transform: uppercase;
+      font-size: 12px;
+      display: block;
+      margin-top: 12px;
+      opacity: .5;
+      color: #fff; }
+  #ashai-twelve .prodThumb.shigoto a {
+    background: url("../img/shigoto-twelve_mini.jpg") top center no-repeat;
+    background-size: cover; }

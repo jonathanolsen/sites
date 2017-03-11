@@ -237,7 +237,148 @@ $form-height:   64px;
 }
 
 
+#ashai-twelve {
+  
+  .grid {
+    max-width: 1400px;
+  }
+  
+  .productListing {
+    padding: 40px 0;
+  }
+  
+  .prodThumb {
+    overflow: auto !important;
+    padding: 20px;
+    
+    &:nth-child(1) {
+      animation-delay: .4s;
+    }
+    
+    &:nth-child(2) {
+      animation-delay: .6s;
+    }
 
+    &:nth-child(3) {
+      animation-delay: .8s;
+    }
+    
+    &:nth-child(4) {
+      animation-delay: 1s;
+    }
+    
+    &:nth-child(5) {
+      animation-delay: 1.2s;
+    }
+
+    &:nth-child(6) {
+      animation-delay: 1.4s;
+    }
+    
+    &:nth-child(7) {
+      animation-delay: 1.5s;
+    }
+    
+    &:nth-child(8) {
+      animation-delay: 1.7s;
+    }
+
+    &:nth-child(9) {
+      animation-delay: 1.9s;
+    }
+    
+    &:nth-child(10) {
+      animation-delay: 2.1s;
+    }
+    
+    &:nth-child(11) {
+      animation-delay: 2.3s;
+    }
+
+    &:nth-child(12) {
+      animation-delay: 2.5s;
+    }
+    
+    &.released {
+     	&:hover {
+         
+          
+          a {
+            transform: translateY(-10px);
+            
+            &:after {
+              opacity: .7;
+            }
+          }
+        }
+      
+      a {
+      	cursor: pointer !important;
+    	transition: all .2s ease-out;
+        
+        &:after {
+          content: '';
+          width: 100%;
+          height: 100%;
+          background: rgba(14,14,14,0);
+          background: -moz-linear-gradient(top, rgba(14,14,14,0) 0%, rgba(14,14,14,0.01) 1%, rgba(0,0,0,1) 100%);
+          background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(14,14,14,0)), color-stop(1%, rgba(14,14,14,0.01)), color-stop(100%, rgba(0,0,0,1)));
+          background: -webkit-linear-gradient(top, rgba(14,14,14,0) 0%, rgba(14,14,14,0.01) 1%, rgba(0,0,0,1) 100%);
+          background: -o-linear-gradient(top, rgba(14,14,14,0) 0%, rgba(14,14,14,0.01) 1%, rgba(0,0,0,1) 100%);
+          background: -ms-linear-gradient(top, rgba(14,14,14,0) 0%, rgba(14,14,14,0.01) 1%, rgba(0,0,0,1) 100%);
+          background: linear-gradient(to bottom, rgba(14,14,14,0) 0%, rgba(14,14,14,0.01) 1%, rgba(0,0,0,1) 100%);
+          filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e0e0e', endColorstr='#000000', GradientType=0 );
+          position: absolute;
+          top: 0;
+          left: 0;
+          z-index: -1;
+          opacity: 0;
+          transition: .2s ease-out;
+        }
+      }
+    }
+    
+    a {
+      background: #000;
+      box-shadow: 0 6px 22px rgba(0, 0, 0, 0.1), 0 15px 37px rgba(0, 0, 0, 0.04), 0 5px 16px rgba(0,0,0,0.9);
+	  width: 100%;
+      height: 400px;
+      transition: all .2s ease-out;
+      
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      font-size: 16px;
+      text-transform: uppercase;
+      color: #a5a5a5;
+      padding: 35px;
+      cursor: default;
+      border-radius: 4px;
+      
+      .kanji {
+        font-size: 100px;
+        color: #fff;
+      }
+      
+      .name {
+        
+        span {
+          text-transform: uppercase;
+          font-size:12px;
+          display:block;
+          margin-top: 12px;
+          opacity: .5;
+          color:#fff;
+        }
+      }
+    }
+    
+    &.shigoto a {
+      background: url('../img/shigoto-twelve_mini.jpg') top center no-repeat;
+      background-size: cover;
+    }
+  }
+}
 
 
 
