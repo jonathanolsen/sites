@@ -19,6 +19,19 @@
   display: inline-block;
   border-radius: 3px; }
 
+.index-section.page .content .sqs-block.code-block {
+  padding-top: 0;
+  max-width: 750px; }
+
+.index-section.page .content .form-wrapper {
+  max-width: 600px; }
+  .index-section.page .content .form-wrapper .field-list {
+    width: 60%;
+    float: left; }
+  .index-section.page .content .form-wrapper .form-button-wrapper {
+    float: right;
+    width: 40%; }
+
 #story-section {
   background: url("https://jonathanolsen.github.io/sites/ashai/assets/img/volcano-final.jpg") #FAF2EF center left no-repeat;
   background-size: cover; }

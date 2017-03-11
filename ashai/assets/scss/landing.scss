@@ -73,6 +73,31 @@ $L:        1200px;
     border-radius: 3px;
 }
 
+.index-section.page {
+
+	.content {
+
+		.sqs-block.code-block {
+			padding-top: 0;
+			max-width: 750px;
+		}
+
+		.form-wrapper {
+			max-width: 600px;
+
+			.field-list {
+				width: 60%;
+				float: left;
+			}
+
+			.form-button-wrapper {
+				float: right;
+				width: 40%;
+			}
+		}
+	}
+}
+
 
 
 
