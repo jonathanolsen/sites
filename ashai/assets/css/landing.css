@@ -141,7 +141,8 @@
 
 #ashai-twelve .prodThumb {
   overflow: auto !important;
-  padding: 20px; }
+  padding: 20px;
+  box-sizing: border-box; }
   #ashai-twelve .prodThumb:nth-child(1) {
     -webkit-animation-delay: .4s;
             animation-delay: .4s; }

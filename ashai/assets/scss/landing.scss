@@ -253,6 +253,7 @@ $form-height:   64px;
   .prodThumb {
     overflow: auto !important;
     padding: 20px;
+    box-sizing: border-box;
     
     &:nth-child(1) {
       animation-delay: .4s;
