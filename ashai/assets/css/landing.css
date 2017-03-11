@@ -332,3 +332,6 @@
 .sqs-gallery-block-slideshow .meta .meta-description {
   font-size: 17px;
   line-height: 1.5em; }
+
+#gallery-section {
+  background-color: #010101 !important; }

@@ -7,7 +7,7 @@
 		"uuidString": "12FF80AA-94E1-43A5-9942-CC5BC9748A45"
 		}
 	],
-"creatorBuild": "25568",
+"creatorBuild": "25704",
 "files": {
 	"\/assets\/css\/app.css": {
 		"aP": 0,
@@ -55,7 +55,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/bracelets.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/assets\/img\/kibun-black.jpg": {
 		"ft": 16384,
@@ -63,7 +64,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/kibun-black.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/kibun-gold.jpg": {
 		"ft": 16384,
@@ -71,7 +73,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/kibun-gold.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/kibun.jpg": {
 		"ft": 16384,
@@ -79,7 +82,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/kibun.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/nakama-gold.jpg": {
 		"ft": 16384,
@@ -87,7 +91,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/nakama-gold.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/assets\/img\/nakama-rose.jpg": {
 		"ft": 16384,
@@ -95,7 +100,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/nakama-rose.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/nakama-silver.jpg": {
 		"ft": 16384,
@@ -103,7 +109,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/nakama-silver.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/nakama.jpg": {
 		"ft": 16384,
@@ -111,7 +118,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/nakama.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/shigoto-twelve_mini.jpg": {
 		"ft": 16384,
@@ -119,7 +127,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/shigoto-twelve_mini.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/story-4.jpg": {
 		"ft": 16384,
@@ -127,7 +136,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/story-4.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/assets\/img\/story-bg-2.jpg": {
 		"ft": 16384,
@@ -135,7 +145,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/story-bg-2.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/story-bg.jpg": {
 		"ft": 16384,
@@ -143,7 +154,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/story-bg.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/assets\/img\/twelve-bg_mini.jpg": {
 		"ft": 16384,
@@ -151,7 +163,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/twelve-bg_mini.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/twelve-one.jpg": {
 		"ft": 16384,
@@ -159,7 +172,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/twelve-one.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/twelve.jpg": {
 		"ft": 16384,
@@ -167,7 +181,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/twelve.jpg",
 		"oF": 0,
-		"opt": 0
+		"opt": 0,
+		"q": 100
 		},
 	"\/assets\/img\/volcano-final.jpg": {
 		"ft": 16384,
@@ -175,7 +190,8 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/volcano-final.jpg",
 		"oF": 0,
-		"opt": 1
+		"opt": 1,
+		"q": 100
 		},
 	"\/assets\/js\/main.js": {
 		"ft": 64,
@@ -4777,6 +4793,10 @@
 			"active": 1,
 			"optionString": ""
 			},
+		"no-compare-neg-zero": {
+			"active": 0,
+			"optionString": ""
+			},
 		"no-cond-assign": {
 			"active": 1,
 			"optionString": "'except-parens'"
@@ -5256,6 +5276,10 @@
 		"no-with": {
 			"active": 0,
 			"optionString": ""
+			},
+		"nonblock-statement-body-position": {
+			"active": 0,
+			"optionString": "'beside'"
 			},
 		"object-curly-newline": {
 			"active": 0,
@@ -5856,7 +5880,8 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"quality": 100
 		},
 	"languageDefaultsJS": {
 		"autoOutputAction": 0,
@@ -5949,7 +5974,9 @@
 		"autoOutputPathRelativePath": "",
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
-		"autoOutputPathStyle": 0
+		"autoOutputPathStyle": 0,
+		"enableLossy": 1,
+		"quality": 100
 		},
 	"languageDefaultsPUG": {
 		"autoOutputAction": 0,
