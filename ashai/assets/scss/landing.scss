@@ -405,5 +405,19 @@ $form-height:   64px;
 }
 
 
+@include bp(sm) {
+
+	.oneThird {
+	    width: 33.33%;
+	}
+}
+
+
+
+
+
+
+
+
 
 
