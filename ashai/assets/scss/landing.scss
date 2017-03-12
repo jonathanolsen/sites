@@ -544,9 +544,17 @@ $form-height:   64px;
 
 	.sqs-block.html-block.sqs-block-html {
 
-		h1,
-		p {
+		h1 {
 			color: #fff;
+		}
+
+		p {
+			color: #999;
+			font-weight: 300;
+
+			strong {
+				color: #fff;
+			}
 		}
 	}
 

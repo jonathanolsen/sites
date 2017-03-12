@@ -333,9 +333,13 @@
   @media (min-width: 992px) {
     #footer-section {
       padding: 80px 0 240px; } }
-  #footer-section .sqs-block.html-block.sqs-block-html h1,
-  #footer-section .sqs-block.html-block.sqs-block-html p {
+  #footer-section .sqs-block.html-block.sqs-block-html h1 {
     color: #fff; }
+  #footer-section .sqs-block.html-block.sqs-block-html p {
+    color: #999;
+    font-weight: 300; }
+    #footer-section .sqs-block.html-block.sqs-block-html p strong {
+      color: #fff; }
   #footer-section .form-wrapper {
     margin: 0 auto; }
 
