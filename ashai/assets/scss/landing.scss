@@ -672,12 +672,15 @@ h4 {
 
 	h1 {
 		text-align: center;
+		color: #fff;
 
 		span {
 			background: url('../img/details-matter.svg');
 			width: 88px;
 			height: 70px;
-			display: block;
+			display: inline-block;
+			margin: 0 -45px -23px -41px;
+			position: relative;
 		}
 	}
 }
