@@ -86,6 +86,15 @@ $form-height:   64px;
 	}
 }
 
+.index-section-image {
+
+	@include bp(xs-sm) {
+		img {
+			left: -900px;
+		}
+	}
+}
+
 }
 
 
