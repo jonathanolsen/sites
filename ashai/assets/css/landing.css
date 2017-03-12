@@ -432,7 +432,7 @@ h4 {
   text-align: center;
   color: #fff !important; }
   .details-matter h1 span {
-    background: url("../img/details-matter.svg");
+    background: url("../img/details-matter.svg") center center no-repeat;
     width: 58px;
     height: 70px;
     display: inline-block;
