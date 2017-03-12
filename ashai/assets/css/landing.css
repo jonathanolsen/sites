@@ -430,7 +430,7 @@ h4 {
 
 .details-matter h1 {
   text-align: center;
-  color: #fff; }
+  color: #fff !important; }
   .details-matter h1 span {
     background: url("../img/details-matter.svg");
     width: 88px;
