@@ -438,6 +438,11 @@ $form-height:   64px;
 	background-size: cover;
 	max-width: 100%;
 
+	@include bp(xs-sm) {
+		background-position: 70% 0;
+		padding: 0 0 400px;
+	}
+
 	@include bp(sm) {
 		padding: 0px 0px 250px;
 	}
