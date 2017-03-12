@@ -25,7 +25,7 @@
 
 @media (max-width: 767px) {
   #join-section .index-section-image img {
-    left: -900px; } }
+    left: -900px !important; } }
 
 #story-section {
   background: url("https://jonathanolsen.github.io/sites/ashai/assets/img/story-4.jpg") #FAF2EF center left no-repeat;
