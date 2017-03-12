@@ -690,3 +690,12 @@ h4 {
 	}
 }
 
+
+@include bp(xs-sm) {
+
+	.sqs-block-button-element--medium {
+		width: 100%;
+		padding: 12px 34px;
+	}
+}
+

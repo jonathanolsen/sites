@@ -442,3 +442,8 @@ h4 {
       .details-matter h1 span {
         width: 88px;
         margin: 0 -49px -17px -34px; } }
+
+@media (max-width: 767px) {
+  .sqs-block-button-element--medium {
+    width: 100%;
+    padding: 12px 34px; } }
