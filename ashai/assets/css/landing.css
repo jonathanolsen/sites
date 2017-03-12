@@ -437,7 +437,8 @@ h4 {
     height: 70px;
     display: inline-block;
     margin: 0 -32px -36px -23px;
-    position: relative; }
+    position: relative;
+    background-size: contain; }
     @media (min-width: 768px) {
       .details-matter h1 span {
         width: 88px;

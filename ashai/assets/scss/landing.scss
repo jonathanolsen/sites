@@ -681,6 +681,7 @@ h4 {
 			display: inline-block;
 			margin: 0 -32px -36px -23px;
 			position: relative;
+			background-size: contain;
 
 			@include bp(sm) {
 				width: 88px;
