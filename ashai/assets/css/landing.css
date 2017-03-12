@@ -289,10 +289,14 @@
   #footer-section .form-wrapper {
     margin: 0 auto; }
 
-label.title {
+#join-section label.title,
+#story-section label.title,
+#footer-section label.title {
   display: none; }
 
-input.field-element {
+#join-section input.field-element,
+#story-section input.field-element,
+#footer-section input.field-element {
   margin: 0;
   height: 64px;
   font-size: 16px;
@@ -301,7 +305,9 @@ input.field-element {
   box-sizing: border-box;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
 
-.form-button-wrapper .button {
+#join-section .form-button-wrapper .button,
+#story-section .form-button-wrapper .button,
+#footer-section .form-button-wrapper .button {
   padding: 18px 30px;
   border-radius: 0 3px 3px 0;
   display: block;
@@ -316,25 +322,39 @@ input.field-element {
   color: #fff;
   width: 100%; }
   @media (min-width: 768px) {
-    .form-button-wrapper .button {
+    #join-section .form-button-wrapper .button,
+    #story-section .form-button-wrapper .button,
+    #footer-section .form-button-wrapper .button {
       width: auto;
       height: 64px;
       padding: 20px 30px; } }
 
-.form-wrapper {
+#join-section .form-wrapper,
+#story-section .form-wrapper,
+#footer-section .form-wrapper {
   max-width: 600px; }
-  .form-wrapper .field-list {
+  #join-section .form-wrapper .field-list,
+  #story-section .form-wrapper .field-list,
+  #footer-section .form-wrapper .field-list {
     width: 100%;
     float: left; }
     @media (min-width: 768px) {
-      .form-wrapper .field-list {
+      #join-section .form-wrapper .field-list,
+      #story-section .form-wrapper .field-list,
+      #footer-section .form-wrapper .field-list {
         width: 60%; } }
     @media (max-width: 767px) {
-      .form-wrapper .field-list .field {
+      #join-section .form-wrapper .field-list .field,
+      #story-section .form-wrapper .field-list .field,
+      #footer-section .form-wrapper .field-list .field {
         margin: 0; } }
-  .form-wrapper .form-button-wrapper {
+  #join-section .form-wrapper .form-button-wrapper,
+  #story-section .form-wrapper .form-button-wrapper,
+  #footer-section .form-wrapper .form-button-wrapper {
     width: 40%;
     float: right; }
     @media (min-width: 768px) {
-      .form-wrapper .form-button-wrapper {
+      #join-section .form-wrapper .form-button-wrapper,
+      #story-section .form-wrapper .form-button-wrapper,
+      #footer-section .form-wrapper .form-button-wrapper {
         width: 100%; } }
