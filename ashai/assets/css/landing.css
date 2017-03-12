@@ -27,6 +27,20 @@
   #join-section .index-section-image img {
     left: -900px !important; } }
 
+@media (min-width: 768px) and (max-width: 991px) {
+  #join-section .index-section-image img {
+    margin-left: -200px; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #join-section .page-content h1 {
+    text-align: center; }
+  #join-section .page-content .sqs-block-content {
+    text-align: center; }
+    #join-section .page-content .sqs-block-content p {
+      margin: 0 auto; }
+  #join-section .page-content .form-wrapper {
+    margin: 0 auto; } }
+
 #story-section {
   background: url("https://jonathanolsen.github.io/sites/ashai/assets/img/story-4.jpg") #FAF2EF center left no-repeat;
   background-size: cover; }
