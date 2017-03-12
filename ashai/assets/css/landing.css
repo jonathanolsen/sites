@@ -339,7 +339,8 @@
 #footer-section {
   background: url("../img/sword-footer.jpg") top center no-repeat;
   background-size: cover;
-  max-width: 100%; }
+  max-width: 100%;
+  padding: 80px 0 240px; }
   #footer-section .sqs-block.html-block.sqs-block-html h1,
   #footer-section .sqs-block.html-block.sqs-block-html p {
     color: #fff; }
@@ -366,7 +367,8 @@
     background: #CF0232;
     font-family: montserrat, 'proxima nova', helvetica, arial; }
   #footer-section .form-wrapper {
-    max-width: 600px; }
+    max-width: 600px;
+    margin: 0 auto; }
     #footer-section .form-wrapper .field-list {
       width: 60%;
       float: left; }
