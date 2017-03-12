@@ -101,6 +101,31 @@ $form-height:   64px;
 	}
 }
 
+@include bp(xs-sm) {
+	.page-content {
+		h1 {
+			font-weight: 600;
+		}
+
+		.sqs-block-content {
+			text-align: center;
+
+			p {
+				font-size: 20px;
+			}
+		}
+	}
+
+	h2 {
+		font-size: 20px !important;
+	}
+
+	p {
+		font-size: 16px;
+		line-height: 25px;
+	}
+}
+
 
 	@include bp(sm-md) {
 
@@ -146,6 +171,10 @@ $form-height:   64px;
 #story-section {
 	background: url('https://jonathanolsen.github.io/sites/ashai/assets/img/story-4.jpg') #FAF2EF center left no-repeat;
 	background-size: cover;
+
+	@include bp(xs-sm) {
+		background-position: center;
+	}
 
 	@include bp(sm) {
 		padding: 40px 0 80px;

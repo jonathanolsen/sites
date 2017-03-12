@@ -31,6 +31,19 @@
   #join-section .index-section-image img {
     margin-left: -200px; } }
 
+@media (max-width: 767px) {
+  #join-section .page-content h1 {
+    font-weight: 600; }
+  #join-section .page-content .sqs-block-content {
+    text-align: center; }
+    #join-section .page-content .sqs-block-content p {
+      font-size: 20px; }
+  #join-section h2 {
+    font-size: 20px !important; }
+  #join-section p {
+    font-size: 16px;
+    line-height: 25px; } }
+
 @media (min-width: 768px) and (max-width: 991px) {
   #join-section .page-content h1 {
     text-align: center; }
@@ -52,6 +65,9 @@
 #story-section {
   background: url("https://jonathanolsen.github.io/sites/ashai/assets/img/story-4.jpg") #FAF2EF center left no-repeat;
   background-size: cover; }
+  @media (max-width: 767px) {
+    #story-section {
+      background-position: center; } }
   @media (min-width: 768px) {
     #story-section {
       padding: 40px 0 80px; } }

@@ -64,7 +64,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/kibun-black.jpg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/kibun-gold.jpg": {
@@ -73,7 +73,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/kibun-gold.jpg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/kibun.jpg": {
@@ -100,7 +100,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/nakama-rose.jpg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/nakama-silver.jpg": {
@@ -109,7 +109,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/nakama-silver.jpg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/nakama.jpg": {
@@ -181,7 +181,7 @@
 		"oA": 0,
 		"oAP": "\/assets\/img\/twelve-one.jpg",
 		"oF": 0,
-		"opt": 0,
+		"opt": 1,
 		"q": 100
 		},
 	"\/assets\/img\/twelve.jpg": {
