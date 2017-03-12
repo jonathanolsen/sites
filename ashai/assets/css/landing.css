@@ -351,10 +351,10 @@
   #join-section .form-wrapper .form-button-wrapper,
   #story-section .form-wrapper .form-button-wrapper,
   #footer-section .form-wrapper .form-button-wrapper {
-    width: 40%;
+    width: 100%;
     float: right; }
     @media (min-width: 768px) {
       #join-section .form-wrapper .form-button-wrapper,
       #story-section .form-wrapper .form-button-wrapper,
       #footer-section .form-wrapper .form-button-wrapper {
-        width: 100%; } }
+        width: 40%; } }

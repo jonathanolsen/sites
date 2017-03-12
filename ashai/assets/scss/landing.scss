@@ -529,11 +529,11 @@ input.field-element {
 	}
 
 	.form-button-wrapper {
-		width: 40%;
+		width: 100%;
 		float: right;
 
 		@include bp(sm) {
-			width: 100%;
+			width: 40%;
 		}
 	}
 }
