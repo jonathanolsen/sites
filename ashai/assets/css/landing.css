@@ -329,12 +329,17 @@
 #story-section input.field-element,
 #footer-section input.field-element {
   margin: 0;
-  height: 64px;
+  height: 50px;
   font-size: 16px;
   padding: 8px 20px;
   border: none;
   box-sizing: border-box;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
+  @media (min-width: 992px) {
+    #join-section input.field-element,
+    #story-section input.field-element,
+    #footer-section input.field-element {
+      height: 64px; } }
 
 #join-section .form-button-wrapper .button,
 #story-section .form-button-wrapper .button,
