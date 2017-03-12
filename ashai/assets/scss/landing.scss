@@ -676,11 +676,16 @@ h4 {
 
 		span {
 			background: url('../img/details-matter.svg');
-			width: 88px;
+			width: 58px;
 			height: 70px;
 			display: inline-block;
-			margin: 0 -49px -17px -34px;
+			margin: 0 -32px -36px -23px;
 			position: relative;
+
+			@include bp(sm) {
+				width: 88px;
+				margin: 0 -49px -17px -34px;
+			}
 		}
 	}
 }
