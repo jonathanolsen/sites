@@ -58,6 +58,10 @@
   .index-section-wrapper .content.has-main-media:not(.gallery-content) {
     padding-bottom: 0 !important; } }
 
+@media only screen and (max-device-height: 768px) {
+  #footer-section {
+    padding: 80px 0 360px; } }
+
 @media (max-width: 767px) {
   #collection-overview-section h2, #collection-overview-section p {
     text-align: center; } }

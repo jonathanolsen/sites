@@ -155,7 +155,12 @@ $form-height:   64px;
 	}
 }
 
+@media only screen and (max-device-height: 768px) {
 
+	#footer-section {
+		padding: 80px 0 360px;
+	}
+}
 
 #collection-overview-section {
 
