@@ -24,6 +24,10 @@
   max-width: 750px; }
 
 @media (max-width: 767px) {
+  #join-section h2, #join-section p {
+    text-align: center; } }
+
+@media (max-width: 767px) {
   #join-section .index-section-image img {
     left: -800px !important; } }
 

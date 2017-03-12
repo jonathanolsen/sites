@@ -86,6 +86,13 @@ $form-height:   64px;
 	}
 }
 
+@include bp(xs-sm) {
+
+	h2, p {
+		text-align: center;
+	}
+}
+
 .index-section-image {
 
 	@include bp(xs-sm) {
