@@ -24,10 +24,6 @@
   max-width: 750px; }
 
 @media (max-width: 767px) {
-  #join-section h2, #join-section p {
-    text-align: center; } }
-
-@media (max-width: 767px) {
   #join-section .index-section-image img {
     left: -800px !important; } }
 
@@ -48,6 +44,10 @@
 @media only screen and (max-device-height: 1024px) {
   .index-section-wrapper .content.has-main-media:not(.gallery-content) {
     padding-bottom: 0 !important; } }
+
+@media (max-width: 767px) {
+  #collection-overview-section h2, #collection-overview-section p {
+    text-align: center; } }
 
 #story-section {
   background: url("https://jonathanolsen.github.io/sites/ashai/assets/img/story-4.jpg") #FAF2EF center left no-repeat;

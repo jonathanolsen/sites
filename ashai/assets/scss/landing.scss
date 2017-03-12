@@ -86,13 +86,6 @@ $form-height:   64px;
 	}
 }
 
-@include bp(xs-sm) {
-
-	h2, p {
-		text-align: center;
-	}
-}
-
 .index-section-image {
 
 	@include bp(xs-sm) {
@@ -134,6 +127,18 @@ $form-height:   64px;
 @media only screen and (max-device-height: 1024px) {
 	.index-section-wrapper .content.has-main-media:not(.gallery-content) {
 		padding-bottom: 0 !important;
+	}
+}
+
+
+
+#collection-overview-section {
+
+	@include bp(xs-sm) {
+
+		h2, p {
+			text-align: center;
+		}
 	}
 }
 
