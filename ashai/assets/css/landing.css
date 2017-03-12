@@ -41,12 +41,21 @@
   #join-section .page-content .form-wrapper {
     margin: 0 auto; } }
 
+@media only screen and (max-device-height: 1024px) {
+  .index-section-wrapper .content.has-main-media:not(.gallery-content) {
+    padding-bottom: 0 !important; } }
+
 #story-section {
   background: url("https://jonathanolsen.github.io/sites/ashai/assets/img/story-4.jpg") #FAF2EF center left no-repeat;
   background-size: cover; }
   @media (min-width: 768px) {
     #story-section {
       padding: 40px 0 80px; } }
+  @media (min-width: 768px) and (max-width: 991px) {
+    #story-section {
+      background-position: center; }
+      #story-section .our-story .container {
+        max-width: 480px; } }
 
 .our-story .container {
   width: 100%;
@@ -347,7 +356,11 @@
     #join-section .form-button-wrapper .button,
     #story-section .form-button-wrapper .button,
     #footer-section .form-button-wrapper .button {
-      width: auto;
+      width: auto; } }
+  @media (min-width: 992px) {
+    #join-section .form-button-wrapper .button,
+    #story-section .form-button-wrapper .button,
+    #footer-section .form-button-wrapper .button {
       height: 64px;
       padding: 20px 30px; } }
 

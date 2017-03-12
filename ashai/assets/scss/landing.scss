@@ -124,6 +124,11 @@ $form-height:   64px;
 	}
 }
 
+@media only screen and (max-device-height: 1024px) {
+	.index-section-wrapper .content.has-main-media:not(.gallery-content) {
+		padding-bottom: 0 !important;
+	}
+}
 
 
 #story-section {
@@ -132,6 +137,17 @@ $form-height:   64px;
 
 	@include bp(sm) {
 		padding: 40px 0 80px;
+	}
+
+	@include bp(sm-md) {
+		background-position: center;
+
+		.our-story {
+
+			.container {
+				max-width: 480px;
+			}
+		}
 	}
 }
 
@@ -545,6 +561,9 @@ input.field-element {
 
 	@include bp(sm) {
 		width: auto;
+	}
+
+	@include bp(md) {
 		height: $form-height;
 		padding: 20px 30px;
 	}
@@ -579,3 +598,4 @@ input.field-element {
 }
 
 }
+
