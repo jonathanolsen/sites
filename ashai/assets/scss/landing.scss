@@ -207,7 +207,6 @@ $form-height:   64px;
 
 		@include bp(sm) {
 			font-size: 36px;
-			font-family: montserrat;
 		}
 	}
 
@@ -642,5 +641,14 @@ input.field-element {
 	}
 }
 
+}
+
+
+
+h4 {
+	font-size: 26px;
+	font-weight: normal;
+	color: #444;
+	font-family: 'Astoria', 'Calluna Sans', 'Helvetica Neue', sans-serif, arial;
 }
 

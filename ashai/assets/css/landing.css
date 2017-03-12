@@ -88,8 +88,7 @@
   font-weight: 500; }
   @media (min-width: 768px) {
     .our-story h2 {
-      font-size: 36px;
-      font-family: montserrat; } }
+      font-size: 36px; } }
 
 .our-story p {
   font-size: 14px;
@@ -418,3 +417,9 @@
       #story-section .form-wrapper .form-button-wrapper,
       #footer-section .form-wrapper .form-button-wrapper {
         width: 40%; } }
+
+h4 {
+  font-size: 26px;
+  font-weight: normal;
+  color: #444;
+  font-family: 'Astoria', 'Calluna Sans', 'Helvetica Neue', sans-serif, arial; }
