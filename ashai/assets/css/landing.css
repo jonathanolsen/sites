@@ -25,7 +25,7 @@
 
 @media (max-width: 767px) {
   #join-section .index-section-image img {
-    left: -800px !important; } }
+    left: -600px !important; } }
 
 @media (min-width: 768px) and (max-width: 991px) {
   #join-section .index-section-image img {
