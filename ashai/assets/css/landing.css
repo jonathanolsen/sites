@@ -310,9 +310,9 @@
 .sqs-gallery-block-slideshow .meta .meta-title {
   font-size: 20px;
   text-transform: uppercase;
-  font-family: montserrat; }
+  font-family: astoria, montserrat; }
 
-.sqs-gallery-block-slideshow .meta .meta-description {
+.sqs-gallery-block-slideshow .meta .meta-description p {
   font-size: 17px;
   line-height: 1.5em; }
 
