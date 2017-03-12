@@ -23,75 +23,12 @@
   padding-top: 0;
   max-width: 750px; }
 
-#join-section.index-section.page .content .form-button-wrapper .button {
-  padding: 20px 30px;
-  border-radius: 0 3px 3px 0;
-  display: block;
-  margin-left: 0px;
-  text-transform: uppercase;
-  font-size: 16px;
-  height: 64px;
-  box-sizing: border-box;
-  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-  background: #CF0232;
-  font-family: montserrat, 'proxima nova', helvetica, arial;
-  color: #fff; }
-
-#join-section.index-section.page .content .form-wrapper {
-  max-width: 600px; }
-  #join-section.index-section.page .content .form-wrapper .field-list {
-    width: 60%;
-    float: left; }
-  #join-section.index-section.page .content .form-wrapper .form-button-wrapper {
-    float: right;
-    width: 40%; }
-  #join-section.index-section.page .content .form-wrapper label.title {
-    display: none; }
-  #join-section.index-section.page .content .form-wrapper input.field-element {
-    margin: 0;
-    height: 64px;
-    font-size: 16px;
-    padding: 8px 20px;
-    border: none;
-    box-sizing: border-box;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
-
 #story-section {
   background: url("https://jonathanolsen.github.io/sites/ashai/assets/img/story-4.jpg") #FAF2EF center left no-repeat;
   background-size: cover; }
   @media (min-width: 768px) {
     #story-section {
       padding: 40px 0 80px; } }
-  #story-section label.title {
-    display: none; }
-  #story-section input.field-element {
-    margin: 0;
-    height: 64px;
-    font-size: 16px;
-    padding: 8px 20px;
-    border: none;
-    box-sizing: border-box;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
-  #story-section .form-button-wrapper .button {
-    padding: 20px 30px;
-    border-radius: 0 3px 3px 0;
-    display: block;
-    margin-left: 0px;
-    text-transform: uppercase;
-    font-size: 16px;
-    height: 64px;
-    box-sizing: border-box;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    background: #CF0232;
-    font-family: montserrat, 'proxima nova', helvetica, arial; }
-  #story-section .form-wrapper {
-    max-width: 600px; }
-    #story-section .form-wrapper .field-list {
-      width: 60%;
-      float: left; }
-    #story-section .form-wrapper .form-button-wrapper {
-      float: right;
-      width: 40%; }
 
 .our-story .container {
   width: 100%;
@@ -339,39 +276,65 @@
 #footer-section {
   background: url("../img/sword-footer.jpg") top center no-repeat;
   background-size: cover;
-  max-width: 100%;
-  padding: 80px 0 240px; }
+  max-width: 100%; }
+  @media (min-width: 768px) {
+    #footer-section {
+      padding: 0px 0px 250px; } }
+  @media (min-width: 992px) {
+    #footer-section {
+      padding: 80px 0 240px; } }
   #footer-section .sqs-block.html-block.sqs-block-html h1,
   #footer-section .sqs-block.html-block.sqs-block-html p {
     color: #fff; }
-  #footer-section label.title {
-    display: none; }
-  #footer-section input.field-element {
-    margin: 0;
-    height: 64px;
-    font-size: 16px;
-    padding: 8px 20px;
-    border: none;
-    box-sizing: border-box;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
-  #footer-section .form-button-wrapper .button {
-    padding: 20px 30px;
-    border-radius: 0 3px 3px 0;
-    display: block;
-    margin-left: 0px;
-    text-transform: uppercase;
-    font-size: 16px;
-    height: 64px;
-    box-sizing: border-box;
-    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-    background: #CF0232;
-    font-family: montserrat, 'proxima nova', helvetica, arial; }
   #footer-section .form-wrapper {
-    max-width: 600px;
     margin: 0 auto; }
-    #footer-section .form-wrapper .field-list {
-      width: 60%;
-      float: left; }
-    #footer-section .form-wrapper .form-button-wrapper {
-      float: right;
-      width: 40%; }
+
+label.title {
+  display: none; }
+
+input.field-element {
+  margin: 0;
+  height: 64px;
+  font-size: 16px;
+  padding: 8px 20px;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1); }
+
+.form-button-wrapper .button {
+  padding: 18px 30px;
+  border-radius: 0 3px 3px 0;
+  display: block;
+  margin-left: 0px;
+  text-transform: uppercase;
+  font-size: 16px;
+  height: 50px;
+  box-sizing: border-box;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+  background: #CF0232;
+  font-family: montserrat, 'proxima nova', helvetica, arial;
+  color: #fff;
+  width: 100%; }
+  @media (min-width: 768px) {
+    .form-button-wrapper .button {
+      width: auto;
+      height: 64px;
+      padding: 20px 30px; } }
+
+.form-wrapper {
+  max-width: 600px; }
+  .form-wrapper .field-list {
+    width: 100%;
+    float: left; }
+    @media (min-width: 768px) {
+      .form-wrapper .field-list {
+        width: 60%; } }
+    @media (max-width: 767px) {
+      .form-wrapper .field-list .field {
+        margin: 0; } }
+  .form-wrapper .form-button-wrapper {
+    width: 40%;
+    float: right; }
+    @media (min-width: 768px) {
+      .form-wrapper .form-button-wrapper {
+        width: 100%; } }

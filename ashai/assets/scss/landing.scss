@@ -83,49 +83,6 @@ $form-height:   64px;
 			padding-top: 0;
 			max-width: 750px;
 		}
-
-		.form-button-wrapper .button {
-			padding: 20px 30px;
-			border-radius: 0 3px 3px 0;
-			display: block;
-			margin-left: 0px;
-			text-transform: uppercase;
-			font-size: 16px;
-			height: $form-height;
-			box-sizing: border-box;
-			box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-			background: #CF0232;
-			font-family: montserrat, 'proxima nova', helvetica, arial;
-			color: #fff;
-		}
-
-		.form-wrapper {
-			max-width: 600px;
-
-			.field-list {
-				width: 60%;
-				float: left;
-			}
-
-			.form-button-wrapper {
-				float: right;
-				width: 40%;
-			}
-
-			label.title {
-				display: none;
-			}
-
-			input.field-element {
-				margin: 0;
-				height: $form-height;
-				font-size: 16px;
-				padding: 8px 20px;
-				border: none;
-				box-sizing: border-box;
-				box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-			}
-		}
 	}
 }
 
@@ -140,48 +97,6 @@ $form-height:   64px;
 
 	@include bp(sm) {
 		padding: 40px 0 80px;
-	}
-
-	label.title {
-		display: none;
-	}
-
-	input.field-element {
-		margin: 0;
-		height: $form-height;
-		font-size: 16px;
-		padding: 8px 20px;
-		border: none;
-		box-sizing: border-box;
-		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-	}
-
-	.form-button-wrapper .button {
-		padding: 20px 30px;
-		border-radius: 0 3px 3px 0;
-		display: block;
-		margin-left: 0px;
-		text-transform: uppercase;
-		font-size: 16px;
-		height: $form-height;
-		box-sizing: border-box;
-		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-		background: #CF0232;
-		font-family: montserrat, 'proxima nova', helvetica, arial;
-	}
-
-	.form-wrapper {
-		max-width: 600px;
-
-		.field-list {
-			width: 60%;
-			float: left;
-		}
-
-		.form-button-wrapper {
-			float: right;
-			width: 40%;
-		}
 	}
 }
 
@@ -522,7 +437,14 @@ $form-height:   64px;
 	background: url('../img/sword-footer.jpg') top center no-repeat;
 	background-size: cover;
 	max-width: 100%;
-	padding: 80px 0 240px;
+
+	@include bp(sm) {
+		padding: 0px 0px 250px;
+	}
+
+	@include bp(md) {
+		padding: 80px 0 240px;
+	}
 
 	.sqs-block.html-block.sqs-block-html {
 
@@ -532,48 +454,88 @@ $form-height:   64px;
 		}
 	}
 
-	label.title {
-		display: none;
-	}
-
-	input.field-element {
-		margin: 0;
-		height: $form-height;
-		font-size: 16px;
-		padding: 8px 20px;
-		border: none;
-		box-sizing: border-box;
-		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-	}
-
-	.form-button-wrapper .button {
-		padding: 20px 30px;
-		border-radius: 0 3px 3px 0;
-		display: block;
-		margin-left: 0px;
-		text-transform: uppercase;
-		font-size: 16px;
-		height: $form-height;
-		box-sizing: border-box;
-		box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
-		background: #CF0232;
-		font-family: montserrat, 'proxima nova', helvetica, arial;
-	}
-
 	.form-wrapper {
-		max-width: 600px;
 		margin: 0 auto;
-
-		.field-list {
-			width: 60%;
-			float: left;
-		}
-
-		.form-button-wrapper {
-			float: right;
-			width: 40%;
-		}
 	}
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+label.title {
+	display: none;
+}
+
+input.field-element {
+	margin: 0;
+	height: $form-height;
+	font-size: 16px;
+	padding: 8px 20px;
+	border: none;
+	box-sizing: border-box;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+}
+
+
+.form-button-wrapper .button {
+	padding: 18px 30px;
+	border-radius: 0 3px 3px 0;
+	display: block;
+	margin-left: 0px;
+	text-transform: uppercase;
+	font-size: 16px;
+	height: 50px;
+	box-sizing: border-box;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.1);
+	background: #CF0232;
+	font-family: montserrat, 'proxima nova', helvetica, arial;
+	color: #fff;
+	width: 100%;
+
+	@include bp(sm) {
+		width: auto;
+		height: $form-height;
+		padding: 20px 30px;
+	}
+}
+
+.form-wrapper {
+	max-width: 600px;
+
+	.field-list {
+		width: 100%;
+		float: left;
+
+		@include bp(sm) {
+			width: 60%;
+		}
+
+		@include bp(xs-sm) {
+			.field {
+				margin: 0;
+			}
+		}
+	}
+
+	.form-button-wrapper {
+		width: 40%;
+		float: right;
+
+		@include bp(sm) {
+			width: 100%;
+		}
+	}
+}
 
