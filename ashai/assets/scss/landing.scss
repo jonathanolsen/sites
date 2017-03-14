@@ -75,57 +75,65 @@ $form-height:   64px;
 
 #join-section {
 
-&.index-section.page {
+	&.index-section.page {
 
-	.content {
+		.content {
 
-		.sqs-block.code-block {
-			padding-top: 0;
-			max-width: 750px;
-		}
-	}
-}
-
-.index-section-image {
-
-	@include bp(xs-sm) {
-		img {
-			left: -600px !important;
-		}
-	}
-
-	@include bp(sm-md) {
-		img {
-			margin-left: -200px;
-		}
-	}
-}
-
-@include bp(xs-sm) {
-	.page-content {
-		h1 {
-			font-weight: 600;
-		}
-
-		.sqs-block-content {
-			text-align: center;
-
-			p {
-				font-size: 20px;
+			.sqs-block.code-block {
+				padding-top: 0;
+				max-width: 750px;
 			}
 		}
 	}
 
-	h2 {
-		font-size: 20px !important;
+	.index-section-image {
+
+		@include bp(xs-sm) {
+			img {
+				left: -600px !important;
+			}
+		}
+
+		@include bp(sm-md) {
+			img {
+				margin-left: -200px;
+			}
+		}
 	}
 
-	p {
-		font-size: 16px;
-		line-height: 25px;
-	}
-}
+	@include bp(xs-sm) {
+		.page-content {
+			h1 {
+				font-weight: 600;
 
+				@include bp(xs-sm) {
+					font-size: 32px !important;
+				}
+			}
+
+			.sqs-block-content {
+				text-align: center;
+
+				p {
+					font-size: 20px;
+
+					@include bp(xs-sm) {
+						font-size: 18px;
+						line-height: 28px;
+					}
+				}
+			}
+		}
+
+		h2 {
+			font-size: 20px !important;
+		}
+
+		p {
+			font-size: 16px;
+			line-height: 25px;
+		}
+	}
 
 	@include bp(sm-md) {
 

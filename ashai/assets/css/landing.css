@@ -33,11 +33,22 @@
 
 @media (max-width: 767px) {
   #join-section .page-content h1 {
-    font-weight: 600; }
+    font-weight: 600; } }
+  @media (max-width: 767px) and (max-width: 767px) {
+    #join-section .page-content h1 {
+      font-size: 32px !important; } }
+
+@media (max-width: 767px) {
   #join-section .page-content .sqs-block-content {
     text-align: center; }
     #join-section .page-content .sqs-block-content p {
-      font-size: 20px; }
+      font-size: 20px; } }
+    @media (max-width: 767px) and (max-width: 767px) {
+      #join-section .page-content .sqs-block-content p {
+        font-size: 18px;
+        line-height: 28px; } }
+
+@media (max-width: 767px) {
   #join-section h2 {
     font-size: 20px !important; }
   #join-section p {
