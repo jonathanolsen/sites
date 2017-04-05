@@ -445,19 +445,21 @@ h4 {
 
 .details-matter h1 {
   text-align: center;
-  color: #fff !important; }
-  .details-matter h1 span {
-    background: url("../img/details-matter.svg") no-repeat;
-    width: 58px;
-    height: 70px;
-    display: inline-block;
-    margin: 0 -32px -36px -23px;
-    position: relative;
-    background-size: contain; }
-    @media (min-width: 768px) {
-      .details-matter h1 span {
-        width: 88px;
-        margin: 0 -49px -17px -34px; } }
+  color: #fff !important;
+  /* span {
+			background: url('../img/details-matter.svg') no-repeat;
+			width: 58px;
+			height: 70px;
+			display: inline-block;
+			margin: 0 -32px -36px -23px;
+			position: relative;
+			background-size: contain;
+
+			@include bp(sm) {
+				width: 88px;
+				margin: 0 -49px -17px -34px;
+			}
+		} */ }
 
 @media (max-width: 767px) {
   .sqs-block-button-element--medium {
