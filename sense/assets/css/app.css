@@ -70,6 +70,9 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
           position: absolute;
           top: calc(50% - 2px);
           margin-left: 18px; }
+      .block-container .block-content h4 i {
+        font-size: 40px;
+        color: #084BDA; }
     .block-container .block-content .cta-link {
       font-family: proxima-nova;
       text-transform: uppercase;

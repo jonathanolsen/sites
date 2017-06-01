@@ -1,3 +1,11 @@
+$blue: 			#084BDA;
+
+
+
+
+
+
+
 body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-parallax-images:not(.tweak-site-width-option-constrained-width) {
 	/* background: url('http://www.hennessy.com/us/site-static/images/bg-gradient_sm_2x.4255c3fcd7fc.jpg') top center repeat-y;
 	background-size: 100%; */
@@ -90,6 +98,11 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
 					top: calc(50% - 2px);
 					margin-left: 18px;
 				}
+			}
+
+			i {
+				font-size: 40px;
+				color: $blue;
 			}
 		}
 
