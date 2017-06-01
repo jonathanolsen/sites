@@ -219,6 +219,7 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
 		width: 100%;
 		padding: 100px 50px 50px;
 		box-shadow: 7px 14px 30px 0 rgba(0,0,0,.3);
+		box-sizing: border-box;
 
 		.block-content {
 			margin-top: 170px;
