@@ -125,10 +125,10 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
       box-shadow: none; }
   .block-container.collection .block-content {
     max-width: 620px;
-    margin: 0 0 -150px -200px; }
+    margin: 0 0 -250px -200px; }
   .block-container.our-story .block-content {
-    max-width: 460px;
-    margin: 0 -110px -200px 0; }
+    max-width: 620px;
+    margin: 0 -150px -200px 0; }
   .block-container.image-right {
     -webkit-box-orient: horizontal;
     -webkit-box-direction: reverse;
