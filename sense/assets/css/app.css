@@ -1,7 +1,7 @@
 body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-parallax-images:not(.tweak-site-width-option-constrained-width) {
   /* background: url('http://www.hennessy.com/us/site-static/images/bg-gradient_sm_2x.4255c3fcd7fc.jpg') top center repeat-y;
 	background-size: 100%; */
-  background: #131214 !important;
+  background: #fff !important;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale; }
 
@@ -10,7 +10,9 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
   .Index-page .Index-page-content h1 {
     margin-bottom: 20px; }
 
-s
+#fam-trips {
+  background: #F2F3F5; }
+
 #philosophy .Index-page-content {
   padding: 120px 0 30px; }
 
