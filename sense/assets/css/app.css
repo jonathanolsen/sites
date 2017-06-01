@@ -35,7 +35,7 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
     -webkit-transition: all .2s ease-out;
     transition: all .2s ease-out;
     box-sizing: border-box;
-    box-shadow: 0 2px 14px rgba(0, 0, 0, 0.2), 0 1px 2px rgba(0, 0, 0, 0.3), 0 1px 30px rgba(0, 0, 0, 0.4), 0 3px 5px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.15);
     background: #000000;
     color: #fff; }
     .block-container .block-content p {
@@ -71,8 +71,9 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
           top: calc(50% - 2px);
           margin-left: 18px; }
       .block-container .block-content h4 i {
-        font-size: 40px;
-        color: #084BDA; }
+        font-size: 42px;
+        color: #084BDA;
+        margin-bottom: 12px; }
     .block-container .block-content .cta-link {
       font-family: proxima-nova;
       text-transform: uppercase;
