@@ -25,7 +25,8 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
 }
 
 #fam-trips {
-	background: #F2F3F5;
+	background: url('https://jonathanolsen.github.io/sites/sense/assets/img/line.svg') center top no-repeat #F2F3F5;
+	background-size: cover;
 }
 
 
@@ -200,7 +201,6 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
 			margin: 0 0 -250px -200px;
 		}
 	}
-
 
 	&.our-story {
 
