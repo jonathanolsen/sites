@@ -1,1 +1,34 @@
+// Besedo colors
+
+// Main colors
+$purple:			#500368;
+$magenta:			#ff005a;
+
+// Tertriary colors
+$blue:				#3C82E6;
+$green:				#64BB87;
+$yellow:			#F6BF57;
+$gray:				#969696; // Can also be used for texts and elements
+
+// Grays and text
+$gray-bg:			#f7f7f7; // Light backgrounds and borders
+$gray-text:			#575260; // Gray text
+$black:				#000;
+
+
+
+.stacked-chart-container {
+
+	form label.legend {
+
+		&.legend--acceptedManual.legend--select {
+
+			&:before {
+			    background-color: $green;
+			}
+		}
+	}
+}
+
+
 
