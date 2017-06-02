@@ -1,2 +1,5 @@
-.stacked-chart-container form label.legend.legend--acceptedManual.legend--select:before {
+.stacked-chart-container form label.legend.legend--acceptedManual:before {
+  border-color: #64BB87; }
+
+.stacked-chart-container form label.legend.legend--acceptedManual .legend--select:before {
   background-color: #64BB87; }

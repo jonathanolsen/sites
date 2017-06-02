@@ -21,14 +21,20 @@ $black:				#000;
 
 	form label.legend {
 
-		&.legend--acceptedManual.legend--select {
+		&.legend--acceptedManual {
 
 			&:before {
-			    background-color: $green;
+				border-color: $green;
+			}
+
+			.legend--select {
+
+				&:before {
+				    background-color: $green;
+				}
 			}
 		}
 	}
 }
-
 
 
