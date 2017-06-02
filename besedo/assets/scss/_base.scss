@@ -25,14 +25,10 @@ $black:				#000;
 
 			&:before {
 				border-color: $green;
+				background-color: $green;
 			}
 
-			.legend--select {
 
-				&:before {
-				    background-color: $green;
-				}
-			}
 		}
 	}
 }
