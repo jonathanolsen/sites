@@ -144,7 +144,11 @@ hr {
 .more-info-tooltip,
 .empty-ng-table .has-error .link, 
 .empty-ng-table .has-no-data .link, 
-.empty-ng-table .has-no-results .link {
+.empty-ng-table .has-no-results .link,
+.pager li a:focus, 
+.pager li a:hover, 
+.pager li:first-child a:hover, 
+.pager li:last-child a:hover {
 	color: $blue;
 }
 
@@ -248,6 +252,7 @@ stat-summary-card .main .main-number {
 .bootstrap-datetimepicker-widget .active {
 	background: $purple !important;
 }
+
 
 
 
