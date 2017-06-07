@@ -19,6 +19,16 @@
 		"oF": 0,
 		"oS": 0
 		},
+	"\/assets\/img\/bg-implio-login_mini.jpg": {
+		"ft": 16384,
+		"iS": 145442,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bg-implio-login_mini.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/scss\/.sass-cache\/00d9619bc06ec2d07b4abc175dd2e694c7b2607c\/_animations.scssc": {
 		"ft": 8192,
 		"oA": 1,
