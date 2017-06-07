@@ -23,18 +23,6 @@ html {
             align-items: center; }
   .app-login .start-container .btn-start {
     background: #5a0077; }
-  .app-login .start-container .input.input-nao.input--filled .input__label--nao {
-    color: #3C82E6; }
-    .app-login .start-container .input.input-nao.input--filled .input__label--nao span {
-      color: #3C82E6; }
-  .app-login .start-container .input.input-nao.input--filled .bar {
-    border-color: #3C82E6; }
-
-.app-login .start-container .input--filled .input__label--nao {
-  color: #3C82E6; }
-
-.app-login .start-container .input.input--nao.input--filled .bar {
-  border-color: #3C82E6; }
 
 .app-inviteUserTokenVerify .start-container a,
 .app-login .start-container a,

@@ -45,28 +45,6 @@ html {
 		background: $purple;
 	}
 
-	.start-container .input.input-nao.input--filled {
-
-		.input__label--nao {
-			color: $blue;
-		
-			span {
-				color: $blue;
-			}
-		}
-
-		.bar {
-			border-color: $blue;
-		}
-	}
-}
-
-.app-login .start-container .input--filled .input__label--nao {
-	color: $blue;
-}
-
-.app-login .start-container .input.input--nao.input--filled .bar {
-	border-color: $blue;
 }
 
 .app-inviteUserTokenVerify .start-container a, 
