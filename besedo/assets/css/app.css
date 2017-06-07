@@ -33,9 +33,11 @@ body {
 .eva-job .eva-job-content a {
   color: #3C82E6; }
 
-.jobs-list-status-icon.approved,
-.checkbox-switch-inner:before {
+.jobs-list-status-icon.approved {
   color: #64BB87; }
+
+.checkbox-switch-inner:before {
+  background-color: #64BB87; }
 
 .checkbox-switch-inner:after {
   background-color: #a5a5a5; }

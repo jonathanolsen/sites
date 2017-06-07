@@ -90,9 +90,12 @@ body {
 	color: $blue;
 }
 
-.jobs-list-status-icon.approved,
-.checkbox-switch-inner:before {
+.jobs-list-status-icon.approved {
 	color: $green;
+}
+
+.checkbox-switch-inner:before {
+	background-color: $green;
 }
 
 .checkbox-switch-inner:after {
