@@ -29,6 +29,16 @@
 		"opt": 0,
 		"q": 100
 		},
+	"\/assets\/img\/bg_mini.jpg": {
+		"ft": 16384,
+		"iS": 356485,
+		"oA": 0,
+		"oAP": "\/assets\/img\/bg_mini.jpg",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
+		"q": 100
+		},
 	"\/assets\/img\/logo.svg": {
 		"ft": 2097152,
 		"miP": 0,
