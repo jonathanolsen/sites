@@ -1,6 +1,38 @@
+body {
+  color: #575260; }
+
+.navbar-implio .active a {
+  background-color: #4e0068; }
+
+.navbar-implio .navbar-primary {
+  background: #5a0077; }
+  .navbar-implio .navbar-primary .navbar-nav li a {
+    color: #c511ff; }
+  .navbar-implio .navbar-primary .navbar-nav .nav-divider {
+    color: #8100aa; }
+  .navbar-implio .navbar-primary .navbar-nav .icon-implio-help {
+    color: #c511ff; }
+
 .stacked-chart-container form label.legend.legend--acceptedManual:before {
   border-color: #64BB87;
   background-color: #79c497; }
 
 .stacked-chart-container form label.legend.legend--acceptedManual.legend--select:before {
   background-color: #79c497; }
+
+.matched-rules .more-rules-text, .matched-rules a {
+  color: #3C82E6; }
+
+.jobs-list-status-icon.reviewable,
+.eva-job .eva-job-content a {
+  color: #3C82E6; }
+
+.btn.eva-btn-primary {
+  background: #3C82E6;
+  -webkit-transition: .1s ease-out;
+  transition: .1s ease-out; }
+  .btn.eva-btn-primary:hover {
+    background: #2574e3; }
+
+stat-summary-card .main .main-number {
+  color: #000; }

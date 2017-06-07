@@ -1,7 +1,7 @@
 // Besedo colors
 
 // Main colors
-$purple:			#500368;
+$purple:			#5a0077;
 $magenta:			#ff005a;
 
 // Tertriary colors
@@ -15,7 +15,42 @@ $gray-bg:			#f7f7f7; // Light backgrounds and borders
 $gray-text:			#575260; // Gray text
 $black:				#000;
 
+body {
+	color: $gray-text;
+}
 
+.navbar-implio {
+
+	.active {
+
+		a {
+			background-color: darken($purple, 3%);
+		}
+	}
+
+	.navbar-primary {
+		background: $purple;
+
+		.navbar-nav {
+
+			li {
+
+				a {
+					color: lighten($purple, 30%);
+				}
+			}
+
+			.nav-divider {
+				color: lighten($purple, 10%);
+			}
+
+			.icon-implio-help {
+				color: lighten($purple, 30%);
+			}
+		}
+	}
+
+}
 
 .stacked-chart-container {
 
@@ -35,6 +70,24 @@ $black:				#000;
 	}
 }
 
+.matched-rules .more-rules-text, .matched-rules a {
+	color: $blue;
+}
 
+.jobs-list-status-icon.reviewable,
+.eva-job .eva-job-content a {
+	color: $blue;
+}
 
+.btn.eva-btn-primary {
+	background: $blue;
+	transition: .1s ease-out;
 
+	&:hover {
+		background: darken($blue, 5%);
+	}
+}
+
+stat-summary-card .main .main-number {
+	color: $black;
+}
