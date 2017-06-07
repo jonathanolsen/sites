@@ -25,12 +25,31 @@ body {
 	.active {
 
 		a {
-			background-color: darken($purple, 3%);
+			background-color: darken($purple, 4%);
 		}
 	}
 
 	.navbar-primary {
 		background: $purple;
+
+		.navbar-aux {
+
+			.open {
+
+				a {
+					background-color: darken($purple, 4%);
+
+					&:focus,
+					&:hover {
+						background-color: darken($purple, 4%);
+					}
+				}
+			}
+
+			.dropdown-menu li a {
+
+			}
+		}
 
 		.navbar-nav {
 
@@ -52,8 +71,9 @@ body {
 			}
 		}
 	}
-
 }
+
+.navbar-primary .navbar-aux .dropdown-menu li a
 
 .stacked-chart-container {
 
@@ -119,4 +139,8 @@ stat-summary-card .detailed .category-name {
 }
 stat-summary-card .main .main-number {
 	color: $black;
+}
+
+.alert-success {
+	background: $green;
 }
