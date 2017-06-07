@@ -120,3 +120,5 @@ stat-summary-card .main .main-number {
 .notice-container .notice.notice-good {
   background: #abdabe;
   border: 1px solid #64BB87; }
+  .notice-container .notice.notice-good i {
+    color: #64BB87; }
