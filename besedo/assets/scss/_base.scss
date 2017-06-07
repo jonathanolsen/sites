@@ -65,6 +65,10 @@ html {
 	color: $blue;
 }
 
+.app-login .start-container .input.input--nao.input--filled .bar {
+	border-color: $blue;
+}
+
 .app-inviteUserTokenVerify .start-container a, 
 .app-login .start-container a,
 .app-newPassword .start-container a, 

@@ -33,6 +33,9 @@ html {
 .app-login .start-container .input--filled .input__label--nao {
   color: #3C82E6; }
 
+.app-login .start-container .input.input--nao.input--filled .bar {
+  border-color: #3C82E6; }
+
 .app-inviteUserTokenVerify .start-container a,
 .app-login .start-container a,
 .app-newPassword .start-container a,
