@@ -41,12 +41,7 @@ html {
 		align-items: center;
 	}
 
-	.app-inviteUserTokenVerify .start-container .btn-start, 
-	.app-login .start-container .btn-start, 
-	.app-newPassword .start-container .btn-start, 
-	.app-passwordReset .start-container .btn-start, 
-	.app-signup .start-container .btn-start, 
-	.app-verifyToken .start-container .btn-start {
+	.start-container .btn-start {
 		background: $purple;
 	}
 

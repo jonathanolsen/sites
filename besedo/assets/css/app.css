@@ -21,12 +21,7 @@ html {
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center; }
-  .app-login .app-inviteUserTokenVerify .start-container .btn-start,
-  .app-login .app-login .start-container .btn-start,
-  .app-login .app-newPassword .start-container .btn-start,
-  .app-login .app-passwordReset .start-container .btn-start,
-  .app-login .app-signup .start-container .btn-start,
-  .app-login .app-verifyToken .start-container .btn-start {
+  .app-login .start-container .btn-start {
     background: #5a0077; }
   .app-login .start-container .input--filled .input__label--nao {
     color: #3C82E6; }
