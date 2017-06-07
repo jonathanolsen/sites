@@ -135,7 +135,8 @@ stat-summary-card .main .main-number {
   background: #64BB87; }
 
 .eva-job .btn-approve.btn.selected, .eva-job .btn-approve.btn:focus.selected, .eva-job .btn-approve.btn:hover.selected {
-  border-color: #64BB87; }
+  border-color: #64BB87;
+  background: #fff; }
   .eva-job .btn-approve.btn.selected span, .eva-job .btn-approve.btn:focus.selected span, .eva-job .btn-approve.btn:hover.selected span {
     color: #64BB87; }
 
@@ -145,7 +146,8 @@ stat-summary-card .main .main-number {
 .eva-job .refuse-button-0 > button.btn, .eva-job .refuse-button-0 .refuse-button-0 > button.btn:focus, .eva-job .refuse-button-0 .refuse-button-0 > button.btn:hover {
   background-color: #ff005a; }
   .eva-job .refuse-button-0 > button.btn.selected, .eva-job .refuse-button-0 .refuse-button-0 > button.btn:focus.selected, .eva-job .refuse-button-0 .refuse-button-0 > button.btn:hover.selected {
-    border-color: #ff005a; }
+    border-color: #ff005a;
+    background: #fff; }
   .eva-job .refuse-button-0 > button.btn:hover.selected, .eva-job .refuse-button-0 .refuse-button-0 > button.btn:focus:hover.selected, .eva-job .refuse-button-0 .refuse-button-0 > button.btn:hover:hover.selected {
     border-color: #ff005a; }
 
@@ -155,7 +157,8 @@ stat-summary-card .main .main-number {
 .eva-job .refuse-button-1 > button.btn, .eva-job .refuse-button-1 .refuse-button-1 > button.btn:focus, .eva-job .refuse-button-1 .refuse-button-1 > button.btn:hover {
   background-color: #5a0077; }
   .eva-job .refuse-button-1 > button.btn.selected, .eva-job .refuse-button-1 .refuse-button-1 > button.btn:focus.selected, .eva-job .refuse-button-1 .refuse-button-1 > button.btn:hover.selected {
-    border-color: #5a0077; }
+    border-color: #5a0077;
+    background: #fff; }
   .eva-job .refuse-button-1 > button.btn:hover.selected, .eva-job .refuse-button-1 .refuse-button-1 > button.btn:focus:hover.selected, .eva-job .refuse-button-1 .refuse-button-1 > button.btn:hover:hover.selected {
     border-color: #5a0077; }
 
@@ -169,7 +172,8 @@ stat-summary-card .main .main-number {
   .eva-job .refuse-button-2 > button.btn.selected,
   .eva-job .refuse-button-2 .refuse-button-2 > button.btn:focus.selected,
   .eva-job .refuse-button-2 .refuse-button-2 > button.btn:hover.selected {
-    border-color: #3C82E6; }
+    border-color: #3C82E6;
+    background: #fff; }
   .eva-job .refuse-button-2 > button.btn:hover.selected,
   .eva-job .refuse-button-2 .refuse-button-2 > button.btn:focus:hover.selected,
   .eva-job .refuse-button-2 .refuse-button-2 > button.btn:hover:hover.selected {
@@ -181,7 +185,8 @@ stat-summary-card .main .main-number {
 .eva-job .refuse-button-3 > button.btn, .eva-job .refuse-button-3 .refuse-button-3 > button.btn:focus, .eva-job .refuse-button-3 .refuse-button-3 > button.btn:hover {
   background-color: #9664bb; }
   .eva-job .refuse-button-3 > button.btn.selected, .eva-job .refuse-button-3 .refuse-button-3 > button.btn:focus.selected, .eva-job .refuse-button-3 .refuse-button-3 > button.btn:hover.selected {
-    border-color: #9664bb; }
+    border-color: #9664bb;
+    background: #fff; }
   .eva-job .refuse-button-3 > button.btn:hover.selected, .eva-job .refuse-button-3 .refuse-button-3 > button.btn:focus:hover.selected, .eva-job .refuse-button-3 .refuse-button-3 > button.btn:hover:hover.selected {
     border-color: #9664bb; }
 
@@ -191,7 +196,8 @@ stat-summary-card .main .main-number {
 .eva-job .refuse-button-4 > button.btn, .eva-job .refuse-button-4 .refuse-button-4 > button.btn:focus, .eva-job .refuse-button-4 .refuse-button-4 > button.btn:hover {
   background-color: #F6BF57; }
   .eva-job .refuse-button-4 > button.btn.selected, .eva-job .refuse-button-4 .refuse-button-4 > button.btn:focus.selected, .eva-job .refuse-button-4 .refuse-button-4 > button.btn:hover.selected {
-    border-color: #F6BF57; }
+    border-color: #F6BF57;
+    background: #fff; }
   .eva-job .refuse-button-4 > button.btn:hover.selected, .eva-job .refuse-button-4 .refuse-button-4 > button.btn:focus:hover.selected, .eva-job .refuse-button-4 .refuse-button-4 > button.btn:hover:hover.selected {
     border-color: #F6BF57; }
 
@@ -201,7 +207,8 @@ stat-summary-card .main .main-number {
 .eva-job .refuse-button-5 > button.btn, .eva-job .refuse-button-5 .refuse-button-5 > button.btn:focus, .eva-job .refuse-button-5 .refuse-button-5 > button.btn:hover {
   background-color: #575260; }
   .eva-job .refuse-button-5 > button.btn.selected, .eva-job .refuse-button-5 .refuse-button-5 > button.btn:focus.selected, .eva-job .refuse-button-5 .refuse-button-5 > button.btn:hover.selected {
-    border-color: #575260; }
+    border-color: #575260;
+    background: #fff; }
   .eva-job .refuse-button-5 > button.btn:hover.selected, .eva-job .refuse-button-5 .refuse-button-5 > button.btn:focus:hover.selected, .eva-job .refuse-button-5 .refuse-button-5 > button.btn:hover:hover.selected {
     border-color: #575260; }
 

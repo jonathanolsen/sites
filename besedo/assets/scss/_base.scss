@@ -247,6 +247,7 @@ stat-summary-card .main .main-number {
 
 	.btn-approve.btn.selected, .btn-approve.btn:focus.selected, .btn-approve.btn:hover.selected {
 		border-color: $green;
+		background: $white;
 
 		span {
 			color: $green;
@@ -264,6 +265,7 @@ stat-summary-card .main .main-number {
 
 			&.selected {
 				border-color: $magenta;
+				background: $white;
 			}
 
 			&:hover {
@@ -285,6 +287,7 @@ stat-summary-card .main .main-number {
 
 			&.selected {
 				border-color: $purple;
+				background: $white;
 			}
 
 			&:hover {
@@ -308,6 +311,7 @@ stat-summary-card .main .main-number {
 
 			&.selected {
 				border-color: $blue;
+				background: $white;
 			}
 
 			&:hover {
@@ -329,6 +333,7 @@ stat-summary-card .main .main-number {
 
 			&.selected {
 				border-color: $purple-alt;
+				background: $white;
 			}
 
 			&:hover {
@@ -350,6 +355,7 @@ stat-summary-card .main .main-number {
 
 			&.selected {
 				border-color: $yellow;
+				background: $white;
 			}
 
 			&:hover {
@@ -371,6 +377,7 @@ stat-summary-card .main .main-number {
 
 			&.selected {
 				border-color: $gray-text;
+				background: $white;
 			}
 
 			&:hover {
