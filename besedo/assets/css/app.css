@@ -44,6 +44,12 @@ a {
   a:hover {
     color: #6099eb; }
 
+.job-group.focused {
+  border-color: #9664bb; }
+
+.page-title {
+  color: #5a0077; }
+
 .navbar-implio .active a {
   background-color: #3f0053; }
 

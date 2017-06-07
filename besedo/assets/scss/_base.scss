@@ -79,6 +79,14 @@ a {
 	}
 }
 
+.job-group.focused {
+	border-color: $purple-alt;
+}
+
+.page-title {
+	color: $purple;
+}
+
 .navbar-implio {
 
 	.active {
