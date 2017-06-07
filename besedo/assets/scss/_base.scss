@@ -241,8 +241,13 @@ stat-summary-card .main .main-number {
 	}
 }
 
+.bootstrap-datetimepicker-widget .table-condensed thead {
+	background: $purple;
+}
 
-
+.bootstrap-datetimepicker-widget .active {
+	background: $purple !important;
+}
 
 
 
