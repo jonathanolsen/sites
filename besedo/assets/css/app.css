@@ -57,8 +57,7 @@ hr {
     border-right: #8100aa; }
   .navbar-implio .navbar-primary .navbar-nav .icon-implio-help,
   .navbar-implio .navbar-primary .navbar-nav .icon-implio-profile {
-    color: #c511ff;
-    color: #ae5cc9; }
+    color: #fff; }
 
 .navbar-secondary .sub-nav li a {
   color: #575260; }
@@ -67,16 +66,16 @@ hr {
   border-bottom: #ff005a; }
 
 .stacked-chart-container form label.legend.legend--acceptedManual:before {
-  border-color: #64BB87; }
+  border-color: #76c395; }
 
 .stacked-chart-container form label.legend.legend--acceptedManual.legend--select:before {
-  background-color: #64BB87; }
+  background-color: #76c395; }
 
 .stacked-chart-container form label.legend.legend--acceptedAuto:before {
-  border-color: #459d68; }
+  border-color: #429664; }
 
 .stacked-chart-container form label.legend.legend--acceptedAuto.legend--select:before {
-  background-color: #459d68; }
+  background-color: #429664; }
 
 .stacked-chart-container form label.legend.legend--totalDecisions:before {
   border-color: #5a0077; }

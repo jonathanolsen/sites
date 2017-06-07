@@ -121,8 +121,7 @@ hr {
 
 			.icon-implio-help,
 			.icon-implio-profile {
-				color: lighten($purple, 30%);
-				color: adjust-color($purple, $saturation: -50, $lightness: 34%);
+				color: $white;
 			}
 		}
 	}
@@ -146,22 +145,22 @@ hr {
 		&.legend--acceptedManual {
 
 			&:before {
-				border-color: $green;
+				border-color: lighten($green, 5%);
 			}
 
 			&.legend--select:before {
-				background-color: $green;
+				background-color: lighten($green, 5%);
 			}
 		}
 
 		&.legend--acceptedAuto {
 
 			&:before {
-				border-color: darken($green, 12%);
+				border-color: darken($green, 14%);
 			}
 
 			&.legend--select:before {
-				background-color: darken($green, 12%);
+				background-color: darken($green, 14%);
 			}
 		}
 
