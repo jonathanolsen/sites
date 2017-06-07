@@ -13,7 +13,7 @@ body {
   .navbar-implio .navbar-primary .navbar-nav .icon-implio-help,
   .navbar-implio .navbar-primary .navbar-nav .icon-implio-profile {
     color: #c511ff;
-    color: #b80def; }
+    color: #ab26d6; }
 
 .stacked-chart-container form label.legend.legend--acceptedManual:before {
   border-color: #64BB87; }
@@ -25,7 +25,7 @@ body {
   border-color: #64BB87; }
 
 .stacked-chart-container form label.legend.legend--acceptedAuto.legend--select:before {
-  background-color: #4fb277; }
+  background-color: #459d68; }
 
 .matched-rules .more-rules-text, .matched-rules a {
   color: #3C82E6; }

@@ -48,7 +48,7 @@ body {
 			.icon-implio-help,
 			.icon-implio-profile {
 				color: lighten($purple, 30%);
-				color: adjust-color($purple, $saturation: -10%, $lightness: 26%);
+				color: adjust-color($purple, $saturation: -30%, $lightness: 26%);
 			}
 		}
 	}
@@ -77,7 +77,7 @@ body {
 			}
 
 			&.legend--select:before {
-				background-color: darken($green, 6%);
+				background-color: darken($green, 12%);
 			}
 		}
 	}
