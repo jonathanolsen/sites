@@ -4,6 +4,8 @@
 $purple:			#5a0077;
 $magenta:			#ff005a;
 
+$purple-alt:		#9664bb;
+
 // Tertriary colors
 $blue:				#3C82E6;
 $green:				#64BB87;
@@ -253,7 +255,11 @@ stat-summary-card .main .main-number {
 }
 
 .refuse-button-3>button.btn, .refuse-button-3>button.btn:focus, .refuse-button-3>button.btn:hover {
-	background-color: $green;
+	background-color: $purple-alt;
+
+	&.selected {
+		border-color: $purple-alt;
+	}
 }
 
 .refuse-button-4>button.btn, .refuse-button-4>button.btn:focus, .refuse-button-4>button.btn:hover {
