@@ -66,16 +66,16 @@ hr {
   border-bottom: #ff005a; }
 
 .stacked-chart-container form label.legend.legend--acceptedManual:before {
-  border-color: #76c395; }
+  border-color: #7dc69a; }
 
 .stacked-chart-container form label.legend.legend--acceptedManual.legend--select:before {
-  background-color: #76c395; }
+  background-color: #7dc69a; }
 
 .stacked-chart-container form label.legend.legend--acceptedAuto:before {
-  border-color: #429664; }
+  border-color: #409261; }
 
 .stacked-chart-container form label.legend.legend--acceptedAuto.legend--select:before {
-  background-color: #429664; }
+  background-color: #409261; }
 
 .stacked-chart-container form label.legend.legend--totalDecisions:before {
   border-color: #5a0077; }

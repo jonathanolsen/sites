@@ -145,22 +145,22 @@ hr {
 		&.legend--acceptedManual {
 
 			&:before {
-				border-color: lighten($green, 5%);
+				border-color: lighten($green, 7%);
 			}
 
 			&.legend--select:before {
-				background-color: lighten($green, 5%);
+				background-color: lighten($green, 7%);
 			}
 		}
 
 		&.legend--acceptedAuto {
 
 			&:before {
-				border-color: darken($green, 14%);
+				border-color: darken($green, 15%);
 			}
 
 			&.legend--select:before {
-				background-color: darken($green, 14%);
+				background-color: darken($green, 15%);
 			}
 		}
 
