@@ -80,3 +80,43 @@ stat-summary-card .main .main-number {
 
 .alert-success {
   background: #64BB87; }
+
+.btn-approve.btn.selected, .btn-approve.btn:focus.selected, .btn-approve.btn:hover.selected {
+  border-color: #64BB87; }
+  .btn-approve.btn.selected span, .btn-approve.btn:focus.selected span, .btn-approve.btn:hover.selected span {
+    color: #64BB87; }
+
+.refuse-button-0 > button.btn, .refuse-button-0 > button.btn:focus, .refuse-button-0 > button.btn:hover {
+  background: #ff005a; }
+
+.refuse-button-1 > button.btn, .refuse-button-1 > button.btn:focus, .refuse-button-1 > button.btn:hover {
+  background-color: #5a0077; }
+
+.refuse-button-2 > button.btn, .refuse-button-2 > button.btn:focus, .refuse-button-2 > button.btn:hover {
+  background-color: #3C82E6; }
+
+.refuse-button-3 > button.btn, .refuse-button-3 > button.btn:focus, .refuse-button-3 > button.btn:hover {
+  background-color: #64BB87; }
+
+.refuse-button-4 > button.btn, .refuse-button-4 > button.btn:focus, .refuse-button-4 > button.btn:hover {
+  background-color: #F6BF57; }
+
+.refuse-button-5 > button.btn, .refuse-button-5 > button.btn:focus, .refuse-button-5 > button.btn:hover {
+  background-color: #575260; }
+
+.btn-escalate.btn, .btn-escalate.btn:focus, .btn-escalate.btn:hover {
+  background: #000; }
+
+.process-circle-wrapper .process-circle.process-circle--approve {
+  background-color: #64BB87; }
+
+.process-circle-wrapper .process-circle.process-circle--selected {
+  background: #3C82E6;
+  border-color: #3C82E6; }
+
+.matched-rules .more-rules-block {
+  background: #3C82E6; }
+
+.notice-container .notice.notice-good {
+  background: #abdabe;
+  border: 1px solid #64BB87; }
