@@ -1,6 +1,9 @@
 body {
   color: #575260; }
 
+hr {
+  border-top: 1px solid #ececec; }
+
 .navbar-implio .active a {
   background-color: #4b0063; }
 
@@ -46,11 +49,19 @@ body {
 .stacked-chart-container form label.legend.legend--totalDecisions.legend--select:before {
   background-color: #5a0077; }
 
+.eva-job .eva-text-view,
+.eva-select-list .btn-select {
+  color: #575260; }
+
 .matched-rules .more-rules-text,
 .matched-rules a,
 .jobs-list-status-icon.reviewable,
 .eva-job .eva-job-content a,
-.more-info-tooltip {
+.eva-external-link span,
+.more-info-tooltip,
+.empty-ng-table .has-error .link,
+.empty-ng-table .has-no-data .link,
+.empty-ng-table .has-no-results .link {
   color: #3C82E6; }
 
 .jobs-list-status-icon.approved {
@@ -118,7 +129,7 @@ stat-summary-card .main .main-number {
   background: #3C82E6; }
 
 .notice-container .notice.notice-good {
-  background: #ceead9;
+  background: #e4f3ea;
   border: 1px solid #64BB87; }
   .notice-container .notice.notice-good i {
     color: #64BB87; }

@@ -20,6 +20,10 @@ body {
 	color: $gray-text;
 }
 
+hr {
+	border-top: 1px solid #ececec;
+}
+
 .navbar-implio {
 
 	.active {
@@ -127,11 +131,20 @@ body {
 	}
 }
 
+.eva-job .eva-text-view,
+.eva-select-list .btn-select {
+	color: $gray-text
+}
+
 .matched-rules .more-rules-text, 
 .matched-rules a,
 .jobs-list-status-icon.reviewable,
 .eva-job .eva-job-content a,
-.more-info-tooltip {
+.eva-external-link span,
+.more-info-tooltip,
+.empty-ng-table .has-error .link, 
+.empty-ng-table .has-no-data .link, 
+.empty-ng-table .has-no-results .link {
 	color: $blue;
 }
 
@@ -220,7 +233,7 @@ stat-summary-card .main .main-number {
 }
 
 .notice-container .notice.notice-good {
-	background: lighten($green, 30%);
+	background: lighten($green, 36%);
 	border: 1px solid $green;
 
 	i {
