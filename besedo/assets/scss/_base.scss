@@ -23,7 +23,8 @@ html {
 }
 
 .app-login {
-	background: url('../img/bg-implio-login_mini.jpg');
+	background: url('../img/bg-implio-login_mini.jpg') center center no-repeat;
+	background-size: cover;
 	width: 100%;
 	height: 100%;
 	padding-top: 0;
