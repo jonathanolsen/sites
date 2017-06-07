@@ -9,7 +9,7 @@ body {
   .navbar-implio .navbar-primary .navbar-nav li a {
     color: #fff; }
   .navbar-implio .navbar-primary .navbar-nav .nav-divider {
-    color: #8100aa; }
+    border-right: #8100aa; }
   .navbar-implio .navbar-primary .navbar-nav .icon-implio-help,
   .navbar-implio .navbar-primary .navbar-nav .icon-implio-profile {
     color: #c511ff;
