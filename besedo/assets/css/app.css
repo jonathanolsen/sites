@@ -50,6 +50,9 @@ a {
 .page-title {
   color: #5a0077; }
 
+.navbar-secondary .sub-nav li.active a {
+  border-bottom: 2px solid #ff005a; }
+
 .navbar-implio .active a {
   background-color: #3f0053; }
 
