@@ -1,5 +1,21 @@
 .app-login {
   background: url("../img/bg-implio-login_mini.jpg"); }
+  .app-login .app-inviteUserTokenVerify .start-container .btn-start,
+  .app-login .app-login .start-container .btn-start,
+  .app-login .app-newPassword .start-container .btn-start,
+  .app-login .app-passwordReset .start-container .btn-start,
+  .app-login .app-signup .start-container .btn-start,
+  .app-login .app-verifyToken .start-container .btn-start {
+    background: #5a0077; }
+  .app-login .start-container .input--filled .input__label--nao {
+    color: #3C82E6; }
+  .app-login .app-inviteUserTokenVerify .start-container a,
+  .app-login .app-login .start-container a,
+  .app-login .app-newPassword .start-container a,
+  .app-login .app-passwordReset .start-container a,
+  .app-login .app-signup .start-container a,
+  .app-login .app-verifyToken .start-container a {
+    color: #575260; }
 
 body {
   color: #575260; }

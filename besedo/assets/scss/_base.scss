@@ -21,6 +21,28 @@ $white:				#fff;
 .app-login {
 	background: url('../img/bg-implio-login_mini.jpg');
 
+
+	.app-inviteUserTokenVerify .start-container .btn-start, 
+	.app-login .start-container .btn-start, 
+	.app-newPassword .start-container .btn-start, 
+	.app-passwordReset .start-container .btn-start, 
+	.app-signup .start-container .btn-start, 
+	.app-verifyToken .start-container .btn-start {
+		background: $purple;
+	}
+
+	.start-container .input--filled .input__label--nao {
+		color: $blue;
+	}
+
+	.app-inviteUserTokenVerify .start-container a, 
+	.app-login .start-container a,
+	.app-newPassword .start-container a, 
+	.app-passwordReset .start-container a, 
+	.app-signup .start-container a, 
+	.app-verifyToken .start-container a {
+		color: $gray-text;
+	}
 }
 
 
