@@ -16,11 +16,16 @@ body {
     color: #b335db; }
 
 .stacked-chart-container form label.legend.legend--acceptedManual:before {
-  border-color: #64BB87;
-  background-color: #79c497; }
+  border-color: #64BB87; }
 
 .stacked-chart-container form label.legend.legend--acceptedManual.legend--select:before {
   background-color: #79c497; }
+
+.stacked-chart-container form label.legend.legend--acceptedAuto:before {
+  border-color: #64BB87; }
+
+.stacked-chart-container form label.legend.legend--acceptedAuto.legend--select:before {
+  background-color: #4fb277; }
 
 .matched-rules .more-rules-text, .matched-rules a {
   color: #3C82E6; }

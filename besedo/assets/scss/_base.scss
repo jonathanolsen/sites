@@ -63,11 +63,21 @@ body {
 
 			&:before {
 				border-color: $green;
-				background-color: lighten($green, 6%);
 			}
 
 			&.legend--select:before {
 				background-color: lighten($green, 6%);
+			}
+		}
+
+		&.legend--acceptedAuto {
+
+			&:before {
+				border-color: $green;
+			}
+
+			&.legend--select:before {
+				background-color: darken($green, 6%);
 			}
 		}
 	}
