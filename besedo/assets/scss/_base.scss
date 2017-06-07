@@ -45,20 +45,30 @@ html {
 		background: $purple;
 	}
 
-	.start-container .input--filled .input__label--nao {
-		color: $blue;
-	}
+	.start-container .input.input-nao.input--filled {
 
-	.app-inviteUserTokenVerify .start-container a, 
-	.app-login .start-container a,
-	.app-newPassword .start-container a, 
-	.app-passwordReset .start-container a, 
-	.app-signup .start-container a, 
-	.app-verifyToken .start-container a {
-		color: $gray-text;
+		.input__label--nao {
+			color: $blue;
+		
+			span {
+				color: $blue;
+			}
+		}
+
+		.bar {
+			border-color: $blue;
+		}
 	}
 }
 
+.app-inviteUserTokenVerify .start-container a, 
+.app-login .start-container a,
+.app-newPassword .start-container a, 
+.app-passwordReset .start-container a, 
+.app-signup .start-container a, 
+.app-verifyToken .start-container a {
+	color: $gray-text;
+}
 
 
 
