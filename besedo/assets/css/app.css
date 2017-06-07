@@ -178,3 +178,12 @@ stat-summary-card .main .main-number {
 
 .bootstrap-datetimepicker-widget .active {
   background: #5a0077 !important; }
+
+.sidebar .sub-nav li.active a {
+  background: #5a0077; }
+
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .form-control-feedback, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+  color: #ff005a; }
+
+.has-error .form-control {
+  border-color: #ff005a; }

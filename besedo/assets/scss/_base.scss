@@ -298,6 +298,17 @@ stat-summary-card .main .main-number {
 	background: $purple !important;
 }
 
+.sidebar .sub-nav li.active a {
+	background: $purple;
+}
+
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .form-control-feedback, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+	color: $magenta;
+}
+
+.has-error .form-control {
+	border-color: $magenta;
+}
 
 
 
