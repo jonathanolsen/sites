@@ -14,6 +14,7 @@ $gray:				#969696; // Can also be used for texts and elements
 $gray-bg:			#f7f7f7; // Light backgrounds and borders
 $gray-text:			#575260; // Gray text
 $black:				#000;
+$white:				#fff;
 
 body {
 	color: $gray-text;
@@ -36,7 +37,7 @@ body {
 			li {
 
 				a {
-					color: lighten($purple, 30%);
+					color: $white;
 				}
 			}
 
@@ -44,8 +45,10 @@ body {
 				color: lighten($purple, 10%);
 			}
 
-			.icon-implio-help {
+			.icon-implio-help,
+			.icon-implio-profile {
 				color: lighten($purple, 30%);
+				color: adjust-color($purple, $saturation: -30, $lightness: 10);
 			}
 		}
 	}
