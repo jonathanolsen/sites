@@ -77,7 +77,16 @@ body {
 	}
 }
 
-.navbar-primary .navbar-aux .dropdown-menu li a
+.navbar-secondary .sub-nav li {
+
+	a {
+		color: $gray-text;
+	}
+
+	.active a {
+		border-bottom: $magenta;
+	}
+}
 
 .stacked-chart-container {
 
@@ -90,14 +99,14 @@ body {
 			}
 
 			&.legend--select:before {
-				background-color: lighten($green, 6%);
+				background-color: $green;
 			}
 		}
 
 		&.legend--acceptedAuto {
 
 			&:before {
-				border-color: $green;
+				background-color: darken($green, 12%);
 			}
 
 			&.legend--select:before {
@@ -110,7 +119,8 @@ body {
 .matched-rules .more-rules-text, 
 .matched-rules a,
 .jobs-list-status-icon.reviewable,
-.eva-job .eva-job-content a {
+.eva-job .eva-job-content a,
+.more-info-tooltip {
 	color: $blue;
 }
 

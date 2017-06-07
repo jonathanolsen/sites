@@ -22,26 +22,29 @@ body {
     color: #c511ff;
     color: #9e3fbd; }
 
-.navbar-primary .navbar-aux .dropdown-menu li a
+.navbar-secondary .sub-nav li a {
+  color: #575260; }
+
+.navbar-secondary .sub-nav li .active a {
+  border-bottom: #ff005a; }
+
 .stacked-chart-container form label.legend.legend--acceptedManual:before {
   border-color: #64BB87; }
 
-.navbar-primary .navbar-aux .dropdown-menu li a
 .stacked-chart-container form label.legend.legend--acceptedManual.legend--select:before {
-  background-color: #79c497; }
+  background-color: #64BB87; }
 
-.navbar-primary .navbar-aux .dropdown-menu li a
 .stacked-chart-container form label.legend.legend--acceptedAuto:before {
-  border-color: #64BB87; }
+  background-color: #459d68; }
 
-.navbar-primary .navbar-aux .dropdown-menu li a
 .stacked-chart-container form label.legend.legend--acceptedAuto.legend--select:before {
   background-color: #459d68; }
 
 .matched-rules .more-rules-text,
 .matched-rules a,
 .jobs-list-status-icon.reviewable,
-.eva-job .eva-job-content a {
+.eva-job .eva-job-content a,
+.more-info-tooltip {
   color: #3C82E6; }
 
 .jobs-list-status-icon.approved {
