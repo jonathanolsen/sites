@@ -234,62 +234,157 @@ stat-summary-card .main .main-number {
 	background: $green;
 }
 
-.btn-approve.btn.selected, .btn-approve.btn:focus.selected, .btn-approve.btn:hover.selected {
-	border-color: $green;
 
-	span {
-		color: $green;
-	}
-}
 
-.refuse-button-0>button.btn, .refuse-button-0>button.btn:focus, .refuse-button-0>button.btn:hover {
-	background: $magenta;
-}
+.eva-job {
 
-.refuse-button-1>button.btn, .refuse-button-1>button.btn:focus, .refuse-button-1>button.btn:hover {
-	background-color: $purple;
-}
+	.btn-approve {
 
-.refuse-button-2 {
-
-	>.refusal-label {
-		background-color: $blue;
-	}
-
-	>button.btn, .refuse-button-2>button.btn:focus, .refuse-button-2>button.btn:hover {
-		background-color: $blue;
-
-		&.selected {
-			border-color: $blue;
+		&.btn {
+			background: $green;
 		}
 	}
-}
 
-.refuse-button-3 {
+	.btn-approve.btn.selected, .btn-approve.btn:focus.selected, .btn-approve.btn:hover.selected {
+		border-color: $green;
 
-	>.refusal-label {
-		background: $purple-alt;
-	}
-
-	>button.btn, .refuse-button-3>button.btn:focus, .refuse-button-3>button.btn:hover {
-		background-color: $purple-alt;
-
-		&.selected {
-			border-color: $purple-alt;
+		span {
+			color: $green;
 		}
 	}
-}
 
-.refuse-button-4>button.btn, .refuse-button-4>button.btn:focus, .refuse-button-4>button.btn:hover {
-	background-color: $yellow;
-}
+	.refuse-button-0 {
 
-.refuse-button-5>button.btn, .refuse-button-5>button.btn:focus, .refuse-button-5>button.btn:hover {
-	background-color: $gray-text;
-}
+		>.refusal-label {
+			background: $magenta;
+		}
 
-.btn-escalate.btn, .btn-escalate.btn:focus, .btn-escalate.btn:hover {
-	background: $black;
+		>button.btn, .refuse-button-0>button.btn:focus, .refuse-button-0>button.btn:hover {
+			background-color: $magenta;
+
+			&.selected {
+				border-color: $magenta;
+			}
+
+			&:hover {
+				&.selected {
+					border-color: $magenta;
+				}
+			}
+		}
+	}
+
+	.refuse-button-1 {
+
+		>.refusal-label {
+			background: $purple;
+		}
+
+		>button.btn, .refuse-button-1>button.btn:focus, .refuse-button-1>button.btn:hover {
+			background-color: $purple;
+
+			&.selected {
+				border-color: $purple;
+			}
+
+			&:hover {
+				&.selected {
+					border-color: $purple;
+				}
+			}
+		}
+	}
+
+	.refuse-button-2 {
+
+		>.refusal-label {
+			background-color: $blue;
+		}
+
+		>button.btn, 
+		.refuse-button-2>button.btn:focus, 
+		.refuse-button-2>button.btn:hover {
+			background-color: $blue;
+
+			&.selected {
+				border-color: $blue;
+			}
+
+			&:hover {
+				&.selected {
+					border-color: $blue;
+				}
+			}
+		}
+	}
+
+	.refuse-button-3 {
+
+		>.refusal-label {
+			background: $purple-alt;
+		}
+
+		>button.btn, .refuse-button-3>button.btn:focus, .refuse-button-3>button.btn:hover {
+			background-color: $purple-alt;
+
+			&.selected {
+				border-color: $purple-alt;
+			}
+
+			&:hover {
+				&.selected {
+					border-color: $purple-alt;
+				}
+			}
+		}
+	}
+
+	.refuse-button-4 {
+
+		>.refusal-label {
+			background: $yellow;
+		}
+
+		>button.btn, .refuse-button-4>button.btn:focus, .refuse-button-4>button.btn:hover {
+			background-color: $yellow;
+
+			&.selected {
+				border-color: $yellow;
+			}
+
+			&:hover {
+				&.selected {
+					border-color: $yellow;
+				}
+			}
+		}
+	}
+
+	.refuse-button-5 {
+
+		>.refusal-label {
+			background: $gray-text;
+		}
+
+		>button.btn, .refuse-button-5>button.btn:focus, .refuse-button-5>button.btn:hover {
+			background-color: $gray-text;
+
+			&.selected {
+				border-color: $gray-text;
+			}
+
+			&:hover {
+				&.selected {
+					border-color: $gray-text;
+				}
+			}
+		}
+	}
+
+	.btn-escalate.btn, .btn-escalate.btn:focus, .btn-escalate.btn:hover {
+		background: $black;
+	}
+
 }
 
 .process-circle-wrapper .process-circle.process-circle--approve {
