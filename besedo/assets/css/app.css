@@ -67,6 +67,8 @@ a {
       background-color: #3f0053; }
   .navbar-implio .navbar-primary .navbar-nav li a {
     color: #f7ddff; }
+    .navbar-implio .navbar-primary .navbar-nav li a:hover {
+      color: #fff; }
   .navbar-implio .navbar-primary .navbar-nav .nav-divider {
     border-right: #8100aa; }
   .navbar-implio .navbar-primary .navbar-nav .icon-implio-help,

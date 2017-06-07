@@ -132,6 +132,10 @@ a {
 
 				a {
 					color: lighten($purple, 70%);
+
+					&:hover {
+						color: #fff;
+					}
 				}
 			}
 
