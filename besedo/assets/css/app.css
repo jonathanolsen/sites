@@ -40,17 +40,17 @@ hr {
   border-top: 1px solid #ececec; }
 
 .navbar-implio .active a {
-  background-color: #4b0063; }
+  background-color: #3f0053; }
 
 .navbar-implio .nav-dropdown {
-  background-color: #4b0063; }
+  background-color: #3f0053; }
 
 .navbar-implio .navbar-primary {
   background: #5a0077; }
   .navbar-implio .navbar-primary .navbar-aux .open a {
-    background-color: #4b0063; }
+    background-color: #3f0053; }
     .navbar-implio .navbar-primary .navbar-aux .open a:focus, .navbar-implio .navbar-primary .navbar-aux .open a:hover {
-      background-color: #4b0063; }
+      background-color: #3f0053; }
   .navbar-implio .navbar-primary .navbar-nav li a {
     color: #de77ff; }
   .navbar-implio .navbar-primary .navbar-nav .nav-divider {

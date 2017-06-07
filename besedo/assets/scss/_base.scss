@@ -76,12 +76,12 @@ hr {
 	.active {
 
 		a {
-			background-color: darken($purple, 4%);
+			background-color: darken($purple, 7%);
 		}
 	}
 
 	.nav-dropdown {
-		background-color: darken($purple, 4%);
+		background-color: darken($purple, 7%);
 	}
 
 	.navbar-primary {
@@ -92,11 +92,11 @@ hr {
 			.open {
 
 				a {
-					background-color: darken($purple, 4%);
+					background-color: darken($purple, 7%);
 
 					&:focus,
 					&:hover {
-						background-color: darken($purple, 4%);
+						background-color: darken($purple, 7%);
 					}
 				}
 			}
