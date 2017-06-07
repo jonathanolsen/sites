@@ -27,12 +27,18 @@ body {
 .stacked-chart-container form label.legend.legend--acceptedAuto.legend--select:before {
   background-color: #459d68; }
 
-.matched-rules .more-rules-text, .matched-rules a {
-  color: #3C82E6; }
-
+.matched-rules .more-rules-text,
+.matched-rules a,
 .jobs-list-status-icon.reviewable,
 .eva-job .eva-job-content a {
   color: #3C82E6; }
+
+.jobs-list-status-icon.approved,
+.checkbox-switch-inner:before {
+  color: #64BB87; }
+
+.checkbox-switch-inner:after {
+  background-color: #a5a5a5; }
 
 .btn.eva-btn-primary {
   background: #3C82E6;
@@ -40,6 +46,12 @@ body {
   transition: .1s ease-out; }
   .btn.eva-btn-primary:hover {
     background: #2574e3; }
+
+stat-summary-card .detailed .percentage {
+  color: #969696; }
+
+stat-summary-card .detailed .category-name {
+  color: #575260; }
 
 stat-summary-card .main .main-number {
   color: #000; }

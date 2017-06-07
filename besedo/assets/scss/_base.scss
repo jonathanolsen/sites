@@ -83,13 +83,20 @@ body {
 	}
 }
 
-.matched-rules .more-rules-text, .matched-rules a {
-	color: $blue;
-}
-
+.matched-rules .more-rules-text, 
+.matched-rules a,
 .jobs-list-status-icon.reviewable,
 .eva-job .eva-job-content a {
 	color: $blue;
+}
+
+.jobs-list-status-icon.approved,
+.checkbox-switch-inner:before {
+	color: $green;
+}
+
+.checkbox-switch-inner:after {
+	background-color: lighten($gray, 6%);
 }
 
 .btn.eva-btn-primary {
@@ -101,6 +108,12 @@ body {
 	}
 }
 
+stat-summary-card .detailed .percentage {
+	color: $gray;
+}
+stat-summary-card .detailed .category-name {
+	color: $gray-text;
+}
 stat-summary-card .main .main-number {
 	color: $black;
 }
