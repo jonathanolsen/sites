@@ -250,15 +250,33 @@ stat-summary-card .main .main-number {
 	background-color: $purple;
 }
 
-.refuse-button-2>button.btn, .refuse-button-2>button.btn:focus, .refuse-button-2>button.btn:hover {
-	background-color: $blue;
+.refuse-button-2 {
+
+	>.refusal-label {
+		background-color: $blue;
+	}
+
+	>button.btn, .refuse-button-2>button.btn:focus, .refuse-button-2>button.btn:hover {
+		background-color: $blue;
+
+		&.selected {
+			border-color: $blue;
+		}
+	}
 }
 
-.refuse-button-3>button.btn, .refuse-button-3>button.btn:focus, .refuse-button-3>button.btn:hover {
-	background-color: $purple-alt;
+.refuse-button-3 {
 
-	&.selected {
-		border-color: $purple-alt;
+	>.refusal-label {
+		background: $purple-alt;
+	}
+
+	>button.btn, .refuse-button-3>button.btn:focus, .refuse-button-3>button.btn:hover {
+		background-color: $purple-alt;
+
+		&.selected {
+			border-color: $purple-alt;
+		}
 	}
 }
 

@@ -142,12 +142,20 @@ stat-summary-card .main .main-number {
 .refuse-button-1 > button.btn, .refuse-button-1 > button.btn:focus, .refuse-button-1 > button.btn:hover {
   background-color: #5a0077; }
 
-.refuse-button-2 > button.btn, .refuse-button-2 > button.btn:focus, .refuse-button-2 > button.btn:hover {
+.refuse-button-2 > .refusal-label {
   background-color: #3C82E6; }
 
-.refuse-button-3 > button.btn, .refuse-button-3 > button.btn:focus, .refuse-button-3 > button.btn:hover {
+.refuse-button-2 > button.btn, .refuse-button-2 .refuse-button-2 > button.btn:focus, .refuse-button-2 .refuse-button-2 > button.btn:hover {
+  background-color: #3C82E6; }
+  .refuse-button-2 > button.btn.selected, .refuse-button-2 .refuse-button-2 > button.btn:focus.selected, .refuse-button-2 .refuse-button-2 > button.btn:hover.selected {
+    border-color: #3C82E6; }
+
+.refuse-button-3 > .refusal-label {
+  background: #9664bb; }
+
+.refuse-button-3 > button.btn, .refuse-button-3 .refuse-button-3 > button.btn:focus, .refuse-button-3 .refuse-button-3 > button.btn:hover {
   background-color: #9664bb; }
-  .refuse-button-3 > button.btn.selected, .refuse-button-3 > button.btn:focus.selected, .refuse-button-3 > button.btn:hover.selected {
+  .refuse-button-3 > button.btn.selected, .refuse-button-3 .refuse-button-3 > button.btn:focus.selected, .refuse-button-3 .refuse-button-3 > button.btn:hover.selected {
     border-color: #9664bb; }
 
 .refuse-button-4 > button.btn, .refuse-button-4 > button.btn:focus, .refuse-button-4 > button.btn:hover {
