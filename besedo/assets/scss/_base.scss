@@ -97,6 +97,10 @@ a {
 
 		a {
 			background-color: darken($purple, 7%);
+
+			&:hover {
+				background-color: darken($purple, 7%);
+			}
 		}
 	}
 

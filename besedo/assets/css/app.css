@@ -55,6 +55,8 @@ a {
 
 .navbar-implio .active a {
   background-color: #3f0053; }
+  .navbar-implio .active a:hover {
+    background-color: #3f0053; }
 
 .navbar-implio .nav-dropdown {
   background-color: #3f0053; }
