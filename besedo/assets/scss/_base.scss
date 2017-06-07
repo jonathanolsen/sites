@@ -106,7 +106,7 @@ body {
 		&.legend--acceptedAuto {
 
 			&:before {
-				background-color: darken($green, 12%);
+				border-color: darken($green, 12%);
 			}
 
 			&.legend--select:before {

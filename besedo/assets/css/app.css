@@ -35,7 +35,7 @@ body {
   background-color: #64BB87; }
 
 .stacked-chart-container form label.legend.legend--acceptedAuto:before {
-  background-color: #459d68; }
+  border-color: #459d68; }
 
 .stacked-chart-container form label.legend.legend--acceptedAuto.legend--select:before {
   background-color: #459d68; }
