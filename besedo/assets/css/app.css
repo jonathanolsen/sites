@@ -4,6 +4,9 @@ body {
 .navbar-implio .active a {
   background-color: #4b0063; }
 
+.navbar-implio .nav-dropdown {
+  background-color: #4b0063; }
+
 .navbar-implio .navbar-primary {
   background: #5a0077; }
   .navbar-implio .navbar-primary .navbar-aux .open a {
@@ -17,7 +20,7 @@ body {
   .navbar-implio .navbar-primary .navbar-nav .icon-implio-help,
   .navbar-implio .navbar-primary .navbar-nav .icon-implio-profile {
     color: #c511ff;
-    color: #7e7e7e; }
+    color: #9e3fbd; }
 
 .navbar-primary .navbar-aux .dropdown-menu li a
 .stacked-chart-container form label.legend.legend--acceptedManual:before {
