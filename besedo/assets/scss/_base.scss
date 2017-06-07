@@ -71,6 +71,14 @@ hr {
 	border-top: 1px solid #ececec;
 }
 
+a {
+	color: $blue;
+
+	&:hover {
+		color: lighten($blue, 8%);
+	}
+}
+
 .navbar-implio {
 
 	.active {
