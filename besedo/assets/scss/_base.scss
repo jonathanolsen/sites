@@ -113,6 +113,17 @@ body {
 				background-color: darken($green, 12%);
 			}
 		}
+
+		&.legend--totalDecisions {
+			&:before {
+				border-color: $purple;
+			}
+
+			&.legend--select:before {
+				background-color: $purple;
+			}
+		}
+
 	}
 }
 

@@ -40,6 +40,12 @@ body {
 .stacked-chart-container form label.legend.legend--acceptedAuto.legend--select:before {
   background-color: #459d68; }
 
+.stacked-chart-container form label.legend.legend--totalDecisions:before {
+  border-color: #5a0077; }
+
+.stacked-chart-container form label.legend.legend--totalDecisions.legend--select:before {
+  background-color: #5a0077; }
+
 .matched-rules .more-rules-text,
 .matched-rules a,
 .jobs-list-status-icon.reviewable,
