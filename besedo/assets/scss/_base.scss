@@ -61,6 +61,10 @@ html {
 	}
 }
 
+.app-login .start-container .input--filled .input__label--nao {
+	color: $blue;
+}
+
 .app-inviteUserTokenVerify .start-container a, 
 .app-login .start-container a,
 .app-newPassword .start-container a, 
