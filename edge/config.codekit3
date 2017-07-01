@@ -7,7 +7,7 @@
 		"uuidString": "6AE451F9-71DE-468D-80B4-8DBC493DBF6F"
 		}
 	],
-"creatorBuild": "25813",
+"creatorBuild": "25849",
 "files": {
 	"\/.sass-cache\/05beb0a4f8347a8b6b46214a35951a206da30252\/app.scssc": {
 		"ft": 8192,
@@ -2001,6 +2001,7 @@
 		},
 	"languageDefaultsUserDefined": [
 		],
+	"overrideExternalServerCSS": 0,
 	"previewPathAddition": "",
 	"skippedFoldersString": "log, _logs, logs, _cache, cache, \/storage\/framework\/sessions, node_modules",
 	"sourceFolderName": "source",

@@ -46,6 +46,10 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
 	align-items: center;
 	position: relative;
 
+	@include bp(xs-sm) {
+		flex-direction: column;
+	}
+
 	.block-image {
 
 		img {
@@ -210,7 +214,10 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
 
 		.block-content {
 			max-width: 620px;
-			margin: 0 -150px -200px 0;
+			margin: 80px 0 0;
+			@include bp(sm) {
+				margin: 0 -150px -200px 0;
+			}
 		}
 	}
 
