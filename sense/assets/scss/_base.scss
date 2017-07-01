@@ -219,7 +219,7 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
 		.block-content {
 			max-width: 620px;
 			margin: 80px 0 0;
-			
+
 			@include bp(sm) {
 				margin: 0 -150px -200px 0;
 			}
@@ -227,7 +227,11 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
 	}
 
 	&.image-right {
-		flex-direction: row-reverse;
+		flex-direction: column;
+		
+		@include bp(sm) {
+			flex-direction: row-reverse;
+		}
 	}
 
 	&.full-image {
