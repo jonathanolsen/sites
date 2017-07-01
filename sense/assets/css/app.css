@@ -131,7 +131,10 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
       box-shadow: none; }
   .block-container.collection .block-content {
     max-width: 620px;
-    margin: 0 0 -250px -200px; }
+    margin: 80px 0 0; }
+    @media (min-width: 768px) {
+      .block-container.collection .block-content {
+        margin: 0 0 -250px -200px; } }
   .block-container.our-story .block-content {
     max-width: 620px;
     margin: 80px 0 0; }
