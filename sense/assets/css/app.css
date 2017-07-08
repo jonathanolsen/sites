@@ -185,3 +185,75 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
 
 #block-571410df51c7922646d3 em span {
   line-height: 40px; }
+
+.full-section .flickity-slider {
+  margin-left: -320px; }
+
+.full-section .card {
+  background: #fff;
+  border-radius: 3px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  transition: all .2s ease-out; }
+  .full-section .card:hover {
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    margin: -5px 0 0; }
+  .full-section .card .image {
+    width: 100%;
+    height: 360px;
+    background-size: cover;
+    display: block;
+    border-radius: 3px 3px 0 0;
+    box-shadow: 0 1px rgba(0, 0, 0, 0.05);
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat; }
+  .full-section .card .info {
+    padding: 25px 30px;
+    font-size: 15px;
+    line-height: 26px; }
+    .full-section .card .info h3 {
+      margin-top: 0;
+      margin-bottom: 8px; }
+      .full-section .card .info h3 a {
+        color: #4A4B50;
+        font-weight: bold;
+        font-size: 20px; }
+        .full-section .card .info h3 a:hover {
+          color: #1353E2; }
+      .full-section .card .info h3 + a {
+        color: #555; }
+        .full-section .card .info h3 + a:hover {
+          color: #4378ef; }
+    .full-section .card .info .taggar {
+      margin-top: 15px; }
+      .full-section .card .info .taggar a {
+        margin-right: 10px;
+        color: #999; }
+        .full-section .card .info .taggar a:hover {
+          color: #333; }
+
+@media (min-width: 768px) {
+  .full-section .carousel-cell {
+    width: 500px; } }
+
+.featured-services {
+  background: #fff; }
+
+.full-section .flickity-viewport {
+  padding: 30px 0 50px;
+  box-sizing: content-box; }
+
+.carousel-cell {
+  width: 90%;
+  margin-right: 30px;
+  counter-increment: gallery-cell; }
+
+.gallery:after {
+  content: 'flickity';
+  display: none;
+  /* hide :after */ }
+
+@media screen and (min-width: 768px) {
+  /* disable Flickity for large devices */
+  .gallery:after {
+    content: ''; } }

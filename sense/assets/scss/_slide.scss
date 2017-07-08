@@ -1,0 +1,109 @@
+
+
+.full-section {
+
+	.flickity-slider {
+		margin-left: -320px;
+	}
+
+	.card {
+		background: #fff;
+		border-radius: 3px;
+		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+		transition: all .2s ease-out;
+
+		&:hover {
+			box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+			margin: -5px 0 0;
+		}
+
+		.image {
+			width: 100%;
+			height: 360px;
+			background-size: cover;
+			display: block;
+			border-radius: 3px 3px 0 0;
+			box-shadow: 0 1px rgba(0, 0, 0, 0.05);
+
+			background-position: center;
+			background-size: 80%;
+			background-repeat: no-repeat;
+		}
+		
+		.info {
+			padding: 25px 30px;
+			font-size: 15px;
+			line-height: 26px;
+
+			h3 {
+				margin-top: 0;
+				margin-bottom: 8px;
+
+				a {
+					color: #4A4B50;
+					font-weight: bold;
+					font-size: 20px;
+
+					&:hover {
+						color: #1353E2;
+					}
+				}
+
+				& + a {
+					color: #555;
+
+					&:hover {
+						color: lighten(#1353E2, 12%);
+					}
+				}
+			}
+
+			.taggar {
+				margin-top: 15px;
+
+				a {
+					margin-right: 10px;
+					color: #999;
+
+					&:hover {
+						color: #333;
+					}
+				}
+			}
+		}
+	}
+
+	.carousel-cell {
+		@include bp(sm) {
+			width: 500px;
+		}
+	}
+}
+
+.featured-services {
+	background: #fff;
+}
+
+
+.full-section .flickity-viewport {
+	padding: 30px 0 50px;
+	box-sizing: content-box;
+}
+
+.carousel-cell {
+    width: 90%;
+    margin-right: 30px;
+    counter-increment: gallery-cell;
+}
+
+.gallery:after {
+  content: 'flickity';
+  display: none; /* hide :after */
+}
+
+@media screen and ( min-width: 768px ) {
+  /* disable Flickity for large devices */
+  .gallery:after {
+    content: '';
+  }
+}
