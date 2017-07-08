@@ -18,8 +18,16 @@
 		});
 	}
 
-	$(".block-container").parallax();
+	$(document).ready(function() {
 
-	$(window).scroll(function(e) {
 		$(".block-container").parallax();
-	});
+
+		$(window).scroll(function(e) {
+			$(".block-container").parallax();
+		});
+
+		$(".flickity").flickity({
+			watchCSS: true
+		});
+	}
+
