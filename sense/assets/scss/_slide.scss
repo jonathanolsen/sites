@@ -96,6 +96,12 @@
     counter-increment: gallery-cell;
 }
 
+#new-page .Index-page-content {
+    max-width: 100%;
+    width: 100%;
+    padding: 100px 0;
+}
+
 .gallery:after {
   content: 'flickity';
   display: none; /* hide :after */
