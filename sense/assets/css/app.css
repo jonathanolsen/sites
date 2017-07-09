@@ -209,7 +209,7 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   transition: all .2s ease-out;
   text-align: center;
-  padding: 40px 0 0; }
+  padding: 40px 0 120px; }
   .full-section .card:hover {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     margin: -5px 0 0; }
@@ -226,7 +226,10 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
   .full-section .card .info {
     padding: 25px 30px;
     font-size: 15px;
-    line-height: 26px; }
+    line-height: 26px;
+    position: absolute;
+    bottom: 0;
+    width: 100%; }
     .full-section .card .info > div {
       width: 48%;
       display: inline-block;
