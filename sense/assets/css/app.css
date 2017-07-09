@@ -207,7 +207,8 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
   background: #fff;
   border-radius: 3px;
   box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
-  transition: all .2s ease-out; }
+  transition: all .2s ease-out;
+  text-align: center; }
   .full-section .card:hover {
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     margin: -5px 0 0; }
@@ -219,11 +220,24 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
     border-radius: 210px;
     background-position: center;
     background-size: cover;
-    background-repeat: no-repeat; }
+    background-repeat: no-repeat;
+    margin: 40px auto 0; }
   .full-section .card .info {
     padding: 25px 30px;
     font-size: 15px;
     line-height: 26px; }
+    .full-section .card .info > div {
+      width: 50%;
+      float: left;
+      font-size: 22px;
+      font-weight: bold;
+      color: #202123; }
+      .full-section .card .info > div > span {
+        display: block;
+        text-transform: uppercase;
+        font-size: 14px;
+        color: #909298;
+        font-weight: 600; }
     .full-section .card .info h3 {
       margin-top: 0;
       margin-bottom: 8px; }
