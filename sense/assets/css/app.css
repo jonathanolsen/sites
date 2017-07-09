@@ -200,8 +200,9 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
       color: #fff;
       font-size: 18px; }
 
-.full-section .flickity-slider {
-  margin-left: -475px; }
+@media (min-width: 992px) {
+  .full-section .flickity-slider {
+    margin-left: -475px; } }
 
 .full-section .card {
   background: #fff;

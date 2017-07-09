@@ -21,10 +21,12 @@
 
 .full-section {
 
-	.flickity-slider {
-		margin-left: -475px;
+	@include bp(md) {
+		.flickity-slider {
+			margin-left: -475px;
+		}
 	}
-
+	
 	.card {
 		background: #fff;
 		border-radius: 3px;
