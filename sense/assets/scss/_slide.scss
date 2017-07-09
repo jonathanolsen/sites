@@ -49,6 +49,30 @@
 			background-repeat: no-repeat;
 			margin: 0 auto;
 		}
+
+		h3 {
+			margin-top: 0;
+			margin-bottom: 8px;
+
+			a {
+				color: #094BDA;
+				font-weight: bold;
+				font-size: 22px;
+				border-bottom: none !important;
+
+				&:hover {
+					color: #1353E2;
+				}
+			}
+
+			& + a {
+				color: #555;
+
+				&:hover {
+					color: lighten(#1353E2, 12%);
+				}
+			}
+		}
 		
 		.info {
 			padding: 25px 30px;
@@ -76,29 +100,7 @@
 				}
 			}
 
-			h3 {
-				margin-top: 0;
-				margin-bottom: 8px;
-
-				a {
-					color: #094BDA;
-					font-weight: bold;
-					font-size: 22px;
-					border-bottom: none !important;
-
-					&:hover {
-						color: #1353E2;
-					}
-				}
-
-				& + a {
-					color: #555;
-
-					&:hover {
-						color: lighten(#1353E2, 12%);
-					}
-				}
-			}
+			
 
 			.taggar {
 				margin-top: 15px;

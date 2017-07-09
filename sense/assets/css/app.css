@@ -223,6 +223,20 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
     background-size: cover;
     background-repeat: no-repeat;
     margin: 0 auto; }
+  .full-section .card h3 {
+    margin-top: 0;
+    margin-bottom: 8px; }
+    .full-section .card h3 a {
+      color: #094BDA;
+      font-weight: bold;
+      font-size: 22px;
+      border-bottom: none !important; }
+      .full-section .card h3 a:hover {
+        color: #1353E2; }
+    .full-section .card h3 + a {
+      color: #555; }
+      .full-section .card h3 + a:hover {
+        color: #4378ef; }
   .full-section .card .info {
     padding: 25px 30px;
     font-size: 15px;
@@ -243,20 +257,6 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
         font-size: 14px;
         color: #909298;
         font-weight: 600; }
-    .full-section .card .info h3 {
-      margin-top: 0;
-      margin-bottom: 8px; }
-      .full-section .card .info h3 a {
-        color: #094BDA;
-        font-weight: bold;
-        font-size: 22px;
-        border-bottom: none !important; }
-        .full-section .card .info h3 a:hover {
-          color: #1353E2; }
-      .full-section .card .info h3 + a {
-        color: #555; }
-        .full-section .card .info h3 + a:hover {
-          color: #4378ef; }
     .full-section .card .info .taggar {
       margin-top: 15px; }
       .full-section .card .info .taggar a {
