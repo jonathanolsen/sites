@@ -200,7 +200,7 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
       color: #fff;
       font-size: 18px; }
 
-@media (min-width: 992px) {
+@media (min-width: 1200px) {
   .full-section .flickity-slider {
     margin-left: -475px; } }
 
