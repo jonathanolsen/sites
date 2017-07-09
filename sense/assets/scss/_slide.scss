@@ -96,10 +96,27 @@
     counter-increment: gallery-cell;
 }
 
-#influencers .Index-page-content {
-    max-width: 100%;
-    width: 100%;
-    padding: 0 0 100px;
+#influencers {
+	width: 100%;
+	background: url('../img/influencer-bg.jpg') center no-repeat;
+	background-size: cover;
+
+	&:after {
+		content: '';
+		background: url('../img/plane.svg') top left no-repeat;
+		width: 1180px;
+		height: 155px;
+		position: absolute;
+		top: -50%;
+		left: 0;
+	}
+
+	.Index-page-content {
+	    max-width: 100%;
+	    width: 100%;
+	    padding: 0 0 100px;
+	    position: relative;
+	}
 }
 
 .gallery:after {

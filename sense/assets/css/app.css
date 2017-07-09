@@ -248,10 +248,23 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
   margin-right: 30px;
   counter-increment: gallery-cell; }
 
-#influencers .Index-page-content {
-  max-width: 100%;
+#influencers {
   width: 100%;
-  padding: 0 0 100px; }
+  background: url("../img/influencer-bg.jpg") center no-repeat;
+  background-size: cover; }
+  #influencers:after {
+    content: '';
+    background: url("../img/plane.svg") top left no-repeat;
+    width: 1180px;
+    height: 155px;
+    position: absolute;
+    top: -50%;
+    left: 0; }
+  #influencers .Index-page-content {
+    max-width: 100%;
+    width: 100%;
+    padding: 0 0 100px;
+    position: relative; }
 
 .gallery:after {
   content: 'flickity';
