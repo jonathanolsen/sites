@@ -5,10 +5,9 @@
 	position: relative;
 
 	.headline {
-		padding-top: 80px;
-		@include bp(xs-lg) {
-			text-align: center;
-		}
+		padding-top: 120px;
+		text-align: center;
+
 
 		h2 {
 			color: #fff;
@@ -24,11 +23,7 @@
 
 .full-section {
 
-	@include bp(lg) {
-		.flickity-slider {
-			margin-left: -475px;
-		}
-	}
+
 
 	.card {
 		background: #fff;

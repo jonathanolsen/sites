@@ -29,5 +29,7 @@
 		$(".flickity").flickity({
 			watchCSS: true
 		});
-	}
+	});
+
+
 
