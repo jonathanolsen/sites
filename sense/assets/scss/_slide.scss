@@ -5,6 +5,7 @@
 	position: relative;
 
 	.headline {
+		padding-top: 80px;
 
 		h2 {
 			color: #fff;
@@ -112,6 +113,13 @@
     width: 90%;
     margin-right: 30px;
     counter-increment: gallery-cell;
+}
+
+.flickity-page-dots {
+
+	.fot {
+		background: #fff;
+	}
 }
 
 #influencers {
