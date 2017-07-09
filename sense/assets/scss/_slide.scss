@@ -31,6 +31,7 @@
 		box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
 		transition: all .2s ease-out;
 		text-align: center;
+		padding: 40px 0 0;
 
 		&:hover {
 			box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -46,7 +47,7 @@
 			background-position: center;
 			background-size: cover;
 			background-repeat: no-repeat;
-			margin: 40px auto 0;
+			margin: 0 auto;
 		}
 		
 		.info {
@@ -55,8 +56,9 @@
 			line-height: 26px;
 
 			> div {
-				width: 50%;
-				float: left;
+				width: 48%;
+				display: inline-block;
+				text-align: left;
 				font-size: 22px;
 				font-weight: bold;
 				color: #202123;
@@ -110,7 +112,7 @@
 
 	.carousel-cell {
 		@include bp(sm) {
-			width: 500px;
+			width: 400px;
 		}
 	}
 }
