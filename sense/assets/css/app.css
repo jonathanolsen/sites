@@ -191,6 +191,12 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
   max-width: 1360px;
   margin: 0 auto;
   position: relative; }
+  .container .headline h2 {
+    color: #fff;
+    margin-bottom: 0; }
+  .container .headline p {
+    color: #fff;
+    font-size: 18px; }
 
 .full-section .flickity-slider {
   margin-left: -320px; }

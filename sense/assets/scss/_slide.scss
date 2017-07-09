@@ -3,6 +3,19 @@
 	max-width: 1360px;
 	margin: 0 auto;
 	position: relative;
+
+	.headline {
+
+		h2 {
+			color: #fff;
+			margin-bottom: 0;
+		}
+
+		p {
+			color: #fff;
+			font-size: 18px;
+		}
+	}
 }
 
 .full-section {
