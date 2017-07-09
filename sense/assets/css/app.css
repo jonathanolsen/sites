@@ -286,11 +286,11 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
   #influencers:after {
     content: '';
     background: url("../img/plane2.svg") top left no-repeat;
-    width: 1200px;
+    width: 1417px;
     height: 155px;
     position: absolute;
-    top: 0;
-    left: 0; }
+    top: 30px;
+    right: 30px; }
   #influencers .Index-page-content {
     max-width: 100%;
     width: 100%;
