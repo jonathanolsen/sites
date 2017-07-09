@@ -6,6 +6,9 @@
 
 	.headline {
 		padding-top: 80px;
+		@include bp(xs-lg) {
+			text-align: center;
+		}
 
 		h2 {
 			color: #fff;

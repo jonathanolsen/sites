@@ -193,6 +193,9 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
   position: relative; }
   .container .headline {
     padding-top: 80px; }
+    @media (max-width: 1199px) {
+      .container .headline {
+        text-align: center; } }
     .container .headline h2 {
       color: #fff;
       margin-bottom: 0; }
