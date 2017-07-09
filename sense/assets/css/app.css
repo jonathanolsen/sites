@@ -267,7 +267,7 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
     width: 1200px;
     height: 155px;
     position: absolute;
-    top: -50%;
+    top: 0;
     left: 0; }
   #influencers .Index-page-content {
     max-width: 100%;
