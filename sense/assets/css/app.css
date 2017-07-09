@@ -250,7 +250,7 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
         color: #094BDA;
         font-weight: bold;
         font-size: 22px;
-        border-bottom: 0; }
+        border-bottom: none !important; }
         .full-section .card .info h3 a:hover {
           color: #1353E2; }
       .full-section .card .info h3 + a {
