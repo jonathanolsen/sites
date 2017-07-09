@@ -186,6 +186,12 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
 #block-571410df51c7922646d3 em span {
   line-height: 40px; }
 
+.container {
+  width: 100%;
+  max-width: 1360px;
+  margin: 0 auto;
+  position: relative; }
+
 .full-section .flickity-slider {
   margin-left: -320px; }
 
@@ -252,7 +258,7 @@ body.tweak-site-width-option-full-background.tweak-overlay-parallax-enabled.has-
   #influencers:after {
     content: '';
     background: url("../img/plane.svg") top left no-repeat;
-    width: 1180px;
+    width: 1200px;
     height: 155px;
     position: absolute;
     top: -50%;
