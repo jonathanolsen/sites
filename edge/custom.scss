@@ -3,3 +3,99 @@
 .is-frontend #content-holder .semplice-cover {
 	height: 80vh;
 }
+
+.page-services {
+
+	.grid-container {
+		max-width: 1600px !important;
+		background: none;
+		margin: 0 auto;
+	}
+}
+
+.services {
+
+	.row {
+		@include bp(sm) { display: flex; }
+		margin: 0;
+
+		> div {
+			background: #fff;
+			text-align: center;
+			padding: 0;
+			box-shadow: 0 0 1px darken($gray, 10%);
+			transition: .2s ease-out;
+
+			> ul {
+				text-align: left;
+				padding: 0px 30px 20px;
+				@include bp(sm) {
+					border-top: 1px solid #F0F8FA;
+					padding: 20px 30px;
+				}
+				list-style-type: none;
+				margin-left: 0;
+				margin-bottom: 0;
+
+				li {
+					font-family: $serif;
+					font-style: italic;
+					margin: 10px 0;
+					padding-left: 44px;
+					color: #737f82;
+					position: relative;
+
+					&:before {
+						background: #C1CCD1;
+						width: 22px;
+						height: 2px;
+						position: absolute;
+						top: 15px;
+						left: 0;
+						content: '';
+					}
+				}
+			}
+
+			.headline {
+				padding: 50px 0 20px;
+				@include bp(sm) {
+					padding-bottom: 50px;
+				}
+
+				> i {
+					font-size: 40px;
+				}
+
+				h2 {
+					margin-bottom: 0;
+					font-size: 26px;
+					margin-top: 10px;
+				}
+			}
+		}
+
+		.span-3 {
+			width: 100%;
+
+			@include bp(sm) {
+				width: 50%;
+			}
+
+			@include bp(md) {
+				width: 25%;
+			}
+		}
+	}
+}
+
+
+
+
+
+.result-slider {
+
+	.column {
+		width: 100%;
+	}
+}
