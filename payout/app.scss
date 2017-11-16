@@ -4,3 +4,14 @@ section.section {
 	border-bottom: 1px solid #eee;
 	padding: 40px 0;
 }
+
+div.row.steps {
+
+	h3 {
+		font-size: 18px;
+
+		&:after {
+			content: '';
+		}
+	}
+}
