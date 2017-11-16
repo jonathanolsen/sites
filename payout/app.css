@@ -1,9 +1,10 @@
-section.section {
-  border-bottom: 1px solid #dcddde;
-  padding: 40px 0; }
-
-section.questions {
-  border-top: none; }
+section {
+  margin-top: 0; }
+  section.section {
+    border-bottom: 1px solid #dcddde;
+    padding: 40px 0; }
+  section.questions {
+    border-top: none; }
 
 div.row.steps h3 {
   font-size: 18px; }
