@@ -1,8 +1,15 @@
 
 
-section.section {
-	border-bottom: 1px solid #eee;
-	padding: 40px 0;
+section {
+
+	&.section {
+		border-bottom: 1px solid #dcddde;
+		padding: 40px 0;
+	}
+
+	&.questions {
+		border-top: none;
+	}
 }
 
 div.row.steps {
@@ -15,3 +22,4 @@ div.row.steps {
 		}
 	}
 }
+
