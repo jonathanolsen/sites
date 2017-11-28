@@ -202,7 +202,7 @@ $bounce-in-duration: .7s;
 	padding: 1em;
 	@include font-smoothing;
 	opacity: 0;
-	@include transform(translateY(20px));
+	transform: translateY(20px);
 	-webkit-transition: -webkit-transform .3s $bounce-in-duration, opacity .3s $bounce-in-duration;
 	-moz-transition: -moz-transform .3s $bounce-in-duration, opacity .3s $bounce-in-duration;
 	transition: transform .3s $bounce-in-duration, opacity .3s $bounce-in-duration;
@@ -213,7 +213,7 @@ $bounce-in-duration: .7s;
 
 	.is-visible & {
 		opacity: 1;
-		@include transform(translateY(0));
+		transform: translateY(0);
 	}
 }
 
@@ -225,7 +225,7 @@ $bounce-in-duration: .7s;
 	height: 100%;
 	overflow: hidden;
 	/* Force Hardware Acceleration in WebKit */
-	@include transform(translateZ(0));
+	transform: translateZ(0);
 	-webkit-backface-visibility: hidden;
 	backface-visibility: hidden;
 
@@ -246,24 +246,32 @@ $bounce-in-duration: .7s;
 
 	.is-visible & {
 		width: 50%;
-		/* bounce in animation of the modified image */
-		@include animation(cd-bounce-in $bounce-in-duration);
+		animation: cd-bounce-in $bounce-in-duration;
 	}
 }
 
-@include keyframes(cd-bounce-in) {
-	0% {
-		width: 0;
-	}
-
-	60% {
-		width: 55%;
-	}
-
-	100% {
-		width: 50%;
-	}
-}
+@-webkit-keyframes cd-bounce-in {
+  0% {
+    width: 0; }
+  60% {
+    width: 55%; }
+  100% {
+    width: 50%; } }
+@-moz-keyframes cd-bounce-in {
+  0% {
+    width: 0; }
+  60% {
+    width: 55%; }
+  100% {
+    width: 50%; } }
+@keyframes cd-bounce-in {
+  0% {
+    width: 0; }
+  60% {
+    width: 55%; }
+  100% {
+    width: 50%; } 
+    }
 
 .cd-handle {
 	position: absolute;
@@ -279,7 +287,7 @@ $bounce-in-duration: .7s;
 	cursor: move;
 	box-shadow: 0 0 0 6px rgba(#000, .2), 0 0 10px rgba(#000, .6);
 	opacity: 0;
-	@include transform(translate3d(0,0,0) scale(0));
+	transform: translate3d(0,0,0) scale(0);
 
 	&.draggable {
 		/* change background color when element is active */
@@ -288,7 +296,7 @@ $bounce-in-duration: .7s;
 
 	.is-visible & {
 		opacity: 1;
-		@include transform(translate3d(0,0,0) scale(1));
+		transform: translate3d(0,0,0) scale(1);
 		-webkit-transition: -webkit-transform .3s $bounce-in-duration, opacity 0s $bounce-in-duration;
 		-moz-transition: -moz-transform .3s $bounce-in-duration, opacity 0s $bounce-in-duration;
 		transition: transform .3s $bounce-in-duration, opacity 0s $bounce-in-duration;
@@ -386,4 +394,30 @@ $bounce-in-duration: .7s;
 	margin-bottom: -20px;
 }
 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#page-5745738f1bbee04737eaef7e .markdown-block .sqs-block-content p {
+    background: #fff;
+    margin-top: -5px;
+}
+
+#page-5745738f1bbee04737eaef7e .markdown-block .sqs-block-content h2 {
+	border-bottom: 1px solid #eee;
+    padding: 15px 0;
 }
