@@ -42,3 +42,6 @@
 
 .Intro--has-image:before {
   background: linear-gradient(to bottom, #0b0c14 4%, rgba(11, 12, 20, 0.3) 36%); }
+
+.sqs-block-embed-content {
+  box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2); }
