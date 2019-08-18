@@ -114,7 +114,7 @@ $brand-color:             #3450C7;
   background: linear-gradient(to bottom, rgb(11,12,20) 4%, rgba(11,12,20,.3) 36%);
 }
 
-.sqs-block-embed-content {
+.sqs-block.embed-block.sqs-block-embed {
   box-shadow: 0 15px 40px rgba(0, 0, 0, 0.2);
   position: relative;
   z-index: 2;
