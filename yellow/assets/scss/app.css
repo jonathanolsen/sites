@@ -1,2 +1,44 @@
-body {
-  background: red; }
+@charset "UTF-8";
+.menus {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  padding: 30px 50px;
+  position: relative;
+  z-index: 2;
+  background: #fff; }
+
+.menu-section-header .menu-section-title {
+  color: #3450C7; }
+
+.menu-selector .menu-select-labels {
+  padding: 0 !important;
+  margin: 0 0.5em; }
+  .menu-selector .menu-select-labels:hover {
+    color: #000; }
+
+.menu-selector .menu-select-labels--active {
+  text-decoration: none !important;
+  border-bottom: 1px solid #3450C7;
+  color: #3450C7; }
+  .menu-selector .menu-select-labels--active:hover {
+    color: #3450C7; }
+
+.fixed-btn {
+  position: fixed;
+  top: 46px;
+  right: 5%;
+  z-index: 1000; }
+  .fixed-btn a {
+    font-weight: 600 !important; }
+
+  .fixed-btn {
+  top: auto;
+  bottom: 20px;
+  right: 50%;
+  transform: translateX(50%);
+  z-index: 99999;
+  width: 80%; }
+    .fixed-btn a {
+    padding: 14px 40px !important; }
+
+.Intro--has-image:before {
+  background: linear-gradient(to bottom, #0b0c14 4%, rgba(11, 12, 20, 0.3) 36%); }
