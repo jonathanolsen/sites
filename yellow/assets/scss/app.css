@@ -55,3 +55,10 @@
 body:not(.button-style-default) .sqs-editable-button {
   padding: 24px 42px;
   font-size: 16px; }
+
+.special-large {
+  background: #fff;
+  color: #111; }
+  .special-large:hover {
+    background: #3450C7;
+    color: #fff; }

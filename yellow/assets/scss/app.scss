@@ -129,3 +129,13 @@ body:not(.button-style-default) .sqs-editable-button {
   padding: 24px 42px;
   font-size: 16px;
 }
+
+.special-large {
+  background: #fff;
+  color: #111;
+
+  &:hover {
+    background: $brand-color;
+    color: #fff;
+  }
+}
