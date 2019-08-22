@@ -137,5 +137,6 @@ body:not(.button-style-default) .sqs-editable-button {
   &:hover {
     background: $brand-color !important;
     color: #fff !important;
+    border-color: $brand-color !important;
   }
 }
