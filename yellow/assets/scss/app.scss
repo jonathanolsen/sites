@@ -131,11 +131,11 @@ body:not(.button-style-default) .sqs-editable-button {
 }
 
 .special-large {
-  background: #fff;
-  color: #111;
+  background: #fff !important;
+  color: #111 !important;
 
   &:hover {
-    background: $brand-color;
-    color: #fff;
+    background: $brand-color !important;
+    color: #fff !important;
   }
 }

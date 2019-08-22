@@ -57,8 +57,8 @@ body:not(.button-style-default) .sqs-editable-button {
   font-size: 16px; }
 
 .special-large {
-  background: #fff;
-  color: #111; }
+  background: #fff !important;
+  color: #111 !important; }
   .special-large:hover {
-    background: #3450C7;
-    color: #fff; }
+    background: #3450C7 !important;
+    color: #fff !important; }
