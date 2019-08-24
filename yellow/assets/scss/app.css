@@ -31,9 +31,9 @@
     font-weight: 600 !important; }
 
   .fixed-btn {
-  top: auto;
+  top: auto !important;
   bottom: 20px;
-  right: 50%;
+  right: 50% !important;
   transform: translateX(50%);
   z-index: 99999;
   width: 80%; }
