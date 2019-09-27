@@ -96,7 +96,7 @@ $brand-color:             #3450C7;
   }
 }
 
-@include bp(xs-sm) {
+@include bp(xs-sm) {
   .fixed-btn {
     top: auto !important;
     bottom: 20px;
@@ -139,4 +139,37 @@ body:not(.button-style-default) .sqs-editable-button {
     color: #fff !important;
     border-color: $brand-color !important;
   }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#about-basil {
+  background-color: #eff1f5;
+}
+
+.menu-block {
+  background: #fff;
+  padding: 60px;
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.3);
+}
+
+.menu-block .menu-selector label {
+  padding: 0 1em 0 0 !important;
+}
+
+.menu-block .menu-style-classic .menu-selector,
+.menu-block .menu-style-classic .menu-section-title {
+  text-align: left;
 }
