@@ -53,6 +53,15 @@ $x-large: 1600px;
 
 $brand-color:             #3450C7;
 
-.position-bottom {
-  
+.position-bottom-arrow {
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: column;
+
+    .position-bottom {
+      display: flex;
+      margin-top: auto;
+    }
+  }
 }
