@@ -61,7 +61,8 @@ $brand-color:             #3450C7;
 
     .position-bottom {
       display: flex;
-      margin-top: auto;
+      margin-top: auto !important;
+      top: auto !important;
     }
   }
 }

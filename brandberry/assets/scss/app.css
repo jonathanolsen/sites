@@ -3,4 +3,5 @@
   flex-direction: column; }
   .position-bottom-arrow .content-wrapper .position-bottom {
     display: flex;
-    margin-top: auto; }
+    margin-top: auto !important;
+    top: auto !important; }
