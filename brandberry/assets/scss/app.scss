@@ -69,10 +69,8 @@ $brand-color:             #3450C7;
 
 .view-project-cta {
   position: absolute;
-  top: 30%;
-  left: 60%;
   height: 60px;
-  width: 100px;
+  width: 180px;
   background: aqua;
 
   &:before {
@@ -104,10 +102,12 @@ $brand-color:             #3450C7;
     margin-top: -5px;
     right: 20px;
     transition: all 0.3s ease;
+    opacity: 0;
   }
 
   &:hover:after {
     right: 34px;
-    right: 30px;
+    right: 30px; 
+    opacity: 1;
   }
 }
