@@ -5,3 +5,39 @@
     display: flex;
     margin-top: auto !important;
     top: auto !important; }
+
+.view-project-cta {
+  position: absolute;
+  top: 30%;
+  left: 60%;
+  height: 60px;
+  width: 100px;
+  background: aqua; }
+  .view-project-cta:before {
+    content: "";
+    width: 25px;
+    height: 2px;
+    background: slategray;
+    position: absolute;
+    top: 50%;
+    margin-top: -1px;
+    right: 24px;
+    transition: all 0.3s ease; }
+  .view-project-cta:hover:before {
+    right: 34px;
+    width: 35px; }
+  .view-project-cta:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 0 5px 5px;
+    border-color: transparent transparent transparent #000000;
+    position: absolute;
+    top: 50%;
+    margin-top: -5px;
+    right: 20px;
+    transition: all 0.3s ease; }
+  .view-project-cta:hover:after {
+    right: 34px;
+    right: 30px; }
