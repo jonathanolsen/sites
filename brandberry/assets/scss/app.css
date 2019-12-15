@@ -24,10 +24,10 @@
     background: #FFC439;
     position: absolute;
     top: 50%;
-    right: 34px;
+    right: 26px;
     transition: all 0.3s ease; }
   .view-project-cta:hover:before {
-    right: 15px;
+    right: 10px;
     width: 35px; }
   .view-project-cta:after {
     content: "";
