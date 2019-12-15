@@ -38,6 +38,6 @@
     transition: all 0.3s ease;
     opacity: 0; }
   .view-project-cta:hover:after {
-    right: 34px;
-    right: 30px;
+    right: 14px;
+    right: 10px;
     opacity: 1; }
