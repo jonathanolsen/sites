@@ -68,10 +68,10 @@ $brand-color:             #3450C7;
 }
 
 .view-project-cta {
-  position: absolute;
-  height: 60px;
-  width: 180px;
   background: aqua;
+  display: inline-block;
+  width: auto;
+  padding: 0 80px 0 0;
 
   &:before {
     content: "";
