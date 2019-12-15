@@ -6,6 +6,11 @@
     margin-top: auto !important;
     top: auto !important; }
 
+.align-button-center {
+  text-align: center; }
+  .align-button-center .view-project-cta {
+    margin-right: -70px; }
+
 .view-project-cta {
   display: inline-block;
   width: auto !important;
@@ -19,7 +24,6 @@
     background: #FFC439;
     position: absolute;
     top: 50%;
-    margin-top: -1px;
     right: 34px;
     transition: all 0.3s ease; }
   .view-project-cta:hover:before {
@@ -34,7 +38,7 @@
     border-color: transparent transparent transparent #FFC439;
     position: absolute;
     top: 50%;
-    margin-top: -5px;
+    margin-top: -4px;
     right: 30px;
     transition: all 0.3s ease;
     opacity: 0; }
