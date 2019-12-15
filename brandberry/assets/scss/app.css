@@ -9,7 +9,7 @@
 .align-button-center {
   text-align: center; }
   .align-button-center .view-project-cta {
-    margin-right: -70px; }
+    margin-right: -64px; }
 
 .view-project-cta {
   display: inline-block;
@@ -43,5 +43,5 @@
     transition: all 0.3s ease;
     opacity: 0; }
   .view-project-cta:hover:after {
-    right: 12px;
+    right: 6px;
     opacity: 1; }
