@@ -56,5 +56,7 @@ $(document).ready(function() {
   scrollFX();
 
   $('.data-scroll-5').attr("data-scroll-speed", "5");
+  $('.data-scroll-6').attr("data-scroll-speed", "6");
   $('.data-scroll-7').attr("data-scroll-speed", "7");
+  $('.data-scroll-8').attr("data-scroll-speed", "8");
 });
