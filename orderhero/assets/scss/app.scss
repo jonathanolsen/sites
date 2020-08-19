@@ -1,0 +1,54 @@
+// Breakpoints
+
+$small: 640px;
+$medium: 992px;
+$large: 1374px;
+$x-large: 1600px;
+
+@mixin bp($point) {
+  @if $point == xs {
+    @content;
+  } @else if $point == xs-sm {
+    @media (max-width: $small - 1px) {
+      @content;
+    }
+  } @else if $point == xs-md {
+    @media (max-width: $medium - 1px) {
+      @content;
+    }
+  } @else if $point == xs-lg {
+    @media (max-width: $large - 1px) {
+      @content;
+    }
+  } @else if $point == sm {
+    @media (min-width: $small) {
+      @content;
+    }
+  } @else if $point == sm-md {
+    @media (min-width: $small) and (max-width: $medium - 1px) {
+      @content;
+    }
+  } @else if $point == sm-lg {
+    @media (min-width: $small) and (max-width: $large - 1px) {
+      @content;
+    }
+  } @else if $point == md {
+    @media (min-width: $medium) {
+      @content;
+    }
+  } @else if $point == md-lg {
+    @media (min-width: $medium) and (max-width: $large - 1px) {
+      @content;
+    }
+  } @else if $point == lg {
+    @media (min-width: $large) {
+      @content;
+    }
+  } @else if $point == xlg {
+    @media (min-width: $x-large) {
+      @content;
+    }
+  }
+}
+
+$brand-color: #3450c7;
