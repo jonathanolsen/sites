@@ -59,6 +59,12 @@ $brand-color: #3450c7;
   justify-content: space-between;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08), 0 30px 60px rgba(0, 0, 0, 0.1);
 
+  @include bp(xs-sm) {
+    img {
+      transform: scale(0.7) translate(-13px, 30px);
+    }
+  }
+
   @include bp(md) {
     flex-direction: row;
     background: #fff;

@@ -4,6 +4,11 @@
   justify-content: space-between;
   box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08), 0 30px 60px rgba(0, 0, 0, 0.1);
 }
+@media (max-width: 639px) {
+  .step-counter-wrapper img {
+    transform: scale(0.7) translate(-13px, 30px);
+  }
+}
 @media (min-width: 992px) {
   .step-counter-wrapper {
     flex-direction: row;
