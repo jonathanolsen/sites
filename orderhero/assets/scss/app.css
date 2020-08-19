@@ -1,1 +1,15 @@
-
+.step-counter-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #fff;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08), 0 30px 60px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 40px 60px;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .step-counter-wrapper {
+    flex-direction: row;
+  }
+}
