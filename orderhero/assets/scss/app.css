@@ -1,3 +1,33 @@
+@font-face {
+  font-family: "Euclid Bold";
+  src: url("https://static1.squarespace.com/static/5f3c2536224e97215ee92153/t/5f3c2881f065bc72c8a8f677/1597778049917/EuclidTriangle-Bold.woff2") format("woff2"), url("https://static1.squarespace.com/static/5f3c2536224e97215ee92153/t/5f3c287dbef7286de6bdefff/1597778045211/EuclidTriangle-Bold.woff") format("woff"), url("https://static1.squarespace.com/static/5f3c2536224e97215ee92153/t/5f3c28781a3b780f6f870449/1597778041008/EuclidTriangle-Bold.ttf") format("truetype");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Euclid";
+  src: url("https://static1.squarespace.com/static/5f3c2536224e97215ee92153/t/5f3c289886429d53af6cffdf/1597778072644/EuclidTriangle-Regular.woff2") format("woff2"), url("https://static1.squarespace.com/static/5f3c2536224e97215ee92153/t/5f3c289390798650a9753b67/1597778067629/EuclidTriangle-Regular.woff") format("woff"), url("https://static1.squarespace.com/static/5f3c2536224e97215ee92153/t/5f3c288f56c5bd7958f78a8f/1597778064035/EuclidTriangle-Regular.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: "Euclid Semi";
+  src: url("https://static1.squarespace.com/static/5f3c2536224e97215ee92153/t/5f3c28a10a025c7b7f74f502/1597778081932/EuclidTriangle-Semibold.woff2") format("woff2"), url("https://static1.squarespace.com/static/5f3c2536224e97215ee92153/t/5f3c289e56c5bd7958f78bc4/1597778079405/EuclidTriangle-Semibold.woff") format("woff"), url("https://static1.squarespace.com/static/5f3c2536224e97215ee92153/t/5f3c289c11bbe86946d3c375/1597778076931/EuclidTriangle-Semibold.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Euclid Semi";
+}
+
 .step-counter-wrapper {
   display: flex;
   flex-direction: column;
@@ -18,4 +48,20 @@
     width: 100%;
     box-shadow: 0 20px 40px rgba(0, 0, 0, 0.08), 0 30px 60px rgba(0, 0, 0, 0.1);
   }
+}
+
+.summary-title a {
+  font-family: "Euclid Semi";
+  margin-top: 20px;
+  display: block;
+}
+
+.summary-read-more-link {
+  font-family: euclid;
+  font-size: 16px;
+}
+
+.summary-excerpt p {
+  line-height: 24px;
+  font-size: 16px;
 }
