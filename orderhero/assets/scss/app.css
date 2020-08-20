@@ -58,7 +58,7 @@ h6 {
 
 .summary-read-more-link {
   font-family: euclid;
-  font-size: 16px;
+  font-size: 16px !important;
 }
 
 @media (min-width: 992px) {
