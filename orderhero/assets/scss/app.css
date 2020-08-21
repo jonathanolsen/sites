@@ -69,8 +69,11 @@ h6 {
 }
 
 .header-nav-item.header-nav-item--active a {
-  color: #3450c7;
+  color: #3450c7 !important;
 }
 .header-nav-item a {
-  color: #71777f;
+  color: #71777f !important;
+}
+.header-nav-item a:hover {
+  color: #16181d;
 }

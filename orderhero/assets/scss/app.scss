@@ -53,6 +53,7 @@ $x-large: 1600px;
 
 $brand-color: #3450c7;
 $gray: #71777f;
+$black: #16181d;
 
 @font-face {
   font-family: "Euclid Bold";
@@ -147,10 +148,14 @@ h6 {
 
 .header-nav-item {
   &.header-nav-item--active a {
-    color: $brand-color;
+    color: $brand-color !important;
   }
 
   a {
-    color: $gray;
+    color: $gray !important;
+
+    &:hover {
+      color: $black;
+    }
   }
 }
