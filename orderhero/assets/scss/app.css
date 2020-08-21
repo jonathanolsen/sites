@@ -67,3 +67,10 @@ h6 {
     font-size: 16px !important;
   }
 }
+
+.header-nav-item.header-nav-item--active a {
+  color: #3450c7;
+}
+.header-nav-item a {
+  color: #71777f;
+}
