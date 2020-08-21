@@ -146,16 +146,18 @@ h6 {
   }
 }
 
-.header-nav-item {
-  &.header-nav-item--active a {
-    color: $brand-color !important;
-  }
+body:not(.tweak-transparent-header) {
+  .header-nav-item {
+    &.header-nav-item--active a {
+      color: $brand-color !important;
+    }
 
-  a {
-    color: $gray !important;
+    a {
+      color: $gray !important;
 
-    &:hover {
-      color: $black !important;
+      &:hover {
+        color: $black !important;
+      }
     }
   }
 }

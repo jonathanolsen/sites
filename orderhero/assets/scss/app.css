@@ -68,12 +68,12 @@ h6 {
   }
 }
 
-.header-nav-item.header-nav-item--active a {
+body:not(.tweak-transparent-header) .header-nav-item.header-nav-item--active a {
   color: #3450c7 !important;
 }
-.header-nav-item a {
+body:not(.tweak-transparent-header) .header-nav-item a {
   color: #71777f !important;
 }
-.header-nav-item a:hover {
+body:not(.tweak-transparent-header) .header-nav-item a:hover {
   color: #16181d !important;
 }
