@@ -77,3 +77,7 @@ body:not(.tweak-transparent-header) .header-nav-item a {
 body:not(.tweak-transparent-header) .header-nav-item a:hover {
   color: #16181d !important;
 }
+
+.header-title-logo a {
+  content: url("https://jonathanolsen.github.io/sites/orderhero/assets/img/orderhero-original.svg");
+}

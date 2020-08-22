@@ -161,3 +161,7 @@ body:not(.tweak-transparent-header) {
     }
   }
 }
+
+.header-title-logo a {
+  content: url("https://jonathanolsen.github.io/sites/orderhero/assets/img/orderhero-original.svg");
+}
