@@ -165,3 +165,28 @@ body:not(.tweak-transparent-header) {
 .header-title-logo a {
   content: url("https://jonathanolsen.github.io/sites/orderhero/assets/img/orderhero-original.svg");
 }
+
+.jobad {
+  padding: 20px;
+  border: 2px solid #f3f6f9;
+  border-radius: 12px;
+  background: #fff;
+
+  @include bp(sm) {
+    padding: 50px;
+  }
+
+  .linkcolor {
+    background: #eff9ff;
+    border-radius: 3px;
+    padding: 12px 18px;
+    font-size: 18px;
+    color: $brand-color;
+    transition: 0.1s ease-out;
+
+    &:hover {
+      background: $brand-color;
+      color: #fff;
+    }
+  }
+}
