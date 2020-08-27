@@ -43,3 +43,26 @@ h6 {
   background: #111;
   border-color: #111;
 }
+
+.flex-content-center {
+  display: flex;
+  justify-content: center;
+}
+
+.flex-column-align-center {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.mr-30 {
+  margin-right: 30px;
+}
+
+.small {
+  font-size: 13px;
+}
