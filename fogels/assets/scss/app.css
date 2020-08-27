@@ -31,12 +31,13 @@ h6 {
 .btn-gray {
   background: #edf0f3;
   color: #222;
-  transition: 0.15s ease-out;
+  transition: all 0.2s ease-out;
 }
 .btn-gray:hover {
   background: #fc0c8c;
   color: #fff;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+  opacity: 1;
 }
 
 .no-touch .primary-button-style-solid .sqs-block-button-element--medium:hover {
