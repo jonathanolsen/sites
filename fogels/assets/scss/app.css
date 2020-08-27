@@ -69,6 +69,10 @@ h6 {
   font-size: 13px;
 }
 
+.flickity-viewport {
+  transition: 0.3s ease-out;
+}
+
 .carousel.quotes {
   width: 100%;
   max-width: 600px;
@@ -77,7 +81,6 @@ h6 {
 .carousel.quotes .carousel-cell {
   width: 100%;
   padding: 30px;
-  transition: 0.2s ease-out;
 }
 .carousel.quotes .carousel-content {
   background: #fff;
