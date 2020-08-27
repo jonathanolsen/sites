@@ -76,10 +76,10 @@ h6 {
 }
 .carousel.quotes .carousel-cell {
   width: 100%;
+  padding: 30px;
 }
 .carousel.quotes .carousel-content {
   background: #fff;
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
   border-radius: 12px;
   padding: 30px;
 }
