@@ -149,6 +149,20 @@ h6 {
   transition: 0.3s ease-out;
 }
 
+.text-headline {
+  text-align: center;
+
+  span {
+    display: block;
+    font-size: 18px;
+    margin-top: 10px;
+
+    a {
+      color: #2262da;
+    }
+  }
+}
+
 .carousel.quotes {
   width: 100%;
   max-width: 600px;
@@ -166,6 +180,21 @@ h6 {
 
     .name {
       font-weight: 600;
+    }
+  }
+}
+
+[data-section-id="5f48282af289147842a2f8dd"] {
+  .col .row.sqs-row {
+    mix-blend-mode: multiply;
+  }
+
+  img {
+    opacity: 0.6;
+    transition: 0.2 ease-out;
+
+    &:hover {
+      opacity: 1;
     }
   }
 }

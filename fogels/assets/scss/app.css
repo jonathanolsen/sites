@@ -73,6 +73,18 @@ h6 {
   transition: 0.3s ease-out;
 }
 
+.text-headline {
+  text-align: center;
+}
+.text-headline span {
+  display: block;
+  font-size: 18px;
+  margin-top: 10px;
+}
+.text-headline span a {
+  color: #2262da;
+}
+
 .carousel.quotes {
   width: 100%;
   max-width: 600px;
@@ -89,4 +101,15 @@ h6 {
 }
 .carousel.quotes .carousel-content .name {
   font-weight: 600;
+}
+
+[data-section-id="5f48282af289147842a2f8dd"] .col .row.sqs-row {
+  mix-blend-mode: multiply;
+}
+[data-section-id="5f48282af289147842a2f8dd"] img {
+  opacity: 0.6;
+  transition: 0.2 ease-out;
+}
+[data-section-id="5f48282af289147842a2f8dd"] img:hover {
+  opacity: 1;
 }
