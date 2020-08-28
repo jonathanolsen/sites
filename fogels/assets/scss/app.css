@@ -124,9 +124,18 @@ h6 {
   float: right;
 }
 
+.link-list-h2 h2 {
+  margin-bottom: 0;
+}
+
 h2 a {
   transition: 0.2s ease-out;
+  display: block;
+  padding: 25px 30px;
+  border-radius: 6px;
 }
 h2 a:hover {
   color: #ff008c;
+  background: #fff;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
 }
