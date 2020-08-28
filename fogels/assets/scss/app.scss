@@ -178,6 +178,13 @@ h6 {
     border-radius: 12px;
     padding: 30px;
 
+    span span {
+      display: block;
+      font-size: 14px;
+      font-weight: 500;
+      color: #777;
+    }
+
     .name {
       font-weight: 600;
     }
@@ -196,5 +203,17 @@ h6 {
     &:hover {
       opacity: 1;
     }
+  }
+}
+
+.fr {
+  float: right;
+}
+
+h2 a {
+  transition: 0.2s ease-out;
+
+  &:hover {
+    color: #ff008c;
   }
 }

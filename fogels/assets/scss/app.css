@@ -99,6 +99,12 @@ h6 {
   border-radius: 12px;
   padding: 30px;
 }
+.carousel.quotes .carousel-content span span {
+  display: block;
+  font-size: 14px;
+  font-weight: 500;
+  color: #777;
+}
 .carousel.quotes .carousel-content .name {
   font-weight: 600;
 }
@@ -112,4 +118,15 @@ h6 {
 }
 [data-section-id="5f48282af289147842a2f8dd"] img:hover {
   opacity: 1;
+}
+
+.fr {
+  float: right;
+}
+
+h2 a {
+  transition: 0.2s ease-out;
+}
+h2 a:hover {
+  color: #ff008c;
 }
