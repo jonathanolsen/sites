@@ -107,7 +107,7 @@ body:not(.tweak-transparent-header) .header-nav-item a:hover {
 }
 
 @media (min-width: 992px) {
-  [data-section-id="5f4bcb8814aac00fb0067d97"] {
+  [data-section-id="5f4bcb8814aac00fb0067d97"] .sqs-block-image .design-layout-card:not(.sqs-narrow-width) > div:first-child {
     width: 60%;
     margin: 0 -10% 0 -10%;
   }
