@@ -115,3 +115,26 @@ body:not(.tweak-transparent-header) .header-nav-item a:hover {
 .sqsrte-med-large {
   font-size: 20px;
 }
+
+.checkboxes-container {
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  padding: 30px;
+  border-radius: 10px;
+  max-width: 500px;
+  margin: 0 auto;
+  width: 100%;
+}
+@media (min-width: 992px) {
+  .checkboxes-container {
+    padding: 50px;
+  }
+}
+
+.check-box {
+  display: flex;
+  align-items: baseline;
+}
+.check-box img {
+  margin-right: 15px;
+}
