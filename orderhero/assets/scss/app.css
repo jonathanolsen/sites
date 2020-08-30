@@ -113,7 +113,12 @@ body:not(.tweak-transparent-header) .header-nav-item a:hover {
   }
 }
 .sqsrte-med-large {
-  font-size: 20px;
+  font-size: 17px;
+}
+@media (min-width: 992px) {
+  .sqsrte-med-large {
+    font-size: 20px;
+  }
 }
 
 .checkboxes-container {
@@ -124,6 +129,7 @@ body:not(.tweak-transparent-header) .header-nav-item a:hover {
   max-width: 500px;
   margin: 20px auto 0;
   width: 100%;
+  box-sizing: border-box;
 }
 @media (min-width: 992px) {
   .checkboxes-container {
@@ -137,4 +143,14 @@ body:not(.tweak-transparent-header) .header-nav-item a:hover {
 }
 .check-box img {
   margin-right: 15px;
+}
+
+@media screen and (max-width: 1511px) and (min-width: 0) {
+  .sqsrte-large {
+    font-size: calc(0.48vh + 0.8rem);
+  }
+
+  h4 {
+    margin-bottom: 0;
+  }
 }

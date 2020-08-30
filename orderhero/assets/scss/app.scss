@@ -203,7 +203,11 @@ body:not(.tweak-transparent-header) {
 }
 
 .sqsrte-med-large {
-  font-size: 20px;
+  font-size: 17px;
+
+  @include bp(md) {
+    font-size: 20px;
+  }
 }
 
 .checkboxes-container {
@@ -214,6 +218,7 @@ body:not(.tweak-transparent-header) {
   max-width: 500px;
   margin: 20px auto 0;
   width: 100%;
+  box-sizing: border-box;
 
   @include bp(md) {
     padding: 50px;
@@ -226,5 +231,15 @@ body:not(.tweak-transparent-header) {
 
   img {
     margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 1511px) and (min-width: 0) {
+  .sqsrte-large {
+    font-size: calc(0.48vh + 0.8rem);
+  }
+
+  h4 {
+    margin-bottom: 0;
   }
 }
