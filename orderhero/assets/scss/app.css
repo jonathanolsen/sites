@@ -105,3 +105,10 @@ body:not(.tweak-transparent-header) .header-nav-item a:hover {
   background: #3450c7;
   color: #fff;
 }
+
+@media (min-width: 992px) {
+  [data-section-id="5f4bcb8814aac00fb0067d97"] {
+    width: 60%;
+    margin: 0 -10% 0 -10%;
+  }
+}
