@@ -220,12 +220,13 @@ body:not(.tweak-transparent-header) {
   padding: 30px;
   border-radius: 10px;
   max-width: 500px;
-  margin: 20px auto 0;
+  margin: 0 auto;
   width: 100%;
   box-sizing: border-box;
 
   @include bp(md) {
     padding: 50px;
+    margin-top: 20px;
   }
 }
 
