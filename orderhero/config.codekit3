@@ -60,6 +60,14 @@
 		"oF": 0,
 		"opt": 0
 		},
+	"/assets/img/elo_reboot.gif": {
+		"ft": 4194304,
+		"iS": 11127,
+		"oA": 0,
+		"oAP": "/assets/img/elo_reboot.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"/assets/img/express.png": {
 		"ft": 32768,
 		"iS": 1840048,
