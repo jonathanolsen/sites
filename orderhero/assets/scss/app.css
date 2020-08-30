@@ -112,3 +112,6 @@ body:not(.tweak-transparent-header) .header-nav-item a:hover {
     margin: 0 -10% 0 -10%;
   }
 }
+.sqsrte-med-large {
+  font-size: 20px;
+}
