@@ -52,6 +52,14 @@
 		"plM": 52780316221407,
 		"prP": 0
 		},
+	"/assets/img/elo_network.gif": {
+		"ft": 4194304,
+		"iS": 10876,
+		"oA": 0,
+		"oAP": "/assets/img/elo_network.gif",
+		"oF": 0,
+		"opt": 0
+		},
 	"/assets/img/express.png": {
 		"ft": 32768,
 		"iS": 1840048,

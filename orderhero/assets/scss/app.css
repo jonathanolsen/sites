@@ -121,6 +121,10 @@ body:not(.tweak-transparent-header) .header-nav-item a:hover {
   }
 }
 
+.box.size-medium {
+  font-size: 20px;
+}
+
 .checkboxes-container {
   box-shadow: 0 30px 60px rgba(35, 40, 58, 0.1), 1px 13px 19px rgba(37, 51, 97, 0.1);
   background: #fff;
