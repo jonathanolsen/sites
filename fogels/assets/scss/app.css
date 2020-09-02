@@ -91,13 +91,17 @@ h6 {
   font-family: "Euclid Semi";
 }
 
+.sqs-block-button-element {
+  transition: all 0.2s ease-out !important;
+}
+
 .btn-gray {
   background: #edf0f3;
   color: #222;
   transition: all 0.2s ease-out;
 }
 .btn-gray:hover {
-  background: #fc0c8c;
+  background: #fc0c8c !important;
   color: #fff;
   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
   opacity: 1;
