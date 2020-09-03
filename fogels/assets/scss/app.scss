@@ -210,12 +210,30 @@ h6 {
 .flex-content-center {
   display: flex;
   justify-content: center;
+
+  @include bp(xs-sm) {
+    flex-direction: column;
+  }
+
+  .small {
+    @include bp(sm) {
+      margin-top: 10px;
+    }
+  }
 }
 
 .flex-column-align-center {
   display: flex;
   flex-direction: column;
-  align-items: center;
+
+  @include bp(xs-sm) {
+    text-align: center;
+  }
+
+  @include bp(sm) {
+    align-items: center;
+    margin-right: 30px;
+  }
 }
 
 .mt-10 {
