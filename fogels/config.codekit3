@@ -42,6 +42,17 @@
 		"oT": 1,
 		"q": 100
 		},
+	"/assets/img/collage-mobile.png": {
+		"ft": 32768,
+		"iS": 1036322,
+		"oA": 0,
+		"oAP": "/assets/img/collage-mobile.png",
+		"oF": 0,
+		"oIPL": 1,
+		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
 	"/assets/img/express.png": {
 		"ft": 32768,
 		"iS": 1840048,
