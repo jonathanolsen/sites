@@ -207,6 +207,14 @@ h6 {
   opacity: 1;
 }
 
+.mobile-img {
+  width: 100%;
+
+  @include bp(sm) {
+    display: none;
+  }
+}
+
 .flex-content-center {
   display: flex;
   justify-content: center;

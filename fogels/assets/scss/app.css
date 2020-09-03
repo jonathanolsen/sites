@@ -128,6 +128,15 @@ h6 {
   opacity: 1;
 }
 
+.mobile-img {
+  width: 100%;
+}
+@media (min-width: 640px) {
+  .mobile-img {
+    display: none;
+  }
+}
+
 .flex-content-center {
   display: flex;
   justify-content: center;
