@@ -221,7 +221,7 @@ h6 {
 
 .mobile-img {
   @include bp(xs-sm) {
-    max-width: calc(100% + 44px);
+    max-width: calc(100% + 44px) !important;
     width: calc(100% + 44px);
     margin: -72px -27px 50px !important;
     display: inline-block;

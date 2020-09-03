@@ -138,7 +138,7 @@ h6 {
 }
 @media (max-width: 639px) {
   .mobile-img {
-    max-width: calc(100% + 44px);
+    max-width: calc(100% + 44px) !important;
     width: calc(100% + 44px);
     margin: -72px -27px 50px !important;
     display: inline-block;
