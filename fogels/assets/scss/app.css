@@ -128,6 +128,14 @@ h6 {
   opacity: 1;
 }
 
+@media (max-width: 639px) {
+  [data-section-id="5f480fa6d5429572bd898400"] .section-background {
+    background: #ffecf2;
+  }
+  [data-section-id="5f480fa6d5429572bd898400"] .section-background > img {
+    opacity: 0;
+  }
+}
 .mobile-img {
   width: 100%;
 }

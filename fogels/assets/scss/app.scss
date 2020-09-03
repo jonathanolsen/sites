@@ -207,6 +207,18 @@ h6 {
   opacity: 1;
 }
 
+@include bp(xs-sm) {
+  [data-section-id="5f480fa6d5429572bd898400"] {
+    .section-background {
+      background: #ffecf2;
+
+      > img {
+        opacity: 0;
+      }
+    }
+  }
+}
+
 .mobile-img {
   width: 100%;
 
