@@ -51,7 +51,7 @@ $x-large: 1600px;
   }
 }
 
-$brand-color:             #3450C7;
+$brand-color: #3450c7;
 
 .menus {
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
@@ -84,13 +84,12 @@ $brand-color:             #3450C7;
   }
 }
 
-
 .fixed-btn {
   position: fixed;
   top: 46px;
   right: 5%;
   z-index: 1000;
-  
+
   a {
     font-weight: 600 !important;
   }
@@ -111,7 +110,11 @@ $brand-color:             #3450C7;
 }
 
 .Intro--has-image:before {
-  background: linear-gradient(to bottom, rgb(11,12,20) 4%, rgba(11,12,20,.3) 36%);
+  background: linear-gradient(
+    to bottom,
+    rgb(11, 12, 20) 4%,
+    rgba(11, 12, 20, 0.3) 36%
+  );
 }
 
 .sqs-block.embed-block.sqs-block-embed {
@@ -141,19 +144,20 @@ body:not(.button-style-default) .sqs-editable-button {
   }
 }
 
+.header-nav-folder-content {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 160px;
 
+  .header-nav-folder-item {
+    flex: 0 0 50%;
+  }
 
-
-
-
-
-
-
-
-
-
-
-
+  .header-nav-folder-item.header-nav-folder-item--external {
+    flex: 0;
+  }
+}
 
 #about-basil {
   background-color: #eff1f5;
