@@ -136,8 +136,13 @@ h6 {
     opacity: 0;
   }
 }
-.mobile-img {
-  width: 100%;
+@media (max-width: 639px) {
+  .mobile-img {
+    max-width: calc(100% + 44px);
+    width: calc(100% + 44px);
+    margin: -72px -27px 50px !important;
+    display: inline-block;
+  }
 }
 @media (min-width: 640px) {
   .mobile-img {

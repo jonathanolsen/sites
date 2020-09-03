@@ -220,7 +220,12 @@ h6 {
 }
 
 .mobile-img {
-  width: 100%;
+  @include bp(xs-sm) {
+    max-width: calc(100% + 44px);
+    width: calc(100% + 44px);
+    margin: -72px -27px 50px !important;
+    display: inline-block;
+  }
 
   @include bp(sm) {
     display: none;
